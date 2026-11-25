@@ -117,7 +117,7 @@ label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
    Regras do Firestore para este app:
      match /pb_users/{uid}/arguicoes/{id} { allow read, write: if request.auth != null && request.auth.uid == uid; }
 */
-const firebaseConfig = { apiKey:"", authDomain:"", projectId:"", appId:"" };
+const firebaseConfig = { apiKey:"AIzaSyBDbGUx64rLgugo9ZsJdwo9vI_-oeEgxjk", authDomain:"preparado-pra-defesa.firebaseapp.com", projectId:"preparado-pra-defesa", storageBucket:"preparado-pra-defesa.firebasestorage.app", messagingSenderId:"1026287073338", appId:"1:1026287073338:web:640c0f873ebfdb84465d03" };
 const FB_VER = "10.12.2";
 /* ============ CONFIGURACAO DA IA ============
    Cole aqui a URL do Cloudflare Worker (arquivo preparado_worker.js). A chave da API fica so no Worker, nunca neste arquivo. */
