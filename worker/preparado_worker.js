@@ -1,4 +1,4 @@
-/* Cloudflare Worker do app Preparado pra Defesa.
+/* Cloudflare Worker do app Defende Bem!.
    Secret obrigatorio: ANTHROPIC_API_KEY
    Opcional: binding KV chamado LIMITE para limitar revisoes por IP por dia. */
 const ORIGENS = ["https://ernandes-sobreira.github.io"];

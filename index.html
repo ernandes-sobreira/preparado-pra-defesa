@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Preparado pra Defesa</title>
+<title>Defende Bem!</title>
 <style>
 :root{--bg:#fff;--border:#e5e7eb;--text:#111827;--muted:#6b7280;--accent:#0f766e;--soft:#f0fdfa;
 --n1:#16a34a;--n2:#d97706;--n3:#dc2626;--warn:#fff7ed;--warnb:#fdba74}
@@ -63,7 +63,7 @@ label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
 <body>
 <header class="top"><div class="topin">
   <div class="row">
-    <div class="brand">Preparado pra Defesa<small>Chegue na banca com as respostas prontas</small></div>
+    <div class="brand">Defende Bem!<small>Treine com as perguntas que a banca pode fazer</small></div>
     <span class="status" id="status"></span>
     <button class="mini" id="btnLogin">Entrar com Google</button>
   </div>
@@ -531,12 +531,12 @@ function porBloco(fn){
   BLOCOS.forEach(b=>{ if(b.opt && !a.temEst) return; fn(b, qs.filter(q=>q.b===b.id).map(q=>({n:++n, q, r:(a.r[q.id]||"").trim()}))); });
 }
 function montaTxt(){
-  let s = "PREPARADO PRA DEFESA\n"+cur().titulo+"\n";
+  let s = "DEFENDE BEM!\n"+cur().titulo+"\n";
   porBloco((b, itens)=>{ s += "\n\n== "+b.t.toUpperCase()+" ==\n"; itens.forEach(i=>{ s += "\n"+i.n+". "+i.q.q+"\n"+(i.r||"(sem resposta)")+"\n"; const x = (cur().ia||{})[i.q.id]; if(x && x.diga) s += "Sugestão da IA: "+x.diga+"\n"; }); });
   return s;
 }
 function montaDoc(){
-  let s = '<html><head><meta charset="utf-8"><style>body{font-family:Calibri,Arial;font-size:12pt}h1{font-size:18pt}h2{font-size:14pt;color:#0f766e}p.q{font-weight:bold;margin-bottom:2pt}p.v{color:#888}</style></head><body><h1>'+esc(cur().titulo)+'</h1><p>Preparação para a banca · Preparado pra Defesa</p>';
+  let s = '<html><head><meta charset="utf-8"><style>body{font-family:Calibri,Arial;font-size:12pt}h1{font-size:18pt}h2{font-size:14pt;color:#0f766e}p.q{font-weight:bold;margin-bottom:2pt}p.v{color:#888}</style></head><body><h1>'+esc(cur().titulo)+'</h1><p>Preparação para a banca · Defende Bem!</p>';
   porBloco((b, itens)=>{ s += "<h2>"+esc(b.t)+"</h2>"; itens.forEach(i=>{ s += '<p class="q">'+i.n+". "+esc(i.q.q)+"</p>"+(i.r ? "<p>"+esc(i.r).replace(/\n/g,"<br>")+"</p>" : '<p class="v">(sem resposta)</p>'); const x = (cur().ia||{})[i.q.id]; if(x && x.diga) s += '<p style="color:#6d28d9"><i>Sugestão da IA: '+esc(x.diga)+"</i></p>"; }); });
   return s+"</body></html>";
 }
