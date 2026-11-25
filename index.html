@@ -595,7 +595,7 @@ $("btnIA").onclick = async ()=>{
   if(!WORKER_URL){ renderIA("A revisão com IA ainda não foi configurada neste arquivo."); return; }
   if(!a.doc){ renderIA("Envie primeiro o seu projeto em Word ou PDF."); return; }
   if(rs.length < IA_MIN){ renderIA(); return; }
-  iaBusy = true; renderIA("A IA está lendo o projeto e as suas respostas. Isso pode levar até um minuto...");
+  iaBusy = true; renderIA("A IA está lendo o projeto e as suas respostas. Isso pode levar de um a três minutos. Não feche a página...");
   const argId = a.id;
   try{
     const resp = await fetch(WORKER_URL, {method:"POST", headers:{"Content-Type":"application/json"},
