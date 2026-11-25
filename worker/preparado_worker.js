@@ -65,7 +65,7 @@ export default {
     try{
       const out = JSON.parse(txt.slice(i, f+1));
       if(!Array.isArray(out.itens)) throw new Error("formato");
-      return json({itens:out.itens, geral:out.geral||""}, 200, origin);
+      return json({itens:out.itens, geral:out.geral||"", uso:data.usage||null, modelo:data.model||MODELO}, 200, origin);
     }catch(e){ return json({erro:"A IA devolveu uma resposta fora do formato. Tente de novo."}, 502, origin); }
   }
 };
