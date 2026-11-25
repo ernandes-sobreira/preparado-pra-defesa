@@ -58,6 +58,12 @@ textarea:focus{outline:2px solid #99f6e4;border-color:var(--accent)}
 label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
 @media(max-width:640px){.wrap{padding:16px 14px 80px}.card{padding:16px}.brand{font-size:18px}.pct{min-width:0}}
 @media print{header.top,.filters,.tipb,.notice,.noprint{display:none}.card{border:0;padding:0}}
+.planos{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:14px}
+.plano{border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+.plano p{margin:6px 0 10px;color:#4b5563;font-size:14px}
+.plano input{flex:1;min-width:0;padding:9px 10px;border:1px solid #d1d5db;border-radius:8px;font:inherit;text-transform:uppercase}
+.compra{margin-top:10px;background:#f0fdfa;border:1px solid #99f6e4;border-radius:10px;padding:12px;font-size:14px}
+.compra code{background:#fff;border:1px solid #d1d5db;border-radius:6px;padding:2px 6px;word-break:break-all}
 </style>
 </head>
 <body>
@@ -95,16 +101,34 @@ label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
   </div>
   <div class="card noprint" id="cardIA">
     <h2>Revisão com IA</h2>
-    <p class="sub">Envie o seu projeto em Word ou PDF. Depois de responder pelo menos 10 perguntas, a IA lê o documento e mostra o que você ainda poderia dizer em cada resposta.</p>
+    <p class="sub">Envie o projeto em Word ou PDF, ou cole o resumo. A IA compara o texto com as suas respostas e mostra o que você ainda poderia dizer.</p>
     <div class="row" style="margin-top:10px">
       <input type="file" id="fileDoc" accept=".docx,.pdf" style="display:none">
       <button id="btnDocUp">Enviar projeto (Word ou PDF)</button>
-      <button class="mini" id="btnDocDel" style="display:none">Remover documento</button>
-      <button class="pri" id="btnIA">Pedir revisão da IA</button>
+      <button id="btnCola">Colar resumo</button>
+      <button class="mini" id="btnDocDel" style="display:none">Remover texto</button>
+    </div>
+    <div id="colaBox" style="display:none;margin-top:10px">
+      <textarea id="colaTxt" placeholder="Cole aqui o resumo ou um trecho do projeto"></textarea>
+      <div class="row" style="margin-top:6px"><button class="pri" id="btnColaOk">Usar este texto</button></div>
     </div>
     <div class="meta" id="docInfo"></div>
+    <div class="planos">
+      <div class="plano">
+        <b>Grátis</b>
+        <p>A IA revisa 2 respostas usando até 3.000 caracteres do texto.</p>
+        <button id="btnGratis">Revisão grátis</button>
+      </div>
+      <div class="plano">
+        <b>Revisão completa · <span id="precoTxt"></span></b>
+        <p>A IA lê o projeto e revisa de 10 a 40 respostas. Um código vale uma revisão.</p>
+        <div class="row"><input id="codigo" placeholder="Código, ex. PB-XXXX-XXXX-XXXX" autocomplete="off"><button class="pri" id="btnIA">Revisar com código</button></div>
+        <button class="mini" id="btnCompra" style="margin-top:8px">Comprar código</button>
+        <div id="compraBox" style="display:none"></div>
+      </div>
+    </div>
     <div class="meta" id="iaInfo"></div>
-    <div class="meta">O texto do documento e as suas respostas são enviados a um serviço externo de IA (Anthropic) para gerar as sugestões. A IA sugere, e quem decide o que dizer na banca é você.</div>
+    <div class="meta">O texto e as suas respostas são enviados a um serviço externo de IA (Anthropic) só para gerar as sugestões. A IA sugere, e quem decide o que dizer na banca é você.</div>
     <div id="iaGeral"></div>
   </div>
   <div id="blocos"></div>
@@ -122,7 +146,10 @@ const FB_VER = "10.12.2";
 /* ============ CONFIGURACAO DA IA ============
    Cole aqui a URL do Cloudflare Worker (arquivo preparado_worker.js). A chave da API fica so no Worker, nunca neste arquivo. */
 const WORKER_URL = "https://preparado-pra-defesa.ernandes-sobreira.workers.dev/";
-const IA_MIN = 10, DOC_MAX = 60000;
+const IA_MIN = 10, DOC_MAX = 60000, GRATIS_N = 2, GRATIS_DOC = 3000;
+/* ============ VENDA PELO PIX (teste manual) ============
+   PIX_CHAVE: chave Pix da Japuira. WHATS: numero com DDI e DDD, so digitos, ex. 5565999999999. */
+const PRECO = "R$ 9,99", PIX_CHAVE = "", WHATS = "";
 
 /* ============ CONTEUDO ============ */
 const BLOCOS = [
@@ -556,10 +583,13 @@ function iaHtml(id){
 function respondidas(){return Q.filter(q=>(q.b!=="est" || cur().temEst) && feita(q))}
 function renderIA(msg){
   const a = cur(), n = respondidas().length;
-  $("docInfo").textContent = a.doc ? "Documento: "+a.doc.nome+" · "+a.doc.texto.length.toLocaleString("pt-BR")+" caracteres lidos"+(a.doc.cortado?" (documento longo, só o início foi aproveitado)":"") : "Nenhum documento enviado nesta arguição.";
+  $("docInfo").textContent = a.doc ? "Texto: "+a.doc.nome+" · "+a.doc.texto.length.toLocaleString("pt-BR")+" caracteres"+(a.doc.cortado?" (documento longo, só o início foi aproveitado)":"") : "Nenhum texto enviado nesta arguição.";
   $("btnDocDel").style.display = a.doc ? "" : "none";
-  $("btnIA").disabled = iaBusy; $("btnIA").style.opacity = (n>=IA_MIN && a.doc && !iaBusy) ? 1 : .5;
-  $("iaInfo").textContent = msg || (n>=IA_MIN ? n+" respostas prontas para revisão." : "Faltam "+(IA_MIN-n)+" respostas para liberar a revisão ("+n+" de "+IA_MIN+").");
+  $("precoTxt").textContent = PRECO;
+  $("btnIA").disabled = $("btnGratis").disabled = iaBusy;
+  $("btnGratis").style.opacity = (n>=GRATIS_N && a.doc && !iaBusy) ? 1 : .5;
+  $("btnIA").style.opacity = (n>=IA_MIN && a.doc && !iaBusy) ? 1 : .5;
+  $("iaInfo").textContent = msg || (!a.doc ? "Envie o projeto ou cole o resumo para começar." : n+" respostas escritas. A grátis precisa de "+GRATIS_N+", a completa de "+IA_MIN+".");
   $("iaGeral").innerHTML = a.iaGeral ? '<div class="ia"><b class="h">🧠 Visão geral da IA</b><p>'+esc(a.iaGeral)+"</p></div>" : "";
 }
 async function lerArquivo(f){
@@ -590,24 +620,52 @@ $("fileDoc").onchange = async e=>{
   }catch(err){ console.error(err); renderIA("Não foi possível ler o arquivo. "+(err.message||"")); }
 };
 $("btnDocDel").onclick = ()=>{ if(confirm("Remover o documento desta arguição?")){ delete cur().doc; persist(); renderIA(); } };
-$("btnIA").onclick = async ()=>{
-  const a = cur(), rs = respondidas();
-  if(!WORKER_URL){ renderIA("A revisão com IA ainda não foi configurada neste arquivo."); return; }
-  if(!a.doc){ renderIA("Envie primeiro o seu projeto em Word ou PDF."); return; }
-  if(rs.length < IA_MIN){ renderIA(); return; }
-  iaBusy = true; renderIA("A IA está lendo o projeto e as suas respostas. Isso pode levar de um a três minutos. Não feche a página...");
+$("btnCola").onclick = ()=>{ const b = $("colaBox"); b.style.display = b.style.display==="none" ? "" : "none"; };
+$("btnColaOk").onclick = ()=>{
+  const t = $("colaTxt").value.replace(/[ \t]+/g," ").trim();
+  if(t.length < 200){ renderIA("Cole pelo menos 200 caracteres."); return; }
+  cur().doc = {nome:"Texto colado", texto:t.slice(0,DOC_MAX), cortado:t.length>DOC_MAX};
+  $("colaTxt").value = ""; $("colaBox").style.display = "none"; persist(); renderIA();
+};
+$("btnCompra").onclick = ()=>{
+  const b = $("compraBox");
+  if(b.style.display !== "none"){ b.style.display = "none"; return; }
+  b.style.display = "";
+  if(!PIX_CHAVE || !WHATS){ b.innerHTML = '<div class="compra">A venda ainda não foi aberta. Volte em breve.</div>'; return; }
+  const msg = encodeURIComponent("Olá! Paguei "+PRECO+" pelo Pix para a revisão completa do PreBanca. Segue o comprovante.");
+  b.innerHTML = '<div class="compra"><p><b>1.</b> Pague '+esc(PRECO)+' pelo Pix na chave:<br><code id="pixK">'+esc(PIX_CHAVE)+'</code> <button class="mini" id="btnPixCp">Copiar</button></p>'
+    + '<p><b>2.</b> Envie o comprovante pelo WhatsApp:<br><a href="https://wa.me/'+encodeURIComponent(WHATS)+'?text='+msg+'" target="_blank" rel="noopener">Abrir WhatsApp</a></p>'
+    + '<p><b>3.</b> Você recebe o código pelo WhatsApp e digita no campo acima.</p></div>';
+  $("btnPixCp").onclick = ()=>{ navigator.clipboard.writeText(PIX_CHAVE).then(()=>{ $("btnPixCp").textContent = "Copiado"; }); };
+};
+async function pedirIA(codigo){
+  const a = cur(), rs = respondidas(), gratis = !codigo;
+  if(!WORKER_URL){ renderIA("A revisão com IA ainda não foi configurada."); return; }
+  if(!a.doc){ renderIA("Envie primeiro o projeto ou cole o resumo."); return; }
+  if(rs.length < (gratis ? GRATIS_N : IA_MIN)){ renderIA(gratis ? "Escreva pelo menos "+GRATIS_N+" respostas." : "A revisão completa precisa de pelo menos "+IA_MIN+" respostas."); return; }
+  const envio = gratis ? rs.slice(0,GRATIS_N) : rs.slice(0,40);
+  iaBusy = true; renderIA(gratis ? "A IA está lendo o texto e as suas 2 respostas. Aguarde..." : "A IA está lendo o projeto e as suas respostas. Isso pode levar de um a três minutos. Não feche a página...");
   const argId = a.id;
   try{
-    const resp = await fetch(WORKER_URL, {method:"POST", headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({titulo:a.titulo, doc:a.doc.texto, respostas:rs.map(q=>({id:q.id, q:q.q, r:a.r[q.id].trim().slice(0,3000)}))})});
+    const corpo = {titulo:a.titulo, doc: gratis ? a.doc.texto.slice(0,GRATIS_DOC) : a.doc.texto, respostas:envio.map(q=>({id:q.id, q:q.q, r:a.r[q.id].trim().slice(0,3000)}))};
+    if(!gratis) corpo.codigo = codigo;
+    const resp = await fetch(WORKER_URL, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(corpo)});
     const j = await resp.json().catch(()=>null);
     if(!resp.ok || !j || !Array.isArray(j.itens)) throw new Error((j && j.erro) || "Resposta inválida do servidor.");
     const alvo = S.arg[argId]; if(!alvo) throw new Error("A arguição foi removida.");
     alvo.ia = alvo.ia || {};
     j.itens.forEach(x=>{ if(x && Q.some(q=>q.id===x.id)) alvo.ia[x.id] = {forte:String(x.forte||""), falta:String(x.falta||""), diga:String(x.diga||""), base:(alvo.r[x.id]||"").trim()}; });
     alvo.iaGeral = String(j.geral||"");
-    iaBusy = false; persist(); renderBlocos(); renderIA("Revisão concluída. Veja as sugestões abaixo de cada resposta.");
+    if(!gratis) $("codigo").value = "";
+    iaBusy = false; persist(); renderBlocos();
+    renderIA(gratis ? "Revisão grátis concluída nas 2 primeiras respostas. Para revisar todas, use a revisão completa." : "Revisão concluída. Veja as sugestões abaixo de cada resposta.");
   }catch(err){ console.error(err); iaBusy = false; renderIA("A revisão falhou. "+(err.message||"Verifique a internet e tente de novo.")); }
+}
+$("btnGratis").onclick = ()=>pedirIA("");
+$("btnIA").onclick = ()=>{
+  const c = $("codigo").value.trim().toUpperCase();
+  if(!/^PB-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(c)){ renderIA("Digite o código no formato PB-XXXX-XXXX-XXXX."); return; }
+  pedirIA(c);
 };
 
 /* ============ FIREBASE (login Google e sincronizacao) ============ */
