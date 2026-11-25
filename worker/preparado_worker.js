@@ -53,7 +53,7 @@ export default {
     let rs = Array.isArray(b.respostas) ? b.respostas.filter(x=>x && typeof x.id==="string" && typeof x.q==="string" && typeof x.r==="string") : [];
     rs = rs.slice(0, gratis ? 2 : ITENS_MAX);
     if(doc.length < 200) return json({erro:"Texto ausente ou curto demais. Envie o arquivo ou cole o resumo."}, 400, origin);
-    if(gratis ? rs.length < 2 : rs.length < 10) return json({erro: gratis ? "Responda pelo menos 2 perguntas." : "A revisão completa precisa de pelo menos 10 respostas."}, 400, origin);
+    if(rs.length < (gratis ? 2 : 3)) return json({erro: gratis ? "Responda pelo menos 2 perguntas." : "A revisão completa precisa de pelo menos 3 respostas."}, 400, origin);
 
     if(env.LIMITE){
       const ip = req.headers.get("CF-Connecting-IP") || "x", k = (gratis?"pg:":"pd:")+ip+":"+new Date().toISOString().slice(0,10);

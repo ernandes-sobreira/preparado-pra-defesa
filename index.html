@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Preparado pra Defesa</title>
+<title>PreBanca</title>
 <style>
 :root{--bg:#fff;--border:#e5e7eb;--text:#111827;--muted:#6b7280;--accent:#0f766e;--soft:#f0fdfa;
 --n1:#16a34a;--n2:#d97706;--n3:#dc2626;--warn:#fff7ed;--warnb:#fdba74}
@@ -64,12 +64,19 @@ label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
 .plano input{flex:1;min-width:0;padding:9px 10px;border:1px solid #d1d5db;border-radius:8px;font:inherit;text-transform:uppercase}
 .compra{margin-top:10px;background:#f0fdfa;border:1px solid #99f6e4;border-radius:10px;padding:12px;font-size:14px}
 .compra code{background:#fff;border:1px solid #d1d5db;border-radius:6px;padding:2px 6px;word-break:break-all}
+.qcard{padding:28px}
+.tema{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+.qh b.qq{font-size:21px;line-height:1.4;flex:1}
+.qcard textarea{min-height:190px}
+.nav{margin-top:16px}
+.calma{font-size:13px;color:var(--muted);text-align:center;margin-top:4px}
+button:disabled{opacity:.4;cursor:default}
 </style>
 </head>
 <body>
 <header class="top"><div class="topin">
   <div class="row">
-    <div class="brand">Preparado pra Defesa<small>Treine com as perguntas que a banca pode fazer</small></div>
+    <div class="brand">PreBanca<small>Treine com as perguntas que a banca pode fazer</small></div>
     <span class="status" id="status"></span>
     <button class="mini" id="btnLogin">Entrar com Google</button>
   </div>
@@ -77,28 +84,11 @@ label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
     <div class="bar"><i id="barFill"></i></div>
     <div class="pct" id="pct"></div>
   </div>
-  <div class="chips" id="chips"></div>
 </div></header>
 
 <div class="wrap">
-  <div class="card noprint">
-    <h2>Sua arguição</h2>
-    <p class="sub">Cada arguição guarda um projeto. Você pode abrir quantas quiser.</p>
-    <div class="row" style="margin-top:10px">
-      <select id="selArg" style="flex:1;min-width:180px"></select>
-      <button class="mini" id="btnNova">Nova</button>
-      <button class="mini" id="btnRen">Renomear</button>
-      <button class="mini" id="btnDel">Excluir</button>
-    </div>
-    <label class="ck"><input type="checkbox" id="ckEst"> Meu projeto usa estatística</label>
-    <div class="row" style="margin-top:12px">
-      <button class="pri" id="btnDoc">Baixar em Word</button>
-      <button id="btnTxt">Baixar em texto</button>
-      <button id="btnPrint">Imprimir ou PDF</button>
-    </div>
-    <div class="notice" id="notice"></div>
-    <div class="filters" id="filters"></div>
-  </div>
+  <div id="treino"></div>
+  <div id="correcao" style="display:none">
   <div class="card noprint" id="cardIA">
     <h2>Revisão com IA</h2>
     <p class="sub">Envie o projeto em Word ou PDF, ou cole o resumo. A IA compara o texto com as suas respostas e mostra o que você ainda poderia dizer.</p>
@@ -121,7 +111,7 @@ label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
       </div>
       <div class="plano">
         <b>Revisão completa · <span id="precoTxt"></span></b>
-        <p>A IA lê o projeto e revisa de 10 a 40 respostas. Um código vale uma revisão.</p>
+        <p>A IA lê o projeto e revisa todas as respostas desta rodada. Um código vale uma revisão.</p>
         <div class="row"><input id="codigo" placeholder="Código, ex. PB-XXXX-XXXX-XXXX" autocomplete="off"><button class="pri" id="btnIA">Revisar com código</button></div>
         <button class="mini" id="btnCompra" style="margin-top:8px">Comprar código</button>
         <div id="compraBox" style="display:none"></div>
@@ -131,7 +121,23 @@ label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
     <div class="meta">O texto e as suas respostas são enviados a um serviço externo de IA (Anthropic) só para gerar as sugestões. A IA sugere, e quem decide o que dizer na banca é você.</div>
     <div id="iaGeral"></div>
   </div>
-  <div id="blocos"></div>
+    <div class="card"><h2>Correção da rodada</h2><p class="sub">Agora você vê o nível de cada pergunta. Ajuste as respostas se quiser e peça a revisão da IA.</p><div id="lista"></div>
+      <div class="row" style="margin-top:16px"><button id="btnVolta">Voltar às perguntas</button><button class="pri" id="btnNovaRod">Nova rodada</button></div>
+      <div class="row" style="margin-top:10px"><button class="mini" id="btnDoc">Baixar em Word</button><button class="mini" id="btnTxt">Baixar em texto</button><button class="mini" id="btnPrint">Imprimir ou PDF</button></div>
+    </div>
+  </div>
+  <div class="card noprint">
+    <h2>Sua arguição</h2>
+    <p class="sub">Cada arguição guarda um projeto. Você pode abrir quantas quiser.</p>
+    <div class="row" style="margin-top:10px">
+      <select id="selArg" style="flex:1;min-width:180px"></select>
+      <button class="mini" id="btnNova">Nova</button>
+      <button class="mini" id="btnRen">Renomear</button>
+      <button class="mini" id="btnDel">Excluir</button>
+    </div>
+    <label class="ck"><input type="checkbox" id="ckEst"> Meu projeto usa estatística</label>
+    <div class="notice" id="notice"></div>
+  </div>
 </div>
 
 <script>
@@ -146,7 +152,7 @@ const FB_VER = "10.12.2";
 /* ============ CONFIGURACAO DA IA ============
    Cole aqui a URL do Cloudflare Worker (arquivo preparado_worker.js). A chave da API fica so no Worker, nunca neste arquivo. */
 const WORKER_URL = "https://preparado-pra-defesa.ernandes-sobreira.workers.dev/";
-const IA_MIN = 10, DOC_MAX = 60000, GRATIS_N = 2, GRATIS_DOC = 3000;
+const IA_MIN = 3, RODADA = 10, DOC_MAX = 60000, GRATIS_N = 2, GRATIS_DOC = 3000;
 /* ============ VENDA PELO PIX (teste manual) ============
    PIX_CHAVE: chave Pix da Japuira. WHATS: numero com DDI e DDD, so digitos, ex. 5565999999999. */
 const PRECO = "R$ 9,99", PIX_CHAVE = "", WHATS = "5565999323724";
@@ -386,7 +392,7 @@ const MIN = 15;
 /* ============ ESTADO ============ */
 const KEY = "preparado_defesa_v1";
 let S = {arg:{}, atual:null, del:[]};
-let filtro = 0, user = null, db = null, auth = null, tCloud = null;
+let user = null, db = null, auth = null, tCloud = null;
 
 function uid(){return "a"+Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
@@ -424,22 +430,26 @@ function pushCloud(id){
 }
 
 /* ============ PERGUNTAS VISIVEIS E PROGRESSO ============ */
-function visiveis(todosNiveis){
-  const a = cur();
-  return Q.filter(q=>(q.b!=="est" || a.temEst) && (todosNiveis || !filtro || q.n===filtro));
+function visiveis(){ const a = cur(); return Q.filter(q=>q.b!=="est" || a.temEst); }
+function feita(q){return !!q && ((cur().r[q.id]||"").trim().length >= MIN)}
+function qid(id){return Q.find(q=>q.id===id)}
+function novaRodada(){
+  const a = cur(), p = visiveis();
+  let livres = p.filter(q=>!feita(q));
+  if(livres.length < 3) livres = p.slice();
+  for(let i=livres.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [livres[i],livres[j]] = [livres[j],livres[i]]; }
+  let sel = livres.slice(0, RODADA);
+  const p1 = livres.find(q=>q.id==="p1");
+  if(p1 && !sel.includes(p1)) sel[sel.length-1] = p1;
+  /* comeca pelas mais simples, sem mostrar o nivel */
+  sel.sort((x,y)=>(x.id==="p1"?-1:y.id==="p1"?1:x.n-y.n));
+  a.rodada = {ids:sel.map(q=>q.id), pos:0, fim:false, n:((a.rodada && a.rodada.n)||0)+1};
 }
-function feita(q){return ((cur().r[q.id]||"").trim().length >= MIN)}
+function rod(){ const a = cur(); if(!a.rodada || !Array.isArray(a.rodada.ids) || !a.rodada.ids.length) novaRodada(); return a.rodada; }
 function progresso(){
-  const qs = visiveis(true), n = qs.filter(feita).length;
-  const p = qs.length ? Math.round(100*n/qs.length) : 0;
-  $("barFill").style.width = p+"%";
-  $("pct").textContent = n+" de "+qs.length+" · "+p+"%";
-  if($("iaInfo") && !iaBusy) renderIA();
-  const a = cur();
-  $("chips").innerHTML = BLOCOS.filter(b=>!b.opt || a.temEst).map(b=>{
-    const bq = qs.filter(q=>q.b===b.id), bn = bq.filter(feita).length;
-    return '<span class="chip'+(bn===bq.length?' ok':'')+'" data-go="'+b.id+'">'+esc(b.t)+' '+bn+'/'+bq.length+'</span>';
-  }).join("");
+  const r = rod();
+  if(r.fim){ $("barFill").style.width = "100%"; $("pct").textContent = "Rodada "+r.n+" · correção"; }
+  else{ $("barFill").style.width = Math.round(100*r.pos/r.ids.length)+"%"; $("pct").textContent = "Pergunta "+(r.pos+1)+" de "+r.ids.length; }
 }
 
 /* ============ ALERTAS AUTOMATICOS ============ */
@@ -471,30 +481,36 @@ function renderSel(){
     .map(a=>'<option value="'+a.id+'"'+(a.id===S.atual?' selected':'')+'>'+esc(a.titulo)+'</option>').join("");
   $("ckEst").checked = !!cur().temEst;
 }
-function renderFiltros(){
-  const ops = [[0,"Todos os níveis"],[1,NIV[1]],[2,NIV[2]],[3,NIV[3]]];
-  $("filters").innerHTML = ops.map(o=>'<button class="mini'+(filtro===o[0]?' on':'')+'" data-f="'+o[0]+'">'+o[1]+'</button>').join("");
+function renderTreino(){
+  const a = cur(), r = rod();
+  $("treino").style.display = r.fim ? "none" : "";
+  $("correcao").style.display = r.fim ? "" : "none";
+  progresso();
+  if(r.fim){ renderCorrecao(); renderIA(); return; }
+  const q = qid(r.ids[r.pos]), b = BLOCOS.find(x=>x.id===q.b), v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "";
+  const ult = r.pos === r.ids.length-1;
+  $("treino").innerHTML = '<section class="card qcard"><div class="tema">'+esc(b.t)+'</div>'
+    +'<div class="qh"><b class="qq">'+esc(q.q)+'</b><button class="tipb" data-tip="'+q.id+'" title="Ver dica" aria-label="Ver dica">!</button></div>'
+    +'<div class="tip" id="tip_'+q.id+'"></div>'
+    +'<textarea data-q="'+q.id+'" placeholder="Responda como você falaria na banca">'+esc(v)+'</textarea>'
+    +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div>'
+    +'<div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'
+    +'<div class="row nav"><button id="btnAnt"'+(r.pos?'':' disabled')+'>Anterior</button><span style="flex:1"></span>'
+    +'<button class="pri" id="btnProx">'+(ult?'Terminei a rodada':'Próxima')+'</button></div></section>'
+    +'<p class="calma">Uma pergunta por vez. Se travar, toque no ! para ver uma dica. Pode deixar em branco e seguir.</p>';
 }
-function renderBlocos(){
-  const a = cur(), qs = visiveis(false);
-  let h = "", num = 0;
-  BLOCOS.forEach(b=>{
-    if(b.opt && !a.temEst) return;
-    const bq = qs.filter(q=>q.b===b.id); if(!bq.length) return;
-    h += '<section class="card" id="b_'+b.id+'"><h2>'+esc(b.t)+'</h2><p class="sub">'+esc(b.s)+'</p>';
-    bq.forEach(q=>{
-      num++;
-      const v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "";
-      h += '<div class="q"><div class="qh"><b>'+num+'. '+esc(q.q)+'</b><span class="lv lv'+q.n+'">'+NIV[q.n]+'</span>'
-        +'<button class="tipb" data-tip="'+q.id+'" title="Ver dica" aria-label="Ver dica">!</button></div>'
-        +'<div class="tip" id="tip_'+q.id+'"></div>'
-        +'<textarea data-q="'+q.id+'" placeholder="Escreva aqui a sua resposta">'+esc(v)+'</textarea>'
-        +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div>'
-        +'<div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'+iaHtml(q.id)+'</div>';
-    });
-    h += '</section>';
-  });
-  $("blocos").innerHTML = h || '<div class="card">Nenhuma pergunta neste filtro.</div>';
+function renderCorrecao(){
+  const a = cur(), r = rod();
+  $("lista").innerHTML = r.ids.map((id,i)=>{
+    const q = qid(id); if(!q) return "";
+    const v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "";
+    return '<div class="q"><div class="qh"><b>'+(i+1)+'. '+esc(q.q)+'</b><span class="lv lv'+q.n+'">'+NIV[q.n]+'</span>'
+      +'<button class="tipb" data-tip="'+q.id+'" title="Ver dica" aria-label="Ver dica">!</button></div>'
+      +'<div class="tip" id="tip_'+q.id+'"></div>'
+      +'<textarea data-q="'+q.id+'" placeholder="Sem resposta">'+esc(v)+'</textarea>'
+      +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div>'
+      +'<div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'+iaHtml(q.id)+'</div>';
+  }).join("");
 }
 function meta(v){const n = v.trim().length; return n===0 ? "Sem resposta" : (n<MIN ? "Resposta curta demais para contar no progresso" : "Resposta registrada · "+v.trim().split(/\s+/).length+" palavras")}
 function tipHtml(q){
@@ -513,7 +529,7 @@ function renderNotice(){
       : "O login com Google ainda não foi configurado neste arquivo. Por enquanto as respostas ficam só neste dispositivo.";
   }
 }
-function renderAll(){renderSel(); renderFiltros(); renderBlocos(); progresso(); renderNotice(); renderIA();}
+function renderAll(){renderSel(); renderTreino(); renderNotice(); renderIA();}
 
 /* ============ EVENTOS ============ */
 document.addEventListener("input", e=>{
@@ -522,7 +538,7 @@ document.addEventListener("input", e=>{
   cur().r[id] = v;
   if(q.chk){const al = checar(q.chk, v), el = $("al_"+id); el.textContent = al; el.classList.toggle("on", !!al);}
   $("mt_"+id).textContent = meta(v);
-  progresso(); persist();
+  persist();
 });
 document.addEventListener("click", e=>{
   const t = e.target;
@@ -530,11 +546,17 @@ document.addEventListener("click", e=>{
     const el = $("tip_"+t.dataset.tip), on = !el.classList.contains("on");
     el.innerHTML = on ? tipHtml(Q.find(x=>x.id===t.dataset.tip)) : "";
     el.classList.toggle("on", on);
-  }else if(t.dataset.f!==undefined){ filtro = +t.dataset.f; renderFiltros(); renderBlocos(); }
-  else if(t.dataset.go){ if(filtro){filtro=0; renderFiltros(); renderBlocos();} const s = $("b_"+t.dataset.go); if(s) window.scrollTo({top:s.getBoundingClientRect().top+window.scrollY-150,behavior:"smooth"}); }
+  }else if(t.id==="btnAnt"){ const r = rod(); if(r.pos>0){ r.pos--; persist(); renderTreino(); } }
+  else if(t.id==="btnProx"){
+    const r = rod();
+    if(r.pos < r.ids.length-1) r.pos++; else r.fim = true;
+    persist(); renderTreino(); window.scrollTo({top:0,behavior:"smooth"});
+  }
 });
 $("selArg").onchange = e=>{S.atual = e.target.value; saveLocal(); renderAll();};
-$("ckEst").onchange = e=>{cur().temEst = e.target.checked; persist(); renderBlocos(); progresso();};
+$("ckEst").onchange = e=>{cur().temEst = e.target.checked; persist();};
+$("btnVolta").onclick = ()=>{ const r = rod(); r.fim = false; r.pos = r.ids.length-1; persist(); renderTreino(); };
+$("btnNovaRod").onclick = ()=>{ if(!confirm("Começar uma nova rodada de perguntas? As respostas desta rodada continuam salvas.")) return; novaRodada(); persist(); renderTreino(); window.scrollTo({top:0,behavior:"smooth"}); };
 $("btnNova").onclick = ()=>{const t = prompt("Nome da nova arguição (por exemplo, o título curto do projeto):"); if(t && t.trim()) nova(t.trim());};
 $("btnRen").onclick = ()=>{const t = prompt("Novo nome:", cur().titulo); if(t && t.trim()){cur().titulo = t.trim(); persist(); renderSel();}};
 $("btnDel").onclick = ()=>{
@@ -554,16 +576,16 @@ function baixar(conteudo, tipo, ext){
   a.href = u; a.download = nomeArq()+ext; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u), 2000);
 }
 function porBloco(fn){
-  const a = cur(), qs = visiveis(true); let n = 0;
+  const a = cur(), qs = visiveis(); let n = 0;
   BLOCOS.forEach(b=>{ if(b.opt && !a.temEst) return; fn(b, qs.filter(q=>q.b===b.id).map(q=>({n:++n, q, r:(a.r[q.id]||"").trim()}))); });
 }
 function montaTxt(){
-  let s = "PREPARADO PRA DEFESA\n"+cur().titulo+"\n";
+  let s = "PREBANCA\n"+cur().titulo+"\n";
   porBloco((b, itens)=>{ s += "\n\n== "+b.t.toUpperCase()+" ==\n"; itens.forEach(i=>{ s += "\n"+i.n+". "+i.q.q+"\n"+(i.r||"(sem resposta)")+"\n"; const x = (cur().ia||{})[i.q.id]; if(x && x.diga) s += "Sugestão da IA: "+x.diga+"\n"; }); });
   return s;
 }
 function montaDoc(){
-  let s = '<html><head><meta charset="utf-8"><style>body{font-family:Calibri,Arial;font-size:12pt}h1{font-size:18pt}h2{font-size:14pt;color:#0f766e}p.q{font-weight:bold;margin-bottom:2pt}p.v{color:#888}</style></head><body><h1>'+esc(cur().titulo)+'</h1><p>Preparação para a banca · Preparado pra Defesa</p>';
+  let s = '<html><head><meta charset="utf-8"><style>body{font-family:Calibri,Arial;font-size:12pt}h1{font-size:18pt}h2{font-size:14pt;color:#0f766e}p.q{font-weight:bold;margin-bottom:2pt}p.v{color:#888}</style></head><body><h1>'+esc(cur().titulo)+'</h1><p>Preparação para a banca · PreBanca</p>';
   porBloco((b, itens)=>{ s += "<h2>"+esc(b.t)+"</h2>"; itens.forEach(i=>{ s += '<p class="q">'+i.n+". "+esc(i.q.q)+"</p>"+(i.r ? "<p>"+esc(i.r).replace(/\n/g,"<br>")+"</p>" : '<p class="v">(sem resposta)</p>'); const x = (cur().ia||{})[i.q.id]; if(x && x.diga) s += '<p style="color:#6d28d9"><i>Sugestão da IA: '+esc(x.diga)+"</i></p>"; }); });
   return s+"</body></html>";
 }
@@ -580,7 +602,7 @@ function iaHtml(id){
   if(mudou) h += '<p class="old">Você alterou a resposta depois desta revisão. Peça uma nova revisão para atualizar.</p>';
   return h+"</div>";
 }
-function respondidas(){return Q.filter(q=>(q.b!=="est" || cur().temEst) && feita(q))}
+function respondidas(){ return rod().ids.map(qid).filter(q=>q && feita(q)); }
 function renderIA(msg){
   const a = cur(), n = respondidas().length;
   $("docInfo").textContent = a.doc ? "Texto: "+a.doc.nome+" · "+a.doc.texto.length.toLocaleString("pt-BR")+" caracteres"+(a.doc.cortado?" (documento longo, só o início foi aproveitado)":"") : "Nenhum texto enviado nesta arguição.";
@@ -589,7 +611,7 @@ function renderIA(msg){
   $("btnIA").disabled = $("btnGratis").disabled = iaBusy;
   $("btnGratis").style.opacity = (n>=GRATIS_N && a.doc && !iaBusy) ? 1 : .5;
   $("btnIA").style.opacity = (n>=IA_MIN && a.doc && !iaBusy) ? 1 : .5;
-  $("iaInfo").textContent = msg || (!a.doc ? "Envie o projeto ou cole o resumo para começar." : n+" respostas escritas. A grátis precisa de "+GRATIS_N+", a completa de "+IA_MIN+".");
+  $("iaInfo").textContent = msg || (!a.doc ? "Envie o projeto ou cole o resumo para começar." : n+" respostas nesta rodada. A grátis revisa "+GRATIS_N+", a completa revisa todas.");
   $("iaGeral").innerHTML = a.iaGeral ? '<div class="ia"><b class="h">🧠 Visão geral da IA</b><p>'+esc(a.iaGeral)+"</p></div>" : "";
 }
 async function lerArquivo(f){
@@ -664,7 +686,7 @@ async function pedirIA(codigo){
     j.itens.forEach(x=>{ if(x && Q.some(q=>q.id===x.id)) alvo.ia[x.id] = {forte:String(x.forte||""), falta:String(x.falta||""), diga:String(x.diga||""), base:(alvo.r[x.id]||"").trim()}; });
     alvo.iaGeral = String(j.geral||"");
     if(!gratis) $("codigo").value = "";
-    iaBusy = false; persist(); renderBlocos();
+    iaBusy = false; persist(); renderCorrecao();
     renderIA(gratis ? "Revisão grátis concluída nas 2 primeiras respostas. Para revisar todas, use a revisão completa." : "Revisão concluída. Veja as sugestões abaixo de cada resposta.");
   }catch(err){ console.error(err); iaBusy = false; renderIA("A revisão falhou. "+(err.message||"Verifique a internet e tente de novo.")); }
 }
