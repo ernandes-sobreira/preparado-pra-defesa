@@ -631,7 +631,14 @@ $("btnCompra").onclick = ()=>{
   const b = $("compraBox");
   if(b.style.display !== "none"){ b.style.display = "none"; return; }
   b.style.display = "";
-  if(!PIX_CHAVE || !WHATS){ b.innerHTML = '<div class="compra">A venda ainda não foi aberta. Volte em breve.</div>'; return; }
+  if(!WHATS){ b.innerHTML = '<div class="compra">A venda ainda não foi aberta. Volte em breve.</div>'; return; }
+  if(!PIX_CHAVE){
+    const m = encodeURIComponent("Olá! Quero comprar a revisão completa do PreBanca por "+PRECO+".");
+    b.innerHTML = '<div class="compra"><p><b>1.</b> Chame no WhatsApp:<br><a href="https://wa.me/'+encodeURIComponent(WHATS)+'?text='+m+'" target="_blank" rel="noopener">Quero comprar</a></p>'
+      + '<p><b>2.</b> Você recebe a chave Pix, paga '+esc(PRECO)+' e envia o comprovante.</p>'
+      + '<p><b>3.</b> Você recebe o código pelo WhatsApp e digita no campo acima.</p></div>';
+    return;
+  }
   const msg = encodeURIComponent("Olá! Paguei "+PRECO+" pelo Pix para a revisão completa do PreBanca. Segue o comprovante.");
   b.innerHTML = '<div class="compra"><p><b>1.</b> Pague '+esc(PRECO)+' pelo Pix na chave:<br><code id="pixK">'+esc(PIX_CHAVE)+'</code> <button class="mini" id="btnPixCp">Copiar</button></p>'
     + '<p><b>2.</b> Envie o comprovante pelo WhatsApp:<br><a href="https://wa.me/'+encodeURIComponent(WHATS)+'?text='+msg+'" target="_blank" rel="noopener">Abrir WhatsApp</a></p>'
