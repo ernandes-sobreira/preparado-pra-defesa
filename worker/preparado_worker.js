@@ -115,7 +115,7 @@ export default {
       let rs = Array.isArray(b.respostas) ? b.respostas.filter(x=>x && typeof x.id==="string" && typeof x.q==="string" && typeof x.r==="string") : [];
       rs = rs.slice(0, plano === "gratis" ? 2 : ITENS_MAX);
       if(rs.length < (plano === "gratis" ? 2 : 3)) return json({erro: plano === "gratis" ? "Escreva pelo menos 2 respostas." : "A correção precisa de pelo menos 3 respostas."}, 400, origin);
-      const doc = txt(b.doc, plano === "completo" ? DOC_MAX : CTX_MAX);
+      const doc = txt(b.doc, plano === "gratis" ? CTX_MAX : DOC_MAX);
       if(plano === "completo" && doc.length < 2000) return json({erro:"Envie o trabalho completo para esta correção."}, 400, origin);
 
       if(env.LIMITE){
@@ -125,7 +125,8 @@ export default {
         await env.LIMITE.put(k, String(n+1), {expirationTtl:90000});
       }
 
-      const material = !doc ? "\n\n(Sem trabalho e sem ficha.)" : plano === "completo" ? "\n\n<trabalho>\n"+doc+"\n</trabalho>" : "\n\n<ficha>\n"+doc+"\n</ficha>";
+      const ehTrabalho = plano === "completo" || b.tipo === "trabalho";
+      const material = !doc ? "\n\n(Sem trabalho e sem ficha.)" : ehTrabalho ? "\n\n<trabalho>\n"+doc+(plano==="gratis"?"\n(trecho inicial)":"")+"\n</trabalho>" : "\n\n<ficha>\n"+doc+"\n</ficha>";
       const usuario = "MOMENTO: "+FASE(fase)+"\nTÍTULO: "+txt(b.titulo,200)+material+"\n\n<respostas>\n"
         + rs.map(x=>"["+x.id.slice(0,12)+"] PERGUNTA: "+x.q.slice(0,500)+"\nRESPOSTA: "+(x.r.slice(0,RESP_MAX) || "(em branco)")).join("\n\n")+"\n</respostas>";
       const {out, uso, modelo} = await claude(env, CORRIGE, usuario);
