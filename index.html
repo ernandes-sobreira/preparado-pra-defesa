@@ -166,6 +166,51 @@ const BLOCOS = [
  {id:"fim",t:"Resultados e contribuição",s:"O que você entrega e por que isso importa."}
 ];
 const Q = [
+/* Perguntas de examinador (Ernandes) */
+{id:"e1",b:"fim",n:2,f:"d",q:"Em que ponto a sua discussão responde aos seus objetivos e às suas hipóteses?",
+ d:"A banca percebe quando a discussão rodeia o tema sem responder ao objetivo. Para cada objetivo, aponte o trecho da discussão que responde a ele e diga a resposta em uma frase.",
+ ex:["O primeiro objetivo era... e a discussão mostra que... A hipótese dois foi confirmada em parte, porque..."],
+ ev:["Repetir os resultados sem interpretar","Discussão que conversa com a literatura e esquece o objetivo"]},
+{id:"e2",b:"met",n:2,f:"d",q:"No campo ou na coleta, o que você viu de diferente que não entrou no trabalho, mas vale contar para a banca?",
+ d:"Toda coleta tem observações que não viram dado. Escolha uma que ajude a explicar um resultado ou que abra uma pergunta nova. Isso mostra que você conhece o seu objeto de perto.",
+ ex:["Durante as coletas percebi que... Isso não foi medido, mas pode explicar por que..."],
+ ev:["Dizer que não viu nada de diferente","Contar algo sem ligação com o trabalho"]},
+{id:"e3",b:"met",n:1,q:"Você usou inteligência artificial em alguma parte do trabalho? Em qual parte, e como conferiu o que ela produziu?",
+ d:"Essa pergunta está cada vez mais comum. Seja transparente: diga em que etapa usou, por exemplo revisão de texto, tradução ou código, e como você checou o resultado. Se não usou, diga isso com tranquilidade.",
+ ex:["Usei IA para revisar a gramática e para testar um código de análise. Conferi cada resultado com os dados originais."],
+ ev:["Negar um uso que aparece no texto","Dizer que a IA escreveu e você só ajustou"]},
+{id:"e4",b:"fim",n:2,f:"d",q:"Qual variável explica melhor os seus principais resultados?",
+ d:"Escolha uma variável e mostre a evidência: o tamanho do efeito, a correlação, a diferença entre grupos ou o padrão que se repete. A banca quer ver que você sabe o que move o seu resultado.",
+ ex:["A variável que mais explica é... Ela responde por... e o padrão aparece em todos os períodos."],
+ ev:["Citar várias variáveis sem escolher","Escolher pelo p-valor sem olhar o tamanho do efeito"]},
+{id:"e5",b:"fim",n:3,f:"d",q:"Por que essa variável seria a mais explicativa no seu trabalho? Você pode citar outro estudo que encontrou a mesma variável como resposta?",
+ d:"Explique o mecanismo, ou seja, por que faz sentido essa variável comandar o resultado. Depois cite um trabalho que encontrou algo parecido e diga em que ele difere do seu.",
+ ex:["Faz sentido porque... Tal estudo encontrou o mesmo papel dessa variável em outro local, mas com efeito menor, talvez porque..."],
+ ev:["Não saber citar nenhum estudo","Citar um estudo que encontrou outra coisa"]},
+{id:"e6",b:"perg",n:3,q:"As suas hipóteses surgiram antes de ver os dados ou depois?",
+ d:"A banca quer saber se a hipótese foi formulada a priori. Hipótese criada depois de olhar os dados, apresentada como se fosse anterior, compromete a análise, e testar muitas combinações até achar um resultado significativo também. Diga quando a hipótese surgiu e, se a análise foi exploratória, assuma isso.",
+ ex:["As hipóteses estão no projeto de qualificação, antes da coleta. A análise de tal variável foi exploratória, e eu apresento como exploratória."],
+ ev:["Apresentar como hipótese algo que você descobriu nos dados","Ficar na defensiva"]},
+{id:"e7",b:"local",n:2,q:"Por que a sua região de estudo é expressiva para o tema, a ponto de interessar a quem não mora lá?",
+ d:"Estudos locais têm mais dificuldade de publicação. Mostre o que a sua região tem de representativo: um gradiente, um ecossistema ou contexto que existe em outros lugares, um caso extremo ou uma lacuna de dados que o seu trabalho preenche.",
+ ex:["A região concentra... e representa uma situação que se repete em... Por isso os resultados ajudam a entender também..."],
+ ev:["Dizer que é importante porque é onde você mora","Falar só da importância local"]},
+{id:"e8",b:"est",n:3,q:"Que outro modelo ou análise, que você não usou, poderia analisar os seus dados? Por que você não usou?",
+ d:"Mostre que você conhece as alternativas. Cite um modelo possível, diga o que ele ganharia e por que a sua escolha foi mais adequada aos seus dados, à sua pergunta ou ao seu tamanho de amostra.",
+ ex:["Um modelo misto consideraria a repetição no mesmo local. Optei por... porque... Mas é uma boa sugestão para a próxima etapa."],
+ ev:["Dizer que não existe outro","Escolher um modelo só porque o orientador sempre usa"]},
+{id:"e9",b:"fim",n:2,f:"d",q:"Quais foram as conclusões do seu trabalho? Diga direto, sem frases genéricas.",
+ d:"A banca reclama muito de conclusão genérica, como a de que o tema é importante e precisa de mais estudos. Diga duas ou três conclusões que só o seu trabalho permite afirmar, cada uma ligada a um resultado.",
+ ex:["Concluo que... e que... Essas duas afirmações vêm de tal resultado e de tal comparação."],
+ ev:["Concluir que o tema é importante","Concluir algo que os dados não mostram"]},
+{id:"e10",b:"fim",n:1,f:"d",q:"Qual é a principal mensagem do seu trabalho para o público leigo?",
+ d:"Imagine explicar para alguém da sua família. Uma frase, sem termo técnico, que diga o que você descobriu e por que importa para a vida das pessoas.",
+ ex:["Descobrimos que... e isso significa que..."],
+ ev:["Usar siglas e termos técnicos","Frase longa que não diz o resultado"]},
+{id:"e11",b:"fim",n:2,q:"Qual é o público-alvo do seu trabalho e que mensagem você quer deixar para ele?",
+ d:"Diga quem deve usar o seu resultado, por exemplo gestores, professores, pesquisadores ou uma comunidade, e qual é a mensagem prática para esse grupo. É diferente da mensagem para o público leigo.",
+ ex:["O público-alvo são os gestores de... A mensagem para eles é que... e que isso pode ser feito por meio de..."],
+ ev:["Dizer que o público é a sociedade em geral","Mensagem que não muda nenhuma decisão"]},
 /* Classicas para qualquer area */
 {id:"c1",b:"perg",n:1,q:"Como você chegou a esse tema?",
  d:"A banca usa essa pergunta para aquecer, mas ela revela muito. Conte em duas ou três frases o que despertou o interesse e, logo em seguida, mostre a lacuna que justifica a pesquisa. A história pessoal abre a resposta, e o argumento científico fecha.",
@@ -605,7 +650,7 @@ function telaPlano(){
   +'<p class="lead">Você responde como responderia na banca. No fim, a IA corrige cada resposta e mostra o que ainda falta dizer.</p>'
   +'<div class="planos">'
   +'<div class="plano pe"><h3>Essencial</h3><div class="preco">'+PRECO_E+'</div><ul>'
-  +'<li>15 perguntas clássicas que as bancas costumam fazer</li><li>Envie até 15 páginas com resumo, objetivos, metodologia e resultados</li>'
+  +'<li>15 perguntas clássicas de banca, que servem para qualquer área</li><li>Envie até 15 páginas com resumo, objetivos, metodologia e resultados</li>'
   +'<li>Correção da IA em cada resposta</li><li><b>Grátis:</b> correção de 2 respostas para experimentar</li></ul>'
   +'<button class="big b1" data-plano="essencial">Começar o Essencial</button></div>'
   +'<div class="plano pc"><span class="selo">Mais completo</span><h3>Completo</h3><div class="preco">'+PRECO_C+'</div><ul>'
@@ -721,6 +766,7 @@ function telaCorrecao(){
       +'<button class="link" id="btnCompra">Comprar código</button><div id="compraBox"></div></div></div>' + msgHtml();
   }
   h += '</div>';
+  if(a.plano==="completo") h += relHtml();
   if(a.iaGeral || (a.riscos && a.riscos.length)){
     h += '<div class="card tops3 resumo"><h2>🧠 O que a IA viu no conjunto</h2>'+(a.iaGeral?'<p>'+esc(a.iaGeral)+'</p>':'');
     if(a.riscos && a.riscos.length) h += '<h3>Os 3 maiores riscos</h3><ol class="riscos">'+a.riscos.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ol>';
@@ -757,8 +803,9 @@ function prepDoc(nome, t){
   /* tira as referencias do fim, que nao ajudam e encarecem a leitura */
   const m = [...t.matchAll(/\n\s*(REFER[ÊE]NCIAS[^\n.]{0,25}|BIBLIOGRAFIA)\s*\n/g)].pop();
   let semRef = false;
-  if(m && m.index > t.length*0.6){ t = t.slice(0, m.index); semRef = true; }
-  return {nome, texto:t.slice(0,DOC_MAX), cortado:t.length>DOC_MAX, semRef};
+  let refs = "";
+  if(m && m.index > t.length*0.6){ refs = t.slice(m.index, m.index+80000); t = t.slice(0, m.index); semRef = true; }
+  return {nome, texto:t.slice(0,DOC_MAX), cortado:t.length>DOC_MAX, semRef, refs};
 }
 $("fileDoc").onchange = async e=>{
   const f = e.target.files[0]; e.target.value = ""; if(!f) return;
@@ -766,9 +813,153 @@ $("fileDoc").onchange = async e=>{
   try{
     const t = (await lerArquivo(f)).replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim();
     if(t.length < (cur().plano==="completo"?2000:500)){ aviso = {txt:"Não encontrei texto suficiente no arquivo. PDF escaneado como imagem não pode ser lido. Envie o Word ou um PDF com texto.", err:true}; render(); return; }
-    cur().doc = prepDoc(f.name, t); aviso = {txt:"",err:false}; persist(); render();
+    const a = cur(); a.doc = prepDoc(f.name, t); a.formato = {secoes:estrutura(t)};
+    if(f.name.toLowerCase().endsWith(".docx")){ try{ a.formato.word = await checaDocx(await f.arrayBuffer()); }catch(e2){ console.error(e2); } }
+    aviso = {txt:"",err:false}; persist(); render();
   }catch(err){ console.error(err); aviso = {txt:"Não foi possível ler o arquivo. "+(err.message||""), err:true}; render(); }
 };
+
+/* ============ RELATORIO DA BANCA (OpenAlex) ============ */
+let relBusy = false;
+function norm(x){ return String(x||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g," ").trim(); }
+function nasRefs(w){
+  const a = cur(), refs = a.doc && a.doc.refs; if(!refs) return null;
+  const doi = (w.doi||"").toLowerCase(), r = refs.toLowerCase();
+  if(doi && r.includes(doi)) return true;
+  const t = norm(w.titulo).slice(0,60); return t.length > 20 && norm(refs).includes(t);
+}
+async function oa(path){ const r = await fetch("https://api.openalex.org/"+path); if(!r.ok) throw new Error("OpenAlex respondeu "+r.status); return r.json(); }
+async function montaRelatorio(busca){
+  const a = cur(), q = (busca||"").trim();
+  if(q.length < 3){ aviso = {txt:"Escreva algumas palavras-chave do tema, de preferência em inglês.", err:true}; render(); return; }
+  a.busca = q; relBusy = true; aviso = {txt:"",err:false}; render();
+  const ano = new Date().getFullYear(), s = encodeURIComponent(q), argId = a.id;
+  try{
+    const [w, t, j] = await Promise.all([
+      oa("works?search="+s+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article&sort=cited_by_count:desc&per-page=10&select=id,doi,title,publication_year,cited_by_count,primary_location,authorships"),
+      oa("works?search="+s+"&filter=from_publication_date:"+(ano-15)+"-01-01,to_publication_date:"+(ano-1)+"-12-31,type:article&group_by=publication_year"),
+      oa("works?search="+s+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article,primary_location.source.type:journal&group_by=primary_location.source.id")
+    ]);
+    const alvo = S.arg[argId]; if(!alvo) return;
+    alvo.rel = {busca:q, data:new Date().toISOString().slice(0,10),
+      artigos:(w.results||[]).map(x=>({titulo:x.title||"", ano:x.publication_year, cit:x.cited_by_count, doi:(x.doi||"").replace("https://doi.org/",""), id:x.id,
+        revista:(x.primary_location && x.primary_location.source) ? x.primary_location.source.display_name : "",
+        autores:(x.authorships||[]).slice(0,3).map(y=>y.author && y.author.display_name).filter(Boolean)})),
+      anos:(t.group_by||[]).map(g=>({ano:+g.key, n:g.count})).filter(g=>g.ano>=ano-15 && g.ano<=ano-1).sort((x,y)=>x.ano-y.ano),
+      revistas:(j.group_by||[]).slice(0,8).map(g=>({nome:g.key_display_name, n:g.count, url:g.key}))};
+    alvo.rel.artigos.forEach(x=>{ x.ref = nasRefs(x); });
+    relBusy = false; persist(); render();
+  }catch(err){ console.error(err); relBusy = false; aviso = {txt:"Não foi possível consultar o OpenAlex. "+(err.message||"Verifique a internet."), err:true}; render(); }
+}
+function tendencia(anos){
+  const ano = new Date().getFullYear(), soma = (a,b)=>anos.filter(g=>g.ano>=a && g.ano<=b).reduce((x,g)=>x+g.n,0);
+  const rec = soma(ano-3, ano-1), ant = soma(ano-6, ano-4);
+  if(!ant || !rec) return {txt:"Ainda há poucos artigos sobre essa busca para medir a tendência.", cor:"#6b7280"};
+  const v = Math.round(100*(rec-ant)/ant);
+  if(v >= 20) return {txt:"Tema em alta: "+rec.toLocaleString("pt-BR")+" artigos de "+(ano-3)+" a "+(ano-1)+", contra "+ant.toLocaleString("pt-BR")+" nos três anos anteriores ("+(v>0?"+":"")+v+"%).", cor:"#16a34a"};
+  if(v <= -20) return {txt:"Tema perdendo espaço: "+rec.toLocaleString("pt-BR")+" artigos de "+(ano-3)+" a "+(ano-1)+", contra "+ant.toLocaleString("pt-BR")+" nos três anos anteriores ("+v+"%). A banca pode perguntar o que o seu trabalho traz de novo.", cor:"#dc2626"};
+  return {txt:"Tema estável: "+rec.toLocaleString("pt-BR")+" artigos de "+(ano-3)+" a "+(ano-1)+", contra "+ant.toLocaleString("pt-BR")+" nos três anos anteriores ("+(v>0?"+":"")+v+"%).", cor:"#d97706"};
+}
+function relHtml(){
+  const a = cur(), r = a.rel;
+  let h = '<div class="card tops1"><h2>📚 Relatório da banca</h2><p class="sub">Dados reais do OpenAlex, uma base aberta de artigos científicos. Cada artigo tem link para você conferir.</p>';
+  const busca = '<div class="code"><input class="t" id="inBusca" style="text-transform:none;letter-spacing:0" value="'+esc((r&&r.busca)||a.busca||"")+'" placeholder="Palavras-chave do tema, em inglês"><button class="big b1" id="btnRel"'+(relBusy?' disabled':'')+'>'+(r?'Refazer':'Montar relatório')+'</button></div>';
+  if(relBusy) return h + esperaHtml("Buscando artigos, tendência do tema e revistas...") + '</div>';
+  if(!r) return h + '<label class="f">Busca</label>' + busca + msgHtml() + formatoHtml() + '</div>';
+  h += '<h3>Leituras que a banca pode cobrar</h3><p class="sub">Os artigos dos últimos cinco anos mais citados sobre o tema.'+(a.doc&&a.doc.refs?' O app confere se cada um está nas suas referências.':'')+'</p>';
+  h += r.artigos.length ? r.artigos.map(x=>{
+    const link = x.doi ? "https://doi.org/"+x.doi : x.id;
+    const tag = x.ref===true ? '<span class="lv" style="background:#16a34a">Está nas suas referências</span>' : x.ref===false ? '<span class="lv" style="background:#ea580c">Não aparece nas suas referências</span>' : '';
+    return '<div class="qc" style="padding:12px 14px;margin:10px 0"><a href="'+esc(link)+'" target="_blank" rel="noopener"><b>'+esc(x.titulo)+'</b></a><div class="meta">'+esc(x.autores.join(", "))+(x.autores.length?' · ':'')+esc(x.revista)+' · '+x.ano+' · '+(x.cit||0).toLocaleString("pt-BR")+' citações'+(x.doi?' · DOI '+esc(x.doi):'')+'</div>'+(tag?'<div style="margin-top:6px">'+tag+'</div>':'')+'</div>';
+  }).join("") : '<p class="sub">Nenhum artigo encontrado para essa busca. Tente outras palavras.</p>';
+  if(r.anos.length){
+    const td = tendencia(r.anos), mx = Math.max(...r.anos.map(g=>g.n), 1);
+    h += '<h3>O tema está em alta?</h3><p style="color:'+td.cor+';font-weight:600">'+esc(td.txt)+'</p>'
+      +'<div style="display:flex;align-items:flex-end;gap:3px;height:110px;margin-top:8px">'+r.anos.map(g=>'<div title="'+g.ano+': '+g.n+' artigos" style="flex:1;background:linear-gradient(180deg,#5eead4,#0d9488);border-radius:4px 4px 0 0;height:'+Math.max(2,Math.round(100*g.n/mx))+'%"></div>').join("")+'</div>'
+      +'<div style="display:flex;justify-content:space-between" class="meta"><span>'+r.anos[0].ano+'</span><span>'+r.anos[r.anos.length-1].ano+'</span></div><p class="meta">Artigos por ano no OpenAlex para a busca. O ano atual fica de fora porque ainda não terminou.</p>';
+  }
+  if(r.revistas.length) h += '<h3>Onde trabalhos parecidos foram publicados</h3><p class="sub">Revistas com mais artigos sobre o tema nos últimos cinco anos. Confira o escopo e as normas de cada uma antes de submeter.</p><ol class="riscos">'
+    + r.revistas.map(x=>'<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.nome)+'</a> <span class="meta">· '+x.n+' artigos</span></li>').join("")+'</ol>';
+  h += '<label class="f">Busca usada em '+esc(r.data.split("-").reverse().join("/"))+'</label>'+busca+msgHtml();
+  return h + formatoHtml() + '</div>';
+}
+
+/* ============ FORMATACAO (Word) E ESTRUTURA ============ */
+const SECOES = [["Introdução",/INTRODU[CÇ][AÃ]O/],["Objetivos",/\bOBJETIVOS?\b/],
+  ["Métodos",/(MATERIA(L|IS) E M[EÉ]TODOS|METODOLOGIA|M[EÉ]TODOS|PROCEDIMENTOS METODOL|PERCURSO METODOL)/],["Resultados",/RESULTADOS/],
+  ["Discussão",/DISCUSS/],["Conclusão",/(CONCLUS|CONSIDERA[CÇ][OÕ]ES FINAIS)/],["Referências",/^[\d.\s]*(REFER[EÊ]NCIAS|BIBLIOGRAFIA)/]];
+function estrutura(texto){
+  /* so titulos principais: linhas curtas, em maiusculas, fora do sumario */
+  const linhas = texto.split(/\n+/).map(l=>l.trim()).filter(l=>{
+    if(!l || l.length > 90 || /\.{4,}/.test(l) || /\s\d+\s*$/.test(l)) return false;
+    const letras = l.replace(/[^A-Za-zÀ-ÿ]/g,""); return letras.length >= 5 && letras === letras.toUpperCase();
+  });
+  return SECOES.map(([nome, re])=>({nome, pos:linhas.findIndex(l=>re.test(l))}));
+}
+async function checaDocx(buf){
+  await loadScript("https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js");
+  const z = await JSZip.loadAsync(buf), P = new DOMParser();
+  const xml = await z.file("word/document.xml").async("string");
+  const doc = P.parseFromString(xml, "application/xml");
+  const stf = z.file("word/styles.xml"), st = stf ? P.parseFromString(await stf.async("string"), "application/xml") : null;
+  const g = (el, tag)=>el ? el.getElementsByTagName(tag)[0] : null, at = (el, n)=>el ? el.getAttribute(n) : null;
+  let dFont = "", dSz = 22, dLine = 240, dJc = "left";
+  if(st){
+    const dd = g(st, "w:docDefaults");
+    if(dd){ const f = g(dd,"w:rFonts"); if(at(f,"w:ascii")) dFont = at(f,"w:ascii"); else if(f && at(f,"w:asciiTheme")) dFont = "fonte do tema"; const s = g(dd,"w:sz"); if(s) dSz = +at(s,"w:val"); const sp = g(dd,"w:spacing"); if(at(sp,"w:line")) dLine = +at(sp,"w:line"); }
+    const nor = [...st.getElementsByTagName("w:style")].find(s=>at(s,"w:type")==="paragraph" && (at(s,"w:default")==="1" || at(s,"w:styleId")==="Normal"));
+    if(nor){ const f = g(nor,"w:rFonts"); if(at(f,"w:ascii")) dFont = at(f,"w:ascii"); const s = g(nor,"w:sz"); if(s) dSz = +at(s,"w:val"); const sp = g(nor,"w:spacing"); if(at(sp,"w:line")) dLine = +at(sp,"w:line"); const jc = g(nor,"w:jc"); if(jc) dJc = at(jc,"w:val"); }
+  }
+  const fontes = {}, tams = {}, esp = {}, al = {}, add = (o,k,v)=>{ o[k] = (o[k]||0)+v; };
+  for(const p of doc.getElementsByTagName("w:p")){
+    const txt = [...p.getElementsByTagName("w:t")].map(t=>t.textContent).join("");
+    if(txt.trim().length < 60) continue;
+    const pp = g(p,"w:pPr"), sp = g(pp,"w:spacing"), jc = g(pp,"w:jc");
+    add(esp, (sp && at(sp,"w:line")) ? +at(sp,"w:line") : dLine, txt.length);
+    add(al, jc ? at(jc,"w:val") : dJc, txt.length);
+    for(const r of p.getElementsByTagName("w:r")){
+      const rt = [...r.getElementsByTagName("w:t")].map(t=>t.textContent).join(""); if(!rt) continue;
+      const rp = g(r,"w:rPr"), f = g(rp,"w:rFonts"), s = g(rp,"w:sz");
+      add(fontes, at(f,"w:ascii") || (f && at(f,"w:asciiTheme") ? "fonte do tema" : dFont || "padrão do Word"), rt.length);
+      add(tams, (s ? +at(s,"w:val") : dSz)/2, rt.length);
+    }
+  }
+  const top = o=>Object.entries(o).sort((x,y)=>y[1]-x[1]), tot = o=>Object.values(o).reduce((x,y)=>x+y,0)||1;
+  /* margens da secao que cobre a maior parte do documento (capa e anexos costumam ter outras) */
+  let pm = null, ps = null, maior = -1, ini = 0;
+  const reS = /<w:sectPr[\s\S]*?<\/w:sectPr>/g; let mS;
+  while((mS = reS.exec(xml))){
+    const tam = mS.index - ini; ini = mS.index + mS[0].length;
+    if(tam > maior){ const x = P.parseFromString(mS[0].replace("<w:sectPr", '<w:sectPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"'), "application/xml"); maior = tam; pm = g(x,"w:pgMar"); ps = g(x,"w:pgSz"); }
+  }
+  const cm = v=>v!=null ? Math.round(+v/567*10)/10 : null;
+  const tf = top(fontes), tt = top(tams), te = top(esp), ta = top(al);
+  return {fonte:tf[0]?tf[0][0]:"", fontePct:tf[0]?Math.round(100*tf[0][1]/tot(fontes)):0, nFontes:tf.filter(x=>x[1]/tot(fontes) > .03).length,
+    tam:tt[0]?+tt[0][0]:0, esp:te[0]?+te[0][0]/240:0, just:Math.round(100*((al.both||0)+(al.distribute||0))/tot(al)),
+    marg:pm?{sup:cm(at(pm,"w:top")), inf:cm(at(pm,"w:bottom")), esq:cm(at(pm,"w:left")), dir:cm(at(pm,"w:right"))}:null,
+    a4: ps ? Math.abs(+at(ps,"w:w")-11906) < 60 : null};
+}
+function vg(n){ return String(n).replace(".",","); }
+function formatoHtml(){
+  const a = cur(), f = a.formato; if(!f) return "";
+  const ok = (bom, txt)=>'<li style="list-style:none;margin:6px 0">'+(bom?'✅ ':'⚠️ ')+txt+'</li>';
+  let h = '<h3>Formatação e estrutura</h3><p class="sub">Checagem automática pela ABNT mais comum. Confira as normas do seu programa, que podem ser diferentes.</p><ul style="padding-left:0">';
+  if(f.word){
+    const w = f.word, abnt = /^(arial|times new roman)$/i.test(w.fonte);
+    h += ok(abnt && w.nFontes <= 1, 'Fonte do texto: <b>'+esc(w.fonte||"não identificada")+'</b> em '+w.fontePct+'% do texto'+(w.nFontes>1?', com '+w.nFontes+' fontes diferentes misturadas':'')+'. A ABNT pede Arial ou Times New Roman.');
+    h += ok(w.tam===12, 'Tamanho da letra do texto: <b>'+w.tam+'</b>. A ABNT pede 12.');
+    h += ok(Math.abs(w.esp-1.5) < .06, 'Espaçamento entre linhas: <b>'+(Math.round(w.esp*100)/100).toString().replace(".",",")+'</b>. A ABNT pede 1,5.');
+    h += ok(w.just >= 90, 'Parágrafos justificados: <b>'+w.just+'%</b> do texto.');
+    if(w.marg){ const m = w.marg, mok = Math.abs(m.sup-3)<=.2 && Math.abs(m.esq-3)<=.2 && Math.abs(m.inf-2)<=.2 && Math.abs(m.dir-2)<=.2;
+      h += ok(mok, 'Margens: superior '+vg(m.sup)+' cm, esquerda '+vg(m.esq)+' cm, inferior '+vg(m.inf)+' cm, direita '+vg(m.dir)+' cm. A ABNT pede 3, 3, 2 e 2 cm.'); }
+    if(f.word.a4 !== null) h += ok(f.word.a4, f.word.a4 ? 'Papel A4.' : 'O papel não é A4.');
+  }else h += '<li style="list-style:none;margin:6px 0">ℹ️ A checagem de fonte, espaçamento e margens só funciona com arquivo Word. Em PDF, o app confere só a estrutura.</li>';
+  const ss = (f.secoes || []).filter(x=>x.nome!=="Objetivos"), achou = ss.filter(x=>x.pos>=0), falta = ss.filter(x=>x.pos<0 && (a.fase==="defesa" || !["Resultados","Discussão","Conclusão"].includes(x.nome)));
+  const ordem = achou.every((x,i)=>!i || x.pos >= achou[i-1].pos);
+  h += ok(ordem, ordem ? 'Seções na ordem esperada: '+achou.map(x=>x.nome).join(", ")+'.' : 'Confira a ordem das seções. Encontrei nesta sequência: '+achou.slice().sort((x,y)=>x.pos-y.pos).map(x=>x.nome).join(", ")+'.');
+  if(falta.length) h += ok(false, 'Não encontrei um título de seção para: '+falta.map(x=>x.nome).join(", ")+'. Pode ser só um nome diferente.');
+  return h + '</ul>';
+}
 
 /* ============ IA ============ */
 async function chamaIA(corpo){
@@ -790,6 +981,7 @@ async function gerar(){
     const lote = Date.now().toString(36);
     alvo.geradas = j.perguntas.map((p,i)=>({id:"g"+lote+"_"+i, b:p.b, n:p.n, q:p.q, d:p.d}));
     alvo.geradas.sort((x,y)=>x.n-y.n);
+    if(j.busca) alvo.busca = j.busca;
     alvo.rodada = {ids:alvo.geradas.map(q=>q.id), pos:0, n:((alvo.rodada&&alvo.rodada.n)||0)+1};
     S.atual = argId; limpaIA(); ocupado = false; ir("responder");
   }catch(err){ console.error(err); ocupado = false; aviso = {txt:"Não foi possível gerar as perguntas. "+(err.message||""), err:true}; render(); }
@@ -879,13 +1071,14 @@ document.addEventListener("click", e=>{
   else if(t.id==="btnColaOk"){
     const v = $("colaTxt").value.replace(/[ \t]+/g," ").trim();
     if(v.length < (a.plano==="completo"?2000:500)){ aviso = {txt: a.plano==="completo" ? "Cole o texto completo do trabalho, não só o resumo." : "Cole pelo menos o resumo.", err:true}; render(); return; }
-    a.doc = prepDoc("Texto colado", v); aviso = {txt:"",err:false}; persist(); render();
+    a.doc = prepDoc("Texto colado", v); a.formato = {secoes:estrutura(v)}; aviso = {txt:"",err:false}; persist(); render();
   }
-  else if(t.id==="btnDocDel"){ delete a.doc; persist(); render(); }
+  else if(t.id==="btnDocDel"){ delete a.doc; delete a.formato; persist(); render(); }
   else if(t.id==="btnCompra"){ const b = $("compraBox"); b.innerHTML = b.innerHTML ? "" : compraHtml(a.plano); }
   else if(t.id==="btnIniciar"){ rodadaBanco(); ir("responder"); }
   else if(t.id==="btnSortear"){ if(confirm("Sortear outras 15 perguntas? As respostas que você já escreveu continuam salvas.")){ rodadaBanco(); ir("responder"); } }
   else if(t.id==="btnGerar"){ gerar(); }
+  else if(t.id==="btnRel"){ montaRelatorio($("inBusca").value); }
   else if(t.id==="btnAnt"){ if(a.rodada.pos>0){ a.rodada.pos--; persist(); render(); } else ir("preparo"); }
   else if(t.id==="btnProx"){ if(a.rodada.pos < a.rodada.ids.length-1){ a.rodada.pos++; persist(); render(); topo(); } else ir("correcao"); }
   else if(t.id==="btnGratis"){ corrigir(true); }
