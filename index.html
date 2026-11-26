@@ -156,7 +156,7 @@ const FB_VER = "10.12.2";
 /* ============ CONFIGURACAO DA IA ============
    Cole aqui a URL do Cloudflare Worker (arquivo preparado_worker.js). A chave da API fica so no Worker, nunca neste arquivo. */
 const WORKER_URL = "https://preparado-pra-defesa.ernandes-sobreira.workers.dev/";
-const IA_MIN = 3, RODADA = 10, DOC_MAX = 60000, GRATIS_N = 2, GRATIS_DOC = 3000;
+const IA_MIN = 3, RODADA = 10, DOC_MAX = 450000, PAG = 3000, GRATIS_N = 2, GRATIS_DOC = 3000;
 /* ============ VENDA PELO PIX (teste manual) ============
    PIX_CHAVE: chave Pix da Japuira. WHATS: numero com DDI e DDD, so digitos, ex. 5565999999999. */
 const PRECO = "R$ 9,99", PIX_CHAVE = "", WHATS = "5565999323724";
@@ -426,9 +426,10 @@ function persist(){
   const id = S.atual;
   tCloud = setTimeout(()=>pushCloud(id), 1200);
 }
+function semTexto(a){ const c = Object.assign({}, a); if(c.doc) c.doc = {nome:c.doc.nome, chars:(c.doc.texto||"").length}; return c; }
 function pushCloud(id){
   if(!user || !db || !S.arg[id]) return;
-  db.collection("pb_users").doc(user.uid).collection("arguicoes").doc(id).set(S.arg[id])
+  db.collection("pb_users").doc(user.uid).collection("arguicoes").doc(id).set(semTexto(S.arg[id]))
     .then(()=>setStatus("Salvo na sua conta"))
     .catch(e=>{console.error(e); setStatus("Erro ao salvar na conta. Seus textos continuam neste dispositivo.")});
 }
@@ -609,7 +610,7 @@ function iaHtml(id){
 function respondidas(){ return rod().ids.map(qid).filter(q=>q && feita(q)); }
 function renderIA(msg){
   const a = cur(), n = respondidas().length;
-  $("docInfo").textContent = a.doc ? "Texto: "+a.doc.nome+" · "+a.doc.texto.length.toLocaleString("pt-BR")+" caracteres"+(a.doc.cortado?" (documento longo, só o início foi aproveitado)":"") : "Nenhum texto enviado nesta arguição.";
+  $("docInfo").textContent = a.doc ? (a.doc.texto ? "Texto: "+a.doc.nome+" · cerca de "+Math.max(1,Math.round(a.doc.texto.length/PAG))+" páginas"+(a.doc.semRef?", sem as referências":"")+(a.doc.cortado?". O trabalho passou de 150 páginas, e só as primeiras 150 serão lidas.":"") : "O trabalho "+a.doc.nome+" foi enviado em outro aparelho. Envie de novo neste aparelho para usar na correção.") : "Nenhum texto enviado nesta arguição.";
   $("btnDocDel").style.display = a.doc ? "" : "none";
   $("precoTxt").textContent = PRECO;
   $("btnIA").disabled = $("btnGratis").disabled = iaBusy;
@@ -617,6 +618,13 @@ function renderIA(msg){
   $("btnIA").style.opacity = (n>=IA_MIN && a.doc && !iaBusy) ? 1 : .5;
   $("iaInfo").textContent = msg || (!a.doc ? "Envie o projeto ou cole o resumo para começar." : n+" respostas nesta rodada. A grátis revisa "+GRATIS_N+", a completa revisa todas.");
   $("iaGeral").innerHTML = a.iaGeral ? '<div class="ia"><b class="h">🧠 Visão geral da IA</b><p>'+esc(a.iaGeral)+"</p></div>" : "";
+}
+function prepDoc(nome, t){
+  /* tira as referencias do fim, que nao ajudam na revisao e custam leitura */
+  const m = [...t.matchAll(/\n\s*(REFER[ÊE]NCIAS[^\n.]{0,25}|BIBLIOGRAFIA)\s*\n/g)].pop();
+  let semRef = false;
+  if(m && m.index > t.length*0.6){ t = t.slice(0, m.index); semRef = true; }
+  return {nome, texto:t.slice(0,DOC_MAX), cortado:t.length>DOC_MAX, semRef};
 }
 async function lerArquivo(f){
   const buf = await f.arrayBuffer(), nome = f.name.toLowerCase();
@@ -641,7 +649,7 @@ $("fileDoc").onchange = async e=>{
   try{
     const t = (await lerArquivo(f)).replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim();
     if(t.length < 200){ renderIA("Não encontrei texto no arquivo. PDF escaneado como imagem não pode ser lido. Envie o Word ou um PDF com texto."); return; }
-    cur().doc = {nome:f.name, texto:t.slice(0,DOC_MAX), cortado:t.length>DOC_MAX};
+    cur().doc = prepDoc(f.name, t);
     persist(); renderIA();
   }catch(err){ console.error(err); renderIA("Não foi possível ler o arquivo. "+(err.message||"")); }
 };
@@ -650,7 +658,7 @@ $("btnCola").onclick = ()=>{ const b = $("colaBox"); b.style.display = b.style.d
 $("btnColaOk").onclick = ()=>{
   const t = $("colaTxt").value.replace(/[ \t]+/g," ").trim();
   if(t.length < 200){ renderIA("Cole pelo menos 200 caracteres."); return; }
-  cur().doc = {nome:"Texto colado", texto:t.slice(0,DOC_MAX), cortado:t.length>DOC_MAX};
+  cur().doc = prepDoc("Texto colado", t);
   $("colaTxt").value = ""; $("colaBox").style.display = "none"; persist(); renderIA();
 };
 $("btnCompra").onclick = ()=>{
@@ -674,7 +682,7 @@ $("btnCompra").onclick = ()=>{
 async function pedirIA(codigo){
   const a = cur(), rs = respondidas(), gratis = !codigo;
   if(!WORKER_URL){ renderIA("A revisão com IA ainda não foi configurada."); return; }
-  if(!a.doc){ renderIA("Envie primeiro o projeto ou cole o resumo."); return; }
+  if(!a.doc || !a.doc.texto){ renderIA("Envie o trabalho ou cole o resumo neste aparelho."); return; }
   if(rs.length < (gratis ? GRATIS_N : IA_MIN)){ renderIA(gratis ? "Escreva pelo menos "+GRATIS_N+" respostas." : "A revisão completa precisa de pelo menos "+IA_MIN+" respostas."); return; }
   const envio = gratis ? rs.slice(0,GRATIS_N) : rs.slice(0,40);
   iaBusy = true; renderIA(gratis ? "A IA está lendo o texto e as suas 2 respostas. Aguarde..." : "A IA está lendo o projeto e as suas respostas. Isso pode levar de um a três minutos. Não feche a página...");
@@ -731,10 +739,10 @@ async function syncCloud(){
     await flushDel();
     const snap = await colRef().get(), remotos = {};
     snap.forEach(d=>{remotos[d.id] = d.data()});
-    Object.values(remotos).forEach(r=>{ const l = S.arg[r.id]; if(!l || (r.updatedAt||0) > (l.updatedAt||0)) S.arg[r.id] = r; });
+    Object.values(remotos).forEach(r=>{ const l = S.arg[r.id]; if(!l || (r.updatedAt||0) > (l.updatedAt||0)){ if(l && l.doc && l.doc.texto) r.doc = l.doc; else if(r.doc && !r.doc.texto) delete r.doc; S.arg[r.id] = r; } });
     const vazia = a=>!Object.values(a.r||{}).some(v=>(v||"").trim());
     const subir = Object.values(S.arg).filter(l=>{ const r = remotos[l.id]; return (!r && !vazia(l)) || (r && (l.updatedAt||0) > (r.updatedAt||0)); });
-    await Promise.all(subir.map(l=>colRef().doc(l.id).set(l)));
+    await Promise.all(subir.map(l=>colRef().doc(l.id).set(semTexto(l))));
     /* descarta rascunho vazio criado antes do login, se a conta ja tem arguicoes */
     Object.values(S.arg).forEach(l=>{ if(!remotos[l.id] && vazia(l) && Object.keys(S.arg).length > 1) delete S.arg[l.id]; });
     if(!cur()) S.atual = Object.values(S.arg).sort((a,b)=>b.updatedAt-a.updatedAt)[0].id;
