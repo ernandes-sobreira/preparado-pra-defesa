@@ -5,161 +5,155 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PreBanca</title>
 <style>
-:root{--bg:#fff;--border:#e5e7eb;--text:#111827;--muted:#6b7280;--accent:#0f766e;--soft:#f0fdfa;
---n1:#16a34a;--n2:#d97706;--n3:#dc2626;--warn:#fff7ed;--warnb:#fdba74}
+:root{--text:#111827;--muted:#6b7280;--border:#e5e7eb;
+--c1:#0d9488;--c1s:#f0fdfa;--c2:#2563eb;--c2s:#eff6ff;--c3:#7c3aed;--c3s:#f5f3ff;--c4:#ea580c;--c4s:#fff7ed;
+--n1:#16a34a;--n2:#d97706;--n3:#dc2626}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:920px;margin:0 auto;padding:24px 20px 80px}
+body{margin:0;background:#fff;color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding:20px 20px 80px}
 header.top{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--border)}
-.topin{max-width:920px;margin:0 auto;padding:12px 20px}
+.topin{max-width:880px;margin:0 auto;padding:12px 20px 10px}
 .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.brand{font-weight:800;font-size:20px;color:var(--accent);margin-right:auto}
-.brand small{display:block;font-weight:500;font-size:12px;color:var(--muted)}
-button,select,input[type=text]{font:inherit;border:1px solid var(--border);background:#fff;border-radius:10px;padding:8px 14px;color:var(--text)}
-button{cursor:pointer}
-button.pri{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
-button.mini{padding:5px 10px;font-size:14px}
-button:hover{filter:brightness(.97)}
-.bar{height:12px;background:#f3f4f6;border-radius:99px;overflow:hidden;flex:1;min-width:140px}
-.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#14b8a6,#0f766e);border-radius:99px;transition:width .3s}
-.pct{font-weight:700;font-size:14px;min-width:92px;text-align:right}
-.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
-.chip{font-size:12px;border:1px solid var(--border);border-radius:99px;padding:3px 10px;color:var(--muted);cursor:pointer;background:#fff}
-.chip.ok{border-color:#99f6e4;background:var(--soft);color:var(--accent);font-weight:600}
+.brand{font-weight:800;font-size:22px;margin-right:auto;background:linear-gradient(90deg,var(--c1),var(--c3));-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand small{display:block;font-weight:500;font-size:12px;color:var(--muted);-webkit-text-fill-color:var(--muted)}
 .status{font-size:12px;color:var(--muted)}
-.card{border:1px solid var(--border);border-radius:14px;padding:22px;margin:18px 0}
-.card h2{margin:0 0 4px;font-size:20px}
-.card p.sub{margin:0 0 6px;color:var(--muted);font-size:14px}
-.q{border-top:1px solid var(--border);padding:18px 0 4px;margin-top:14px}
-.qh{display:flex;gap:10px;align-items:flex-start}
-.qh b{flex:1;font-size:16px}
-.lv{font-size:11px;font-weight:700;border-radius:99px;padding:2px 9px;color:#fff;white-space:nowrap;margin-top:3px}
-.lv1{background:var(--n1)}.lv2{background:var(--n2)}.lv3{background:var(--n3)}
-.tipb{width:34px;height:34px;border-radius:50%;padding:0;font-weight:800;font-size:18px;color:#fff;background:#f59e0b;border-color:#f59e0b;flex:none}
-.tip{display:none;background:var(--soft);border:1px solid #99f6e4;border-radius:12px;padding:14px 16px;margin:10px 0;font-size:15px}
+button,select,input,textarea{font:inherit;color:var(--text)}
+button{cursor:pointer;border:1px solid var(--border);background:#fff;border-radius:12px;padding:9px 16px}
+button:hover{filter:brightness(.97)}
+button:disabled{opacity:.45;cursor:default}
+.big{font-size:17px;font-weight:700;padding:14px 22px;border:0;color:#fff;border-radius:14px}
+.b1{background:var(--c1)}.b2{background:var(--c2)}.b3{background:var(--c3)}.b4{background:var(--c4)}
+.mini{padding:6px 12px;font-size:14px;border-radius:10px}
+.link{border:0;background:none;color:var(--muted);text-decoration:underline;padding:4px}
+/* passos */
+.steps{display:flex;gap:6px;margin-top:10px}
+.step{flex:1;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--muted);background:#f9fafb;border:1px solid var(--border);border-radius:99px;padding:5px 10px;white-space:nowrap;overflow:hidden}
+.step i{font-style:normal;width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;font-size:12px;background:#e5e7eb;color:#4b5563}
+.step.on{color:#fff}.step.on i{background:#fff}
+.step.s1.on{background:var(--c1);border-color:var(--c1)}.step.s1.on i{color:var(--c1)}
+.step.s2.on{background:var(--c2);border-color:var(--c2)}.step.s2.on i{color:var(--c2)}
+.step.s3.on{background:var(--c3);border-color:var(--c3)}.step.s3.on i{color:var(--c3)}
+.step.s4.on{background:var(--c4);border-color:var(--c4)}.step.s4.on i{color:var(--c4)}
+.step.ok i{background:#dcfce7;color:#16a34a}
+.bar{height:10px;background:#f3f4f6;border-radius:99px;overflow:hidden;flex:1}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#a78bfa,var(--c3));border-radius:99px;transition:width .3s}
+.pct{font-weight:700;font-size:14px;color:var(--c3)}
+/* cartoes */
+.card{border:1px solid var(--border);border-radius:18px;padding:24px;margin:18px 0;background:#fff}
+.card h2{margin:0 0 6px;font-size:21px}
+.sub{margin:0 0 8px;color:var(--muted);font-size:15px}
+.hero{font-size:28px;line-height:1.25;margin:10px 0 6px}
+.lead{font-size:17px;color:#374151;margin:0 0 6px}
+.tops1{border-top:6px solid var(--c1)}.tops2{border-top:6px solid var(--c2)}.tops3{border-top:6px solid var(--c3)}.tops4{border-top:6px solid var(--c4)}
+/* planos */
+.planos{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:18px}
+.plano{border:2px solid var(--border);border-radius:20px;padding:22px;display:flex;flex-direction:column;position:relative}
+.plano.pe{border-color:#99f6e4;background:var(--c1s)}
+.plano.pc{border-color:#c4b5fd;background:linear-gradient(180deg,#faf5ff,#fff)}
+.plano h3{margin:0;font-size:22px}
+.preco{font-size:30px;font-weight:800;margin:4px 0 8px}
+.pe .preco{color:var(--c1)}.pc .preco{color:var(--c3)}
+.plano ul{margin:0 0 18px;padding-left:20px;flex:1}
+.plano li{margin:6px 0}
+.selo{position:absolute;top:-13px;right:18px;background:var(--c3);color:#fff;font-size:12px;font-weight:700;border-radius:99px;padding:4px 12px}
+.fine{font-size:13px;color:var(--muted);text-align:center;margin-top:12px}
+/* formularios */
+label.f{display:block;font-weight:600;margin:14px 0 4px}
+label.f small{font-weight:400;color:var(--muted)}
+input.t,textarea{width:100%;border:1px solid #d1d5db;border-radius:12px;padding:11px 13px;background:#fff}
+textarea{min-height:90px;resize:vertical}
+input.t:focus,textarea:focus{outline:2px solid #c4b5fd;border-color:var(--c3)}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.seg button{flex:1;min-width:140px;font-weight:600}
+.seg button.on{background:var(--c2);border-color:var(--c2);color:#fff}
+label.ck{display:flex;gap:8px;align-items:center;margin-top:12px}
+.drop{border:2px dashed #93c5fd;background:var(--c2s);border-radius:16px;padding:26px 16px;text-align:center;cursor:pointer;margin-top:8px}
+.drop b{display:block;font-size:18px;color:var(--c2)}
+.drop span{color:var(--muted);font-size:14px}
+.okdoc{background:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:12px 14px;margin-top:10px;font-size:15px}
+.code{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.code input{flex:1;min-width:200px;text-transform:uppercase;letter-spacing:.04em}
+.msg{margin-top:10px;font-size:15px;color:#374151}
+.msg.err{color:#b91c1c}
+.wait{display:flex;gap:10px;align-items:center;background:var(--c3s);border:1px solid #ddd6fe;border-radius:12px;padding:12px 14px;margin-top:12px}
+.spin{width:22px;height:22px;border:3px solid #ddd6fe;border-top-color:var(--c3);border-radius:50%;animation:gira 1s linear infinite;flex:none}
+@keyframes gira{to{transform:rotate(360deg)}}
+/* pergunta */
+.qcard{border:2px solid #ddd6fe;border-radius:22px;padding:26px;margin:18px 0;background:#fff;box-shadow:0 8px 24px rgba(124,58,237,.08)}
+.tema{display:inline-block;font-size:12px;font-weight:700;color:#fff;border-radius:99px;padding:3px 12px;margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+.qh{display:flex;gap:12px;align-items:flex-start}
+.qq{flex:1;font-size:22px;line-height:1.35;font-weight:700;margin:0}
+.qcard textarea{min-height:200px;margin-top:14px;font-size:17px}
+.tipb{width:40px;height:40px;border-radius:50%;padding:0;font-weight:800;font-size:20px;color:#fff;background:#f59e0b;border:0;flex:none;box-shadow:0 3px 10px rgba(245,158,11,.4)}
+.tip{display:none;background:#fffbeb;border:1px solid #fde68a;border-radius:14px;padding:14px 16px;margin:12px 0 0;font-size:15px}
 .tip.on{display:block}
 .brain{display:inline-block;font-size:30px;margin-right:8px;vertical-align:middle;animation:spin 1.2s ease-out 1}
 @keyframes spin{from{transform:rotate(0) scale(.6)}to{transform:rotate(720deg) scale(1)}}
 .tip ul{margin:6px 0 0;padding-left:20px}
 .tip .lab{font-weight:700;margin-top:10px;display:block}
 .tip .no{color:#b91c1c}
-textarea{width:100%;min-height:110px;margin-top:10px;border:1px solid var(--border);border-radius:12px;padding:12px;font:inherit;resize:vertical}
-textarea:focus{outline:2px solid #99f6e4;border-color:var(--accent)}
-.alert{display:none;background:var(--warn);border:1px solid var(--warnb);border-radius:10px;padding:10px 12px;font-size:14px;margin-top:8px}
+.alert{display:none;background:var(--c4s);border:1px solid #fdba74;border-radius:12px;padding:10px 12px;font-size:14px;margin-top:8px}
 .alert.on{display:block}
-.meta{font-size:12px;color:var(--muted);margin-top:4px}
-.ia{background:#f5f3ff;border:1px solid #ddd6fe;border-radius:12px;padding:12px 16px;margin-top:10px;font-size:15px}
-.ia b.h{color:#6d28d9}
-.ia p{margin:6px 0 0}
-.ia .old{font-size:12px;color:var(--muted)}
-.notice{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:12px 16px;font-size:14px;margin-top:16px}
-.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-.filters button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-label.ck{display:flex;gap:8px;align-items:center;font-size:15px;margin-top:8px}
-@media(max-width:640px){.wrap{padding:16px 14px 80px}.card{padding:16px}.brand{font-size:18px}.pct{min-width:0}}
-@media print{header.top,.filters,.tipb,.notice,.noprint{display:none}.card{border:0;padding:0}}
-.planos{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:14px}
-.plano{border:1px solid #e5e7eb;border-radius:12px;padding:16px}
-.plano p{margin:6px 0 10px;color:#4b5563;font-size:14px}
-.plano input{flex:1;min-width:0;padding:9px 10px;border:1px solid #d1d5db;border-radius:8px;font:inherit;text-transform:uppercase}
-.compra{margin-top:10px;background:#f0fdfa;border:1px solid #99f6e4;border-radius:10px;padding:12px;font-size:14px}
-.compra code{background:#fff;border:1px solid #d1d5db;border-radius:6px;padding:2px 6px;word-break:break-all}
-.qcard{padding:28px}
-.tema{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
-.qh b.qq{font-size:21px;line-height:1.4;flex:1}
-.qcard textarea{min-height:190px}
-.nav{margin-top:16px}
-.calma{font-size:13px;color:var(--muted);text-align:center;margin-top:4px}
-button:disabled{opacity:.4;cursor:default}
+.meta{font-size:13px;color:var(--muted);margin-top:6px}
+.nav{margin-top:18px}
+.calma{font-size:14px;color:var(--muted);text-align:center}
+/* correcao */
+.resumo h3{margin:16px 0 6px;font-size:17px}
+.riscos{margin:0;padding-left:22px}.riscos li{margin:6px 0}
+.pior{background:#fef2f2;border:1px solid #fecaca;border-radius:14px;padding:14px 16px;margin-top:14px}
+.pior b{color:#b91c1c}
+.qc{border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0}
+.qc .qh b{flex:1;font-size:17px}
+.lv{font-size:12px;font-weight:700;border-radius:99px;padding:3px 10px;color:#fff;white-space:nowrap}
+.lv1{background:var(--n1)}.lv2{background:var(--n2)}.lv3{background:var(--n3)}
+.qc textarea{min-height:90px;margin-top:10px}
+.fb{border-radius:12px;padding:10px 14px;margin-top:8px;font-size:15px}
+.fb b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
+.fbok{background:#ecfdf5}.fbok b{color:#047857}
+.fbfa{background:var(--c4s)}.fbfa b{color:#c2410c}
+.fbdi{background:var(--c2s)}.fbdi b{color:#1d4ed8}
+.fbco{background:var(--c3s)}.fbco b{color:#6d28d9}
+.old{font-size:13px;color:var(--muted);margin-top:6px}
+.compra{margin-top:12px;background:var(--c1s);border:1px solid #99f6e4;border-radius:12px;padding:12px 14px;font-size:15px}
+.opts{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:12px}
+.opt{border:1px solid var(--border);border-radius:16px;padding:16px}
+.opt h3{margin:0 0 4px;font-size:18px}
+.notice{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:12px 14px;font-size:14px;margin-top:14px}
+@media(max-width:640px){.wrap{padding:14px 14px 80px}.card,.qcard{padding:18px}.hero{font-size:24px}.qq{font-size:20px}.step span{display:none}.step.on span{display:inline}.step{justify-content:center}}
+@media print{header.top,.noprint,.tipb{display:none}.card,.qc{border:0;padding:0}}
 </style>
 </head>
 <body>
-<header class="top"><div class="topin">
+<header class="top noprint"><div class="topin">
   <div class="row">
     <div class="brand">PreBanca<small>Treine com as perguntas que a banca pode fazer</small></div>
     <span class="status" id="status"></span>
     <button class="mini" id="btnLogin">Entrar com Google</button>
   </div>
-  <div class="row" style="margin-top:10px">
-    <div class="bar"><i id="barFill"></i></div>
-    <div class="pct" id="pct"></div>
-  </div>
+  <div class="steps" id="steps"></div>
+  <div class="row" id="barRow" style="margin-top:8px;display:none"><div class="bar"><i id="barFill"></i></div><div class="pct" id="pct"></div></div>
 </div></header>
 
 <div class="wrap">
-  <div class="card noprint" id="cardDoc">
-    <h2 style="font-size:17px">Seu trabalho</h2>
-    <p class="sub">Envie o projeto, a dissertação ou o TCC completo (Word ou PDF), ou cole o resumo. A IA usa esse texto na correção.</p>
-    <div class="row" style="margin-top:10px">
-      <input type="file" id="fileDoc" accept=".docx,.pdf" style="display:none">
-      <button id="btnDocUp">Enviar trabalho (Word ou PDF)</button>
-      <button id="btnCola">Colar resumo</button>
-      <button class="mini" id="btnDocDel" style="display:none">Remover texto</button>
-    </div>
-    <div id="colaBox" style="display:none;margin-top:10px">
-      <textarea id="colaTxt" placeholder="Cole aqui o resumo ou um trecho do projeto"></textarea>
-      <div class="row" style="margin-top:6px"><button class="pri" id="btnColaOk">Usar este texto</button></div>
-    </div>
-    <div class="meta" id="docInfo"></div>
-  </div>
-  <div id="treino"></div>
-  <div id="correcao" style="display:none">
-  <div class="card noprint" id="cardIA">
-    <h2>Revisão com IA</h2>
-    <p class="sub">A IA compara o seu trabalho com as suas respostas e mostra o que você ainda poderia dizer. O trabalho é enviado no alto da página.</p>
-    <div class="planos">
-      <div class="plano">
-        <b>Grátis</b>
-        <p>A IA revisa 2 respostas usando até 3.000 caracteres do texto.</p>
-        <button id="btnGratis">Revisão grátis</button>
-      </div>
-      <div class="plano">
-        <b>Revisão completa · <span id="precoTxt"></span></b>
-        <p>A IA lê o projeto e revisa todas as respostas desta rodada. Um código vale uma revisão.</p>
-        <div class="row"><input id="codigo" placeholder="Código, ex. PB-XXXX-XXXX-XXXX" autocomplete="off"><button class="pri" id="btnIA">Revisar com código</button></div>
-        <button class="mini" id="btnCompra" style="margin-top:8px">Comprar código</button>
-        <div id="compraBox" style="display:none"></div>
-      </div>
-    </div>
-    <div class="meta" id="iaInfo"></div>
-    <div class="meta">O texto e as suas respostas são enviados a um serviço externo de IA (Anthropic) só para gerar as sugestões. A IA sugere, e quem decide o que dizer na banca é você.</div>
-    <div id="iaGeral"></div>
-  </div>
-    <div class="card"><h2>Correção da rodada</h2><p class="sub">Agora você vê o nível de cada pergunta. Ajuste as respostas se quiser e peça a revisão da IA.</p><div id="lista"></div>
-      <div class="row" style="margin-top:16px"><button id="btnVolta">Voltar às perguntas</button><button class="pri" id="btnNovaRod">Nova rodada</button></div>
-      <div class="row" style="margin-top:10px"><button class="mini" id="btnDoc">Baixar em Word</button><button class="mini" id="btnTxt">Baixar em texto</button><button class="mini" id="btnPrint">Imprimir ou PDF</button></div>
-    </div>
-  </div>
+  <div id="app"></div>
+  <input type="file" id="fileDoc" accept=".docx,.pdf" style="display:none">
   <div class="card noprint">
-    <h2>Sua arguição</h2>
-    <p class="sub">Cada arguição guarda um projeto. Você pode abrir quantas quiser.</p>
-    <div class="row" style="margin-top:10px">
-      <select id="selArg" style="flex:1;min-width:180px"></select>
+    <h2 style="font-size:18px">Suas arguições</h2>
+    <p class="sub">Cada arguição guarda um trabalho e um treino. Você pode ter várias.</p>
+    <div class="row">
+      <select id="selArg" style="flex:1;min-width:180px;padding:9px;border:1px solid var(--border);border-radius:12px"></select>
       <button class="mini" id="btnNova">Nova</button>
       <button class="mini" id="btnRen">Renomear</button>
       <button class="mini" id="btnDel">Excluir</button>
     </div>
-    <label class="ck"><input type="checkbox" id="ckEst"> Meu projeto usa estatística</label>
     <div class="notice" id="notice"></div>
   </div>
 </div>
 
 <script>
-/* ============ CONFIGURACAO DO FIREBASE ============
-   Cole aqui o firebaseConfig do seu projeto (Console do Firebase, Configuracoes do projeto, Seus apps).
-   Ative Authentication com provedor Google e adicione ernandes-sobreira.github.io em dominios autorizados.
-   Regras do Firestore para este app:
-     match /pb_users/{uid}/arguicoes/{id} { allow read, write: if request.auth != null && request.auth.uid == uid; }
-*/
+/* ============ CONFIGURACAO DO FIREBASE ============ */
 const firebaseConfig = { apiKey:"AIzaSyBDbGUx64rLgugo9ZsJdwo9vI_-oeEgxjk", authDomain:"preparado-pra-defesa.firebaseapp.com", projectId:"preparado-pra-defesa", storageBucket:"preparado-pra-defesa.firebasestorage.app", messagingSenderId:"1026287073338", appId:"1:1026287073338:web:640c0f873ebfdb84465d03" };
 const FB_VER = "10.12.2";
-/* ============ CONFIGURACAO DA IA ============
-   Cole aqui a URL do Cloudflare Worker (arquivo preparado_worker.js). A chave da API fica so no Worker, nunca neste arquivo. */
-const WORKER_URL = "https://preparado-pra-defesa.ernandes-sobreira.workers.dev/";
-const IA_MIN = 3, RODADA = 10, DOC_MAX = 450000, PAG = 3000, GRATIS_N = 2, GRATIS_DOC = 3000;
-/* ============ VENDA PELO PIX (teste manual) ============
-   PIX_CHAVE: chave Pix da Japuira. WHATS: numero com DDI e DDD, so digitos, ex. 5565999999999. */
-const PRECO = "R$ 9,99", PIX_CHAVE = "", WHATS = "5565999323724";
 
 /* ============ CONTEUDO ============ */
 const BLOCOS = [
@@ -172,6 +166,77 @@ const BLOCOS = [
  {id:"fim",t:"Resultados e contribuição",s:"O que você entrega e por que isso importa."}
 ];
 const Q = [
+/* Classicas para qualquer area */
+{id:"c1",b:"perg",n:1,q:"Como você chegou a esse tema?",
+ d:"A banca usa essa pergunta para aquecer, mas ela revela muito. Conte em duas ou três frases o que despertou o interesse e, logo em seguida, mostre a lacuna que justifica a pesquisa. A história pessoal abre a resposta, e o argumento científico fecha.",
+ ex:["Comecei a me interessar quando vi que... Ao ler sobre o assunto, percebi que ninguém tinha medido... e é isso que o trabalho faz."],
+ ev:["Parar na história pessoal","Dizer que o tema foi dado pelo orientador sem mostrar que você se apropriou dele"]},
+{id:"c2",b:"perg",n:1,q:"Por que esse tema importa agora?",
+ d:"Mostre o que está acontecendo hoje que torna o tema urgente: um problema que cresce, uma lei nova, uma decisão que depende dessa resposta ou um dado recente. Prenda a urgência a algo que a banca possa conferir.",
+ ex:["O problema aumentou nos últimos anos, e as decisões sobre ele ainda são tomadas sem dado local."],
+ ev:["Dizer só que o tema é importante","Usar frases genéricas como cada vez mais"]},
+{id:"c3",b:"perg",n:1,q:"Defina, com as suas palavras, o conceito central do seu trabalho.",
+ d:"A banca costuma pedir a definição do termo que aparece no título. Use a definição de um autor que você leu e diga como esse conceito aparece no seu caso, ou seja, como você o mede ou observa.",
+ ex:["Neste trabalho, entendo X como... a partir de tal autor, e observo isso por meio de..."],
+ ev:["Definição de dicionário","Definir o termo com ele mesmo","Não saber de qual autor vem a definição"]},
+{id:"c4",b:"perg",n:2,q:"O título representa o que o trabalho de fato fez?",
+ d:"Compare o título com o objetivo geral e com o que você realmente mediu ou analisou. Se o título promete mais do que o trabalho entrega, a banca percebe na hora. Diga por que cada palavra do título está ali.",
+ ex:["O título fala em efeito, mas o desenho mostra associação. Por isso uso relação no título."],
+ ev:["Título que promete causa quando o trabalho mostra associação","Título que cita um lugar ou período diferente do estudado"]},
+{id:"c5",b:"leit",n:2,q:"Por que você escolheu esse referencial teórico e não outro?",
+ d:"Diga qual é a lente teórica do trabalho, o que ela permite enxergar e o que outra lente deixaria de fora. Mostre que você conhece a alternativa e escolheu de propósito.",
+ ex:["Escolhi esse referencial porque ele permite analisar... Outra abordagem possível seria... mas ela não daria conta de..."],
+ ev:["Dizer que o orientador indicou","Citar autores sem dizer o que cada um contribui"]},
+{id:"c6",b:"fim",n:2,q:"Qual é o produto ou a aplicação prática do seu trabalho e quem vai usar?",
+ d:"Nos mestrados profissionais a banca cobra o produto técnico. Nos demais, cobra a aplicação. Diga o que foi entregue, para quem, e como essa pessoa ou instituição vai usar no dia a dia.",
+ ex:["O produto é um... A secretaria pode usar para decidir onde... e a escola para..."],
+ ev:["Produto que ninguém pediu","Dizer que o trabalho vai contribuir para a sociedade sem dizer como"]},
+/* Pesquisa qualitativa e com pessoas */
+{id:"q1",b:"met",n:2,q:"Como você escolheu os participantes da pesquisa e quando decidiu parar de coletar?",
+ d:"Diga os critérios de inclusão e de exclusão e o motivo de cada um. Em pesquisa qualitativa, explique o critério para encerrar a coleta, por exemplo quando novas entrevistas deixaram de trazer informação nova.",
+ ex:["Incluí quem... e excluí quem... Parei na entrevista doze, porque as três últimas não trouxeram nenhuma categoria nova."],
+ ev:["Escolher só por facilidade de acesso sem admitir isso como limitação","Não saber dizer quantos participantes foram"]},
+{id:"q2",b:"met",n:3,q:"Como você garante que a sua interpretação dos dados não é só a sua opinião?",
+ d:"Fale dos cuidados que tornam a análise conferível: categorias definidas antes, mais de uma fonte de dado, outra pessoa codificando parte do material, trechos das falas que sustentam cada conclusão.",
+ ex:["Comparei as entrevistas com os documentos e com a observação. Uma colega codificou parte do material, e discutimos as diferenças."],
+ ev:["Dizer que a pesquisa qualitativa é subjetiva e por isso não precisa de rigor"]},
+{id:"q3",b:"met",n:3,q:"Qual é a sua relação com o local ou com os participantes, e como isso pode influenciar os resultados?",
+ d:"Se você trabalha no lugar ou conhece as pessoas, a banca vai perguntar. Assuma a proximidade, diga o que ela facilita e o que ela pode distorcer, e mostre o que você fez para reduzir esse efeito.",
+ ex:["Trabalho na escola estudada. Isso facilitou o acesso, mas pode ter inibido respostas críticas. Por isso as entrevistas foram anônimas e..."],
+ ev:["Negar qualquer influência","Usar a proximidade como motivo da escolha do local"]},
+/* Defesa final */
+{id:"d1",b:"fim",n:1,f:"d",q:"Qual é o principal resultado do seu trabalho, em uma frase?",
+ d:"Diga o achado com um número ou com uma evidência concreta. A banca quer ouvir o resultado antes da explicação. Se você precisa de mais de uma frase, ainda não escolheu o principal.",
+ ex:["O principal resultado é que X aumentou em tanto nos locais com Y, e isso não apareceu nos locais sem Y."],
+ ev:["Começar pelo método","Dizer que os resultados foram satisfatórios"]},
+{id:"d2",b:"fim",n:2,f:"d",q:"A sua conclusão responde à pergunta que você fez no começo?",
+ d:"Leia a pergunta científica e depois a conclusão, lado a lado. Diga em que medida a pergunta foi respondida e, se foi só em parte, qual parte ficou aberta e por quê.",
+ ex:["A pergunta era em que medida... A resposta é que... Ficou aberta a parte sobre..., porque o dado de... não chegou."],
+ ev:["Conclusão que resume os resultados sem voltar à pergunta","Conclusão que responde a outra pergunta"]},
+{id:"d3",b:"fim",n:2,f:"d",q:"Como os seus resultados conversam com o que outros autores encontraram?",
+ d:"Escolha dois ou três trabalhos e diga onde você concorda, onde discorda e qual é a explicação para a diferença: local, período, método ou amostra.",
+ ex:["Encontrei o mesmo padrão de tal estudo, mas com intensidade menor. A diferença pode vir do período, porque..."],
+ ev:["Dizer que os resultados corroboram a literatura sem citar quem","Ignorar trabalhos que encontraram o contrário"]},
+{id:"d4",b:"fim",n:2,f:"d",q:"Qual é a principal limitação dos seus resultados?",
+ d:"Toda pesquisa tem limitação, e a banca respeita quem aponta a própria. Diga qual é, como ela afeta a conclusão e por que, mesmo com ela, o resultado continua válido.",
+ ex:["A principal limitação é... Ela pode ter feito X parecer maior. Mesmo assim, o padrão aparece em todos os anos, o que sugere que..."],
+ ev:["Dizer que não há limitação","Listar limitações sem dizer o efeito de cada uma"]},
+{id:"d5",b:"fim",n:3,f:"d",q:"Explique a figura ou a tabela mais importante do seu trabalho como se a banca não tivesse lido.",
+ d:"Diga o que está em cada eixo ou coluna, o que o leitor deve olhar primeiro e qual é a mensagem em uma frase. Treine em voz alta, porque essa pergunta costuma vir com o slide na tela.",
+ ex:["No eixo horizontal estão os anos e no vertical... O ponto principal é a queda depois de tal ano, que coincide com..."],
+ ev:["Ler a figura linha por linha","Não saber o que significa uma barra de erro ou uma sigla da legenda"]},
+{id:"d6",b:"fim",n:3,f:"d",q:"Um dos seus resultados pode ter outra explicação? Qual e como você a descarta?",
+ d:"Pense na explicação alternativa mais forte, aquela que um membro da banca levantaria. Diga se o seu desenho permite descartá-la e, se não permite, assuma isso e diga que dado resolveria.",
+ ex:["Outra explicação seria... Descarto em parte porque... Para descartar de vez, seria preciso..."],
+ ev:["Dizer que não há outra explicação","Atacar a alternativa sem argumento"]},
+{id:"d7",b:"fim",n:3,f:"d",q:"Se você começasse o trabalho hoje, o que faria diferente?",
+ d:"Essa pergunta mede maturidade. Escolha uma ou duas mudanças concretas no desenho ou na coleta e diga o que elas permitiriam responder. Mostre que você aprendeu, e não que o trabalho está errado.",
+ ex:["Coletaria também na estação chuvosa, porque isso permitiria comparar... Hoje sei que..."],
+ ev:["Dizer que não mudaria nada","Desmontar o próprio trabalho na frente da banca"]},
+{id:"d8",b:"fim",n:2,f:"d",q:"Quais são os próximos passos de pesquisa a partir do seu trabalho?",
+ d:"Diga duas perguntas que o seu trabalho abriu e por que elas importam. A banca gosta de ver que você enxerga o que vem depois.",
+ ex:["O trabalho mostrou que... A próxima pergunta é se isso se repete em... e qual é o mecanismo por trás de..."],
+ ev:["Dizer apenas que é preciso mais estudos","Propor algo sem ligação com os resultados"]},
 /* Pergunta */
 {id:"p1",b:"perg",n:1,chk:"simnao",q:"Qual é a sua pergunta científica?",
  d:"Se a sua pergunta pode ser respondida com sim ou não, ela precisa mudar. Uma boa pergunta pede medida, mecanismo ou comparação. Comece com Como, Quanto, Em que medida, Quais fatores ou De que forma.",
@@ -315,7 +380,7 @@ const Q = [
  d:"Liste as variáveis que mudam junto com a que você estuda. Diga se você mede, bloqueia, sorteia ou apenas reconhece cada uma.",
  ex:["A chuva varia junto com a estação. Registro a chuva e incluo essa variável na análise."],
  ev:["Atribuir toda a diferença observada ao fator que você escolheu estudar"]},
-{id:"m9",b:"met",n:3,q:"Qual é o seu plano B se a coleta falhar ou o dado não chegar?",
+{id:"m9",f:"q",b:"met",n:3,q:"Qual é o seu plano B se a coleta falhar ou o dado não chegar?",
  d:"Equipamento quebra, rio não enche, entrevistado desiste, base de dados sai do ar. Mostre uma saída que ainda responda a pergunta, mesmo que em parte.",
  ex:["Se a campanha de campo falhar, uso a série pública já disponível para responder ao objetivo 1."],
  ev:["Dizer que não vai dar errado"]},
@@ -361,7 +426,7 @@ const Q = [
  ex:["Se a contagem tiver variância maior que a esperada, troco a distribuição do modelo por uma que acomode essa dispersão."],
  ev:["Transformar os dados em log sem saber explicar o motivo"]},
 /* Final */
-{id:"f1",b:"fim",n:1,q:"Que resultado você espera e que figura mostraria esse resultado?",
+{id:"f1",f:"q",b:"fim",n:1,q:"Que resultado você espera e que figura mostraria esse resultado?",
  d:"Desenhe no papel a figura principal antes de ter o dado. Eixos, grupos e o padrão esperado. Se você não consegue desenhar, a pergunta ainda não está clara.",
  ex:["Um gráfico com a variável resposta no eixo vertical e o gradiente de uso no horizontal, com queda esperada ao longo do gradiente."],
  ev:["Dizer que só vai saber depois de coletar"]},
@@ -369,7 +434,7 @@ const Q = [
  d:"Pense em devolutiva concreta: relatório para a comunidade, produto técnico, material para escola, dado aberto, reunião com gestor.",
  ex:["Entrega de um resumo em linguagem simples para a associação local e apresentação no comitê de bacia."],
  ev:["Prometer mudar política pública com uma dissertação"]},
-{id:"f3",b:"fim",n:2,q:"Se o resultado for o contrário do esperado, o trabalho ainda vale?",
+{id:"f3",f:"q",b:"fim",n:2,q:"Se o resultado for o contrário do esperado, o trabalho ainda vale?",
  d:"Projeto bem montado gera conhecimento com qualquer resultado. Explique o que cada desfecho ensinaria.",
  ex:["Se não houver diferença, isso indica que o fator tal pesa menos que o suposto, o que também orienta a gestão."],
  ev:["Dizer que o resultado esperado é o único possível"]},
@@ -377,7 +442,7 @@ const Q = [
  d:"Original pode ser dado novo, local novo, método novo, escala nova ou combinação nova. Escolha um e diga sem rodeio.",
  ex:["É a primeira medição direta de X neste tipo de ambiente."],
  ev:["Dizer que o trabalho é inédito sem dizer em quê"]},
-{id:"f5",b:"fim",n:3,q:"O cronograma cabe no prazo? O que você corta primeiro se atrasar?",
+{id:"f5",f:"q",b:"fim",n:3,q:"O cronograma cabe no prazo? O que você corta primeiro se atrasar?",
  d:"Mostre que você sabe o que é essencial. Indique a atividade que pode sair sem derrubar a pergunta central e a data limite para tomar essa decisão.",
  ex:["Se a segunda campanha atrasar além de tal mês, o objetivo 3 vira recomendação de trabalho futuro."],
  ev:["Cronograma em que tudo acontece no último semestre"]},
@@ -385,77 +450,13 @@ const Q = [
  d:"Escreva a pergunta temida com todas as letras e responda aqui. Quase sempre ela é feita. Quem ensaiou responde com calma.",
  ex:["Temo que perguntem por que não usei tal método. Resposta: considerei e descartei por tal motivo."],
  ev:["Torcer para ninguém perguntar"]},
-{id:"f7",b:"fim",n:3,q:"Se a banca disser que o projeto é ambicioso demais, o que você responde?",
+{id:"f7",f:"q",b:"fim",n:3,q:"Se a banca disser que o projeto é ambicioso demais, o que você responde?",
  d:"Tenha a versão enxuta pronta. Mostre que existe um núcleo viável e que o restante é ganho adicional.",
  ex:["O núcleo é responder ao objetivo 1 com os dados já garantidos. Os demais dependem das campanhas e estão em ordem de prioridade."],
  ev:["Defender que dá tempo de fazer tudo sem mostrar como"]}
 ];
 const NIV = {1:"Nível 1 · base",2:"Nível 2 · aprofunda",3:"Nível 3 · difícil"};
 const MIN = 15;
-
-/* ============ ESTADO ============ */
-const KEY = "preparado_defesa_v1";
-let S = {arg:{}, atual:null, del:[]};
-let user = null, db = null, auth = null, tCloud = null;
-
-function uid(){return "a"+Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
-function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-function $(id){return document.getElementById(id)}
-function cur(){return S.arg[S.atual]}
-function loadLocal(){
-  try{const r = JSON.parse(localStorage.getItem(KEY)||localStorage.getItem("projeto_blindado_v1")||"null"); if(r && r.arg) S = Object.assign({arg:{},atual:null,del:[]}, r);}catch(e){console.error(e)}
-  if(!S.atual || !S.arg[S.atual]){const ids = Object.keys(S.arg); if(ids.length) S.atual = ids[0]; else nova("Meu projeto", true);}
-}
-function saveLocal(){
-  try{localStorage.setItem(KEY, JSON.stringify(S)); return true}
-  catch(e){console.error(e); setStatus("Não foi possível salvar neste dispositivo"); return false}
-}
-function nova(titulo, silent){
-  const id = uid();
-  S.arg[id] = {id, titulo, temEst:false, r:{}, updatedAt:Date.now()};
-  S.atual = id;
-  if(!silent){persist(); renderAll();}
-}
-function setStatus(t){$("status").textContent = t}
-function persist(){
-  const a = cur(); if(a) a.updatedAt = Date.now();
-  const ok = saveLocal();
-  if(!user){ if(ok) setStatus("Salvo só neste dispositivo"); return; }
-  setStatus("Salvando...");
-  clearTimeout(tCloud);
-  const id = S.atual;
-  tCloud = setTimeout(()=>pushCloud(id), 1200);
-}
-function semTexto(a){ const c = Object.assign({}, a); if(c.doc) c.doc = {nome:c.doc.nome, chars:(c.doc.texto||"").length}; return c; }
-function pushCloud(id){
-  if(!user || !db || !S.arg[id]) return;
-  db.collection("pb_users").doc(user.uid).collection("arguicoes").doc(id).set(semTexto(S.arg[id]))
-    .then(()=>setStatus("Salvo na sua conta"))
-    .catch(e=>{console.error(e); setStatus("Erro ao salvar na conta. Seus textos continuam neste dispositivo.")});
-}
-
-/* ============ PERGUNTAS VISIVEIS E PROGRESSO ============ */
-function visiveis(){ const a = cur(); return Q.filter(q=>q.b!=="est" || a.temEst); }
-function feita(q){return !!q && ((cur().r[q.id]||"").trim().length >= MIN)}
-function qid(id){return Q.find(q=>q.id===id)}
-function novaRodada(){
-  const a = cur(), p = visiveis();
-  let livres = p.filter(q=>!feita(q));
-  if(livres.length < 3) livres = p.slice();
-  for(let i=livres.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [livres[i],livres[j]] = [livres[j],livres[i]]; }
-  let sel = livres.slice(0, RODADA);
-  const p1 = livres.find(q=>q.id==="p1");
-  if(p1 && !sel.includes(p1)) sel[sel.length-1] = p1;
-  /* comeca pelas mais simples, sem mostrar o nivel */
-  sel.sort((x,y)=>(x.id==="p1"?-1:y.id==="p1"?1:x.n-y.n));
-  a.rodada = {ids:sel.map(q=>q.id), pos:0, fim:false, n:((a.rodada && a.rodada.n)||0)+1};
-}
-function rod(){ const a = cur(); if(!a.rodada || !Array.isArray(a.rodada.ids) || !a.rodada.ids.length) novaRodada(); return a.rodada; }
-function progresso(){
-  const r = rod();
-  if(r.fim){ $("barFill").style.width = "100%"; $("pct").textContent = "Rodada "+r.n+" · correção"; }
-  else{ $("barFill").style.width = Math.round(100*r.pos/r.ids.length)+"%"; $("pct").textContent = "Pergunta "+(r.pos+1)+" de "+r.ids.length; }
-}
 
 /* ============ ALERTAS AUTOMATICOS ============ */
 function checar(tipo, txt){
@@ -480,152 +481,416 @@ function checar(tipo, txt){
   return "";
 }
 
-/* ============ RENDER ============ */
-function renderSel(){
-  $("selArg").innerHTML = Object.values(S.arg).sort((a,b)=>b.updatedAt-a.updatedAt)
-    .map(a=>'<option value="'+a.id+'"'+(a.id===S.atual?' selected':'')+'>'+esc(a.titulo)+'</option>').join("");
-  $("ckEst").checked = !!cur().temEst;
+
+/* ============ CONFIGURACAO DA IA E DA VENDA ============ */
+const WORKER_URL = "https://preparado-pra-defesa.ernandes-sobreira.workers.dev/";
+const RODADA = 15, GRATIS_N = 2, DOC_MAX = 450000, PAG = 3000;
+const PRECO_E = "R$ 9,99", PRECO_C = "R$ 29,99", WHATS = "5565999323724";
+const COR = {perg:"#0d9488",local:"#059669",tempo:"#2563eb",leit:"#7c3aed",met:"#db2777",est:"#ea580c",fim:"#ca8a04"};
+const ETAPAS = [["plano","Plano"],["preparo","Preparar"],["responder","Responder"],["correcao","Correção"]];
+
+/* ============ ESTADO ============ */
+const KEY = "preparado_defesa_v1";
+let S = {arg:{}, atual:null, del:[]};
+let user = null, db = null, auth = null, tCloud = null, ocupado = false, aviso = {txt:"", err:false};
+
+function uid(){return "a"+Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function $(id){return document.getElementById(id)}
+function cur(){return S.arg[S.atual]}
+function loadLocal(){
+  try{const r = JSON.parse(localStorage.getItem(KEY)||"null"); if(r && r.arg) S = Object.assign({arg:{},atual:null,del:[]}, r);}catch(e){console.error(e)}
+  Object.values(S.arg).forEach(migra);
+  if(!S.atual || !S.arg[S.atual]){const ids = Object.keys(S.arg); if(ids.length) S.atual = ids[0]; else nova("Meu trabalho", true);}
 }
-function renderTreino(){
-  const a = cur(), r = rod();
-  $("treino").style.display = r.fim ? "none" : "";
-  $("correcao").style.display = r.fim ? "" : "none";
-  progresso();
-  if(r.fim){ renderCorrecao(); renderIA(); return; }
-  const q = qid(r.ids[r.pos]), b = BLOCOS.find(x=>x.id===q.b), v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "";
-  const ult = r.pos === r.ids.length-1;
-  $("treino").innerHTML = '<section class="card qcard"><div class="tema">'+esc(b.t)+'</div>'
-    +'<div class="qh"><b class="qq">'+esc(q.q)+'</b><button class="tipb" data-tip="'+q.id+'" title="Ver dica" aria-label="Ver dica">!</button></div>'
-    +'<div class="tip" id="tip_'+q.id+'"></div>'
-    +'<textarea data-q="'+q.id+'" placeholder="Responda como você falaria na banca">'+esc(v)+'</textarea>'
-    +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div>'
-    +'<div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'
-    +'<div class="row nav"><button id="btnAnt"'+(r.pos?'':' disabled')+'>Anterior</button><span style="flex:1"></span>'
-    +'<button class="pri" id="btnProx">'+(ult?'Terminei a rodada':'Próxima')+'</button></div></section>'
-    +'<p class="calma">Uma pergunta por vez. Se travar, toque no ! para ver uma dica. Pode deixar em branco e seguir.</p>';
+function migra(a){
+  if(!a.r) a.r = {};
+  if(!a.ficha) a.ficha = {};
+  if(!a.plano){ a.etapa = "plano"; delete a.rodada; }
+  if(!a.etapa) a.etapa = "plano";
 }
-function renderCorrecao(){
-  const a = cur(), r = rod();
-  $("lista").innerHTML = r.ids.map((id,i)=>{
-    const q = qid(id); if(!q) return "";
-    const v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "";
-    return '<div class="q"><div class="qh"><b>'+(i+1)+'. '+esc(q.q)+'</b><span class="lv lv'+q.n+'">'+NIV[q.n]+'</span>'
-      +'<button class="tipb" data-tip="'+q.id+'" title="Ver dica" aria-label="Ver dica">!</button></div>'
-      +'<div class="tip" id="tip_'+q.id+'"></div>'
-      +'<textarea data-q="'+q.id+'" placeholder="Sem resposta">'+esc(v)+'</textarea>'
-      +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div>'
-      +'<div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'+iaHtml(q.id)+'</div>';
-  }).join("");
+function saveLocal(){
+  try{localStorage.setItem(KEY, JSON.stringify(S)); return true}
+  catch(e){console.error(e); setStatus("Não foi possível salvar neste dispositivo"); return false}
 }
-function meta(v){const n = v.trim().length; return n===0 ? "Sem resposta" : (n<MIN ? "Resposta curta demais para contar no progresso" : "Resposta registrada · "+v.trim().split(/\s+/).length+" palavras")}
+function nova(titulo, silent){
+  const id = uid();
+  S.arg[id] = {id, titulo, etapa:"plano", fase:"qualificacao", temEst:false, ficha:{}, r:{}, updatedAt:Date.now()};
+  S.atual = id;
+  if(!silent){persist(); renderAll(); topo();}
+}
+function setStatus(t){$("status").textContent = t}
+function persist(){
+  const a = cur(); if(a) a.updatedAt = Date.now();
+  const ok = saveLocal();
+  if(!user){ if(ok) setStatus("Salvo só neste aparelho"); return; }
+  setStatus("Salvando...");
+  clearTimeout(tCloud);
+  const id = S.atual;
+  tCloud = setTimeout(()=>pushCloud(id), 1200);
+}
+/* o texto do trabalho nunca vai para a nuvem, fica so neste aparelho */
+function semTexto(a){ const c = Object.assign({}, a); if(c.doc) c.doc = {nome:c.doc.nome, chars:(c.doc.texto||"").length}; return c; }
+function pushCloud(id){
+  if(!user || !db || !S.arg[id]) return;
+  db.collection("pb_users").doc(user.uid).collection("arguicoes").doc(id).set(semTexto(S.arg[id]))
+    .then(()=>setStatus("Salvo na sua conta"))
+    .catch(e=>{console.error(e); setStatus("Erro ao salvar na conta. Seus textos continuam neste dispositivo.")});
+}
+function topo(){ window.scrollTo({top:0,behavior:"smooth"}); }
+function ir(etapa){ cur().etapa = etapa; aviso = {txt:"",err:false}; persist(); render(); topo(); }
+
+/* ============ PERGUNTAS ============ */
+function qid(id){ return Q.find(q=>q.id===id) || (cur().geradas||[]).find(q=>q.id===id); }
+function feita(q){ return !!q && ((cur().r[q.id]||"").trim().length >= MIN); }
+function banco(){
+  const a = cur();
+  return Q.filter(q=>(q.b!=="est" || a.temEst) && (!q.f || (q.f==="q" ? a.fase!=="defesa" : a.fase==="defesa")));
+}
+function embaralha(v){ for(let i=v.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [v[i],v[j]] = [v[j],v[i]]; } return v; }
+function rodadaBanco(){
+  const a = cur(), p = banco();
+  let livres = p.filter(q=>!feita(q)); if(livres.length < RODADA) livres = p.slice();
+  /* sorteia alternando os temas, para cobrir a banca inteira */
+  const grupos = {}; embaralha(livres).forEach(q=>{ (grupos[q.b] = grupos[q.b] || []).push(q); });
+  const ordem = embaralha(Object.keys(grupos)), sel = [];
+  while(sel.length < RODADA && ordem.some(b=>grupos[b].length)) ordem.forEach(b=>{ if(sel.length < RODADA && grupos[b].length) sel.push(grupos[b].shift()); });
+  const p1 = p.find(q=>q.id==="p1");
+  if(p1 && !feita(p1) && !sel.includes(p1)) sel[sel.length-1] = p1;
+  sel.sort((x,y)=>(x.id==="p1"?-1:y.id==="p1"?1:x.n-y.n));
+  a.rodada = {ids:sel.map(q=>q.id), pos:0, n:((a.rodada && a.rodada.n)||0)+1};
+  limpaIA();
+}
+function limpaIA(){ const a = cur(); a.ia = {}; delete a.iaGeral; delete a.riscos; delete a.pior; }
+function rodQs(){ const r = cur().rodada; return r ? r.ids.map(qid).filter(Boolean) : []; }
+function fichaTexto(){
+  const f = cur().ficha || {}, l = [];
+  if(cur().titulo) l.push("Título: "+cur().titulo);
+  if(f.pergunta) l.push("Pergunta ou objetivo: "+f.pergunta);
+  if(f.local) l.push("Local e período: "+f.local);
+  if(f.metodo) l.push("Método: "+f.metodo);
+  if(f.resultado) l.push("Principal resultado: "+f.resultado);
+  return l.length > 1 ? l.join("\n") : "";
+}
+
+/* ============ PASSOS E PROGRESSO ============ */
+function renderSteps(){
+  const a = cur(), k = ETAPAS.findIndex(e=>e[0]===a.etapa);
+  $("steps").innerHTML = ETAPAS.map((e,i)=>'<div class="step s'+(i+1)+(i===k?' on':'')+(i<k?' ok':'')+'"><i>'+(i<k?'✓':(i+1))+'</i><span>'+e[1]+'</span></div>').join("");
+  const r = a.rodada;
+  if(a.etapa==="responder" && r){
+    $("barRow").style.display = "";
+    $("barFill").style.width = Math.round(100*r.pos/r.ids.length)+"%";
+    $("pct").textContent = "Pergunta "+(r.pos+1)+" de "+r.ids.length;
+  }else $("barRow").style.display = "none";
+}
+
+/* ============ TELAS ============ */
+function render(){
+  renderSteps();
+  const a = cur(), app = $("app");
+  if(a.etapa==="plano") app.innerHTML = telaPlano();
+  else if(a.etapa==="preparo") app.innerHTML = a.plano==="completo" ? telaPreparoC() : telaPreparoE();
+  else if(a.etapa==="responder") app.innerHTML = telaResponder();
+  else app.innerHTML = telaCorrecao();
+}
+function msgHtml(){ return aviso.txt ? '<div class="msg'+(aviso.err?' err':'')+'">'+esc(aviso.txt)+'</div>' : ""; }
+function esperaHtml(t){ return '<div class="wait"><div class="spin"></div><div>'+esc(t)+'</div></div>'; }
+
+function telaPlano(){
+  return '<h1 class="hero">Treine para a sua banca, uma pergunta por vez</h1>'
+  +'<p class="lead">Você responde como responderia na banca. No fim, a IA corrige cada resposta e mostra o que ainda falta dizer.</p>'
+  +'<div class="planos">'
+  +'<div class="plano pe"><h3>Essencial</h3><div class="preco">'+PRECO_E+'</div><ul>'
+  +'<li>15 perguntas clássicas que as bancas costumam fazer</li><li>Você escreve as respostas, sem enviar arquivo</li>'
+  +'<li>Correção da IA em cada resposta</li><li><b>Grátis:</b> correção de 2 respostas para experimentar</li></ul>'
+  +'<button class="big b1" data-plano="essencial">Começar o Essencial</button></div>'
+  +'<div class="plano pc"><span class="selo">Mais completo</span><h3>Completo</h3><div class="preco">'+PRECO_C+'</div><ul>'
+  +'<li>Envie o trabalho inteiro, até 150 páginas</li><li>A IA lê e monta 15 perguntas sobre o <b>seu</b> trabalho</li>'
+  +'<li>Correção de cada resposta com base no texto</li><li>Os 3 maiores riscos e a pergunta que mais pode te derrubar</li></ul>'
+  +'<button class="big b3" data-plano="completo">Começar o Completo</button></div>'
+  +'</div><p class="fine">No Essencial você só paga se quiser a correção de todas as respostas.</p>';
+}
+function faseHtml(){
+  const a = cur();
+  return '<label class="f">Para qual banca você está treinando?</label><div class="seg">'
+    +'<button data-fase="qualificacao" class="'+(a.fase!=="defesa"?'on':'')+'">Qualificação (projeto)</button>'
+    +'<button data-fase="defesa" class="'+(a.fase==="defesa"?'on':'')+'">Defesa final</button></div>';
+}
+function telaPreparoE(){
+  const a = cur(), f = a.ficha || {};
+  const campo = (k, rot, ph)=>'<label class="f">'+rot+'</label><textarea class="fi" data-ficha="'+k+'" rows="2" style="min-height:64px" placeholder="'+esc(ph)+'">'+esc(f[k]||"")+'</textarea>';
+  return '<div class="card tops2"><h2>Conte um pouco do seu trabalho</h2>'
+  +'<p class="sub">Uma ou duas linhas em cada campo. É opcional, mas com a ficha a correção da IA fica muito melhor.</p>'
+  + faseHtml()
+  +'<label class="f">Título do trabalho</label><input class="t" id="inTitulo" value="'+esc(a.titulo==="Meu trabalho"?"":a.titulo)+'" placeholder="Título ou tema">'
+  + campo("pergunta","Pergunta ou objetivo","Ex.: Em que medida...")
+  + campo("local","Local e período","Ex.: Rio Paraguai, 2015 a 2024")
+  + campo("metodo","Método","Ex.: coletas mensais, entrevistas, questionário...")
+  + campo("resultado",'Principal resultado <small>(se já tiver)</small>',"Ex.: encontrei que...")
+  +'<label class="ck"><input type="checkbox" id="ckEst"'+(a.temEst?' checked':'')+'> Meu trabalho usa estatística</label>'
+  +'<div class="row" style="margin-top:20px"><button class="link" data-ir="plano">Trocar de plano</button><span style="flex:1"></span>'
+  +'<button class="big b3" id="btnIniciar">Começar as 15 perguntas</button></div></div>';
+}
+function docHtml(){
+  const a = cur();
+  if(a.doc && a.doc.texto) return '<div class="okdoc">✓ <b>'+esc(a.doc.nome)+'</b> · cerca de '+Math.max(1,Math.round(a.doc.texto.length/PAG))+' páginas'+(a.doc.semRef?', sem as referências':'')
+    +(a.doc.cortado?'. Passou de 150 páginas, e só as primeiras 150 serão lidas.':'')+' <button class="mini" id="btnDocDel" style="margin-left:6px">Trocar</button></div>';
+  return (a.doc ? '<div class="msg">O trabalho '+esc(a.doc.nome)+' foi enviado em outro aparelho. Envie de novo aqui.</div>' : '')
+    +'<div class="drop" id="drop"><b>📄 Toque para enviar o seu trabalho</b><span>Word ou PDF, até 150 páginas</span></div>'
+    +'<div style="text-align:center;margin-top:6px"><button class="link" id="btnCola">ou cole o texto</button></div>'
+    +'<div id="colaBox" style="display:none"><textarea id="colaTxt" placeholder="Cole aqui o texto do trabalho"></textarea><button class="mini" id="btnColaOk" style="margin-top:6px">Usar este texto</button></div>';
+}
+function compraHtml(plano){
+  const preco = plano==="completo" ? PRECO_C : PRECO_E, nome = plano==="completo" ? "Completo" : "Essencial";
+  const m = encodeURIComponent("Olá! Quero comprar o plano "+nome+" do PreBanca por "+preco+".");
+  return '<div class="compra"><b>Como comprar</b><br>1. Chame no WhatsApp: <a href="https://wa.me/'+WHATS+'?text='+m+'" target="_blank" rel="noopener">Quero o '+nome+'</a><br>'
+    +'2. Você recebe a chave Pix, paga '+preco+' e envia o comprovante.<br>3. Você recebe o código pelo WhatsApp e digita aqui.</div>';
+}
+function telaPreparoC(){
+  const a = cur(), pronto = a.doc && a.doc.texto;
+  return '<div class="card tops2"><h2>Envie o seu trabalho</h2>'
+  +'<p class="sub">A IA lê o texto inteiro e monta 15 perguntas que uma banca exigente faria sobre ele. O texto fica só neste aparelho e no serviço de IA durante a leitura.</p>'
+  + faseHtml()
+  +'<label class="f">Título do trabalho</label><input class="t" id="inTitulo" value="'+esc(a.titulo==="Meu trabalho"?"":a.titulo)+'" placeholder="Título ou tema">'
+  +'<label class="f">Arquivo</label>'+docHtml()
+  +'<label class="f">Código do plano Completo</label><div class="code"><input class="t" id="inCodigo" placeholder="PC-XXXX-XXXX-XXXX" value="'+esc(a.codigo||"")+'" autocomplete="off">'
+  +'<button class="mini" id="btnCompra">Comprar código</button></div><div id="compraBox"></div>'
+  + (ocupado ? esperaHtml("A IA está lendo o seu trabalho e montando as perguntas. Isso leva de um a três minutos. Não feche a página.") : msgHtml())
+  +'<div class="row" style="margin-top:20px"><button class="link" data-ir="plano">Trocar de plano</button><span style="flex:1"></span>'
+  +'<button class="big b3" id="btnGerar"'+(ocupado||!pronto?' disabled':'')+'>Gerar minhas 15 perguntas</button></div></div>';
+}
 function tipHtml(q){
-  let h = '<span class="brain">🧠</span><b>Dica</b><div style="margin-top:6px">'+esc(q.d)+'</div>';
+  let h = '<span class="brain">🧠</span><b>Dica</b><div style="margin-top:6px">'+esc(q.d||"Pense no que a banca quer ouvir e responda com um exemplo do seu trabalho.")+'</div>';
   if(q.ex && q.ex.length) h += '<span class="lab">Exemplos</span><ul>'+q.ex.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul>';
   if(q.ev && q.ev.length) h += '<span class="lab no">Evite</span><ul>'+q.ev.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul>';
   return h;
 }
+function meta(v){const n = v.trim().length; return n===0 ? "Sem resposta" : (n<MIN ? "Escreva um pouco mais para contar" : "Resposta salva · "+v.trim().split(/\s+/).length+" palavras")}
+function temaNome(b){ const x = BLOCOS.find(k=>k.id===b); return x ? x.t : "Banca"; }
+function telaResponder(){
+  const a = cur(), r = a.rodada, q = qid(r.ids[r.pos]);
+  if(!q){ return '<div class="card">Não encontrei esta pergunta. <button data-ir="preparo">Voltar</button></div>'; }
+  const v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "", ult = r.pos === r.ids.length-1;
+  return '<div class="qcard"><span class="tema" style="background:'+(COR[q.b]||"#7c3aed")+'">'+esc(temaNome(q.b))+'</span>'
+    +'<div class="qh"><p class="qq">'+esc(q.q)+'</p><button class="tipb" data-tip="'+q.id+'" title="Ver dica" aria-label="Ver dica">!</button></div>'
+    +'<div class="tip" id="tip_'+q.id+'"></div>'
+    +'<textarea data-q="'+q.id+'" placeholder="Responda como você falaria na banca">'+esc(v)+'</textarea>'
+    +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div>'
+    +'<div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'
+    +'<div class="row nav"><button id="btnAnt"'+(r.pos?'':' disabled')+'>← Anterior</button><span style="flex:1"></span>'
+    +'<button class="big '+(ult?'b4':'b3')+'" id="btnProx">'+(ult?'Terminei, ver correção':'Próxima →')+'</button></div></div>'
+    +'<p class="calma">Uma pergunta por vez. Se travar, toque no ! para ver uma dica. Pode deixar em branco e seguir.</p>';
+}
+function fbHtml(id){
+  const a = cur(), x = (a.ia||{})[id]; if(!x) return "";
+  let h = "";
+  if(x.forte) h += '<div class="fb fbok"><b>O que já está bom</b>'+esc(x.forte)+'</div>';
+  if(x.falta) h += '<div class="fb fbfa"><b>O que a banca vai cobrar</b>'+esc(x.falta)+'</div>';
+  if(x.diga) h += '<div class="fb fbdi"><b>Você poderia dizer também</b>'+esc(x.diga)+'</div>';
+  if(x.comece) h += '<div class="fb fbco"><b>Para começar a resposta</b>'+esc(x.comece)+'</div>';
+  if(x.base !== (a.r[id]||"").trim()) h += '<div class="old">Você mudou a resposta depois desta correção.</div>';
+  return h;
+}
+function telaCorrecao(){
+  const a = cur(), qs = rodQs(), n = qs.filter(feita).length, tem = a.ia && Object.keys(a.ia).length;
+  let h = '<div class="card tops4"><h2>Correção</h2>';
+  if(ocupado) h += esperaHtml("A IA está lendo as suas respostas"+(a.plano==="completo"?" e o seu trabalho":"")+". Isso leva de um a três minutos. Não feche a página.");
+  else if(a.plano==="completo"){
+    h += '<p class="sub">Você respondeu '+n+' de '+qs.length+' perguntas. A IA corrige todas com base no seu trabalho.</p>'
+      + (a.doc && a.doc.texto ? '' : '<div class="msg err">Envie o trabalho de novo neste aparelho, no passo Preparar, para a correção.</div>')
+      +(tem ? '' : '<label class="f">Código do plano Completo</label><div class="code"><input class="t" id="inCodigo" placeholder="PC-XXXX-XXXX-XXXX" value="'+esc(a.codigo||"")+'" autocomplete="off">'
+      +'<button class="big b4" id="btnCorrigir">Corrigir todas</button></div>') + msgHtml();
+  }else{
+    h += '<p class="sub">Você respondeu '+n+' de '+qs.length+' perguntas.</p><div class="opts">'
+      +'<div class="opt"><h3>Grátis</h3><p class="sub">A IA corrige as 2 primeiras respostas.</p><button class="big b1" id="btnGratis">Corrigir 2 grátis</button></div>'
+      +'<div class="opt"><h3>Todas · '+PRECO_E+'</h3><p class="sub">A IA corrige todas as respostas desta rodada.</p>'
+      +'<div class="code"><input class="t" id="inCodigo" placeholder="PB-XXXX-XXXX-XXXX" autocomplete="off"><button class="big b4" id="btnCorrigir">Corrigir</button></div>'
+      +'<button class="link" id="btnCompra">Comprar código</button><div id="compraBox"></div></div></div>' + msgHtml();
+  }
+  h += '</div>';
+  if(a.iaGeral || (a.riscos && a.riscos.length)){
+    h += '<div class="card tops3 resumo"><h2>🧠 O que a IA viu no conjunto</h2>'+(a.iaGeral?'<p>'+esc(a.iaGeral)+'</p>':'');
+    if(a.riscos && a.riscos.length) h += '<h3>Os 3 maiores riscos</h3><ol class="riscos">'+a.riscos.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ol>';
+    if(a.pior && a.pior.porque){ const pq = qid(a.pior.id); h += '<div class="pior"><b>A pergunta que mais pode te derrubar</b><br>'+(pq?'<i>'+esc(pq.q)+'</i><br>':'')+esc(a.pior.porque)+'</div>'; }
+    h += '</div>';
+  }
+  h += '<div class="card"><h2 style="font-size:18px">Suas respostas</h2><p class="sub">Agora você vê o nível de cada pergunta. Pode ajustar as respostas aqui.</p>';
+  qs.forEach((q,i)=>{
+    const v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "";
+    h += '<div class="qc"><span class="lv lv'+q.n+'">'+NIV[q.n]+'</span><div class="qh" style="margin-top:8px"><b>'+(i+1)+'. '+esc(q.q)+'</b>'
+      +'<button class="tipb" style="width:32px;height:32px;font-size:16px" data-tip="'+q.id+'" aria-label="Ver dica">!</button></div>'
+      +'<div class="tip" id="tip_'+q.id+'"></div><textarea data-q="'+q.id+'" placeholder="Sem resposta">'+esc(v)+'</textarea>'
+      +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div><div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'+fbHtml(q.id)+'</div>';
+  });
+  h += '<div class="row noprint" style="margin-top:14px"><button data-voltar="1">← Voltar às perguntas</button>'
+    +(a.plano==="essencial"?'<button class="b3 big" id="btnNovaRod" style="padding:10px 16px;font-size:15px">Nova rodada</button>':'')+'</div>'
+    +'<div class="row noprint" style="margin-top:10px"><button class="mini" id="btnDoc">Baixar em Word</button><button class="mini" id="btnTxt">Baixar em texto</button><button class="mini" id="btnPrint">Imprimir ou PDF</button></div></div>';
+  return h;
+}
+function renderSel(){
+  $("selArg").innerHTML = Object.values(S.arg).sort((a,b)=>b.updatedAt-a.updatedAt)
+    .map(a=>'<option value="'+a.id+'"'+(a.id===S.atual?' selected':'')+'>'+esc(a.titulo)+'</option>').join("");
+}
 function renderNotice(){
   const n = $("notice");
   if(user){ n.style.display="none"; $("btnLogin").textContent = "Sair ("+(user.displayName||user.email||"conta").split(" ")[0]+")"; }
-  else{
-    n.style.display="block"; $("btnLogin").textContent = "Entrar com Google";
-    n.textContent = firebaseConfig.apiKey
-      ? "Você está sem login. As respostas ficam só neste dispositivo. Entre com Google para continuar em outro aparelho."
-      : "O login com Google ainda não foi configurado neste arquivo. Por enquanto as respostas ficam só neste dispositivo.";
-  }
+  else{ n.style.display="block"; $("btnLogin").textContent = "Entrar com Google";
+    n.textContent = "Você está sem login. As respostas ficam só neste aparelho. Entre com Google para continuar em outro aparelho."; }
 }
-function renderAll(){renderSel(); renderTreino(); renderNotice(); renderIA();}
+function renderAll(){ renderSel(); render(); renderNotice(); }
 
-/* ============ EVENTOS ============ */
-document.addEventListener("input", e=>{
-  const id = e.target.dataset && e.target.dataset.q; if(!id) return;
-  const q = Q.find(x=>x.id===id), v = e.target.value;
-  cur().r[id] = v;
-  if(q.chk){const al = checar(q.chk, v), el = $("al_"+id); el.textContent = al; el.classList.toggle("on", !!al);}
-  $("mt_"+id).textContent = meta(v);
-  persist();
-});
-document.addEventListener("click", e=>{
-  const t = e.target;
-  if(t.dataset.tip){
-    const el = $("tip_"+t.dataset.tip), on = !el.classList.contains("on");
-    el.innerHTML = on ? tipHtml(Q.find(x=>x.id===t.dataset.tip)) : "";
-    el.classList.toggle("on", on);
-  }else if(t.id==="btnAnt"){ const r = rod(); if(r.pos>0){ r.pos--; persist(); renderTreino(); } }
-  else if(t.id==="btnProx"){
-    const r = rod();
-    if(r.pos < r.ids.length-1) r.pos++; else r.fim = true;
-    persist(); renderTreino(); window.scrollTo({top:0,behavior:"smooth"});
-  }
-});
-$("selArg").onchange = e=>{S.atual = e.target.value; saveLocal(); renderAll();};
-$("ckEst").onchange = e=>{cur().temEst = e.target.checked; persist();};
-$("btnVolta").onclick = ()=>{ const r = rod(); r.fim = false; r.pos = r.ids.length-1; persist(); renderTreino(); };
-$("btnNovaRod").onclick = ()=>{ if(!confirm("Começar uma nova rodada de perguntas? As respostas desta rodada continuam salvas.")) return; novaRodada(); persist(); renderTreino(); window.scrollTo({top:0,behavior:"smooth"}); };
-$("btnNova").onclick = ()=>{const t = prompt("Nome da nova arguição (por exemplo, o título curto do projeto):"); if(t && t.trim()) nova(t.trim());};
-$("btnRen").onclick = ()=>{const t = prompt("Novo nome:", cur().titulo); if(t && t.trim()){cur().titulo = t.trim(); persist(); renderSel();}};
-$("btnDel").onclick = ()=>{
-  if(!confirm('Excluir a arguição "'+cur().titulo+'" e todas as respostas dela?')) return;
-  const id = S.atual; delete S.arg[id]; S.del.push(id);
-  const ids = Object.keys(S.arg); if(ids.length) S.atual = ids[0]; else nova("Meu projeto", true);
-  saveLocal(); flushDel(); renderAll();
-};
-$("btnPrint").onclick = ()=>window.print();
-$("btnTxt").onclick = ()=>baixar(montaTxt(), "text/plain;charset=utf-8", ".txt");
-$("btnDoc").onclick = ()=>baixar(montaDoc(), "application/msword", ".doc");
-
-/* ============ EXPORTAR ============ */
-function nomeArq(){return (cur().titulo||"arguicao").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-zA-Z0-9]+/g,"_").slice(0,50)}
-function baixar(conteudo, tipo, ext){
-  const b = new Blob(["﻿"+conteudo], {type:tipo}), u = URL.createObjectURL(b), a = document.createElement("a");
-  a.href = u; a.download = nomeArq()+ext; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u), 2000);
-}
-function porBloco(fn){
-  const a = cur(), qs = visiveis(); let n = 0;
-  BLOCOS.forEach(b=>{ if(b.opt && !a.temEst) return; fn(b, qs.filter(q=>q.b===b.id).map(q=>({n:++n, q, r:(a.r[q.id]||"").trim()}))); });
-}
-function montaTxt(){
-  let s = "PREBANCA\n"+cur().titulo+"\n";
-  porBloco((b, itens)=>{ s += "\n\n== "+b.t.toUpperCase()+" ==\n"; itens.forEach(i=>{ s += "\n"+i.n+". "+i.q.q+"\n"+(i.r||"(sem resposta)")+"\n"; const x = (cur().ia||{})[i.q.id]; if(x && x.diga) s += "Sugestão da IA: "+x.diga+"\n"; }); });
-  return s;
-}
-function montaDoc(){
-  let s = '<html><head><meta charset="utf-8"><style>body{font-family:Calibri,Arial;font-size:12pt}h1{font-size:18pt}h2{font-size:14pt;color:#0f766e}p.q{font-weight:bold;margin-bottom:2pt}p.v{color:#888}</style></head><body><h1>'+esc(cur().titulo)+'</h1><p>Preparação para a banca · PreBanca</p>';
-  porBloco((b, itens)=>{ s += "<h2>"+esc(b.t)+"</h2>"; itens.forEach(i=>{ s += '<p class="q">'+i.n+". "+esc(i.q.q)+"</p>"+(i.r ? "<p>"+esc(i.r).replace(/\n/g,"<br>")+"</p>" : '<p class="v">(sem resposta)</p>'); const x = (cur().ia||{})[i.q.id]; if(x && x.diga) s += '<p style="color:#6d28d9"><i>Sugestão da IA: '+esc(x.diga)+"</i></p>"; }); });
-  return s+"</body></html>";
-}
-
-/* ============ DOCUMENTO E IA ============ */
-let iaBusy = false;
-function iaHtml(id){
-  const a = cur(), x = (a.ia||{})[id]; if(!x) return "";
-  const mudou = x.base !== (a.r[id]||"").trim();
-  let h = '<div class="ia"><b class="h">🧠 Revisão da IA</b>';
-  if(x.forte) h += "<p><b>O que já está bom:</b> "+esc(x.forte)+"</p>";
-  if(x.falta) h += "<p><b>O que a banca pode cobrar:</b> "+esc(x.falta)+"</p>";
-  if(x.diga) h += "<p><b>Você poderia dizer também:</b> "+esc(x.diga)+"</p>";
-  if(mudou) h += '<p class="old">Você alterou a resposta depois desta revisão. Peça uma nova revisão para atualizar.</p>';
-  return h+"</div>";
-}
-function respondidas(){ return rod().ids.map(qid).filter(q=>q && feita(q)); }
-function renderIA(msg){
-  const a = cur(), n = respondidas().length;
-  $("docInfo").textContent = a.doc ? (a.doc.texto ? "Texto: "+a.doc.nome+" · cerca de "+Math.max(1,Math.round(a.doc.texto.length/PAG))+" páginas"+(a.doc.semRef?", sem as referências":"")+(a.doc.cortado?". O trabalho passou de 150 páginas, e só as primeiras 150 serão lidas.":"") : "O trabalho "+a.doc.nome+" foi enviado em outro aparelho. Envie de novo neste aparelho para usar na correção.") : "Nenhum texto enviado nesta arguição.";
-  $("btnDocDel").style.display = a.doc ? "" : "none";
-  $("precoTxt").textContent = PRECO;
-  $("btnIA").disabled = $("btnGratis").disabled = iaBusy;
-  $("btnGratis").style.opacity = (n>=GRATIS_N && a.doc && !iaBusy) ? 1 : .5;
-  $("btnIA").style.opacity = (n>=IA_MIN && a.doc && !iaBusy) ? 1 : .5;
-  $("iaInfo").textContent = msg || (!a.doc ? "Envie o projeto ou cole o resumo para começar." : n+" respostas nesta rodada. A grátis revisa "+GRATIS_N+", a completa revisa todas.");
-  $("iaGeral").innerHTML = a.iaGeral ? '<div class="ia"><b class="h">🧠 Visão geral da IA</b><p>'+esc(a.iaGeral)+"</p></div>" : "";
-}
+/* ============ DOCUMENTO ============ */
 function prepDoc(nome, t){
-  /* tira as referencias do fim, que nao ajudam na revisao e custam leitura */
+  /* tira as referencias do fim, que nao ajudam e encarecem a leitura */
   const m = [...t.matchAll(/\n\s*(REFER[ÊE]NCIAS[^\n.]{0,25}|BIBLIOGRAFIA)\s*\n/g)].pop();
   let semRef = false;
   if(m && m.index > t.length*0.6){ t = t.slice(0, m.index); semRef = true; }
   return {nome, texto:t.slice(0,DOC_MAX), cortado:t.length>DOC_MAX, semRef};
 }
+$("fileDoc").onchange = async e=>{
+  const f = e.target.files[0]; e.target.value = ""; if(!f) return;
+  aviso = {txt:"Lendo o arquivo...", err:false}; render();
+  try{
+    const t = (await lerArquivo(f)).replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim();
+    if(t.length < 2000){ aviso = {txt:"Não encontrei texto suficiente no arquivo. PDF escaneado como imagem não pode ser lido. Envie o Word ou um PDF com texto.", err:true}; render(); return; }
+    cur().doc = prepDoc(f.name, t); aviso = {txt:"",err:false}; persist(); render();
+  }catch(err){ console.error(err); aviso = {txt:"Não foi possível ler o arquivo. "+(err.message||""), err:true}; render(); }
+};
+
+/* ============ IA ============ */
+async function chamaIA(corpo){
+  const resp = await fetch(WORKER_URL, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(corpo)});
+  const j = await resp.json().catch(()=>null);
+  if(!resp.ok || !j) throw new Error((j && j.erro) || "Resposta inválida do servidor.");
+  return j;
+}
+const CODRE = /^P[BC]-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/;
+async function gerar(){
+  const a = cur(), c = ($("inCodigo").value||"").trim().toUpperCase();
+  if(!(a.doc && a.doc.texto)){ aviso = {txt:"Envie o trabalho primeiro.", err:true}; render(); return; }
+  if(!/^PC-/.test(c) || !CODRE.test(c)){ aviso = {txt:"Digite o código do plano Completo, no formato PC-XXXX-XXXX-XXXX.", err:true}; render(); return; }
+  a.codigo = c; ocupado = true; persist(); render();
+  const argId = a.id;
+  try{
+    const j = await chamaIA({acao:"gerar", codigo:c, fase:a.fase, titulo:a.titulo, doc:a.doc.texto});
+    const alvo = S.arg[argId]; if(!alvo) return;
+    const lote = Date.now().toString(36);
+    alvo.geradas = j.perguntas.map((p,i)=>({id:"g"+lote+"_"+i, b:p.b, n:p.n, q:p.q, d:p.d}));
+    alvo.geradas.sort((x,y)=>x.n-y.n);
+    alvo.rodada = {ids:alvo.geradas.map(q=>q.id), pos:0, n:((alvo.rodada&&alvo.rodada.n)||0)+1};
+    S.atual = argId; limpaIA(); ocupado = false; ir("responder");
+  }catch(err){ console.error(err); ocupado = false; aviso = {txt:"Não foi possível gerar as perguntas. "+(err.message||""), err:true}; render(); }
+}
+async function corrigir(gratis){
+  const a = cur(), qs = rodQs();
+  let c = "";
+  if(!gratis){
+    c = ($("inCodigo").value||"").trim().toUpperCase();
+    const pref = a.plano==="completo" ? "PC-" : "PB-";
+    if(!CODRE.test(c) || !c.startsWith(pref)){ aviso = {txt:"Digite o código no formato "+pref+"XXXX-XXXX-XXXX.", err:true}; render(); return; }
+    if(qs.filter(feita).length < 3){ aviso = {txt:"Responda pelo menos 3 perguntas para a correção.", err:true}; render(); return; }
+    if(a.plano==="completo" && !(a.doc && a.doc.texto)){ aviso = {txt:"Envie o trabalho de novo neste aparelho, no passo Preparar.", err:true}; render(); return; }
+    if(a.plano==="completo") a.codigo = c;
+  }
+  const envio = gratis ? qs.filter(feita).slice(0,GRATIS_N) : qs;
+  if(gratis && envio.length < GRATIS_N){ aviso = {txt:"Escreva pelo menos 2 respostas para a correção grátis.", err:true}; render(); return; }
+  ocupado = true; aviso = {txt:"",err:false}; render();
+  const argId = a.id;
+  try{
+    const corpo = {acao:"corrigir", fase:a.fase, titulo:a.titulo,
+      doc: a.plano==="completo" ? a.doc.texto : fichaTexto(),
+      respostas: envio.map(q=>({id:q.id, q:q.q, r:(a.r[q.id]||"").trim().slice(0,3000)}))};
+    if(c) corpo.codigo = c;
+    const j = await chamaIA(corpo);
+    const alvo = S.arg[argId]; if(!alvo) return;
+    if(!Array.isArray(j.itens)) throw new Error("Resposta inválida do servidor.");
+    alvo.ia = alvo.ia || {};
+    j.itens.forEach(x=>{ if(x && envio.some(q=>q.id===x.id)) alvo.ia[x.id] = {forte:String(x.forte||""), falta:String(x.falta||""), diga:String(x.diga||""), comece:String(x.comece||""), base:(alvo.r[x.id]||"").trim()}; });
+    alvo.iaGeral = String(j.geral||""); alvo.riscos = (j.riscos||[]).map(String);
+    alvo.pior = j.pior && j.pior.porque ? {id:String(j.pior.id||""), porque:String(j.pior.porque)} : null;
+    ocupado = false;
+    aviso = {txt: gratis ? "Correção grátis pronta nas 2 primeiras respostas. Para corrigir todas, use o código." : "Correção pronta. Veja o resumo e o retorno em cada resposta.", err:false};
+    persist(); render();
+  }catch(err){ console.error(err); ocupado = false; aviso = {txt:"A correção falhou. "+(err.message||"Verifique a internet e tente de novo."), err:true}; render(); }
+}
+
+/* ============ EXPORTAR ============ */
+function nomeArq(){return (cur().titulo||"prebanca").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-zA-Z0-9]+/g,"_").slice(0,50)}
+function baixar(conteudo, tipo, ext){
+  const b = new Blob(["﻿"+conteudo], {type:tipo}), u = URL.createObjectURL(b), el = document.createElement("a");
+  el.href = u; el.download = nomeArq()+ext; document.body.appendChild(el); el.click(); el.remove(); setTimeout(()=>URL.revokeObjectURL(u), 2000);
+}
+function montaTxt(){
+  const a = cur(); let s = "PREBANCA\n"+a.titulo+"\n";
+  if(a.iaGeral) s += "\nVISÃO GERAL DA IA\n"+a.iaGeral+"\n";
+  if(a.riscos && a.riscos.length) s += "\nOS 3 MAIORES RISCOS\n"+a.riscos.map((x,i)=>(i+1)+". "+x).join("\n")+"\n";
+  rodQs().forEach((q,i)=>{ const x = (a.ia||{})[q.id];
+    s += "\n"+(i+1)+". "+q.q+" ("+NIV[q.n]+")\n"+((a.r[q.id]||"").trim()||"(sem resposta)")+"\n";
+    if(x){ if(x.forte) s += "O que já está bom: "+x.forte+"\n"; if(x.falta) s += "O que a banca vai cobrar: "+x.falta+"\n"; if(x.diga) s += "Você poderia dizer também: "+x.diga+"\n"; if(x.comece) s += "Para começar: "+x.comece+"\n"; } });
+  return s;
+}
+function montaDoc(){
+  const a = cur();
+  let s = '<html><head><meta charset="utf-8"><style>body{font-family:Calibri,Arial;font-size:12pt}h1{font-size:18pt;color:#7c3aed}h2{font-size:13pt}p.q{font-weight:bold;margin:14pt 0 2pt}.ok{color:#047857}.fa{color:#c2410c}.di{color:#1d4ed8}.co{color:#6d28d9}</style></head><body><h1>'+esc(a.titulo)+'</h1><p>Treino para a banca · PreBanca</p>';
+  if(a.iaGeral) s += '<h2>Visão geral da IA</h2><p>'+esc(a.iaGeral)+'</p>';
+  if(a.riscos && a.riscos.length) s += '<h2>Os 3 maiores riscos</h2><ol>'+a.riscos.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ol>';
+  rodQs().forEach((q,i)=>{ const x = (a.ia||{})[q.id], r = (a.r[q.id]||"").trim();
+    s += '<p class="q">'+(i+1)+'. '+esc(q.q)+' ('+NIV[q.n]+')</p><p>'+(r?esc(r).replace(/\n/g,"<br>"):'<i>(sem resposta)</i>')+'</p>';
+    if(x){ if(x.forte) s += '<p class="ok"><b>O que já está bom:</b> '+esc(x.forte)+'</p>'; if(x.falta) s += '<p class="fa"><b>O que a banca vai cobrar:</b> '+esc(x.falta)+'</p>';
+      if(x.diga) s += '<p class="di"><b>Você poderia dizer também:</b> '+esc(x.diga)+'</p>'; if(x.comece) s += '<p class="co"><b>Para começar:</b> '+esc(x.comece)+'</p>'; } });
+  return s+"</body></html>";
+}
+
+/* ============ EVENTOS ============ */
+document.addEventListener("input", e=>{
+  const t = e.target, a = cur();
+  if(t.dataset.q){
+    const q = qid(t.dataset.q), v = t.value; a.r[q.id] = v;
+    if(q.chk){ const al = checar(q.chk, v), el = $("al_"+q.id); el.textContent = al; el.classList.toggle("on", !!al); }
+    $("mt_"+q.id).textContent = meta(v); persist();
+  }else if(t.dataset.ficha){ a.ficha[t.dataset.ficha] = t.value; persist(); }
+  else if(t.id==="inTitulo"){ a.titulo = t.value.trim() || "Meu trabalho"; persist(); renderSel(); }
+});
+document.addEventListener("change", e=>{ if(e.target.id==="ckEst"){ cur().temEst = e.target.checked; persist(); } });
+document.addEventListener("click", e=>{
+  const t = e.target.closest("button, .drop"); if(!t) return;
+  const a = cur(), d = t.dataset;
+  if(d.tip){ const el = $("tip_"+d.tip), on = !el.classList.contains("on"); el.innerHTML = on ? tipHtml(qid(d.tip)) : ""; el.classList.toggle("on", on); }
+  else if(d.plano){ a.plano = d.plano; ir("preparo"); }
+  else if(d.ir){ ir(d.ir); }
+  else if(d.fase){ a.fase = d.fase; persist(); render(); }
+  else if(d.voltar){ a.rodada.pos = a.rodada.ids.length-1; ir("responder"); }
+  else if(t.id==="drop"){ $("fileDoc").click(); }
+  else if(t.id==="btnCola"){ const b = $("colaBox"); b.style.display = b.style.display==="none" ? "" : "none"; }
+  else if(t.id==="btnColaOk"){
+    const v = $("colaTxt").value.replace(/[ \t]+/g," ").trim();
+    if(v.length < 2000){ aviso = {txt:"Cole o texto completo do trabalho, não só o resumo.", err:true}; render(); return; }
+    a.doc = prepDoc("Texto colado", v); aviso = {txt:"",err:false}; persist(); render();
+  }
+  else if(t.id==="btnDocDel"){ delete a.doc; persist(); render(); }
+  else if(t.id==="btnCompra"){ const b = $("compraBox"); b.innerHTML = b.innerHTML ? "" : compraHtml(a.plano); }
+  else if(t.id==="btnIniciar"){ rodadaBanco(); ir("responder"); }
+  else if(t.id==="btnGerar"){ gerar(); }
+  else if(t.id==="btnAnt"){ if(a.rodada.pos>0){ a.rodada.pos--; persist(); render(); } }
+  else if(t.id==="btnProx"){ if(a.rodada.pos < a.rodada.ids.length-1){ a.rodada.pos++; persist(); render(); topo(); } else ir("correcao"); }
+  else if(t.id==="btnGratis"){ corrigir(true); }
+  else if(t.id==="btnCorrigir"){ corrigir(false); }
+  else if(t.id==="btnNovaRod"){ if(confirm("Começar uma nova rodada de 15 perguntas? As respostas desta rodada continuam salvas.")){ rodadaBanco(); ir("responder"); } }
+  else if(t.id==="btnPrint"){ window.print(); }
+  else if(t.id==="btnTxt"){ baixar(montaTxt(), "text/plain;charset=utf-8", ".txt"); }
+  else if(t.id==="btnDoc"){ baixar(montaDoc(), "application/msword", ".doc"); }
+});
+$("selArg").onchange = e=>{ S.atual = e.target.value; migra(cur()); ocupado = false; aviso = {txt:"",err:false}; saveLocal(); renderAll(); };
+$("btnNova").onclick = ()=>{ const t = prompt("Nome da nova arguição (por exemplo, o título curto do trabalho):"); if(t && t.trim()) nova(t.trim()); };
+$("btnRen").onclick = ()=>{ const t = prompt("Novo nome:", cur().titulo); if(t && t.trim()){ cur().titulo = t.trim(); persist(); renderAll(); } };
+$("btnDel").onclick = ()=>{
+  if(!confirm('Excluir a arguição "'+cur().titulo+'" e todas as respostas dela?')) return;
+  const id = S.atual; delete S.arg[id]; S.del.push(id);
+  const ids = Object.keys(S.arg); if(ids.length) S.atual = ids[0]; else nova("Meu trabalho", true);
+  saveLocal(); flushDel(); renderAll();
+};
+
 async function lerArquivo(f){
   const buf = await f.arrayBuffer(), nome = f.name.toLowerCase();
   if(nome.endsWith(".docx")){
@@ -642,72 +907,6 @@ async function lerArquivo(f){
   }
   throw new Error("Formato não aceito. Envie um arquivo .docx ou .pdf.");
 }
-$("btnDocUp").onclick = ()=>$("fileDoc").click();
-$("fileDoc").onchange = async e=>{
-  const f = e.target.files[0]; e.target.value = ""; if(!f) return;
-  renderIA("Lendo o documento...");
-  try{
-    const t = (await lerArquivo(f)).replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim();
-    if(t.length < 200){ renderIA("Não encontrei texto no arquivo. PDF escaneado como imagem não pode ser lido. Envie o Word ou um PDF com texto."); return; }
-    cur().doc = prepDoc(f.name, t);
-    persist(); renderIA();
-  }catch(err){ console.error(err); renderIA("Não foi possível ler o arquivo. "+(err.message||"")); }
-};
-$("btnDocDel").onclick = ()=>{ if(confirm("Remover o documento desta arguição?")){ delete cur().doc; persist(); renderIA(); } };
-$("btnCola").onclick = ()=>{ const b = $("colaBox"); b.style.display = b.style.display==="none" ? "" : "none"; };
-$("btnColaOk").onclick = ()=>{
-  const t = $("colaTxt").value.replace(/[ \t]+/g," ").trim();
-  if(t.length < 200){ renderIA("Cole pelo menos 200 caracteres."); return; }
-  cur().doc = prepDoc("Texto colado", t);
-  $("colaTxt").value = ""; $("colaBox").style.display = "none"; persist(); renderIA();
-};
-$("btnCompra").onclick = ()=>{
-  const b = $("compraBox");
-  if(b.style.display !== "none"){ b.style.display = "none"; return; }
-  b.style.display = "";
-  if(!WHATS){ b.innerHTML = '<div class="compra">A venda ainda não foi aberta. Volte em breve.</div>'; return; }
-  if(!PIX_CHAVE){
-    const m = encodeURIComponent("Olá! Quero comprar a revisão completa do PreBanca por "+PRECO+".");
-    b.innerHTML = '<div class="compra"><p><b>1.</b> Chame no WhatsApp:<br><a href="https://wa.me/'+encodeURIComponent(WHATS)+'?text='+m+'" target="_blank" rel="noopener">Quero comprar</a></p>'
-      + '<p><b>2.</b> Você recebe a chave Pix, paga '+esc(PRECO)+' e envia o comprovante.</p>'
-      + '<p><b>3.</b> Você recebe o código pelo WhatsApp e digita no campo acima.</p></div>';
-    return;
-  }
-  const msg = encodeURIComponent("Olá! Paguei "+PRECO+" pelo Pix para a revisão completa do PreBanca. Segue o comprovante.");
-  b.innerHTML = '<div class="compra"><p><b>1.</b> Pague '+esc(PRECO)+' pelo Pix na chave:<br><code id="pixK">'+esc(PIX_CHAVE)+'</code> <button class="mini" id="btnPixCp">Copiar</button></p>'
-    + '<p><b>2.</b> Envie o comprovante pelo WhatsApp:<br><a href="https://wa.me/'+encodeURIComponent(WHATS)+'?text='+msg+'" target="_blank" rel="noopener">Abrir WhatsApp</a></p>'
-    + '<p><b>3.</b> Você recebe o código pelo WhatsApp e digita no campo acima.</p></div>';
-  $("btnPixCp").onclick = ()=>{ navigator.clipboard.writeText(PIX_CHAVE).then(()=>{ $("btnPixCp").textContent = "Copiado"; }); };
-};
-async function pedirIA(codigo){
-  const a = cur(), rs = respondidas(), gratis = !codigo;
-  if(!WORKER_URL){ renderIA("A revisão com IA ainda não foi configurada."); return; }
-  if(!a.doc || !a.doc.texto){ renderIA("Envie o trabalho ou cole o resumo neste aparelho."); return; }
-  if(rs.length < (gratis ? GRATIS_N : IA_MIN)){ renderIA(gratis ? "Escreva pelo menos "+GRATIS_N+" respostas." : "A revisão completa precisa de pelo menos "+IA_MIN+" respostas."); return; }
-  const envio = gratis ? rs.slice(0,GRATIS_N) : rs.slice(0,40);
-  iaBusy = true; renderIA(gratis ? "A IA está lendo o texto e as suas 2 respostas. Aguarde..." : "A IA está lendo o projeto e as suas respostas. Isso pode levar de um a três minutos. Não feche a página...");
-  const argId = a.id;
-  try{
-    const corpo = {titulo:a.titulo, doc: gratis ? a.doc.texto.slice(0,GRATIS_DOC) : a.doc.texto, respostas:envio.map(q=>({id:q.id, q:q.q, r:a.r[q.id].trim().slice(0,3000)}))};
-    if(!gratis) corpo.codigo = codigo;
-    const resp = await fetch(WORKER_URL, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(corpo)});
-    const j = await resp.json().catch(()=>null);
-    if(!resp.ok || !j || !Array.isArray(j.itens)) throw new Error((j && j.erro) || "Resposta inválida do servidor.");
-    const alvo = S.arg[argId]; if(!alvo) throw new Error("A arguição foi removida.");
-    alvo.ia = alvo.ia || {};
-    j.itens.forEach(x=>{ if(x && Q.some(q=>q.id===x.id)) alvo.ia[x.id] = {forte:String(x.forte||""), falta:String(x.falta||""), diga:String(x.diga||""), base:(alvo.r[x.id]||"").trim()}; });
-    alvo.iaGeral = String(j.geral||"");
-    if(!gratis) $("codigo").value = "";
-    iaBusy = false; persist(); renderCorrecao();
-    renderIA(gratis ? "Revisão grátis concluída nas 2 primeiras respostas. Para revisar todas, use a revisão completa." : "Revisão concluída. Veja as sugestões abaixo de cada resposta.");
-  }catch(err){ console.error(err); iaBusy = false; renderIA("A revisão falhou. "+(err.message||"Verifique a internet e tente de novo.")); }
-}
-$("btnGratis").onclick = ()=>pedirIA("");
-$("btnIA").onclick = ()=>{
-  const c = $("codigo").value.trim().toUpperCase();
-  if(!/^PB-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(c)){ renderIA("Digite o código no formato PB-XXXX-XXXX-XXXX."); return; }
-  pedirIA(c);
-};
 
 /* ============ FIREBASE (login Google e sincronizacao) ============ */
 function loadScript(src){return new Promise((ok,er)=>{const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = ()=>er(new Error("Falha ao carregar "+src)); document.head.appendChild(s);});}
@@ -723,7 +922,7 @@ async function initFirebase(){
     auth.onAuthStateChanged(async u=>{
       user = u; renderNotice();
       if(u){ setStatus("Carregando da sua conta..."); await syncCloud(); }
-      else setStatus("Salvo só neste dispositivo");
+      else setStatus("Salvo só neste aparelho");
     });
   }catch(e){ console.error(e); setStatus("Não foi possível conectar ao login. Verifique a internet."); }
 }
@@ -746,7 +945,7 @@ async function syncCloud(){
     /* descarta rascunho vazio criado antes do login, se a conta ja tem arguicoes */
     Object.values(S.arg).forEach(l=>{ if(!remotos[l.id] && vazia(l) && Object.keys(S.arg).length > 1) delete S.arg[l.id]; });
     if(!cur()) S.atual = Object.values(S.arg).sort((a,b)=>b.updatedAt-a.updatedAt)[0].id;
-    saveLocal(); renderAll(); setStatus("Salvo na sua conta");
+    Object.values(S.arg).forEach(migra); saveLocal(); renderAll(); setStatus("Salvo na sua conta");
   }catch(e){ console.error(e); setStatus("Erro ao carregar da conta. Mostrando o que está neste dispositivo."); }
 }
 $("btnLogin").onclick = ()=>{
@@ -755,8 +954,9 @@ $("btnLogin").onclick = ()=>{
   auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).catch(e=>{ console.error(e); setStatus("Login não concluído"); });
 };
 
+
 /* ============ INICIO ============ */
-loadLocal(); renderAll(); setStatus("Salvo só neste dispositivo"); initFirebase();
+loadLocal(); renderAll(); setStatus("Salvo só neste aparelho"); initFirebase();
 </script>
 </body>
 </html>
