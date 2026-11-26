@@ -1,0 +1,1001 @@
+﻿id;area;categoria;modalidade;pergunta
+1001;Ciências Exatas e da Terra;Matemática;técnica;Como você demonstraria que as hipóteses de um teorema são necessárias?
+1002;Ciências Exatas e da Terra;Matemática;técnica;Como você construiria um contraexemplo para uma generalização indevida?
+1003;Ciências Exatas e da Terra;Matemática;técnica;Como você distinguiria condição necessária de condição suficiente?
+1004;Ciências Exatas e da Terra;Matemática;técnica;Como você verificaria a validade de uma demonstração por indução?
+1005;Ciências Exatas e da Terra;Matemática;técnica;Como você identificaria circularidade em uma demonstração?
+1006;Ciências Exatas e da Terra;Matemática;técnica;Como você estabeleceria a existência de uma solução?
+1007;Ciências Exatas e da Terra;Matemática;técnica;Como você caracterizaria a convergência de uma sequência?
+1008;Ciências Exatas e da Terra;Matemática;técnica;Como você distinguiria convergência uniforme de pontual?
+1009;Ciências Exatas e da Terra;Matemática;técnica;Como você avaliaria a estabilidade de uma solução numérica?
+1010;Ciências Exatas e da Terra;Matemática;técnica;Como você estimaria o erro de truncamento?
+1011;Ciências Exatas e da Terra;Matemática;técnica;Como você identificaria invariantes de uma transformação?
+1012;Ciências Exatas e da Terra;Matemática;técnica;Como você relacionaria uma estrutura algébrica a suas propriedades?
+1013;Ciências Exatas e da Terra;Matemática;técnica;Como você justificaria uma passagem ao limite?
+1014;Ciências Exatas e da Terra;Matemática;técnica;Como você investigaria a regularidade de uma função?
+1015;Ciências Exatas e da Terra;Matemática;técnica;Como você escolheria entre demonstração construtiva e não construtiva?
+1016;Ciências Exatas e da Terra;Matemática;técnica;Como você avaliaria a complexidade de um procedimento matemático?
+1017;Ciências Exatas e da Terra;Matemática;técnica;Como você estenderia um resultado sem violar suas hipóteses?
+1018;Ciências Exatas e da Terra;Estatística;técnica;Como você distinguiria significância estatística de relevância prática?
+1019;Ciências Exatas e da Terra;Estatística;técnica;Como você avaliaria a independência das observações?
+1020;Ciências Exatas e da Terra;Estatística;técnica;Como você identificaria pseudorreplicação?
+1021;Ciências Exatas e da Terra;Estatística;técnica;Como você interpretaria um intervalo de confiança?
+1022;Ciências Exatas e da Terra;Estatística;técnica;Como você avaliaria heterocedasticidade?
+1023;Ciências Exatas e da Terra;Estatística;técnica;Como você justificaria o tamanho amostral?
+1024;Ciências Exatas e da Terra;Estatística;técnica;Como você interpretaria a potência de um teste?
+1025;Ciências Exatas e da Terra;Estatística;técnica;Como você trataria comparações múltiplas?
+1026;Ciências Exatas e da Terra;Estatística;técnica;Como você diagnosticaria multicolinearidade?
+1027;Ciências Exatas e da Terra;Estatística;técnica;Como você avaliaria dados ausentes não aleatoriamente?
+1028;Ciências Exatas e da Terra;Estatística;técnica;Como você identificaria pontos influentes em uma regressão?
+1029;Ciências Exatas e da Terra;Estatística;técnica;Como você compararia modelos por critérios de informação?
+1030;Ciências Exatas e da Terra;Estatística;técnica;Como você validaria um modelo preditivo fora da amostra?
+1031;Ciências Exatas e da Terra;Estatística;técnica;Como você justificaria a escolha de efeitos fixos e aleatórios?
+1032;Ciências Exatas e da Terra;Estatística;técnica;Como você avaliaria a sensibilidade a distribuições a priori?
+1033;Ciências Exatas e da Terra;Estatística;técnica;Como você interpretaria um intervalo de credibilidade?
+1034;Ciências Exatas e da Terra;Estatística;técnica;Como você distinguiria superdispersão de excesso de zeros?
+1035;Ciências Exatas e da Terra;Estatística;técnica;Como você quantificaria a incerteza de uma estimativa por reamostragem?
+1036;Ciências Exatas e da Terra;Física;técnica;Como você determinaria quais leis de conservação se aplicam a um sistema?
+1037;Ciências Exatas e da Terra;Física;técnica;Como você justificaria uma aproximação de regime estacionário?
+1038;Ciências Exatas e da Terra;Física;técnica;Como você identificaria os graus de liberdade relevantes?
+1039;Ciências Exatas e da Terra;Física;técnica;Como você avaliaria a validade de uma aproximação linear?
+1040;Ciências Exatas e da Terra;Física;técnica;Como você distinguiria incerteza instrumental de variabilidade física?
+1041;Ciências Exatas e da Terra;Física;técnica;Como você interpretaria a simetria de um sistema?
+1042;Ciências Exatas e da Terra;Física;técnica;Como você avaliaria a consistência dimensional de uma equação?
+1043;Ciências Exatas e da Terra;Física;técnica;Como você identificaria regimes em que efeitos não lineares dominam?
+1044;Ciências Exatas e da Terra;Física;técnica;Como você explicaria a dissipação de energia?
+1045;Ciências Exatas e da Terra;Física;técnica;Como você relacionaria entropia à irreversibilidade?
+1046;Ciências Exatas e da Terra;Física;técnica;Como você distinguiria equilíbrio térmico de equilíbrio dinâmico?
+1047;Ciências Exatas e da Terra;Física;técnica;Como você justificaria a escolha de um referencial?
+1048;Ciências Exatas e da Terra;Física;técnica;Como você avaliaria a influência de efeitos de escala?
+1049;Ciências Exatas e da Terra;Física;técnica;Como você investigaria a estabilidade de um estado de equilíbrio?
+1050;Ciências Exatas e da Terra;Física;técnica;Como você estimaria a ordem de grandeza de uma grandeza física?
+1051;Ciências Exatas e da Terra;Física;técnica;Como você distinguiria uma previsão clássica de uma quântica?
+1052;Ciências Exatas e da Terra;Física;técnica;Como você avaliaria a propagação de erros em medidas indiretas?
+1053;Ciências Exatas e da Terra;Física;técnica;Como você confrontaria uma previsão teórica com observações experimentais?
+1054;Ciências Exatas e da Terra;Química;técnica;Como você justificaria a escolha de um método de identificação química?
+1055;Ciências Exatas e da Terra;Química;técnica;Como você avaliaria a seletividade de uma reação?
+1056;Ciências Exatas e da Terra;Química;técnica;Como você distinguiria controle cinético de termodinâmico?
+1057;Ciências Exatas e da Terra;Química;técnica;Como você explicaria o efeito do pH na especiação?
+1058;Ciências Exatas e da Terra;Química;técnica;Como você identificaria interferentes em uma matriz analítica?
+1059;Ciências Exatas e da Terra;Química;técnica;Como você avaliaria a pureza de um reagente?
+1060;Ciências Exatas e da Terra;Química;técnica;Como você interpretaria uma curva de calibração?
+1061;Ciências Exatas e da Terra;Química;técnica;Como você distinguiria limite de detecção de limite de quantificação?
+1062;Ciências Exatas e da Terra;Química;técnica;Como você avaliaria a recuperação de um analito?
+1063;Ciências Exatas e da Terra;Química;técnica;Como você justificaria o uso de um branco analítico?
+1064;Ciências Exatas e da Terra;Química;técnica;Como você interpretaria desvios da idealidade?
+1065;Ciências Exatas e da Terra;Química;técnica;Como você avaliaria a estabilidade de uma amostra durante o armazenamento?
+1066;Ciências Exatas e da Terra;Química;técnica;Como você investigaria mecanismos de reação concorrentes?
+1067;Ciências Exatas e da Terra;Química;técnica;Como você relacionaria estrutura molecular a propriedades físico-químicas?
+1068;Ciências Exatas e da Terra;Química;técnica;Como você justificaria a escolha de um solvente?
+1069;Ciências Exatas e da Terra;Química;técnica;Como você distinguiria precisão de exatidão?
+1070;Ciências Exatas e da Terra;Química;técnica;Como você interpretaria evidências espectroscópicas de identidade molecular?
+1071;Ciências Exatas e da Terra;Química;técnica;Como você avaliaria riscos e resíduos de um procedimento químico?
+1072;Ciências Exatas e da Terra;Geociências;técnica;Como você distinguiria processos de intemperismo físico e químico?
+1073;Ciências Exatas e da Terra;Geociências;técnica;Como você interpretaria relações estratigráficas?
+1074;Ciências Exatas e da Terra;Geociências;técnica;Como você avaliaria a representatividade espacial de amostras geológicas?
+1075;Ciências Exatas e da Terra;Geociências;técnica;Como você justificaria um método de datação?
+1076;Ciências Exatas e da Terra;Geociências;técnica;Como você distinguiria idade de formação de idade de alteração mineral?
+1077;Ciências Exatas e da Terra;Geociências;técnica;Como você interpretaria estruturas tectônicas?
+1078;Ciências Exatas e da Terra;Geociências;técnica;Como você avaliaria a influência da litologia na permeabilidade?
+1079;Ciências Exatas e da Terra;Geociências;técnica;Como você reconstruiria processos deposicionais a partir de sedimentos?
+1080;Ciências Exatas e da Terra;Geociências;técnica;Como você identificaria fontes de erro em análises mineralógicas?
+1081;Ciências Exatas e da Terra;Geociências;técnica;Como você relacionaria relevo e processos erosivos?
+1082;Ciências Exatas e da Terra;Geociências;técnica;Como você avaliaria a resolução de uma investigação geofísica?
+1083;Ciências Exatas e da Terra;Geociências;técnica;Como você distinguiria anomalia geofísica de artefato instrumental?
+1084;Ciências Exatas e da Terra;Geociências;técnica;Como você avaliaria a vulnerabilidade de um aquífero?
+1085;Ciências Exatas e da Terra;Geociências;técnica;Como você justificaria a escolha de um modelo hidrogeológico?
+1086;Ciências Exatas e da Terra;Geociências;técnica;Como você identificaria evidências de transporte sedimentar?
+1087;Ciências Exatas e da Terra;Geociências;técnica;Como você avaliaria a influência da escala temporal em processos geomorfológicos?
+1088;Ciências Exatas e da Terra;Geociências;técnica;Como você distinguiria perigo geológico de risco geológico?
+1089;Ciências Exatas e da Terra;Geociências;técnica;Como você interpretaria assinaturas geoquímicas de proveniência?
+1090;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você evitaria vazamento de dados entre treino e teste?
+1091;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você avaliaria o desbalanceamento entre classes?
+1092;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você detectaria sobreajuste?
+1093;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você justificaria a arquitetura de um modelo?
+1094;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você avaliaria a complexidade computacional de um algoritmo?
+1095;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você distinguiria desempenho médio de desempenho em casos extremos?
+1096;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você investigaria mudanças na distribuição dos dados?
+1097;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você avaliaria a robustez contra entradas perturbadas?
+1098;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você interpretaria a contribuição de atributos para uma previsão?
+1099;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você garantiria a reprodutibilidade de um treinamento?
+1100;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você compararia um modelo com uma linha de base simples?
+1101;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você avaliaria a equidade entre grupos de usuários?
+1102;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você distinguiria explicabilidade de interpretabilidade?
+1103;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você controlaria a exposição de dados pessoais?
+1104;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você avaliaria a qualidade de rótulos de treinamento?
+1105;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você justificaria a estratégia de ajuste de hiperparâmetros?
+1106;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você detectaria falhas silenciosas em produção?
+1107;Ciências Exatas e da Terra;Computação e inteligência artificial;técnica;Como você avaliaria a generalização para domínios não observados?
+1108;Ciências Biológicas;Ecologia;técnica;Como você distinguiria riqueza de espécies de diversidade?
+1109;Ciências Biológicas;Ecologia;técnica;Como você avaliaria a detectabilidade de organismos?
+1110;Ciências Biológicas;Ecologia;técnica;Como você separaria efeitos ambientais de efeitos espaciais?
+1111;Ciências Biológicas;Ecologia;técnica;Como você identificaria pseudorreplicação em amostragens de campo?
+1112;Ciências Biológicas;Ecologia;técnica;Como você justificaria a escala de observação de processos ecológicos?
+1113;Ciências Biológicas;Ecologia;técnica;Como você avaliaria mecanismos de coexistência?
+1114;Ciências Biológicas;Ecologia;técnica;Como você interpretaria mudanças na diversidade beta?
+1115;Ciências Biológicas;Ecologia;técnica;Como você distinguiria limitação por dispersão de filtragem ambiental?
+1116;Ciências Biológicas;Ecologia;técnica;Como você avaliaria efeitos de borda?
+1117;Ciências Biológicas;Ecologia;técnica;Como você relacionaria conectividade a persistência populacional?
+1118;Ciências Biológicas;Ecologia;técnica;Como você investigaria efeitos de perturbações recorrentes?
+1119;Ciências Biológicas;Ecologia;técnica;Como você identificaria interações indiretas em redes tróficas?
+1120;Ciências Biológicas;Ecologia;técnica;Como você avaliaria a importância da sazonalidade?
+1121;Ciências Biológicas;Ecologia;técnica;Como você interpretaria densidade dependência no crescimento populacional?
+1122;Ciências Biológicas;Ecologia;técnica;Como você separaria efeitos de composição e funcionamento ecossistêmico?
+1123;Ciências Biológicas;Ecologia;técnica;Como você avaliaria a representatividade de áreas de referência?
+1124;Ciências Biológicas;Ecologia;técnica;Como você distinguiria mudanças de estado de flutuações naturais?
+1125;Ciências Biológicas;Genética e evolução;técnica;Como você distinguiria deriva genética de seleção natural?
+1126;Ciências Biológicas;Genética e evolução;técnica;Como você interpretaria desequilíbrio de ligação?
+1127;Ciências Biológicas;Genética e evolução;técnica;Como você identificaria estruturação populacional?
+1128;Ciências Biológicas;Genética e evolução;técnica;Como você distinguiria homologia de analogia?
+1129;Ciências Biológicas;Genética e evolução;técnica;Como você avaliaria evidências de adaptação local?
+1130;Ciências Biológicas;Genética e evolução;técnica;Como você interpretaria fluxo gênico entre populações?
+1131;Ciências Biológicas;Genética e evolução;técnica;Como você distinguiria plasticidade fenotípica de variação hereditária?
+1132;Ciências Biológicas;Genética e evolução;técnica;Como você justificaria marcadores moleculares?
+1133;Ciências Biológicas;Genética e evolução;técnica;Como você identificaria vieses em reconstruções filogenéticas?
+1134;Ciências Biológicas;Genética e evolução;técnica;Como você distinguiria ortologia de paralogia?
+1135;Ciências Biológicas;Genética e evolução;técnica;Como você interpretaria sinais de seleção em sequências?
+1136;Ciências Biológicas;Genética e evolução;técnica;Como você avaliaria a influência de endogamia?
+1137;Ciências Biológicas;Genética e evolução;técnica;Como você estimaria a contribuição ambiental para um fenótipo?
+1138;Ciências Biológicas;Genética e evolução;técnica;Como você distinguiria convergência evolutiva de ancestralidade compartilhada?
+1139;Ciências Biológicas;Genética e evolução;técnica;Como você avaliaria a qualidade de sequências genéticas?
+1140;Ciências Biológicas;Genética e evolução;técnica;Como você interpretaria discordâncias entre árvores gênicas e de espécies?
+1141;Ciências Biológicas;Genética e evolução;técnica;Como você investigaria a interação entre genótipo e ambiente?
+1142;Ciências Biológicas;Genética e evolução;técnica;Como você avaliaria limites de inferências sobre ancestralidade?
+1143;Ciências Biológicas;Biologia celular e molecular;técnica;Como você avaliaria a especificidade de um anticorpo?
+1144;Ciências Biológicas;Biologia celular e molecular;técnica;Como você justificaria controles positivos e negativos em ensaios moleculares?
+1145;Ciências Biológicas;Biologia celular e molecular;técnica;Como você distinguiria expressão gênica de abundância proteica?
+1146;Ciências Biológicas;Biologia celular e molecular;técnica;Como você avaliaria a integridade de RNA?
+1147;Ciências Biológicas;Biologia celular e molecular;técnica;Como você interpretaria diferenças entre transcrição e tradução?
+1148;Ciências Biológicas;Biologia celular e molecular;técnica;Como você avaliaria a eficiência de amplificação em PCR?
+1149;Ciências Biológicas;Biologia celular e molecular;técnica;Como você identificaria contaminação cruzada?
+1150;Ciências Biológicas;Biologia celular e molecular;técnica;Como você distinguiria morte celular programada de necrose?
+1151;Ciências Biológicas;Biologia celular e molecular;técnica;Como você interpretaria alterações na sinalização celular?
+1152;Ciências Biológicas;Biologia celular e molecular;técnica;Como você avaliaria a viabilidade de células em cultura?
+1153;Ciências Biológicas;Biologia celular e molecular;técnica;Como você investigaria a localização subcelular de uma proteína?
+1154;Ciências Biológicas;Biologia celular e molecular;técnica;Como você avaliaria a especificidade de uma intervenção genética?
+1155;Ciências Biológicas;Biologia celular e molecular;técnica;Como você distinguiria alterações epigenéticas de mutações?
+1156;Ciências Biológicas;Biologia celular e molecular;técnica;Como você interpretaria efeitos dependentes da dose?
+1157;Ciências Biológicas;Biologia celular e molecular;técnica;Como você avaliaria o efeito do ciclo celular sobre medições?
+1158;Ciências Biológicas;Biologia celular e molecular;técnica;Como você distinguiria interação molecular direta de associação indireta?
+1159;Ciências Biológicas;Biologia celular e molecular;técnica;Como você avaliaria a reprodutibilidade entre linhagens celulares?
+1160;Ciências Biológicas;Biologia celular e molecular;técnica;Como você relacionaria alterações moleculares a fenótipos observáveis?
+1161;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você distinguiria colonização de infecção?
+1162;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você avaliaria a viabilidade de microrganismos não cultiváveis?
+1163;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você justificaria a escolha de um meio de cultura?
+1164;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você identificaria contaminação em controles?
+1165;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você interpretaria a concentração inibitória mínima?
+1166;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você distinguiria resistência microbiana de tolerância?
+1167;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você avaliaria a influência de biofilmes?
+1168;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você avaliaria vieses de amplificação de marcadores?
+1169;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você distinguiria imunidade inata de adaptativa?
+1170;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você interpretaria especificidade e afinidade de anticorpos?
+1171;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você avaliaria reatividade cruzada em ensaios imunológicos?
+1172;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você distinguiria resposta inflamatória protetora de patológica?
+1173;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você avaliaria efeitos de condições de incubação?
+1174;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você interpretaria diferenças entre abundância relativa e absoluta?
+1175;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você avaliaria a influência de condições de armazenamento?
+1176;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você distinguiria resposta imune celular de humoral?
+1177;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você avaliaria limitações de modelos in vitro de infecção?
+1178;Ciências Biológicas;Microbiologia e imunologia;técnica;Como você investigaria mecanismos de escape imune?
+1179;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você distinguiria limitação estomática de bioquímica da fotossíntese?
+1180;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você avaliaria o efeito do déficit hídrico na condutância estomática?
+1181;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você interpretaria potencial hídrico vegetal?
+1182;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você justificaria a escolha de um estágio fenológico?
+1183;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você distinguiria aclimatação de adaptação?
+1184;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você avaliaria a influência da intensidade luminosa?
+1185;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você interpretaria relações fonte-dreno?
+1186;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você investigaria alocação de biomassa entre órgãos?
+1187;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você distinguiria deficiência nutricional de toxicidade?
+1188;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você avaliaria diferenças entre germinação e estabelecimento?
+1189;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você avaliaria plasticidade de características foliares?
+1190;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você distinguiria crescimento primário de secundário?
+1191;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você justificaria a identificação taxonômica de plantas?
+1192;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você interpretaria sinais de estresse oxidativo?
+1193;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você avaliaria a influência da temperatura na transpiração?
+1194;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você investigaria estratégias reprodutivas vegetais?
+1195;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você distinguiria efeitos de competição aérea e subterrânea?
+1196;Ciências Biológicas;Botânica e fisiologia vegetal;técnica;Como você relacionaria arquitetura radicular à aquisição de recursos?
+1197;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você avaliaria vieses de observação de animais?
+1198;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você justificaria a construção de um etograma?
+1199;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você distinguiria seleção sexual de seleção por sobrevivência?
+1200;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você avaliaria a influência de hierarquia social?
+1201;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você interpretaria estratégias de forrageamento?
+1202;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você investigaria compromissos entre reprodução e sobrevivência?
+1203;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você avaliaria a influência da presença do observador?
+1204;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você distinguiria atividade de ocorrência de uma espécie?
+1205;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você justificaria métodos de identificação individual?
+1206;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você interpretaria diferenças entre sexos e estágios de vida?
+1207;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você avaliaria a influência de ritmos circadianos?
+1208;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você distinguiria preferência de disponibilidade de habitat?
+1209;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você avaliaria efeitos de habituação a estímulos?
+1210;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você interpretaria padrões de cuidado parental?
+1211;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você justificaria critérios de bem-estar animal?
+1212;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você avaliaria limites de extrapolação de cativeiro para vida livre?
+1213;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você distinguiria plasticidade comportamental de diferenças individuais?
+1214;Ciências Biológicas;Zoologia e comportamento animal;técnica;Como você investigaria efeitos de fragmentação sobre deslocamentos?
+1215;Engenharias;Engenharia civil;técnica;Como você justificaria a escolha de um sistema estrutural?
+1216;Engenharias;Engenharia civil;técnica;Como você distinguiria estados limites últimos de serviço?
+1217;Engenharias;Engenharia civil;técnica;Como você avaliaria a influência das condições de fundação?
+1218;Engenharias;Engenharia civil;técnica;Como você avaliaria a durabilidade de materiais em ambientes agressivos?
+1219;Engenharias;Engenharia civil;técnica;Como você justificaria coeficientes de segurança?
+1220;Engenharias;Engenharia civil;técnica;Como você identificaria mecanismos de fissuração?
+1221;Engenharias;Engenharia civil;técnica;Como você avaliaria a influência da cura no desempenho do concreto?
+1222;Engenharias;Engenharia civil;técnica;Como você distinguiria recalque total de diferencial?
+1223;Engenharias;Engenharia civil;técnica;Como você interpretaria resultados de ensaios geotécnicos?
+1224;Engenharias;Engenharia civil;técnica;Como você justificaria a escolha de um método construtivo?
+1225;Engenharias;Engenharia civil;técnica;Como você avaliaria compatibilidade entre projetos complementares?
+1226;Engenharias;Engenharia civil;técnica;Como você identificaria riscos de instabilidade estrutural?
+1227;Engenharias;Engenharia civil;técnica;Como você avaliaria desempenho térmico de uma edificação?
+1228;Engenharias;Engenharia civil;técnica;Como você investigaria causas de infiltração?
+1229;Engenharias;Engenharia civil;técnica;Como você avaliaria a drenagem superficial de uma obra?
+1230;Engenharias;Engenharia civil;técnica;Como você justificaria critérios de acessibilidade física?
+1231;Engenharias;Engenharia civil;técnica;Como você avaliaria impactos do ciclo de vida dos materiais?
+1232;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você avaliaria a estabilidade de um sistema de controle?
+1233;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você interpretaria a resposta em frequência de um circuito?
+1234;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você justificaria a escolha de sensores?
+1235;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você distinguiria potência ativa de reativa?
+1236;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você avaliaria a influência de harmônicas?
+1237;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você identificaria fontes de ruído eletromagnético?
+1238;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você avaliaria perdas em conversão de energia?
+1239;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você interpretaria margens de ganho e fase?
+1240;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você avaliaria a resolução de um conversor analógico-digital?
+1241;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você distinguiria falhas transitórias de permanentes?
+1242;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você justificaria critérios de proteção elétrica?
+1243;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você avaliaria efeitos de aquecimento em componentes?
+1244;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você investigaria saturação de elementos magnéticos?
+1245;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você avaliaria a eficiência de um acionamento elétrico?
+1246;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você interpretaria a influência da impedância de carga?
+1247;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você justificaria a frequência de amostragem de sinais?
+1248;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você avaliaria a confiabilidade de uma fonte de alimentação?
+1249;Engenharias;Engenharia elétrica e eletrônica;técnica;Como você investigaria a influência de atrasos em malhas de controle?
+1250;Engenharias;Engenharia mecânica;técnica;Como você distinguiria tensão de deformação?
+1251;Engenharias;Engenharia mecânica;técnica;Como você avaliaria critérios de falha de materiais?
+1252;Engenharias;Engenharia mecânica;técnica;Como você avaliaria a influência da fadiga?
+1253;Engenharias;Engenharia mecânica;técnica;Como você interpretaria concentrações de tensão?
+1254;Engenharias;Engenharia mecânica;técnica;Como você distinguiria deformação elástica de plástica?
+1255;Engenharias;Engenharia mecânica;técnica;Como você avaliaria perdas por atrito?
+1256;Engenharias;Engenharia mecânica;técnica;Como você justificaria a seleção de lubrificantes?
+1257;Engenharias;Engenharia mecânica;técnica;Como você interpretaria curvas de desempenho de máquinas?
+1258;Engenharias;Engenharia mecânica;técnica;Como você distinguiria escoamento laminar de turbulento?
+1259;Engenharias;Engenharia mecânica;técnica;Como você investigaria vibrações e frequências naturais?
+1260;Engenharias;Engenharia mecânica;técnica;Como você avaliaria a sensibilidade de resultados à malha numérica?
+1261;Engenharias;Engenharia mecânica;técnica;Como você justificaria tolerâncias dimensionais?
+1262;Engenharias;Engenharia mecânica;técnica;Como você identificaria mecanismos de desgaste?
+1263;Engenharias;Engenharia mecânica;técnica;Como você avaliaria a influência de ciclos térmicos?
+1264;Engenharias;Engenharia mecânica;técnica;Como você interpretaria eficiência termodinâmica?
+1265;Engenharias;Engenharia mecânica;técnica;Como você avaliaria a integridade de juntas mecânicas?
+1266;Engenharias;Engenharia mecânica;técnica;Como você compararia estratégias de manutenção preditiva e preventiva?
+1267;Engenharias;Engenharia mecânica;técnica;Como você investigaria efeitos de corrosão sob tensão?
+1268;Engenharias;Engenharia química e de materiais;técnica;Como você fecharia balanços de massa e energia?
+1269;Engenharias;Engenharia química e de materiais;técnica;Como você distinguiria limitações de reação de limitações de transporte?
+1270;Engenharias;Engenharia química e de materiais;técnica;Como você avaliaria a influência do tempo de residência?
+1271;Engenharias;Engenharia química e de materiais;técnica;Como você justificaria a escolha de um reator?
+1272;Engenharias;Engenharia química e de materiais;técnica;Como você interpretaria diagramas de fases?
+1273;Engenharias;Engenharia química e de materiais;técnica;Como você investigaria o efeito da pressão sobre equilíbrio de fases?
+1274;Engenharias;Engenharia química e de materiais;técnica;Como você justificaria estratégias de ampliação de escala?
+1275;Engenharias;Engenharia química e de materiais;técnica;Como você avaliaria a estabilidade térmica de materiais?
+1276;Engenharias;Engenharia química e de materiais;técnica;Como você distinguiria mecanismos de corrosão?
+1277;Engenharias;Engenharia química e de materiais;técnica;Como você relacionaria microestrutura a propriedades mecânicas?
+1278;Engenharias;Engenharia química e de materiais;técnica;Como você avaliaria a influência de porosidade?
+1279;Engenharias;Engenharia química e de materiais;técnica;Como você interpretaria curvas de adsorção?
+1280;Engenharias;Engenharia química e de materiais;técnica;Como você avaliaria consumo energético de um processo?
+1281;Engenharias;Engenharia química e de materiais;técnica;Como você investigaria formação de subprodutos?
+1282;Engenharias;Engenharia química e de materiais;técnica;Como você avaliaria a regenerabilidade de um material adsorvente?
+1283;Engenharias;Engenharia química e de materiais;técnica;Como você identificaria gargalos de transferência de massa?
+1284;Engenharias;Engenharia química e de materiais;técnica;Como você avaliaria segurança inerente de um processo?
+1285;Engenharias;Engenharia química e de materiais;técnica;Como você compararia alternativas de reciclagem de materiais?
+1286;Engenharias;Engenharia de produção;técnica;Como você identificaria gargalos em processos produtivos?
+1287;Engenharias;Engenharia de produção;técnica;Como você distinguiria capacidade instalada de efetiva?
+1288;Engenharias;Engenharia de produção;técnica;Como você avaliaria a variabilidade de tempos de processamento?
+1289;Engenharias;Engenharia de produção;técnica;Como você justificaria uma política de estoques?
+1290;Engenharias;Engenharia de produção;técnica;Como você interpretaria índices de capacidade de processo?
+1291;Engenharias;Engenharia de produção;técnica;Como você avaliaria custos da não qualidade?
+1292;Engenharias;Engenharia de produção;técnica;Como você distinguiria produtividade de eficiência?
+1293;Engenharias;Engenharia de produção;técnica;Como você justificaria critérios de programação da produção?
+1294;Engenharias;Engenharia de produção;técnica;Como você interpretaria tempos de espera em sistemas de filas?
+1295;Engenharias;Engenharia de produção;técnica;Como você identificaria desperdícios em fluxos de valor?
+1296;Engenharias;Engenharia de produção;técnica;Como você avaliaria confiabilidade de fornecedores?
+1297;Engenharias;Engenharia de produção;técnica;Como você justificaria critérios de priorização multicritério?
+1298;Engenharias;Engenharia de produção;técnica;Como você avaliaria a sensibilidade de soluções de otimização?
+1299;Engenharias;Engenharia de produção;técnica;Como você investigaria efeitos de demanda incerta?
+1300;Engenharias;Engenharia de produção;técnica;Como você distinguiria manutenção corretiva de preventiva?
+1301;Engenharias;Engenharia de produção;técnica;Como você interpretaria indicadores de desempenho operacional?
+1302;Engenharias;Engenharia de produção;técnica;Como você avaliaria fatores ergonômicos na organização do trabalho?
+1303;Engenharias;Engenharia de produção;técnica;Como você compararia custos totais de alternativas logísticas?
+1304;Engenharias;Engenharia ambiental e sanitária;técnica;Como você justificaria a escolha de uma tecnologia de tratamento de efluentes?
+1305;Engenharias;Engenharia ambiental e sanitária;técnica;Como você distinguiria remoção de poluentes de transferência entre compartimentos?
+1306;Engenharias;Engenharia ambiental e sanitária;técnica;Como você avaliaria a eficiência de desinfecção?
+1307;Engenharias;Engenharia ambiental e sanitária;técnica;Como você interpretaria demanda bioquímica e química de oxigênio?
+1308;Engenharias;Engenharia ambiental e sanitária;técnica;Como você avaliaria a geração de lodo?
+1309;Engenharias;Engenharia ambiental e sanitária;técnica;Como você justificaria critérios de dimensionamento de sistemas de tratamento?
+1310;Engenharias;Engenharia ambiental e sanitária;técnica;Como você investigaria efeitos de cargas orgânicas variáveis?
+1311;Engenharias;Engenharia ambiental e sanitária;técnica;Como você avaliaria a vulnerabilidade de sistemas de abastecimento?
+1312;Engenharias;Engenharia ambiental e sanitária;técnica;Como você distinguiria emissões diretas de indiretas em inventários?
+1313;Engenharias;Engenharia ambiental e sanitária;técnica;Como você justificaria fronteiras de uma avaliação de ciclo de vida?
+1314;Engenharias;Engenharia ambiental e sanitária;técnica;Como você avaliaria a dispersão de contaminantes atmosféricos?
+1315;Engenharias;Engenharia ambiental e sanitária;técnica;Como você investigaria mecanismos de remediação de solos?
+1316;Engenharias;Engenharia ambiental e sanitária;técnica;Como você avaliaria riscos de lixiviação?
+1317;Engenharias;Engenharia ambiental e sanitária;técnica;Como você justificaria critérios de disposição de resíduos?
+1318;Engenharias;Engenharia ambiental e sanitária;técnica;Como você avaliaria a eficiência de drenagem urbana?
+1319;Engenharias;Engenharia ambiental e sanitária;técnica;Como você distinguiria mitigação de compensação ambiental?
+1320;Engenharias;Engenharia ambiental e sanitária;técnica;Como você avaliaria efeitos cumulativos de empreendimentos?
+1321;Engenharias;Engenharia ambiental e sanitária;técnica;Como você compararia desempenho ambiental e custo operacional de tecnologias?
+1322;Ciências da Saúde;Medicina;técnica;Como você distinguiria sensibilidade de especificidade diagnóstica?
+1323;Ciências da Saúde;Medicina;técnica;Como você avaliaria confundimento por indicação terapêutica?
+1324;Ciências da Saúde;Medicina;técnica;Como você justificaria critérios de inclusão de pacientes?
+1325;Ciências da Saúde;Medicina;técnica;Como você distinguiria desfechos substitutos de desfechos clínicos?
+1326;Ciências da Saúde;Medicina;técnica;Como você avaliaria relevância clínica de diferenças estatísticas?
+1327;Ciências da Saúde;Medicina;técnica;Como você interpretaria riscos absolutos e relativos?
+1328;Ciências da Saúde;Medicina;técnica;Como você avaliaria a influência de comorbidades?
+1329;Ciências da Saúde;Medicina;técnica;Como você investigaria vieses de verificação diagnóstica?
+1330;Ciências da Saúde;Medicina;técnica;Como você avaliaria a validade externa de um ensaio clínico?
+1331;Ciências da Saúde;Medicina;técnica;Como você distinguiria eficácia de efetividade?
+1332;Ciências da Saúde;Medicina;técnica;Como você avaliaria a segurança de uma intervenção?
+1333;Ciências da Saúde;Medicina;técnica;Como você interpretaria intervalos de confiança de estimativas de efeito?
+1334;Ciências da Saúde;Medicina;técnica;Como você justificaria critérios de diagnóstico diferencial?
+1335;Ciências da Saúde;Medicina;técnica;Como você distinguiria associação prognóstica de efeito causal?
+1336;Ciências da Saúde;Medicina;técnica;Como você avaliaria perdas de seguimento?
+1337;Ciências da Saúde;Medicina;técnica;Como você interpretaria heterogeneidade de efeitos entre pacientes?
+1338;Ciências da Saúde;Medicina;técnica;Como você avaliaria a aplicabilidade de evidências à decisão compartilhada?
+1339;Ciências da Saúde;Enfermagem;técnica;Como você distinguiria diagnóstico de enfermagem de diagnóstico médico?
+1340;Ciências da Saúde;Enfermagem;técnica;Como você justificaria prioridades de cuidado?
+1341;Ciências da Saúde;Enfermagem;técnica;Como você avaliaria riscos de eventos adversos?
+1342;Ciências da Saúde;Enfermagem;técnica;Como você interpretaria indicadores de qualidade assistencial?
+1343;Ciências da Saúde;Enfermagem;técnica;Como você justificaria critérios de classificação de risco?
+1344;Ciências da Saúde;Enfermagem;técnica;Como você investigaria barreiras à adesão a cuidados?
+1345;Ciências da Saúde;Enfermagem;técnica;Como você avaliaria o papel da comunicação na transição assistencial?
+1346;Ciências da Saúde;Enfermagem;técnica;Como você distinguiria cuidado centrado na pessoa de cuidado centrado na tarefa?
+1347;Ciências da Saúde;Enfermagem;técnica;Como você avaliaria a continuidade do cuidado?
+1348;Ciências da Saúde;Enfermagem;técnica;Como você justificaria instrumentos de avaliação de necessidades?
+1349;Ciências da Saúde;Enfermagem;técnica;Como você avaliaria a confiabilidade de registros de enfermagem?
+1350;Ciências da Saúde;Enfermagem;técnica;Como você investigaria fatores associados à sobrecarga de trabalho?
+1351;Ciências da Saúde;Enfermagem;técnica;Como você avaliaria medidas de prevenção de infecções?
+1352;Ciências da Saúde;Enfermagem;técnica;Como você interpretaria resultados de intervenções educativas?
+1353;Ciências da Saúde;Enfermagem;técnica;Como você justificaria estratégias de humanização da assistência?
+1354;Ciências da Saúde;Enfermagem;técnica;Como você avaliaria a adequação cultural de orientações?
+1355;Ciências da Saúde;Enfermagem;técnica;Como você avaliaria a autonomia do paciente no planejamento do cuidado?
+1356;Ciências da Saúde;Enfermagem;técnica;Como você distinguiria indicadores de processo de indicadores de resultado assistencial?
+1357;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você avaliaria viés de seleção em estudos populacionais?
+1358;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você interpretaria razões de taxas?
+1359;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você justificaria padronização por idade?
+1360;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você avaliaria confundimento residual?
+1361;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você distinguiria modificação de efeito de confundimento?
+1362;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você investigaria falácia ecológica?
+1363;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você interpretaria desigualdades absolutas e relativas em saúde?
+1364;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você justificaria a definição operacional de caso?
+1365;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você avaliaria representatividade de inquéritos?
+1366;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você distinguiria avaliação de cobertura de avaliação de impacto?
+1367;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você investigaria determinantes sociais de desfechos em saúde?
+1368;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você avaliaria efeitos de intervenções comunitárias?
+1369;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você interpretaria séries temporais epidemiológicas?
+1370;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você justificaria estratégias de controle de surtos?
+1371;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você avaliaria qualidade de registros administrativos?
+1372;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você distinguiria necessidade de saúde de demanda por serviços?
+1373;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você investigaria barreiras de acesso ao sistema de saúde?
+1374;Ciências da Saúde;Saúde coletiva e epidemiologia;técnica;Como você avaliaria equidade na distribuição de recursos sanitários?
+1375;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você distinguiria farmacocinética de farmacodinâmica?
+1376;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você interpretaria curvas dose-resposta?
+1377;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você avaliaria biodisponibilidade de uma formulação?
+1378;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você investigaria interações medicamentosas?
+1379;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você avaliaria estabilidade de produtos farmacêuticos?
+1380;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você distinguiria potência de eficácia farmacológica?
+1381;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você interpretaria janela terapêutica?
+1382;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você avaliaria influência de metabolismo de primeira passagem?
+1383;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você justificaria critérios de equivalência farmacêutica?
+1384;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você investigaria mecanismos de resistência a fármacos?
+1385;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você interpretaria dados de farmacovigilância?
+1386;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você avaliaria riscos de polifarmácia?
+1387;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você distinguiria toxicidade aguda de crônica?
+1388;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você justificaria controles em ensaios farmacológicos?
+1389;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você avaliaria a variabilidade interindividual de resposta?
+1390;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você investigaria mecanismos de liberação de princípios ativos?
+1391;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você avaliaria a adesão ao uso de medicamentos?
+1392;Ciências da Saúde;Farmácia e farmacologia;técnica;Como você interpretaria relações entre exposição sistêmica e resposta?
+1393;Ciências da Saúde;Nutrição;técnica;Como você avaliaria vieses de recordatórios alimentares?
+1394;Ciências da Saúde;Nutrição;técnica;Como você distinguiria ingestão habitual de ingestão pontual?
+1395;Ciências da Saúde;Nutrição;técnica;Como você justificaria critérios de avaliação antropométrica?
+1396;Ciências da Saúde;Nutrição;técnica;Como você interpretaria indicadores de composição corporal?
+1397;Ciências da Saúde;Nutrição;técnica;Como você avaliaria biodisponibilidade de nutrientes?
+1398;Ciências da Saúde;Nutrição;técnica;Como você investigaria confundimento por consumo energético?
+1399;Ciências da Saúde;Nutrição;técnica;Como você justificaria métodos de estimativa de necessidades energéticas?
+1400;Ciências da Saúde;Nutrição;técnica;Como você avaliaria a influência do processamento de alimentos?
+1401;Ciências da Saúde;Nutrição;técnica;Como você interpretaria marcadores bioquímicos do estado nutricional?
+1402;Ciências da Saúde;Nutrição;técnica;Como você avaliaria a adesão a intervenções dietéticas?
+1403;Ciências da Saúde;Nutrição;técnica;Como você distinguiria efeitos de nutrientes isolados de padrões alimentares?
+1404;Ciências da Saúde;Nutrição;técnica;Como você investigaria fatores associados à insegurança alimentar?
+1405;Ciências da Saúde;Nutrição;técnica;Como você justificaria critérios de classificação nutricional por faixa etária?
+1406;Ciências da Saúde;Nutrição;técnica;Como você avaliaria a influência da sazonalidade no consumo?
+1407;Ciências da Saúde;Nutrição;técnica;Como você interpretaria resultados de intervenções de educação alimentar?
+1408;Ciências da Saúde;Nutrição;técnica;Como você investigaria interações entre dieta e condições metabólicas?
+1409;Ciências da Saúde;Nutrição;técnica;Como você avaliaria a adequação cultural de recomendações?
+1410;Ciências da Saúde;Nutrição;técnica;Como você distinguiria mudança de peso de mudança de composição corporal?
+1411;Ciências da Saúde;Odontologia;técnica;Como você distinguiria atividade de lesão cariosa de experiência acumulada de cárie?
+1412;Ciências da Saúde;Odontologia;técnica;Como você avaliaria a confiabilidade de exames clínicos bucais?
+1413;Ciências da Saúde;Odontologia;técnica;Como você justificaria critérios de avaliação periodontal?
+1414;Ciências da Saúde;Odontologia;técnica;Como você interpretaria profundidade de sondagem e perda de inserção?
+1415;Ciências da Saúde;Odontologia;técnica;Como você avaliaria riscos de contaminação em procedimentos?
+1416;Ciências da Saúde;Odontologia;técnica;Como você investigaria fatores associados à falha de restaurações?
+1417;Ciências da Saúde;Odontologia;técnica;Como você distinguiria biocompatibilidade de desempenho mecânico?
+1418;Ciências da Saúde;Odontologia;técnica;Como você justificaria a escolha de materiais restauradores?
+1419;Ciências da Saúde;Odontologia;técnica;Como você avaliaria a influência do biofilme oral?
+1420;Ciências da Saúde;Odontologia;técnica;Como você avaliaria a validade de índices de saúde bucal?
+1421;Ciências da Saúde;Odontologia;técnica;Como você investigaria mecanismos de sensibilidade dentinária?
+1422;Ciências da Saúde;Odontologia;técnica;Como você avaliaria a adesão a medidas preventivas?
+1423;Ciências da Saúde;Odontologia;técnica;Como você justificaria protocolos de controle de umidade?
+1424;Ciências da Saúde;Odontologia;técnica;Como você avaliaria efeitos de hábitos parafuncionais?
+1425;Ciências da Saúde;Odontologia;técnica;Como você distinguiria resultados estéticos de funcionais?
+1426;Ciências da Saúde;Odontologia;técnica;Como você avaliaria a estabilidade de resultados terapêuticos?
+1427;Ciências da Saúde;Odontologia;técnica;Como você justificaria critérios de indicação de procedimentos?
+1428;Ciências da Saúde;Odontologia;técnica;Como você interpretaria desfechos relatados por pacientes odontológicos?
+1429;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você distinguiria deficiência de limitação de atividade?
+1430;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você avaliaria a confiabilidade de medidas funcionais?
+1431;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você justificaria a escolha de uma escala de avaliação?
+1432;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você interpretaria a diferença mínima clinicamente importante?
+1433;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você avaliaria efeitos de dose e frequência terapêutica?
+1434;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você investigaria a influência da dor sobre desempenho motor?
+1435;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você distinguiria recuperação funcional de compensação?
+1436;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você avaliaria a validade de testes de equilíbrio?
+1437;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você justificaria progressão de exercícios terapêuticos?
+1438;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você interpretaria alterações de amplitude de movimento?
+1439;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você avaliaria efeitos de aprendizagem em testes repetidos?
+1440;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você investigaria barreiras ambientais à participação?
+1441;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você avaliaria a transferência de ganhos terapêuticos para atividades diárias?
+1442;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você justificaria estratégias de adaptação de tarefas?
+1443;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você avaliaria a adesão a programas domiciliares?
+1444;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você interpretaria medidas de independência funcional?
+1445;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você investigaria efeitos de dispositivos de tecnologia assistiva?
+1446;Ciências da Saúde;Fisioterapia e terapia ocupacional;técnica;Como você avaliaria riscos de sobrecarga durante reabilitação?
+1447;Ciências da Saúde;Educação física e esporte;técnica;Como você distinguiria carga interna de carga externa de treinamento?
+1448;Ciências da Saúde;Educação física e esporte;técnica;Como você avaliaria a validade de testes de aptidão física?
+1449;Ciências da Saúde;Educação física e esporte;técnica;Como você justificaria a periodização do treinamento?
+1450;Ciências da Saúde;Educação física e esporte;técnica;Como você investigaria efeitos de fadiga sobre desempenho?
+1451;Ciências da Saúde;Educação física e esporte;técnica;Como você distinguiria potência muscular de força máxima?
+1452;Ciências da Saúde;Educação física e esporte;técnica;Como você avaliaria a confiabilidade de medidas de atividade física?
+1453;Ciências da Saúde;Educação física e esporte;técnica;Como você interpretaria adaptações crônicas ao exercício?
+1454;Ciências da Saúde;Educação física e esporte;técnica;Como você avaliaria a influência da maturação biológica?
+1455;Ciências da Saúde;Educação física e esporte;técnica;Como você justificaria critérios de intensidade do esforço?
+1456;Ciências da Saúde;Educação física e esporte;técnica;Como você investigaria a relação entre recuperação e desempenho?
+1457;Ciências da Saúde;Educação física e esporte;técnica;Como você avaliaria a especificidade de exercícios para uma habilidade?
+1458;Ciências da Saúde;Educação física e esporte;técnica;Como você distinguiria aprendizagem motora de desempenho imediato?
+1459;Ciências da Saúde;Educação física e esporte;técnica;Como você interpretaria respostas cardiovasculares ao exercício?
+1460;Ciências da Saúde;Educação física e esporte;técnica;Como você avaliaria riscos associados à progressão de carga?
+1461;Ciências da Saúde;Educação física e esporte;técnica;Como você justificaria critérios de avaliação de técnica esportiva?
+1462;Ciências da Saúde;Educação física e esporte;técnica;Como você avaliaria o efeito do contexto social na prática corporal?
+1463;Ciências da Saúde;Educação física e esporte;técnica;Como você distinguiria comportamento sedentário de inatividade física?
+1464;Ciências da Saúde;Educação física e esporte;técnica;Como você interpretaria mudanças de desempenho diante da variabilidade individual?
+1465;Ciências Agrárias;Agronomia;técnica;Como você justificaria a escolha de cultivares?
+1466;Ciências Agrárias;Agronomia;técnica;Como você avaliaria a interação genótipo-ambiente?
+1467;Ciências Agrárias;Agronomia;técnica;Como você interpretaria análises de fertilidade do solo?
+1468;Ciências Agrárias;Agronomia;técnica;Como você distinguiria deficiência nutricional de estresse hídrico?
+1469;Ciências Agrárias;Agronomia;técnica;Como você justificaria doses de fertilizantes?
+1470;Ciências Agrárias;Agronomia;técnica;Como você investigaria competição entre culturas e plantas daninhas?
+1471;Ciências Agrárias;Agronomia;técnica;Como você avaliaria o efeito de rotação de culturas?
+1472;Ciências Agrárias;Agronomia;técnica;Como você justificaria critérios de manejo integrado de pragas?
+1473;Ciências Agrárias;Agronomia;técnica;Como você interpretaria produtividade em função de condições meteorológicas?
+1474;Ciências Agrárias;Agronomia;técnica;Como você avaliaria a influência de compactação do solo?
+1475;Ciências Agrárias;Agronomia;técnica;Como você justificaria o delineamento de ensaios agronômicos?
+1476;Ciências Agrárias;Agronomia;técnica;Como você avaliaria riscos de deriva de aplicações?
+1477;Ciências Agrárias;Agronomia;técnica;Como você interpretaria curvas de resposta à adubação?
+1478;Ciências Agrárias;Agronomia;técnica;Como você avaliaria a qualidade fisiológica de sementes?
+1479;Ciências Agrárias;Agronomia;técnica;Como você justificaria critérios de irrigação?
+1480;Ciências Agrárias;Agronomia;técnica;Como você investigaria efeitos de cobertura do solo?
+1481;Ciências Agrárias;Agronomia;técnica;Como você compararia viabilidade agronômica e econômica de manejos?
+1482;Ciências Agrárias;Medicina veterinária;técnica;Como você justificaria critérios de diagnóstico diferencial entre espécies?
+1483;Ciências Agrárias;Medicina veterinária;técnica;Como você distinguiria infecção subclínica de doença manifesta?
+1484;Ciências Agrárias;Medicina veterinária;técnica;Como você interpretaria resultados de exames laboratoriais veterinários?
+1485;Ciências Agrárias;Medicina veterinária;técnica;Como você avaliaria a eficácia de estratégias de imunização animal?
+1486;Ciências Agrárias;Medicina veterinária;técnica;Como você investigaria mecanismos de transmissão de zoonoses?
+1487;Ciências Agrárias;Medicina veterinária;técnica;Como você justificaria critérios de contenção e bem-estar?
+1488;Ciências Agrárias;Medicina veterinária;técnica;Como você avaliaria a adequação de modelos animais?
+1489;Ciências Agrárias;Medicina veterinária;técnica;Como você interpretaria indicadores de saúde de rebanhos?
+1490;Ciências Agrárias;Medicina veterinária;técnica;Como você avaliaria medidas de biosseguridade?
+1491;Ciências Agrárias;Medicina veterinária;técnica;Como você investigaria causas de mortalidade animal?
+1492;Ciências Agrárias;Medicina veterinária;técnica;Como você justificaria critérios de vigilância sanitária?
+1493;Ciências Agrárias;Medicina veterinária;técnica;Como você avaliaria a influência de nutrição na imunidade?
+1494;Ciências Agrárias;Medicina veterinária;técnica;Como você interpretaria alterações anatomopatológicas?
+1495;Ciências Agrárias;Medicina veterinária;técnica;Como você avaliaria o impacto de manejo sobre doenças?
+1496;Ciências Agrárias;Medicina veterinária;técnica;Como você distinguiria sensibilidade individual de desempenho diagnóstico no rebanho?
+1497;Ciências Agrárias;Medicina veterinária;técnica;Como você investigaria riscos de resistência antimicrobiana?
+1498;Ciências Agrárias;Medicina veterinária;técnica;Como você avaliaria a validade de protocolos clínicos veterinários?
+1499;Ciências Agrárias;Medicina veterinária;técnica;Como você relacionaria saúde animal humana e ambiental?
+1500;Ciências Agrárias;Zootecnia;técnica;Como você interpretaria conversão alimentar?
+1501;Ciências Agrárias;Zootecnia;técnica;Como você justificaria exigências nutricionais por fase produtiva?
+1502;Ciências Agrárias;Zootecnia;técnica;Como você avaliaria a digestibilidade de dietas?
+1503;Ciências Agrárias;Zootecnia;técnica;Como você distinguiria ganho de peso de deposição de tecido?
+1504;Ciências Agrárias;Zootecnia;técnica;Como você avaliaria indicadores de bem-estar em sistemas de produção?
+1505;Ciências Agrárias;Zootecnia;técnica;Como você justificaria critérios de seleção genética?
+1506;Ciências Agrárias;Zootecnia;técnica;Como você interpretaria valores genéticos estimados?
+1507;Ciências Agrárias;Zootecnia;técnica;Como você avaliaria a influência da densidade de alojamento?
+1508;Ciências Agrárias;Zootecnia;técnica;Como você investigaria efeitos de composição da dieta?
+1509;Ciências Agrárias;Zootecnia;técnica;Como você distinguiria desempenho individual de desempenho do lote?
+1510;Ciências Agrárias;Zootecnia;técnica;Como você justificaria estratégias de suplementação?
+1511;Ciências Agrárias;Zootecnia;técnica;Como você interpretaria indicadores reprodutivos?
+1512;Ciências Agrárias;Zootecnia;técnica;Como você avaliaria a eficiência de sistemas de pastejo?
+1513;Ciências Agrárias;Zootecnia;técnica;Como você investigaria relações entre produtividade e emissões?
+1514;Ciências Agrárias;Zootecnia;técnica;Como você avaliaria a influência de manejo sobre qualidade de produtos animais?
+1515;Ciências Agrárias;Zootecnia;técnica;Como você justificaria critérios de formação de grupos experimentais?
+1516;Ciências Agrárias;Zootecnia;técnica;Como você interpretaria custos de alimentação por unidade produzida?
+1517;Ciências Agrárias;Zootecnia;técnica;Como você compararia sistemas intensivos e extensivos considerando bem-estar e eficiência?
+1518;Ciências Agrárias;Engenharia florestal;técnica;Como você justificaria métodos de inventário florestal?
+1519;Ciências Agrárias;Engenharia florestal;técnica;Como você avaliaria a representatividade de parcelas amostrais?
+1520;Ciências Agrárias;Engenharia florestal;técnica;Como você interpretaria equações alométricas?
+1521;Ciências Agrárias;Engenharia florestal;técnica;Como você distinguiria volume comercial de biomassa total?
+1522;Ciências Agrárias;Engenharia florestal;técnica;Como você avaliaria a influência da estrutura diamétrica?
+1523;Ciências Agrárias;Engenharia florestal;técnica;Como você investigaria mecanismos de regeneração natural?
+1524;Ciências Agrárias;Engenharia florestal;técnica;Como você justificaria critérios de seleção de espécies para restauração?
+1525;Ciências Agrárias;Engenharia florestal;técnica;Como você interpretaria indicadores de crescimento florestal?
+1526;Ciências Agrárias;Engenharia florestal;técnica;Como você avaliaria efeitos de desbaste?
+1527;Ciências Agrárias;Engenharia florestal;técnica;Como você justificaria métodos de estimativa de carbono?
+1528;Ciências Agrárias;Engenharia florestal;técnica;Como você investigaria a influência de incêndios sobre regeneração?
+1529;Ciências Agrárias;Engenharia florestal;técnica;Como você avaliaria a sustentabilidade de taxas de exploração?
+1530;Ciências Agrárias;Engenharia florestal;técnica;Como você distinguiria qualidade de madeira de produtividade volumétrica?
+1531;Ciências Agrárias;Engenharia florestal;técnica;Como você avaliaria efeitos de fragmentação florestal?
+1532;Ciências Agrárias;Engenharia florestal;técnica;Como você interpretaria indicadores de sucessão ecológica?
+1533;Ciências Agrárias;Engenharia florestal;técnica;Como você investigaria riscos fitossanitários em povoamentos?
+1534;Ciências Agrárias;Engenharia florestal;técnica;Como você avaliaria conectividade em projetos de restauração?
+1535;Ciências Agrárias;Engenharia florestal;técnica;Como você compararia custos e benefícios de técnicas de recuperação florestal?
+1536;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você avaliaria atividade de água de um alimento?
+1537;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você distinguiria deterioração microbiológica de alteração química?
+1538;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você justificaria condições de processamento térmico?
+1539;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você interpretaria parâmetros de textura?
+1540;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você avaliaria a estabilidade oxidativa de lipídios?
+1541;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você investigaria efeitos de embalagem na vida útil?
+1542;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você justificaria critérios de análise sensorial?
+1543;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você avaliaria vieses de provadores?
+1544;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você interpretaria mudanças de cor durante armazenamento?
+1545;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você avaliaria a influência do pH na conservação?
+1546;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você justificaria pontos críticos de controle?
+1547;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você avaliaria a retenção de nutrientes após processamento?
+1548;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você investigaria alterações em emulsões?
+1549;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você avaliaria a adequação de métodos de conservação?
+1550;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você interpretaria cinética de degradação de componentes?
+1551;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você justificaria a escolha de ingredientes funcionais?
+1552;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você investigaria efeitos de escala sobre uniformidade de produtos?
+1553;Ciências Agrárias;Ciência e tecnologia de alimentos;técnica;Como você compararia tecnologias de processamento por qualidade e consumo energético?
+1554;Ciências Sociais Aplicadas;Direito;técnica;Como você justificaria a seleção de fontes normativas?
+1555;Ciências Sociais Aplicadas;Direito;técnica;Como você avaliaria conflitos entre princípios jurídicos?
+1556;Ciências Sociais Aplicadas;Direito;técnica;Como você distinguiria precedente vinculante de orientação persuasiva?
+1557;Ciências Sociais Aplicadas;Direito;técnica;Como você interpretaria a razão de decidir de um julgado?
+1558;Ciências Sociais Aplicadas;Direito;técnica;Como você avaliaria limites da discricionariedade administrativa?
+1559;Ciências Sociais Aplicadas;Direito;técnica;Como você justificaria a aplicação de critérios de proporcionalidade?
+1560;Ciências Sociais Aplicadas;Direito;técnica;Como você distinguiria validade de eficácia de uma norma?
+1561;Ciências Sociais Aplicadas;Direito;técnica;Como você avaliaria a coerência entre norma e aplicação prática?
+1562;Ciências Sociais Aplicadas;Direito;técnica;Como você justificaria a delimitação temporal de um corpus jurisprudencial?
+1563;Ciências Sociais Aplicadas;Direito;técnica;Como você interpretaria mudanças de entendimento dos tribunais?
+1564;Ciências Sociais Aplicadas;Direito;técnica;Como você avaliaria o ônus argumentativo de uma exceção jurídica?
+1565;Ciências Sociais Aplicadas;Direito;técnica;Como você investigaria efeitos de lacunas normativas?
+1566;Ciências Sociais Aplicadas;Direito;técnica;Como você avaliaria pressupostos de responsabilização jurídica?
+1567;Ciências Sociais Aplicadas;Direito;técnica;Como você justificaria a comparação entre ordenamentos?
+1568;Ciências Sociais Aplicadas;Direito;técnica;Como você distinguiria análise dogmática de avaliação empírica do direito?
+1569;Ciências Sociais Aplicadas;Direito;técnica;Como você avaliaria consequências institucionais de uma interpretação?
+1570;Ciências Sociais Aplicadas;Direito;técnica;Como você investigaria limites constitucionais de uma proposta normativa?
+1571;Ciências Sociais Aplicadas;Administração;técnica;Como você distinguiria estratégia deliberada de emergente?
+1572;Ciências Sociais Aplicadas;Administração;técnica;Como você avaliaria a adequação de indicadores de desempenho?
+1573;Ciências Sociais Aplicadas;Administração;técnica;Como você justificaria critérios de segmentação de clientes?
+1574;Ciências Sociais Aplicadas;Administração;técnica;Como você avaliaria conflitos de agência?
+1575;Ciências Sociais Aplicadas;Administração;técnica;Como você distinguiria vantagem competitiva de desempenho temporário?
+1576;Ciências Sociais Aplicadas;Administração;técnica;Como você interpretaria indicadores de satisfação e retenção?
+1577;Ciências Sociais Aplicadas;Administração;técnica;Como você justificaria a escolha de uma estrutura organizacional?
+1578;Ciências Sociais Aplicadas;Administração;técnica;Como você avaliaria barreiras à implementação estratégica?
+1579;Ciências Sociais Aplicadas;Administração;técnica;Como você investigaria efeitos de liderança sobre equipes?
+1580;Ciências Sociais Aplicadas;Administração;técnica;Como você distinguiria inovação incremental de radical?
+1581;Ciências Sociais Aplicadas;Administração;técnica;Como você avaliaria a sustentabilidade de um modelo de negócios?
+1582;Ciências Sociais Aplicadas;Administração;técnica;Como você justificaria critérios de alocação de recursos?
+1583;Ciências Sociais Aplicadas;Administração;técnica;Como você interpretaria resultados de pesquisas de clima organizacional?
+1584;Ciências Sociais Aplicadas;Administração;técnica;Como você avaliaria a influência de stakeholders?
+1585;Ciências Sociais Aplicadas;Administração;técnica;Como você investigaria mecanismos de governança corporativa?
+1586;Ciências Sociais Aplicadas;Administração;técnica;Como você distinguiria intenção de compra de comportamento efetivo?
+1587;Ciências Sociais Aplicadas;Administração;técnica;Como você justificaria critérios de análise de riscos empresariais?
+1588;Ciências Sociais Aplicadas;Administração;técnica;Como você avaliaria efeitos de incentivos sobre decisões gerenciais?
+1589;Ciências Sociais Aplicadas;Economia;técnica;Como você distinguiria efeitos nominais de reais?
+1590;Ciências Sociais Aplicadas;Economia;técnica;Como você interpretaria elasticidades econômicas?
+1591;Ciências Sociais Aplicadas;Economia;técnica;Como você avaliaria pressupostos de racionalidade de agentes?
+1592;Ciências Sociais Aplicadas;Economia;técnica;Como você justificaria a escolha de um modelo de equilíbrio?
+1593;Ciências Sociais Aplicadas;Economia;técnica;Como você investigaria endogeneidade de variáveis explicativas?
+1594;Ciências Sociais Aplicadas;Economia;técnica;Como você distinguiria eficiência econômica de equidade distributiva?
+1595;Ciências Sociais Aplicadas;Economia;técnica;Como você interpretaria custos de oportunidade?
+1596;Ciências Sociais Aplicadas;Economia;técnica;Como você justificaria critérios de identificação causal?
+1597;Ciências Sociais Aplicadas;Economia;técnica;Como você avaliaria a validade de instrumentos econométricos?
+1598;Ciências Sociais Aplicadas;Economia;técnica;Como você distinguiria efeitos de curto e longo prazo?
+1599;Ciências Sociais Aplicadas;Economia;técnica;Como você interpretaria impactos de políticas sobre diferentes grupos?
+1600;Ciências Sociais Aplicadas;Economia;técnica;Como você avaliaria a influência de expectativas econômicas?
+1601;Ciências Sociais Aplicadas;Economia;técnica;Como você investigaria mecanismos de transmissão de choques?
+1602;Ciências Sociais Aplicadas;Economia;técnica;Como você justificaria a escolha de um contrafactual?
+1603;Ciências Sociais Aplicadas;Economia;técnica;Como você avaliaria riscos de viés por variáveis omitidas?
+1604;Ciências Sociais Aplicadas;Economia;técnica;Como você interpretaria medidas de concentração de mercado?
+1605;Ciências Sociais Aplicadas;Economia;técnica;Como você distinguiria crescimento econômico de desenvolvimento?
+1606;Ciências Sociais Aplicadas;Economia;técnica;Como você avaliaria a sensibilidade de projeções a premissas macroeconômicas?
+1607;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você distinguiria regime de competência de regime de caixa?
+1608;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você interpretaria diferenças entre lucro e geração de caixa?
+1609;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você justificaria métodos de mensuração de ativos?
+1610;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você investigaria efeitos de provisões sobre demonstrações financeiras?
+1611;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você avaliaria a materialidade de distorções contábeis?
+1612;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você distinguiria risco sistemático de risco específico?
+1613;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você justificaria a taxa de desconto de um investimento?
+1614;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você interpretaria valor presente líquido?
+1615;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você investigaria efeitos da estrutura de capital?
+1616;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você distinguiria liquidez de solvência?
+1617;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você avaliaria a qualidade de informações divulgadas?
+1618;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você interpretaria indicadores de rentabilidade?
+1619;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você justificaria critérios de auditoria por amostragem?
+1620;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você avaliaria riscos de controles internos deficientes?
+1621;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você investigaria impactos de políticas contábeis na comparabilidade?
+1622;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você avaliaria a sensibilidade de avaliações financeiras?
+1623;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você distinguiria custos fixos de variáveis na tomada de decisão?
+1624;Ciências Sociais Aplicadas;Contabilidade e finanças;técnica;Como você interpretaria divergências entre valor contábil e econômico?
+1625;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você justificaria a relação entre partido arquitetônico e programa de necessidades?
+1626;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você avaliaria a orientação solar de uma edificação?
+1627;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você interpretaria fluxos de circulação?
+1628;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você distinguiria conforto térmico de eficiência energética?
+1629;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você avaliaria estratégias de ventilação natural?
+1630;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você investigaria a relação entre forma urbana e mobilidade?
+1631;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você avaliaria efeitos de adensamento sobre infraestrutura?
+1632;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você interpretaria usos do espaço público?
+1633;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você justificaria escolhas de materiais por desempenho e contexto?
+1634;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você avaliaria a integração entre edifício e entorno?
+1635;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você investigaria conflitos entre preservação patrimonial e adaptação funcional?
+1636;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você distinguiria segregação espacial de diferenciação de usos?
+1637;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você justificaria critérios de zoneamento?
+1638;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você avaliaria efeitos de impermeabilização urbana?
+1639;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você investigaria a percepção de segurança em espaços públicos?
+1640;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você avaliaria a flexibilidade de soluções espaciais?
+1641;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você interpretaria relações entre escala humana e desenho urbano?
+1642;Ciências Sociais Aplicadas;Arquitetura e urbanismo;técnica;Como você compararia alternativas projetuais por custo e desempenho ambiental?
+1643;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você distinguiria enquadramento midiático de definição de agenda?
+1644;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você avaliaria critérios de noticiabilidade?
+1645;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você justificaria a seleção de um corpus midiático?
+1646;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você investigaria efeitos de plataformas na circulação de conteúdo?
+1647;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você distinguiria alcance de engajamento?
+1648;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você avaliaria a confiabilidade de fontes jornalísticas?
+1649;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você interpretaria relações entre linguagem e representação social?
+1650;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você justificaria categorias de análise de conteúdo?
+1651;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você investigaria efeitos de concentração midiática?
+1652;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você distinguiria informação incorreta de desinformação intencional?
+1653;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você avaliaria dilemas éticos de exposição de fontes?
+1654;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você interpretaria a construção discursiva de acontecimentos?
+1655;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você justificaria estratégias de verificação de informações?
+1656;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você avaliaria a influência de métricas digitais nas decisões editoriais?
+1657;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você distinguiria publicidade de conteúdo editorial?
+1658;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você avaliaria a representatividade de vozes em uma cobertura?
+1659;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você justificaria escolhas narrativas em produtos comunicacionais?
+1660;Ciências Sociais Aplicadas;Comunicação social e jornalismo;técnica;Como você interpretaria efeitos de mediação tecnológica na comunicação pública?
+1661;Ciências Sociais Aplicadas;Serviço social;técnica;Como você distinguiria necessidades sociais de demandas institucionais?
+1662;Ciências Sociais Aplicadas;Serviço social;técnica;Como você avaliaria a relação entre questão social e políticas públicas?
+1663;Ciências Sociais Aplicadas;Serviço social;técnica;Como você justificaria critérios de análise de vulnerabilidade?
+1664;Ciências Sociais Aplicadas;Serviço social;técnica;Como você investigaria barreiras ao acesso a direitos?
+1665;Ciências Sociais Aplicadas;Serviço social;técnica;Como você distinguiria assistência social de assistencialismo?
+1666;Ciências Sociais Aplicadas;Serviço social;técnica;Como você avaliaria efeitos de condições de trabalho na atuação profissional?
+1667;Ciências Sociais Aplicadas;Serviço social;técnica;Como você interpretaria a relação entre autonomia e dependência institucional?
+1668;Ciências Sociais Aplicadas;Serviço social;técnica;Como você justificaria estratégias de participação de usuários?
+1669;Ciências Sociais Aplicadas;Serviço social;técnica;Como você avaliaria limites éticos do compartilhamento de informações?
+1670;Ciências Sociais Aplicadas;Serviço social;técnica;Como você investigaria articulação entre serviços da rede de proteção?
+1671;Ciências Sociais Aplicadas;Serviço social;técnica;Como você distinguiria respostas emergenciais de ações estruturantes?
+1672;Ciências Sociais Aplicadas;Serviço social;técnica;Como você interpretaria condições de reprodução social?
+1673;Ciências Sociais Aplicadas;Serviço social;técnica;Como você justificaria instrumentos de estudo social?
+1674;Ciências Sociais Aplicadas;Serviço social;técnica;Como você avaliaria a adequação de encaminhamentos intersetoriais?
+1675;Ciências Sociais Aplicadas;Serviço social;técnica;Como você investigaria relações de poder entre instituição e usuários?
+1676;Ciências Sociais Aplicadas;Serviço social;técnica;Como você avaliaria a efetivação de direitos para além da cobertura formal?
+1677;Ciências Sociais Aplicadas;Serviço social;técnica;Como você distinguiria responsabilização individual de determinação social?
+1678;Ciências Sociais Aplicadas;Serviço social;técnica;Como você interpretaria contradições entre projeto profissional e demandas institucionais?
+1679;Ciências Humanas;Educação e pedagogia;técnica;Como você distinguiria avaliação formativa de somativa?
+1680;Ciências Humanas;Educação e pedagogia;técnica;Como você avaliaria a coerência entre objetivos e atividades didáticas?
+1681;Ciências Humanas;Educação e pedagogia;técnica;Como você investigaria concepções prévias de estudantes?
+1682;Ciências Humanas;Educação e pedagogia;técnica;Como você distinguiria aprendizagem significativa de memorização?
+1683;Ciências Humanas;Educação e pedagogia;técnica;Como você avaliaria a validade de instrumentos de avaliação escolar?
+1684;Ciências Humanas;Educação e pedagogia;técnica;Como você interpretaria dificuldades de aprendizagem no contexto pedagógico?
+1685;Ciências Humanas;Educação e pedagogia;técnica;Como você justificaria estratégias de inclusão educacional?
+1686;Ciências Humanas;Educação e pedagogia;técnica;Como você investigaria efeitos do contexto sociocultural na aprendizagem?
+1687;Ciências Humanas;Educação e pedagogia;técnica;Como você distinguiria currículo prescrito de currículo praticado?
+1688;Ciências Humanas;Educação e pedagogia;técnica;Como você avaliaria a autonomia docente na implementação curricular?
+1689;Ciências Humanas;Educação e pedagogia;técnica;Como você interpretaria resultados de intervenções pedagógicas?
+1690;Ciências Humanas;Educação e pedagogia;técnica;Como você justificaria critérios de seleção de conteúdos?
+1691;Ciências Humanas;Educação e pedagogia;técnica;Como você investigaria relações entre avaliação e desigualdade escolar?
+1692;Ciências Humanas;Educação e pedagogia;técnica;Como você distinguiria participação em atividade de aprendizagem efetiva?
+1693;Ciências Humanas;Educação e pedagogia;técnica;Como você avaliaria a transferência de conhecimentos para novas situações?
+1694;Ciências Humanas;Educação e pedagogia;técnica;Como você justificaria estratégias de formação continuada?
+1695;Ciências Humanas;Educação e pedagogia;técnica;Como você interpretaria limitações de indicadores padronizados de qualidade educacional?
+1696;Ciências Humanas;Psicologia;técnica;Como você distinguiria construto psicológico de indicador observável?
+1697;Ciências Humanas;Psicologia;técnica;Como você avaliaria evidências de validade de um instrumento psicológico?
+1698;Ciências Humanas;Psicologia;técnica;Como você interpretaria consistência interna sem confundi-la com validade?
+1699;Ciências Humanas;Psicologia;técnica;Como você justificaria a escolha de uma abordagem teórica?
+1700;Ciências Humanas;Psicologia;técnica;Como você distinguiria correlação entre sintomas de diagnóstico clínico?
+1701;Ciências Humanas;Psicologia;técnica;Como você avaliaria efeitos do contexto cultural sobre medidas psicológicas?
+1702;Ciências Humanas;Psicologia;técnica;Como você interpretaria diferenças individuais em processos cognitivos?
+1703;Ciências Humanas;Psicologia;técnica;Como você justificaria critérios de avaliação de mudança clínica?
+1704;Ciências Humanas;Psicologia;técnica;Como você avaliaria a influência da relação pesquisador-participante?
+1705;Ciências Humanas;Psicologia;técnica;Como você investigaria mecanismos de regulação emocional?
+1706;Ciências Humanas;Psicologia;técnica;Como você distinguiria traços relativamente estáveis de estados situacionais?
+1707;Ciências Humanas;Psicologia;técnica;Como você avaliaria limites éticos de interpretações psicológicas?
+1708;Ciências Humanas;Psicologia;técnica;Como você interpretaria efeitos de expectativas em intervenções?
+1709;Ciências Humanas;Psicologia;técnica;Como você justificaria procedimentos de adaptação cultural de escalas?
+1710;Ciências Humanas;Psicologia;técnica;Como você avaliaria invariância de medida entre grupos?
+1711;Ciências Humanas;Psicologia;técnica;Como você investigaria relações entre desenvolvimento e ambiente?
+1712;Ciências Humanas;Psicologia;técnica;Como você avaliaria a contribuição de fatores de proteção?
+1713;Ciências Humanas;Psicologia;técnica;Como você interpretaria evidências de processos psicológicos sem reducionismo?
+1714;Ciências Humanas;Sociologia;técnica;Como você justificaria a operacionalização de classe social?
+1715;Ciências Humanas;Sociologia;técnica;Como você investigaria mecanismos de reprodução de desigualdades?
+1716;Ciências Humanas;Sociologia;técnica;Como você avaliaria relações entre instituições e práticas sociais?
+1717;Ciências Humanas;Sociologia;técnica;Como você interpretaria formas de estratificação social?
+1718;Ciências Humanas;Sociologia;técnica;Como você distinguiria categorias analíticas de categorias nativas?
+1719;Ciências Humanas;Sociologia;técnica;Como você avaliaria a posição social do pesquisador na produção de dados?
+1720;Ciências Humanas;Sociologia;técnica;Como você investigaria mecanismos de legitimação de poder?
+1721;Ciências Humanas;Sociologia;técnica;Como você interpretaria relações entre capital cultural e oportunidades?
+1722;Ciências Humanas;Sociologia;técnica;Como você avaliaria limites de generalização de estudos de caso?
+1723;Ciências Humanas;Sociologia;técnica;Como você distinguiria mudança social de variação conjuntural?
+1724;Ciências Humanas;Sociologia;técnica;Como você investigaria relações entre redes sociais e acesso a recursos?
+1725;Ciências Humanas;Sociologia;técnica;Como você avaliaria o papel de normas informais?
+1726;Ciências Humanas;Sociologia;técnica;Como você interpretaria processos de construção de identidades coletivas?
+1727;Ciências Humanas;Sociologia;técnica;Como você justificaria critérios de comparação entre grupos sociais?
+1728;Ciências Humanas;Sociologia;técnica;Como você investigaria mecanismos de ação coletiva?
+1729;Ciências Humanas;Sociologia;técnica;Como você distinguiria exclusão de integração subordinada?
+1730;Ciências Humanas;Sociologia;técnica;Como você avaliaria como diferentes marcadores sociais se articulam?
+1731;Ciências Humanas;Sociologia;técnica;Como você interpretaria relações entre discursos e práticas institucionais?
+1732;Ciências Humanas;Antropologia;técnica;Como você distinguiria perspectivas êmica e ética?
+1733;Ciências Humanas;Antropologia;técnica;Como você justificaria a escolha de interlocutores?
+1734;Ciências Humanas;Antropologia;técnica;Como você avaliaria efeitos da presença do etnógrafo em campo?
+1735;Ciências Humanas;Antropologia;técnica;Como você investigaria relações de reciprocidade?
+1736;Ciências Humanas;Antropologia;técnica;Como você justificaria a duração de uma imersão etnográfica?
+1737;Ciências Humanas;Antropologia;técnica;Como você distinguiria descrição densa de simples descrição de eventos?
+1738;Ciências Humanas;Antropologia;técnica;Como você avaliaria limites de tradução entre categorias culturais?
+1739;Ciências Humanas;Antropologia;técnica;Como você interpretaria práticas rituais em seus contextos?
+1740;Ciências Humanas;Antropologia;técnica;Como você investigaria processos de construção de alteridade?
+1741;Ciências Humanas;Antropologia;técnica;Como você justificaria estratégias de registro de observações?
+1742;Ciências Humanas;Antropologia;técnica;Como você interpretaria silêncios e recusas em campo?
+1743;Ciências Humanas;Antropologia;técnica;Como você distinguiria representações declaradas de práticas cotidianas?
+1744;Ciências Humanas;Antropologia;técnica;Como você avaliaria relações de poder na produção etnográfica?
+1745;Ciências Humanas;Antropologia;técnica;Como você investigaria circulação de bens e significados?
+1746;Ciências Humanas;Antropologia;técnica;Como você justificaria formas de devolução de resultados a interlocutores?
+1747;Ciências Humanas;Antropologia;técnica;Como você avaliaria a proteção de conhecimentos coletivos?
+1748;Ciências Humanas;Antropologia;técnica;Como você interpretaria conflitos internos sem pressupor homogeneidade cultural?
+1749;Ciências Humanas;Antropologia;técnica;Como você investigaria transformações históricas de práticas e identidades?
+1750;Ciências Humanas;História;técnica;Como você distinguiria fonte primária de interpretação historiográfica?
+1751;Ciências Humanas;História;técnica;Como você avaliaria autoria e proveniência de documentos?
+1752;Ciências Humanas;História;técnica;Como você justificaria a periodização adotada?
+1753;Ciências Humanas;História;técnica;Como você investigaria anacronismos em interpretações?
+1754;Ciências Humanas;História;técnica;Como você avaliaria silêncios e lacunas de arquivos?
+1755;Ciências Humanas;História;técnica;Como você interpretaria divergências entre testemunhos?
+1756;Ciências Humanas;História;técnica;Como você justificaria a seleção de um corpus documental?
+1757;Ciências Humanas;História;técnica;Como você avaliaria a relação entre escalas micro e macro-históricas?
+1758;Ciências Humanas;História;técnica;Como você investigaria condições de produção de uma fonte?
+1759;Ciências Humanas;História;técnica;Como você interpretaria permanências e rupturas em processos históricos?
+1760;Ciências Humanas;História;técnica;Como você distinguiria causalidade histórica de sucessão cronológica?
+1761;Ciências Humanas;História;técnica;Como você avaliaria limites de fontes orais?
+1762;Ciências Humanas;História;técnica;Como você investigaria disputas de memória pública?
+1763;Ciências Humanas;História;técnica;Como você avaliaria efeitos de categorias contemporâneas sobre análise do passado?
+1764;Ciências Humanas;História;técnica;Como você interpretaria a circulação histórica de ideias?
+1765;Ciências Humanas;História;técnica;Como você distinguiria intenção de agentes históricos de consequências de suas ações?
+1766;Ciências Humanas;História;técnica;Como você avaliaria a contribuição de fontes materiais para uma interpretação?
+1767;Ciências Humanas;História;técnica;Como você confrontaria interpretações historiográficas concorrentes?
+1768;Ciências Humanas;Geografia;técnica;Como você justificaria a escala de análise geográfica?
+1769;Ciências Humanas;Geografia;técnica;Como você distinguiria território de espaço geográfico?
+1770;Ciências Humanas;Geografia;técnica;Como você avaliaria efeitos da resolução espacial de dados?
+1771;Ciências Humanas;Geografia;técnica;Como você interpretaria relações entre sociedade e natureza?
+1772;Ciências Humanas;Geografia;técnica;Como você justificaria a escolha de uma projeção cartográfica?
+1773;Ciências Humanas;Geografia;técnica;Como você avaliaria a acurácia temática de mapas?
+1774;Ciências Humanas;Geografia;técnica;Como você investigaria efeitos da unidade espacial modificável?
+1775;Ciências Humanas;Geografia;técnica;Como você distinguiria autocorrelação espacial de relação causal?
+1776;Ciências Humanas;Geografia;técnica;Como você interpretaria processos de segregação socioespacial?
+1777;Ciências Humanas;Geografia;técnica;Como você justificaria categorias de análise da paisagem?
+1778;Ciências Humanas;Geografia;técnica;Como você investigaria transformações no uso e cobertura da terra?
+1779;Ciências Humanas;Geografia;técnica;Como você avaliaria limitações de sensoriamento remoto?
+1780;Ciências Humanas;Geografia;técnica;Como você interpretaria relações entre redes e centralidades?
+1781;Ciências Humanas;Geografia;técnica;Como você distinguiria vulnerabilidade territorial de exposição a perigos?
+1782;Ciências Humanas;Geografia;técnica;Como você avaliaria a representatividade de recortes regionais?
+1783;Ciências Humanas;Geografia;técnica;Como você investigaria conflitos de apropriação do território?
+1784;Ciências Humanas;Geografia;técnica;Como você avaliaria a influência da temporalidade sobre padrões espaciais?
+1785;Ciências Humanas;Geografia;técnica;Como você interpretaria relações entre mobilidade e desigualdade de acesso?
+1786;Ciências Humanas;Filosofia;técnica;Como você distinguiria validade lógica de verdade de premissas?
+1787;Ciências Humanas;Filosofia;técnica;Como você identificaria pressupostos ontológicos de uma tese?
+1788;Ciências Humanas;Filosofia;técnica;Como você justificaria uma posição epistemológica?
+1789;Ciências Humanas;Filosofia;técnica;Como você avaliaria a consistência interna de um argumento?
+1790;Ciências Humanas;Filosofia;técnica;Como você distinguiria inferências dedutivas de indutivas?
+1791;Ciências Humanas;Filosofia;técnica;Como você construiria objeções a uma tese normativa?
+1792;Ciências Humanas;Filosofia;técnica;Como você interpretaria conceitos filosóficos em seu contexto histórico?
+1793;Ciências Humanas;Filosofia;técnica;Como você distinguiria descrição de prescrição?
+1794;Ciências Humanas;Filosofia;técnica;Como você avaliaria a força de um experimento mental?
+1795;Ciências Humanas;Filosofia;técnica;Como você justificaria critérios de demarcação conceitual?
+1796;Ciências Humanas;Filosofia;técnica;Como você investigaria ambiguidades semânticas em argumentos?
+1797;Ciências Humanas;Filosofia;técnica;Como você distinguiria realismo de antirrealismo?
+1798;Ciências Humanas;Filosofia;técnica;Como você interpretaria divergências entre teorias éticas?
+1799;Ciências Humanas;Filosofia;técnica;Como você justificaria a passagem de premissas a uma conclusão?
+1800;Ciências Humanas;Filosofia;técnica;Como você identificaria possíveis petições de princípio?
+1801;Ciências Humanas;Filosofia;técnica;Como você avaliaria limites de uma analogia filosófica?
+1802;Ciências Humanas;Filosofia;técnica;Como você distinguiria explicação causal de justificação racional?
+1803;Ciências Humanas;Filosofia;técnica;Como você investigaria consequências de aceitar uma tese metafísica?
+1804;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você distinguiria poder de autoridade legítima?
+1805;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você justificaria a escolha de uma teoria institucional?
+1806;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você investigaria mecanismos de representação política?
+1807;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você distinguiria governabilidade de governança?
+1808;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você interpretaria efeitos de sistemas eleitorais?
+1809;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você avaliaria a influência de grupos de interesse?
+1810;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você justificaria critérios de comparação entre regimes?
+1811;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você investigaria mecanismos de responsabilização política?
+1812;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você distinguiria soberania formal de capacidade estatal?
+1813;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você avaliaria a implementação de acordos internacionais?
+1814;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você interpretaria a relação entre instituições e comportamento estratégico?
+1815;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você investigaria efeitos de assimetrias de poder entre Estados?
+1816;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você distinguiria cooperação internacional de integração regional?
+1817;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você justificaria critérios de análise de políticas externas?
+1818;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você interpretaria tensões entre legitimidade e efetividade?
+1819;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você investigaria processos de formação de coalizões?
+1820;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você avaliaria riscos de viés na seleção de casos políticos?
+1821;Ciências Humanas;Ciência política e relações internacionais;técnica;Como você distinguiria mudança institucional formal de mudança de práticas políticas?
+1822;Linguística, Letras e Artes;Linguística;técnica;Como você distinguiria competência linguística de desempenho?
+1823;Linguística, Letras e Artes;Linguística;técnica;Como você justificaria a constituição de um corpus linguístico?
+1824;Linguística, Letras e Artes;Linguística;técnica;Como você avaliaria a representatividade de variedades linguísticas?
+1825;Linguística, Letras e Artes;Linguística;técnica;Como você interpretaria diferenças entre variação e mudança linguística?
+1826;Linguística, Letras e Artes;Linguística;técnica;Como você distinguiria fonética de fonologia?
+1827;Linguística, Letras e Artes;Linguística;técnica;Como você avaliaria ambiguidades sintáticas?
+1828;Linguística, Letras e Artes;Linguística;técnica;Como você interpretaria relações entre semântica e pragmática?
+1829;Linguística, Letras e Artes;Linguística;técnica;Como você investigaria processos de gramaticalização?
+1830;Linguística, Letras e Artes;Linguística;técnica;Como você distinguiria significado convencional de inferência contextual?
+1831;Linguística, Letras e Artes;Linguística;técnica;Como você avaliaria a confiabilidade de anotações linguísticas?
+1832;Linguística, Letras e Artes;Linguística;técnica;Como você justificaria critérios de transcrição de fala?
+1833;Linguística, Letras e Artes;Linguística;técnica;Como você investigaria mecanismos de aquisição de segunda língua?
+1834;Linguística, Letras e Artes;Linguística;técnica;Como você avaliaria efeitos de frequência lexical?
+1835;Linguística, Letras e Artes;Linguística;técnica;Como você distinguiria erro de variante linguística?
+1836;Linguística, Letras e Artes;Linguística;técnica;Como você justificaria métodos de análise de discurso?
+1837;Linguística, Letras e Artes;Linguística;técnica;Como você avaliaria limites de inferências a partir de dados de aceitabilidade?
+1838;Linguística, Letras e Artes;Linguística;técnica;Como você investigaria a influência de contexto comunicativo na escolha de formas linguísticas?
+1839;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você distinguiria autor empírico de narrador?
+1840;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você interpretaria relações entre forma e conteúdo?
+1841;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você avaliaria efeitos da focalização narrativa?
+1842;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você distinguiria tempo da narrativa de tempo narrado?
+1843;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você investigaria relações intertextuais?
+1844;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você interpretaria figuras de linguagem em seu contexto?
+1845;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você justificaria uma abordagem crítica literária?
+1846;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você distinguiria gênero literário de modalidade discursiva?
+1847;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você investigaria a construção de personagens?
+1848;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você interpretaria efeitos de ritmo e sonoridade?
+1849;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você avaliaria a posição do leitor na produção de sentidos?
+1850;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você justificaria critérios de comparação entre obras?
+1851;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você investigaria processos de formação de cânones?
+1852;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você distinguiria contexto de produção de contexto de recepção?
+1853;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você interpretaria escolhas de tradução literária?
+1854;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você avaliaria o papel de elementos paratextuais?
+1855;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você investigaria relações entre literatura e poder?
+1856;Linguística, Letras e Artes;Literatura e estudos literários;técnica;Como você confrontaria leituras alternativas sem reduzir a polissemia de uma obra?
+1857;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você justificaria a escolha de uma linguagem visual?
+1858;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você avaliaria a relação entre materialidade e conceito?
+1859;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você interpretaria efeitos de composição e contraste?
+1860;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você distinguiria intenção autoral de experiência do público?
+1861;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você investigaria relações entre contexto expositivo e significado?
+1862;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você avaliaria o papel do suporte na obra?
+1863;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você interpretaria a apropriação de imagens em contextos artísticos?
+1864;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você distinguiria inovação formal de inovação conceitual?
+1865;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você justificaria decisões de tipografia e hierarquia visual?
+1866;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você avaliaria a legibilidade de uma solução gráfica?
+1867;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você justificaria métodos de prototipagem em design?
+1868;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você avaliaria a acessibilidade de interfaces visuais?
+1869;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você distinguiria funcionalidade de preferência estética?
+1870;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você interpretaria tensões entre autoria individual e produção coletiva?
+1871;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você avaliaria critérios de documentação de processos criativos?
+1872;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você investigaria implicações éticas do uso de imagens de terceiros?
+1873;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você justificaria escolhas de escala e espacialidade?
+1874;Linguística, Letras e Artes;Artes visuais e design;técnica;Como você avaliaria a coerência entre conceito e resultado visual?
+1875;Linguística, Letras e Artes;Música;técnica;Como você distinguiria estrutura harmônica de organização melódica?
+1876;Linguística, Letras e Artes;Música;técnica;Como você justificaria critérios de análise musical?
+1877;Linguística, Letras e Artes;Música;técnica;Como você interpretaria relações entre ritmo e métrica?
+1878;Linguística, Letras e Artes;Música;técnica;Como você avaliaria o papel do timbre na expressão musical?
+1879;Linguística, Letras e Artes;Música;técnica;Como você investigaria efeitos de escolhas interpretativas?
+1880;Linguística, Letras e Artes;Música;técnica;Como você distinguiria partitura de prática performática?
+1881;Linguística, Letras e Artes;Música;técnica;Como você justificaria a seleção de repertório?
+1882;Linguística, Letras e Artes;Música;técnica;Como você avaliaria limites da notação musical para registrar tradições orais?
+1883;Linguística, Letras e Artes;Música;técnica;Como você investigaria processos de improvisação?
+1884;Linguística, Letras e Artes;Música;técnica;Como você distinguiria afinação de temperamento?
+1885;Linguística, Letras e Artes;Música;técnica;Como você avaliaria critérios de análise de gravações sonoras?
+1886;Linguística, Letras e Artes;Música;técnica;Como você interpretaria relações entre textura e forma musical?
+1887;Linguística, Letras e Artes;Música;técnica;Como você justificaria escolhas de instrumentação?
+1888;Linguística, Letras e Artes;Música;técnica;Como você avaliaria a influência de acústica sobre performance?
+1889;Linguística, Letras e Artes;Música;técnica;Como você distinguiria fidelidade estilística de liberdade interpretativa?
+1890;Linguística, Letras e Artes;Música;técnica;Como você interpretaria funções sociais de práticas musicais?
+1891;Linguística, Letras e Artes;Música;técnica;Como você avaliaria a documentação de processos composicionais?
+1892;Linguística, Letras e Artes;Música;técnica;Como você justificaria critérios de comparação entre tradições musicais?
+1893;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você distinguiria dramaturgia textual de dramaturgia cênica?
+1894;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você justificaria escolhas de encenação?
+1895;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você interpretaria relações entre corpo e espaço?
+1896;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você avaliaria o papel da iluminação na construção de sentidos?
+1897;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você investigaria efeitos da montagem audiovisual sobre a narrativa?
+1898;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você distinguiria atuação de representação documental?
+1899;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você justificaria escolhas de enquadramento?
+1900;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você interpretaria a função do som em uma cena?
+1901;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você avaliaria relações entre movimento e temporalidade?
+1902;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você investigaria a participação do espectador na obra?
+1903;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você justificaria procedimentos de criação coletiva?
+1904;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você avaliaria efeitos de edição sobre a representação de acontecimentos?
+1905;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você interpretaria relações entre coreografia e improvisação?
+1906;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você investigaria condições de produção de uma obra cênica?
+1907;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você justificaria estratégias de direção de intérpretes?
+1908;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você avaliaria critérios de documentação de práticas corporais?
+1909;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você avaliaria dilemas éticos na representação de sujeitos reais?
+1910;Linguística, Letras e Artes;Teatro, dança e audiovisual;técnica;Como você investigaria a influência de tecnologias sobre a linguagem performática?
+1911;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você justificaria fronteiras de análise de um sistema socioecológico?
+1912;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você avaliaria serviços ecossistêmicos sem dupla contagem?
+1913;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você interpretaria conflitos entre indicadores ambientais e sociais?
+1914;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você investigaria mecanismos de retroalimentação socioambiental?
+1915;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você distinguiria adaptação climática de mitigação?
+1916;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você avaliaria riscos de deslocamento de impactos ambientais?
+1917;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você justificaria cenários de mudanças ambientais?
+1918;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você interpretaria a vulnerabilidade de comunidades a eventos extremos?
+1919;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você avaliaria a adicionalidade de ações de conservação?
+1920;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você investigaria efeitos de mudanças de uso da terra sobre emissões?
+1921;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você distinguiria estoque de carbono de fluxo de carbono?
+1922;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você avaliaria incertezas de inventários de gases de efeito estufa?
+1923;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você interpretaria efeitos de governança sobre recursos comuns?
+1924;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você avaliaria a permanência de benefícios de restauração?
+1925;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você investigaria relações entre justiça ambiental e exposição a riscos?
+1926;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você distinguiria indicadores de pressão de indicadores de estado ambiental?
+1927;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você avaliaria compromissos entre metas de desenvolvimento sustentável?
+1928;Multidisciplinar;Ciências ambientais e sustentabilidade;técnica;Como você interpretaria resultados de avaliações ambientais integradas?
+1929;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você justificaria a escolha de um organismo hospedeiro?
+1930;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você avaliaria a eficiência de transformação genética?
+1931;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você investigaria efeitos fora do alvo em edição genômica?
+1932;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você justificaria estratégias de otimização de condições de cultivo?
+1933;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você avaliaria a estabilidade de uma linhagem modificada?
+1934;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você interpretaria qualidade de alinhamentos de sequências?
+1935;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você justificaria critérios de filtragem de variantes?
+1936;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você avaliaria vieses de bancos de dados biológicos?
+1937;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você investigaria a confiabilidade de anotações funcionais?
+1938;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você distinguiria associação de genes de validação funcional?
+1939;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você avaliaria efeitos de lote em dados ômicos?
+1940;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você justificaria critérios de normalização de abundâncias moleculares?
+1941;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você interpretaria enriquecimento de vias biológicas?
+1942;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você avaliaria a reprodutibilidade de fluxos computacionais?
+1943;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você investigaria riscos de escape de organismos modificados?
+1944;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você avaliaria desempenho de biossensores?
+1945;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você distinguiria prova de conceito de viabilidade industrial?
+1946;Multidisciplinar;Biotecnologia e bioinformática;técnica;Como você avaliaria limites de extrapolação de modelos computacionais para sistemas vivos?
+1947;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você distinguiria avaliação de implementação de avaliação de impacto?
+1948;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você justificaria a teoria de mudança de um programa?
+1949;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você avaliaria a coerência entre instrumentos e objetivos públicos?
+1950;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você investigaria efeitos de discricionariedade na execução?
+1951;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você interpretaria indicadores de cobertura e focalização?
+1952;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você distinguiria eficiência de efetividade governamental?
+1953;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você justificaria a seleção de grupos de comparação?
+1954;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você investigaria efeitos não intencionais de intervenções?
+1955;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você avaliaria mecanismos de participação social?
+1956;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você interpretaria relações entre capacidade estatal e resultados?
+1957;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você distinguiria transparência formal de controle social efetivo?
+1958;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você avaliaria a coordenação entre entes federativos?
+1959;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você justificaria critérios de priorização orçamentária?
+1960;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você investigaria barreiras de acesso a benefícios?
+1961;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você avaliaria a sustentabilidade institucional de programas?
+1962;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você interpretaria resultados de avaliações de custo-efetividade?
+1963;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você distinguiria monitoramento de avaliação?
+1964;Multidisciplinar;Políticas públicas e gestão pública;técnica;Como você avaliaria efeitos distributivos de critérios de elegibilidade?
+1965;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você identificaria concepções alternativas sobre conceitos científicos?
+1966;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você distinguiria aprendizagem conceitual de execução de algoritmos?
+1967;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você avaliaria o papel de analogias no ensino de conceitos abstratos?
+1968;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você investigaria obstáculos epistemológicos à aprendizagem?
+1969;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você interpretaria erros de estudantes como evidência de raciocínio?
+1970;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você avaliaria a validade de testes conceituais?
+1971;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você justificaria sequências de atividades investigativas?
+1972;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você distinguiria demonstração experimental de investigação orientada?
+1973;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você investigaria efeitos de simulações na compreensão de modelos?
+1974;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você justificaria critérios de avaliação de alfabetização científica?
+1975;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você interpretaria diferenças entre linguagem cotidiana e científica?
+1976;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você avaliaria a transferência de raciocínio matemático entre contextos?
+1977;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você investigaria efeitos de recursos manipuláveis sobre abstração?
+1978;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você distinguiria conhecimento pedagógico de conteúdo de domínio disciplinar?
+1979;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você avaliaria a contextualização sociocientífica sem perder rigor conceitual?
+1980;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você justificaria estratégias de ensino de incerteza e erro de medida?
+1981;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você interpretaria dificuldades de leitura de gráficos e tabelas?
+1982;Multidisciplinar;Ensino de ciências e matemática;técnica;Como você avaliaria a inclusão de estudantes em atividades experimentais?
+1983;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você justificaria a escolha de bases bibliográficas?
+1984;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você avaliaria a cobertura de idiomas em uma busca?
+1985;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você distinguiria precisão de revocação de recuperação documental?
+1986;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você investigaria efeitos de vieses de indexação?
+1987;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você interpretaria redes de coautoria?
+1988;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você justificaria critérios de deduplicação de registros?
+1989;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você distinguiria produtividade científica de impacto científico?
+1990;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você avaliaria estratégias de desambiguação de autores?
+1991;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você interpretaria indicadores normalizados por área?
+1992;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você investigaria a influência da idade das publicações em métricas?
+1993;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você justificaria critérios de classificação temática de documentos?
+1994;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você distinguiria cocitação de acoplamento bibliográfico?
+1995;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você interpretaria agrupamentos em redes bibliométricas?
+1996;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você avaliaria a reprodutibilidade de estratégias de busca?
+1997;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você investigaria desigualdades de visibilidade científica?
+1998;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você justificaria políticas de preservação digital?
+1999;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você avaliaria a adequação de vocabulários controlados?
+2000;Multidisciplinar;Ciência da informação e bibliometria;técnica;Como você distinguiria acesso aberto de ausência de custos para publicação?

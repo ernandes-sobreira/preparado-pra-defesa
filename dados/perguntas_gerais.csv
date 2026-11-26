@@ -1,0 +1,1001 @@
+﻿id;categoria;modalidade;pergunta
+1;Motivação;direta;O que motivou a escolha deste tema?
+2;Motivação;fundamentação;O que motivou a escolha deste tema? Que razões sustentam sua resposta?
+3;Motivação;exemplificação;O que motivou a escolha deste tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+4;Motivação;reflexão crítica;O que motivou a escolha deste tema? Que ressalva faria à sua própria resposta?
+5;Motivação;direta;Por que este assunto merece atenção?
+6;Motivação;fundamentação;Por que este assunto merece atenção? Que razões sustentam sua resposta?
+7;Motivação;exemplificação;Por que este assunto merece atenção? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+8;Motivação;reflexão crítica;Por que este assunto merece atenção? Que ressalva faria à sua própria resposta?
+9;Motivação;direta;Que inquietação deu origem ao trabalho?
+10;Motivação;fundamentação;Que inquietação deu origem ao trabalho? Que razões sustentam sua resposta?
+11;Motivação;exemplificação;Que inquietação deu origem ao trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+12;Motivação;reflexão crítica;Que inquietação deu origem ao trabalho? Que ressalva faria à sua própria resposta?
+13;Motivação;direta;Como seu interesse pelo tema evoluiu?
+14;Motivação;fundamentação;Como seu interesse pelo tema evoluiu? Que razões sustentam sua resposta?
+15;Motivação;exemplificação;Como seu interesse pelo tema evoluiu? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+16;Motivação;reflexão crítica;Como seu interesse pelo tema evoluiu? Que ressalva faria à sua própria resposta?
+17;Motivação;direta;Que razões sustentam a realização deste trabalho?
+18;Motivação;fundamentação;Que razões sustentam a realização deste trabalho? Que razões sustentam sua resposta?
+19;Motivação;exemplificação;Que razões sustentam a realização deste trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+20;Motivação;reflexão crítica;Que razões sustentam a realização deste trabalho? Que ressalva faria à sua própria resposta?
+21;Delimitação;direta;Como você delimitou o objeto do trabalho?
+22;Delimitação;fundamentação;Como você delimitou o objeto do trabalho? Que razões sustentam sua resposta?
+23;Delimitação;exemplificação;Como você delimitou o objeto do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+24;Delimitação;reflexão crítica;Como você delimitou o objeto do trabalho? Que ressalva faria à sua própria resposta?
+25;Delimitação;direta;O que decidiu deixar fora do escopo?
+26;Delimitação;fundamentação;O que decidiu deixar fora do escopo? Que razões sustentam sua resposta?
+27;Delimitação;exemplificação;O que decidiu deixar fora do escopo? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+28;Delimitação;reflexão crítica;O que decidiu deixar fora do escopo? Que ressalva faria à sua própria resposta?
+29;Delimitação;direta;Por que escolheu esse recorte?
+30;Delimitação;fundamentação;Por que escolheu esse recorte? Que razões sustentam sua resposta?
+31;Delimitação;exemplificação;Por que escolheu esse recorte? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+32;Delimitação;reflexão crítica;Por que escolheu esse recorte? Que ressalva faria à sua própria resposta?
+33;Delimitação;direta;Quais fronteiras definem o alcance do trabalho?
+34;Delimitação;fundamentação;Quais fronteiras definem o alcance do trabalho? Que razões sustentam sua resposta?
+35;Delimitação;exemplificação;Quais fronteiras definem o alcance do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+36;Delimitação;reflexão crítica;Quais fronteiras definem o alcance do trabalho? Que ressalva faria à sua própria resposta?
+37;Delimitação;direta;Como evitar que o tema se torne amplo demais?
+38;Delimitação;fundamentação;Como evitar que o tema se torne amplo demais? Que razões sustentam sua resposta?
+39;Delimitação;exemplificação;Como evitar que o tema se torne amplo demais? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+40;Delimitação;reflexão crítica;Como evitar que o tema se torne amplo demais? Que ressalva faria à sua própria resposta?
+41;Problema;direta;Qual é o problema central abordado?
+42;Problema;fundamentação;Qual é o problema central abordado? Que razões sustentam sua resposta?
+43;Problema;exemplificação;Qual é o problema central abordado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+44;Problema;reflexão crítica;Qual é o problema central abordado? Que ressalva faria à sua própria resposta?
+45;Problema;direta;Como você chegou à formulação do problema?
+46;Problema;fundamentação;Como você chegou à formulação do problema? Que razões sustentam sua resposta?
+47;Problema;exemplificação;Como você chegou à formulação do problema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+48;Problema;reflexão crítica;Como você chegou à formulação do problema? Que ressalva faria à sua própria resposta?
+49;Problema;direta;Que aspecto do problema é mais difícil de enfrentar?
+50;Problema;fundamentação;Que aspecto do problema é mais difícil de enfrentar? Que razões sustentam sua resposta?
+51;Problema;exemplificação;Que aspecto do problema é mais difícil de enfrentar? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+52;Problema;reflexão crítica;Que aspecto do problema é mais difícil de enfrentar? Que ressalva faria à sua própria resposta?
+53;Problema;direta;Por que essa formulação é adequada?
+54;Problema;fundamentação;Por que essa formulação é adequada? Que razões sustentam sua resposta?
+55;Problema;exemplificação;Por que essa formulação é adequada? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+56;Problema;reflexão crítica;Por que essa formulação é adequada? Que ressalva faria à sua própria resposta?
+57;Problema;direta;Que outra formulação do problema seria possível?
+58;Problema;fundamentação;Que outra formulação do problema seria possível? Que razões sustentam sua resposta?
+59;Problema;exemplificação;Que outra formulação do problema seria possível? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+60;Problema;reflexão crítica;Que outra formulação do problema seria possível? Que ressalva faria à sua própria resposta?
+61;Objetivo geral;direta;Qual é o propósito principal do trabalho?
+62;Objetivo geral;fundamentação;Qual é o propósito principal do trabalho? Que razões sustentam sua resposta?
+63;Objetivo geral;exemplificação;Qual é o propósito principal do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+64;Objetivo geral;reflexão crítica;Qual é o propósito principal do trabalho? Que ressalva faria à sua própria resposta?
+65;Objetivo geral;direta;Como o objetivo geral se relaciona com o problema?
+66;Objetivo geral;fundamentação;Como o objetivo geral se relaciona com o problema? Que razões sustentam sua resposta?
+67;Objetivo geral;exemplificação;Como o objetivo geral se relaciona com o problema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+68;Objetivo geral;reflexão crítica;Como o objetivo geral se relaciona com o problema? Que ressalva faria à sua própria resposta?
+69;Objetivo geral;direta;Em que medida o objetivo geral foi alcançado ou pode ser alcançado?
+70;Objetivo geral;fundamentação;Em que medida o objetivo geral foi alcançado ou pode ser alcançado? Que razões sustentam sua resposta?
+71;Objetivo geral;exemplificação;Em que medida o objetivo geral foi alcançado ou pode ser alcançado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+72;Objetivo geral;reflexão crítica;Em que medida o objetivo geral foi alcançado ou pode ser alcançado? Que ressalva faria à sua própria resposta?
+73;Objetivo geral;direta;Por que formulou o objetivo dessa maneira?
+74;Objetivo geral;fundamentação;Por que formulou o objetivo dessa maneira? Que razões sustentam sua resposta?
+75;Objetivo geral;exemplificação;Por que formulou o objetivo dessa maneira? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+76;Objetivo geral;reflexão crítica;Por que formulou o objetivo dessa maneira? Que ressalva faria à sua própria resposta?
+77;Objetivo geral;direta;Como saber se o objetivo principal foi cumprido?
+78;Objetivo geral;fundamentação;Como saber se o objetivo principal foi cumprido? Que razões sustentam sua resposta?
+79;Objetivo geral;exemplificação;Como saber se o objetivo principal foi cumprido? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+80;Objetivo geral;reflexão crítica;Como saber se o objetivo principal foi cumprido? Que ressalva faria à sua própria resposta?
+81;Objetivos específicos;direta;Como os objetivos específicos contribuem para o objetivo geral?
+82;Objetivos específicos;fundamentação;Como os objetivos específicos contribuem para o objetivo geral? Que razões sustentam sua resposta?
+83;Objetivos específicos;exemplificação;Como os objetivos específicos contribuem para o objetivo geral? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+84;Objetivos específicos;reflexão crítica;Como os objetivos específicos contribuem para o objetivo geral? Que ressalva faria à sua própria resposta?
+85;Objetivos específicos;direta;Qual objetivo específico considera mais importante?
+86;Objetivos específicos;fundamentação;Qual objetivo específico considera mais importante? Que razões sustentam sua resposta?
+87;Objetivos específicos;exemplificação;Qual objetivo específico considera mais importante? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+88;Objetivos específicos;reflexão crítica;Qual objetivo específico considera mais importante? Que ressalva faria à sua própria resposta?
+89;Objetivos específicos;direta;Há algum objetivo que poderia ser reformulado?
+90;Objetivos específicos;fundamentação;Há algum objetivo que poderia ser reformulado? Que razões sustentam sua resposta?
+91;Objetivos específicos;exemplificação;Há algum objetivo que poderia ser reformulado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+92;Objetivos específicos;reflexão crítica;Há algum objetivo que poderia ser reformulado? Que ressalva faria à sua própria resposta?
+93;Objetivos específicos;direta;Como os objetivos específicos se complementam?
+94;Objetivos específicos;fundamentação;Como os objetivos específicos se complementam? Que razões sustentam sua resposta?
+95;Objetivos específicos;exemplificação;Como os objetivos específicos se complementam? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+96;Objetivos específicos;reflexão crítica;Como os objetivos específicos se complementam? Que ressalva faria à sua própria resposta?
+97;Objetivos específicos;direta;Que critério utilizou para definir os objetivos específicos?
+98;Objetivos específicos;fundamentação;Que critério utilizou para definir os objetivos específicos? Que razões sustentam sua resposta?
+99;Objetivos específicos;exemplificação;Que critério utilizou para definir os objetivos específicos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+100;Objetivos específicos;reflexão crítica;Que critério utilizou para definir os objetivos específicos? Que ressalva faria à sua própria resposta?
+101;Justificativa;direta;Qual é a justificativa mais forte para o trabalho?
+102;Justificativa;fundamentação;Qual é a justificativa mais forte para o trabalho? Que razões sustentam sua resposta?
+103;Justificativa;exemplificação;Qual é a justificativa mais forte para o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+104;Justificativa;reflexão crítica;Qual é a justificativa mais forte para o trabalho? Que ressalva faria à sua própria resposta?
+105;Justificativa;direta;Quem pode se beneficiar da discussão proposta?
+106;Justificativa;fundamentação;Quem pode se beneficiar da discussão proposta? Que razões sustentam sua resposta?
+107;Justificativa;exemplificação;Quem pode se beneficiar da discussão proposta? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+108;Justificativa;reflexão crítica;Quem pode se beneficiar da discussão proposta? Que ressalva faria à sua própria resposta?
+109;Justificativa;direta;Que necessidade o trabalho procura atender?
+110;Justificativa;fundamentação;Que necessidade o trabalho procura atender? Que razões sustentam sua resposta?
+111;Justificativa;exemplificação;Que necessidade o trabalho procura atender? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+112;Justificativa;reflexão crítica;Que necessidade o trabalho procura atender? Que ressalva faria à sua própria resposta?
+113;Justificativa;direta;Como defenderia a relevância do trabalho perante um público cético?
+114;Justificativa;fundamentação;Como defenderia a relevância do trabalho perante um público cético? Que razões sustentam sua resposta?
+115;Justificativa;exemplificação;Como defenderia a relevância do trabalho perante um público cético? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+116;Justificativa;reflexão crítica;Como defenderia a relevância do trabalho perante um público cético? Que ressalva faria à sua própria resposta?
+117;Justificativa;direta;Por que o trabalho é oportuno?
+118;Justificativa;fundamentação;Por que o trabalho é oportuno? Que razões sustentam sua resposta?
+119;Justificativa;exemplificação;Por que o trabalho é oportuno? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+120;Justificativa;reflexão crítica;Por que o trabalho é oportuno? Que ressalva faria à sua própria resposta?
+121;Originalidade;direta;O que diferencia seu trabalho de outros sobre o tema?
+122;Originalidade;fundamentação;O que diferencia seu trabalho de outros sobre o tema? Que razões sustentam sua resposta?
+123;Originalidade;exemplificação;O que diferencia seu trabalho de outros sobre o tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+124;Originalidade;reflexão crítica;O que diferencia seu trabalho de outros sobre o tema? Que ressalva faria à sua própria resposta?
+125;Originalidade;direta;Em que consiste sua contribuição própria?
+126;Originalidade;fundamentação;Em que consiste sua contribuição própria? Que razões sustentam sua resposta?
+127;Originalidade;exemplificação;Em que consiste sua contribuição própria? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+128;Originalidade;reflexão crítica;Em que consiste sua contribuição própria? Que ressalva faria à sua própria resposta?
+129;Originalidade;direta;Qual aspecto do trabalho apresenta maior novidade?
+130;Originalidade;fundamentação;Qual aspecto do trabalho apresenta maior novidade? Que razões sustentam sua resposta?
+131;Originalidade;exemplificação;Qual aspecto do trabalho apresenta maior novidade? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+132;Originalidade;reflexão crítica;Qual aspecto do trabalho apresenta maior novidade? Que ressalva faria à sua própria resposta?
+133;Originalidade;direta;Como distingue originalidade de simples reformulação?
+134;Originalidade;fundamentação;Como distingue originalidade de simples reformulação? Que razões sustentam sua resposta?
+135;Originalidade;exemplificação;Como distingue originalidade de simples reformulação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+136;Originalidade;reflexão crítica;Como distingue originalidade de simples reformulação? Que ressalva faria à sua própria resposta?
+137;Originalidade;direta;Que parte do trabalho representa sua própria elaboração?
+138;Originalidade;fundamentação;Que parte do trabalho representa sua própria elaboração? Que razões sustentam sua resposta?
+139;Originalidade;exemplificação;Que parte do trabalho representa sua própria elaboração? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+140;Originalidade;reflexão crítica;Que parte do trabalho representa sua própria elaboração? Que ressalva faria à sua própria resposta?
+141;Contextualização;direta;Que contexto é indispensável para compreender o trabalho?
+142;Contextualização;fundamentação;Que contexto é indispensável para compreender o trabalho? Que razões sustentam sua resposta?
+143;Contextualização;exemplificação;Que contexto é indispensável para compreender o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+144;Contextualização;reflexão crítica;Que contexto é indispensável para compreender o trabalho? Que ressalva faria à sua própria resposta?
+145;Contextualização;direta;Como o contexto influencia a abordagem escolhida?
+146;Contextualização;fundamentação;Como o contexto influencia a abordagem escolhida? Que razões sustentam sua resposta?
+147;Contextualização;exemplificação;Como o contexto influencia a abordagem escolhida? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+148;Contextualização;reflexão crítica;Como o contexto influencia a abordagem escolhida? Que ressalva faria à sua própria resposta?
+149;Contextualização;direta;Que mudanças de contexto poderiam alterar sua interpretação?
+150;Contextualização;fundamentação;Que mudanças de contexto poderiam alterar sua interpretação? Que razões sustentam sua resposta?
+151;Contextualização;exemplificação;Que mudanças de contexto poderiam alterar sua interpretação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+152;Contextualização;reflexão crítica;Que mudanças de contexto poderiam alterar sua interpretação? Que ressalva faria à sua própria resposta?
+153;Contextualização;direta;Que antecedentes ajudam a entender o tema?
+154;Contextualização;fundamentação;Que antecedentes ajudam a entender o tema? Que razões sustentam sua resposta?
+155;Contextualização;exemplificação;Que antecedentes ajudam a entender o tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+156;Contextualização;reflexão crítica;Que antecedentes ajudam a entender o tema? Que ressalva faria à sua própria resposta?
+157;Contextualização;direta;Como situaria o trabalho em uma discussão mais ampla?
+158;Contextualização;fundamentação;Como situaria o trabalho em uma discussão mais ampla? Que razões sustentam sua resposta?
+159;Contextualização;exemplificação;Como situaria o trabalho em uma discussão mais ampla? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+160;Contextualização;reflexão crítica;Como situaria o trabalho em uma discussão mais ampla? Que ressalva faria à sua própria resposta?
+161;Conceitos;direta;Qual conceito é central para entender seu trabalho?
+162;Conceitos;fundamentação;Qual conceito é central para entender seu trabalho? Que razões sustentam sua resposta?
+163;Conceitos;exemplificação;Qual conceito é central para entender seu trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+164;Conceitos;reflexão crítica;Qual conceito é central para entender seu trabalho? Que ressalva faria à sua própria resposta?
+165;Conceitos;direta;Como definiu os principais termos utilizados?
+166;Conceitos;fundamentação;Como definiu os principais termos utilizados? Que razões sustentam sua resposta?
+167;Conceitos;exemplificação;Como definiu os principais termos utilizados? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+168;Conceitos;reflexão crítica;Como definiu os principais termos utilizados? Que ressalva faria à sua própria resposta?
+169;Conceitos;direta;Que conceito poderia gerar interpretações equivocadas?
+170;Conceitos;fundamentação;Que conceito poderia gerar interpretações equivocadas? Que razões sustentam sua resposta?
+171;Conceitos;exemplificação;Que conceito poderia gerar interpretações equivocadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+172;Conceitos;reflexão crítica;Que conceito poderia gerar interpretações equivocadas? Que ressalva faria à sua própria resposta?
+173;Conceitos;direta;Como distingue conceitos próximos no trabalho?
+174;Conceitos;fundamentação;Como distingue conceitos próximos no trabalho? Que razões sustentam sua resposta?
+175;Conceitos;exemplificação;Como distingue conceitos próximos no trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+176;Conceitos;reflexão crítica;Como distingue conceitos próximos no trabalho? Que ressalva faria à sua própria resposta?
+177;Conceitos;direta;Por que adotou essas definições e não outras?
+178;Conceitos;fundamentação;Por que adotou essas definições e não outras? Que razões sustentam sua resposta?
+179;Conceitos;exemplificação;Por que adotou essas definições e não outras? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+180;Conceitos;reflexão crítica;Por que adotou essas definições e não outras? Que ressalva faria à sua própria resposta?
+181;Fundamentação;direta;O que sustenta intelectualmente sua abordagem?
+182;Fundamentação;fundamentação;O que sustenta intelectualmente sua abordagem? Que razões sustentam sua resposta?
+183;Fundamentação;exemplificação;O que sustenta intelectualmente sua abordagem? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+184;Fundamentação;reflexão crítica;O que sustenta intelectualmente sua abordagem? Que ressalva faria à sua própria resposta?
+185;Fundamentação;direta;Como a fundamentação orienta suas decisões?
+186;Fundamentação;fundamentação;Como a fundamentação orienta suas decisões? Que razões sustentam sua resposta?
+187;Fundamentação;exemplificação;Como a fundamentação orienta suas decisões? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+188;Fundamentação;reflexão crítica;Como a fundamentação orienta suas decisões? Que ressalva faria à sua própria resposta?
+189;Fundamentação;direta;Que pressuposto fundamenta a discussão central?
+190;Fundamentação;fundamentação;Que pressuposto fundamenta a discussão central? Que razões sustentam sua resposta?
+191;Fundamentação;exemplificação;Que pressuposto fundamenta a discussão central? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+192;Fundamentação;reflexão crítica;Que pressuposto fundamenta a discussão central? Que ressalva faria à sua própria resposta?
+193;Fundamentação;direta;Que parte da fundamentação merece maior atenção?
+194;Fundamentação;fundamentação;Que parte da fundamentação merece maior atenção? Que razões sustentam sua resposta?
+195;Fundamentação;exemplificação;Que parte da fundamentação merece maior atenção? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+196;Fundamentação;reflexão crítica;Que parte da fundamentação merece maior atenção? Que ressalva faria à sua própria resposta?
+197;Fundamentação;direta;Como avaliou a adequação da fundamentação ao tema?
+198;Fundamentação;fundamentação;Como avaliou a adequação da fundamentação ao tema? Que razões sustentam sua resposta?
+199;Fundamentação;exemplificação;Como avaliou a adequação da fundamentação ao tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+200;Fundamentação;reflexão crítica;Como avaliou a adequação da fundamentação ao tema? Que ressalva faria à sua própria resposta?
+201;Referências;direta;Como selecionou as referências utilizadas?
+202;Referências;fundamentação;Como selecionou as referências utilizadas? Que razões sustentam sua resposta?
+203;Referências;exemplificação;Como selecionou as referências utilizadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+204;Referências;reflexão crítica;Como selecionou as referências utilizadas? Que ressalva faria à sua própria resposta?
+205;Referências;direta;Qual referência mais influenciou sua compreensão do tema?
+206;Referências;fundamentação;Qual referência mais influenciou sua compreensão do tema? Que razões sustentam sua resposta?
+207;Referências;exemplificação;Qual referência mais influenciou sua compreensão do tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+208;Referências;reflexão crítica;Qual referência mais influenciou sua compreensão do tema? Que ressalva faria à sua própria resposta?
+209;Referências;direta;Como avaliou a confiabilidade das fontes?
+210;Referências;fundamentação;Como avaliou a confiabilidade das fontes? Que razões sustentam sua resposta?
+211;Referências;exemplificação;Como avaliou a confiabilidade das fontes? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+212;Referências;reflexão crítica;Como avaliou a confiabilidade das fontes? Que ressalva faria à sua própria resposta?
+213;Referências;direta;Que perspectiva relevante poderia complementar suas referências?
+214;Referências;fundamentação;Que perspectiva relevante poderia complementar suas referências? Que razões sustentam sua resposta?
+215;Referências;exemplificação;Que perspectiva relevante poderia complementar suas referências? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+216;Referências;reflexão crítica;Que perspectiva relevante poderia complementar suas referências? Que ressalva faria à sua própria resposta?
+217;Referências;direta;Como integrou as referências à sua própria argumentação?
+218;Referências;fundamentação;Como integrou as referências à sua própria argumentação? Que razões sustentam sua resposta?
+219;Referências;exemplificação;Como integrou as referências à sua própria argumentação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+220;Referências;reflexão crítica;Como integrou as referências à sua própria argumentação? Que ressalva faria à sua própria resposta?
+221;Estado do conhecimento;direta;Como seu trabalho se situa diante do conhecimento existente?
+222;Estado do conhecimento;fundamentação;Como seu trabalho se situa diante do conhecimento existente? Que razões sustentam sua resposta?
+223;Estado do conhecimento;exemplificação;Como seu trabalho se situa diante do conhecimento existente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+224;Estado do conhecimento;reflexão crítica;Como seu trabalho se situa diante do conhecimento existente? Que ressalva faria à sua própria resposta?
+225;Estado do conhecimento;direta;Que questão permanece em aberto na discussão sobre o tema?
+226;Estado do conhecimento;fundamentação;Que questão permanece em aberto na discussão sobre o tema? Que razões sustentam sua resposta?
+227;Estado do conhecimento;exemplificação;Que questão permanece em aberto na discussão sobre o tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+228;Estado do conhecimento;reflexão crítica;Que questão permanece em aberto na discussão sobre o tema? Que ressalva faria à sua própria resposta?
+229;Estado do conhecimento;direta;Que convergências identificou nas fontes consultadas?
+230;Estado do conhecimento;fundamentação;Que convergências identificou nas fontes consultadas? Que razões sustentam sua resposta?
+231;Estado do conhecimento;exemplificação;Que convergências identificou nas fontes consultadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+232;Estado do conhecimento;reflexão crítica;Que convergências identificou nas fontes consultadas? Que ressalva faria à sua própria resposta?
+233;Estado do conhecimento;direta;Que divergências considera relevantes?
+234;Estado do conhecimento;fundamentação;Que divergências considera relevantes? Que razões sustentam sua resposta?
+235;Estado do conhecimento;exemplificação;Que divergências considera relevantes? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+236;Estado do conhecimento;reflexão crítica;Que divergências considera relevantes? Que ressalva faria à sua própria resposta?
+237;Estado do conhecimento;direta;Como identificou o espaço para sua contribuição?
+238;Estado do conhecimento;fundamentação;Como identificou o espaço para sua contribuição? Que razões sustentam sua resposta?
+239;Estado do conhecimento;exemplificação;Como identificou o espaço para sua contribuição? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+240;Estado do conhecimento;reflexão crítica;Como identificou o espaço para sua contribuição? Que ressalva faria à sua própria resposta?
+241;Perspectivas;direta;Que perspectiva alternativa poderia orientar o trabalho?
+242;Perspectivas;fundamentação;Que perspectiva alternativa poderia orientar o trabalho? Que razões sustentam sua resposta?
+243;Perspectivas;exemplificação;Que perspectiva alternativa poderia orientar o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+244;Perspectivas;reflexão crítica;Que perspectiva alternativa poderia orientar o trabalho? Que ressalva faria à sua própria resposta?
+245;Perspectivas;direta;Por que privilegiou a perspectiva adotada?
+246;Perspectivas;fundamentação;Por que privilegiou a perspectiva adotada? Que razões sustentam sua resposta?
+247;Perspectivas;exemplificação;Por que privilegiou a perspectiva adotada? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+248;Perspectivas;reflexão crítica;Por que privilegiou a perspectiva adotada? Que ressalva faria à sua própria resposta?
+249;Perspectivas;direta;Como outra perspectiva mudaria a discussão?
+250;Perspectivas;fundamentação;Como outra perspectiva mudaria a discussão? Que razões sustentam sua resposta?
+251;Perspectivas;exemplificação;Como outra perspectiva mudaria a discussão? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+252;Perspectivas;reflexão crítica;Como outra perspectiva mudaria a discussão? Que ressalva faria à sua própria resposta?
+253;Perspectivas;direta;Que vantagens e desvantagens percebe na perspectiva escolhida?
+254;Perspectivas;fundamentação;Que vantagens e desvantagens percebe na perspectiva escolhida? Que razões sustentam sua resposta?
+255;Perspectivas;exemplificação;Que vantagens e desvantagens percebe na perspectiva escolhida? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+256;Perspectivas;reflexão crítica;Que vantagens e desvantagens percebe na perspectiva escolhida? Que ressalva faria à sua própria resposta?
+257;Perspectivas;direta;Como lidou com perspectivas incompatíveis entre si?
+258;Perspectivas;fundamentação;Como lidou com perspectivas incompatíveis entre si? Que razões sustentam sua resposta?
+259;Perspectivas;exemplificação;Como lidou com perspectivas incompatíveis entre si? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+260;Perspectivas;reflexão crítica;Como lidou com perspectivas incompatíveis entre si? Que ressalva faria à sua própria resposta?
+261;Pressupostos;direta;Quais pressupostos orientam o trabalho?
+262;Pressupostos;fundamentação;Quais pressupostos orientam o trabalho? Que razões sustentam sua resposta?
+263;Pressupostos;exemplificação;Quais pressupostos orientam o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+264;Pressupostos;reflexão crítica;Quais pressupostos orientam o trabalho? Que ressalva faria à sua própria resposta?
+265;Pressupostos;direta;Qual pressuposto é mais importante para sua argumentação?
+266;Pressupostos;fundamentação;Qual pressuposto é mais importante para sua argumentação? Que razões sustentam sua resposta?
+267;Pressupostos;exemplificação;Qual pressuposto é mais importante para sua argumentação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+268;Pressupostos;reflexão crítica;Qual pressuposto é mais importante para sua argumentação? Que ressalva faria à sua própria resposta?
+269;Pressupostos;direta;O que aconteceria se um pressuposto central fosse questionado?
+270;Pressupostos;fundamentação;O que aconteceria se um pressuposto central fosse questionado? Que razões sustentam sua resposta?
+271;Pressupostos;exemplificação;O que aconteceria se um pressuposto central fosse questionado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+272;Pressupostos;reflexão crítica;O que aconteceria se um pressuposto central fosse questionado? Que ressalva faria à sua própria resposta?
+273;Pressupostos;direta;Como tornou explícitos seus pressupostos?
+274;Pressupostos;fundamentação;Como tornou explícitos seus pressupostos? Que razões sustentam sua resposta?
+275;Pressupostos;exemplificação;Como tornou explícitos seus pressupostos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+276;Pressupostos;reflexão crítica;Como tornou explícitos seus pressupostos? Que ressalva faria à sua própria resposta?
+277;Pressupostos;direta;Que pressuposto merece ser reavaliado?
+278;Pressupostos;fundamentação;Que pressuposto merece ser reavaliado? Que razões sustentam sua resposta?
+279;Pressupostos;exemplificação;Que pressuposto merece ser reavaliado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+280;Pressupostos;reflexão crítica;Que pressuposto merece ser reavaliado? Que ressalva faria à sua própria resposta?
+281;Abordagem;direta;Como caracterizaria a abordagem adotada?
+282;Abordagem;fundamentação;Como caracterizaria a abordagem adotada? Que razões sustentam sua resposta?
+283;Abordagem;exemplificação;Como caracterizaria a abordagem adotada? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+284;Abordagem;reflexão crítica;Como caracterizaria a abordagem adotada? Que ressalva faria à sua própria resposta?
+285;Abordagem;direta;Por que essa abordagem é apropriada ao problema?
+286;Abordagem;fundamentação;Por que essa abordagem é apropriada ao problema? Que razões sustentam sua resposta?
+287;Abordagem;exemplificação;Por que essa abordagem é apropriada ao problema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+288;Abordagem;reflexão crítica;Por que essa abordagem é apropriada ao problema? Que ressalva faria à sua própria resposta?
+289;Abordagem;direta;Que alternativa de abordagem considerou?
+290;Abordagem;fundamentação;Que alternativa de abordagem considerou? Que razões sustentam sua resposta?
+291;Abordagem;exemplificação;Que alternativa de abordagem considerou? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+292;Abordagem;reflexão crítica;Que alternativa de abordagem considerou? Que ressalva faria à sua própria resposta?
+293;Abordagem;direta;Qual é a principal vantagem da abordagem escolhida?
+294;Abordagem;fundamentação;Qual é a principal vantagem da abordagem escolhida? Que razões sustentam sua resposta?
+295;Abordagem;exemplificação;Qual é a principal vantagem da abordagem escolhida? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+296;Abordagem;reflexão crítica;Qual é a principal vantagem da abordagem escolhida? Que ressalva faria à sua própria resposta?
+297;Abordagem;direta;Que restrição acompanha essa abordagem?
+298;Abordagem;fundamentação;Que restrição acompanha essa abordagem? Que razões sustentam sua resposta?
+299;Abordagem;exemplificação;Que restrição acompanha essa abordagem? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+300;Abordagem;reflexão crítica;Que restrição acompanha essa abordagem? Que ressalva faria à sua própria resposta?
+301;Planejamento;direta;Como organizou as etapas do trabalho?
+302;Planejamento;fundamentação;Como organizou as etapas do trabalho? Que razões sustentam sua resposta?
+303;Planejamento;exemplificação;Como organizou as etapas do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+304;Planejamento;reflexão crítica;Como organizou as etapas do trabalho? Que ressalva faria à sua própria resposta?
+305;Planejamento;direta;Que etapa exige maior atenção?
+306;Planejamento;fundamentação;Que etapa exige maior atenção? Que razões sustentam sua resposta?
+307;Planejamento;exemplificação;Que etapa exige maior atenção? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+308;Planejamento;reflexão crítica;Que etapa exige maior atenção? Que ressalva faria à sua própria resposta?
+309;Planejamento;direta;Como definiu a sequência das atividades?
+310;Planejamento;fundamentação;Como definiu a sequência das atividades? Que razões sustentam sua resposta?
+311;Planejamento;exemplificação;Como definiu a sequência das atividades? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+312;Planejamento;reflexão crítica;Como definiu a sequência das atividades? Que ressalva faria à sua própria resposta?
+313;Planejamento;direta;Que aspecto do planejamento poderia ser aperfeiçoado?
+314;Planejamento;fundamentação;Que aspecto do planejamento poderia ser aperfeiçoado? Que razões sustentam sua resposta?
+315;Planejamento;exemplificação;Que aspecto do planejamento poderia ser aperfeiçoado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+316;Planejamento;reflexão crítica;Que aspecto do planejamento poderia ser aperfeiçoado? Que ressalva faria à sua própria resposta?
+317;Planejamento;direta;Como o planejamento contribui para atingir os objetivos?
+318;Planejamento;fundamentação;Como o planejamento contribui para atingir os objetivos? Que razões sustentam sua resposta?
+319;Planejamento;exemplificação;Como o planejamento contribui para atingir os objetivos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+320;Planejamento;reflexão crítica;Como o planejamento contribui para atingir os objetivos? Que ressalva faria à sua própria resposta?
+321;Decisões;direta;Qual foi a decisão mais importante na elaboração do trabalho?
+322;Decisões;fundamentação;Qual foi a decisão mais importante na elaboração do trabalho? Que razões sustentam sua resposta?
+323;Decisões;exemplificação;Qual foi a decisão mais importante na elaboração do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+324;Decisões;reflexão crítica;Qual foi a decisão mais importante na elaboração do trabalho? Que ressalva faria à sua própria resposta?
+325;Decisões;direta;Que critérios orientaram suas escolhas?
+326;Decisões;fundamentação;Que critérios orientaram suas escolhas? Que razões sustentam sua resposta?
+327;Decisões;exemplificação;Que critérios orientaram suas escolhas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+328;Decisões;reflexão crítica;Que critérios orientaram suas escolhas? Que ressalva faria à sua própria resposta?
+329;Decisões;direta;Como justificaria uma escolha particularmente difícil?
+330;Decisões;fundamentação;Como justificaria uma escolha particularmente difícil? Que razões sustentam sua resposta?
+331;Decisões;exemplificação;Como justificaria uma escolha particularmente difícil? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+332;Decisões;reflexão crítica;Como justificaria uma escolha particularmente difícil? Que ressalva faria à sua própria resposta?
+333;Decisões;direta;Que decisão poderia ter sido diferente?
+334;Decisões;fundamentação;Que decisão poderia ter sido diferente? Que razões sustentam sua resposta?
+335;Decisões;exemplificação;Que decisão poderia ter sido diferente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+336;Decisões;reflexão crítica;Que decisão poderia ter sido diferente? Que ressalva faria à sua própria resposta?
+337;Decisões;direta;Como conciliou escolhas que competiam entre si?
+338;Decisões;fundamentação;Como conciliou escolhas que competiam entre si? Que razões sustentam sua resposta?
+339;Decisões;exemplificação;Como conciliou escolhas que competiam entre si? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+340;Decisões;reflexão crítica;Como conciliou escolhas que competiam entre si? Que ressalva faria à sua própria resposta?
+341;Procedimentos;direta;Como descreve o caminho adotado para desenvolver o trabalho?
+342;Procedimentos;fundamentação;Como descreve o caminho adotado para desenvolver o trabalho? Que razões sustentam sua resposta?
+343;Procedimentos;exemplificação;Como descreve o caminho adotado para desenvolver o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+344;Procedimentos;reflexão crítica;Como descreve o caminho adotado para desenvolver o trabalho? Que ressalva faria à sua própria resposta?
+345;Procedimentos;direta;Por que escolheu esses procedimentos?
+346;Procedimentos;fundamentação;Por que escolheu esses procedimentos? Que razões sustentam sua resposta?
+347;Procedimentos;exemplificação;Por que escolheu esses procedimentos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+348;Procedimentos;reflexão crítica;Por que escolheu esses procedimentos? Que ressalva faria à sua própria resposta?
+349;Procedimentos;direta;Como os procedimentos se relacionam com os objetivos?
+350;Procedimentos;fundamentação;Como os procedimentos se relacionam com os objetivos? Que razões sustentam sua resposta?
+351;Procedimentos;exemplificação;Como os procedimentos se relacionam com os objetivos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+352;Procedimentos;reflexão crítica;Como os procedimentos se relacionam com os objetivos? Que ressalva faria à sua própria resposta?
+353;Procedimentos;direta;Que cuidados são necessários na execução dos procedimentos?
+354;Procedimentos;fundamentação;Que cuidados são necessários na execução dos procedimentos? Que razões sustentam sua resposta?
+355;Procedimentos;exemplificação;Que cuidados são necessários na execução dos procedimentos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+356;Procedimentos;reflexão crítica;Que cuidados são necessários na execução dos procedimentos? Que ressalva faria à sua própria resposta?
+357;Procedimentos;direta;Como avaliaria a adequação dos procedimentos?
+358;Procedimentos;fundamentação;Como avaliaria a adequação dos procedimentos? Que razões sustentam sua resposta?
+359;Procedimentos;exemplificação;Como avaliaria a adequação dos procedimentos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+360;Procedimentos;reflexão crítica;Como avaliaria a adequação dos procedimentos? Que ressalva faria à sua própria resposta?
+361;Materiais e fontes;direta;Que recursos são essenciais para desenvolver o trabalho?
+362;Materiais e fontes;fundamentação;Que recursos são essenciais para desenvolver o trabalho? Que razões sustentam sua resposta?
+363;Materiais e fontes;exemplificação;Que recursos são essenciais para desenvolver o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+364;Materiais e fontes;reflexão crítica;Que recursos são essenciais para desenvolver o trabalho? Que ressalva faria à sua própria resposta?
+365;Materiais e fontes;direta;Como avaliou a adequação dos materiais ou fontes utilizados?
+366;Materiais e fontes;fundamentação;Como avaliou a adequação dos materiais ou fontes utilizados? Que razões sustentam sua resposta?
+367;Materiais e fontes;exemplificação;Como avaliou a adequação dos materiais ou fontes utilizados? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+368;Materiais e fontes;reflexão crítica;Como avaliou a adequação dos materiais ou fontes utilizados? Que ressalva faria à sua própria resposta?
+369;Materiais e fontes;direta;Que critérios orientam a inclusão de materiais ou fontes?
+370;Materiais e fontes;fundamentação;Que critérios orientam a inclusão de materiais ou fontes? Que razões sustentam sua resposta?
+371;Materiais e fontes;exemplificação;Que critérios orientam a inclusão de materiais ou fontes? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+372;Materiais e fontes;reflexão crítica;Que critérios orientam a inclusão de materiais ou fontes? Que ressalva faria à sua própria resposta?
+373;Materiais e fontes;direta;Que limitações decorrem dos recursos disponíveis?
+374;Materiais e fontes;fundamentação;Que limitações decorrem dos recursos disponíveis? Que razões sustentam sua resposta?
+375;Materiais e fontes;exemplificação;Que limitações decorrem dos recursos disponíveis? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+376;Materiais e fontes;reflexão crítica;Que limitações decorrem dos recursos disponíveis? Que ressalva faria à sua própria resposta?
+377;Materiais e fontes;direta;Como garantir a rastreabilidade das informações utilizadas?
+378;Materiais e fontes;fundamentação;Como garantir a rastreabilidade das informações utilizadas? Que razões sustentam sua resposta?
+379;Materiais e fontes;exemplificação;Como garantir a rastreabilidade das informações utilizadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+380;Materiais e fontes;reflexão crítica;Como garantir a rastreabilidade das informações utilizadas? Que ressalva faria à sua própria resposta?
+381;Critérios;direta;Que critérios utiliza para avaliar a qualidade do trabalho?
+382;Critérios;fundamentação;Que critérios utiliza para avaliar a qualidade do trabalho? Que razões sustentam sua resposta?
+383;Critérios;exemplificação;Que critérios utiliza para avaliar a qualidade do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+384;Critérios;reflexão crítica;Que critérios utiliza para avaliar a qualidade do trabalho? Que ressalva faria à sua própria resposta?
+385;Critérios;direta;Como estabeleceu os critérios de seleção?
+386;Critérios;fundamentação;Como estabeleceu os critérios de seleção? Que razões sustentam sua resposta?
+387;Critérios;exemplificação;Como estabeleceu os critérios de seleção? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+388;Critérios;reflexão crítica;Como estabeleceu os critérios de seleção? Que ressalva faria à sua própria resposta?
+389;Critérios;direta;Como justificaria os critérios adotados?
+390;Critérios;fundamentação;Como justificaria os critérios adotados? Que razões sustentam sua resposta?
+391;Critérios;exemplificação;Como justificaria os critérios adotados? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+392;Critérios;reflexão crítica;Como justificaria os critérios adotados? Que ressalva faria à sua própria resposta?
+393;Critérios;direta;Que consequência teria a alteração de um critério central?
+394;Critérios;fundamentação;Que consequência teria a alteração de um critério central? Que razões sustentam sua resposta?
+395;Critérios;exemplificação;Que consequência teria a alteração de um critério central? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+396;Critérios;reflexão crítica;Que consequência teria a alteração de um critério central? Que ressalva faria à sua própria resposta?
+397;Critérios;direta;Como evita aplicar critérios de maneira inconsistente?
+398;Critérios;fundamentação;Como evita aplicar critérios de maneira inconsistente? Que razões sustentam sua resposta?
+399;Critérios;exemplificação;Como evita aplicar critérios de maneira inconsistente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+400;Critérios;reflexão crítica;Como evita aplicar critérios de maneira inconsistente? Que ressalva faria à sua própria resposta?
+401;Coerência;direta;Como demonstra a coerência entre as partes do trabalho?
+402;Coerência;fundamentação;Como demonstra a coerência entre as partes do trabalho? Que razões sustentam sua resposta?
+403;Coerência;exemplificação;Como demonstra a coerência entre as partes do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+404;Coerência;reflexão crítica;Como demonstra a coerência entre as partes do trabalho? Que ressalva faria à sua própria resposta?
+405;Coerência;direta;Qual ligação entre as partes merece maior explicação?
+406;Coerência;fundamentação;Qual ligação entre as partes merece maior explicação? Que razões sustentam sua resposta?
+407;Coerência;exemplificação;Qual ligação entre as partes merece maior explicação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+408;Coerência;reflexão crítica;Qual ligação entre as partes merece maior explicação? Que ressalva faria à sua própria resposta?
+409;Coerência;direta;Como evita contradições internas?
+410;Coerência;fundamentação;Como evita contradições internas? Que razões sustentam sua resposta?
+411;Coerência;exemplificação;Como evita contradições internas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+412;Coerência;reflexão crítica;Como evita contradições internas? Que ressalva faria à sua própria resposta?
+413;Coerência;direta;Como os argumentos sustentam o propósito central?
+414;Coerência;fundamentação;Como os argumentos sustentam o propósito central? Que razões sustentam sua resposta?
+415;Coerência;exemplificação;Como os argumentos sustentam o propósito central? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+416;Coerência;reflexão crítica;Como os argumentos sustentam o propósito central? Que ressalva faria à sua própria resposta?
+417;Coerência;direta;Que aspecto poderia melhorar a unidade do trabalho?
+418;Coerência;fundamentação;Que aspecto poderia melhorar a unidade do trabalho? Que razões sustentam sua resposta?
+419;Coerência;exemplificação;Que aspecto poderia melhorar a unidade do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+420;Coerência;reflexão crítica;Que aspecto poderia melhorar a unidade do trabalho? Que ressalva faria à sua própria resposta?
+421;Argumentação;direta;Qual é seu argumento principal?
+422;Argumentação;fundamentação;Qual é seu argumento principal? Que razões sustentam sua resposta?
+423;Argumentação;exemplificação;Qual é seu argumento principal? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+424;Argumentação;reflexão crítica;Qual é seu argumento principal? Que ressalva faria à sua própria resposta?
+425;Argumentação;direta;Que razões sustentam esse argumento?
+426;Argumentação;fundamentação;Que razões sustentam esse argumento? Que razões sustentam sua resposta?
+427;Argumentação;exemplificação;Que razões sustentam esse argumento? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+428;Argumentação;reflexão crítica;Que razões sustentam esse argumento? Que ressalva faria à sua própria resposta?
+429;Argumentação;direta;Qual objeção seria mais difícil de responder?
+430;Argumentação;fundamentação;Qual objeção seria mais difícil de responder? Que razões sustentam sua resposta?
+431;Argumentação;exemplificação;Qual objeção seria mais difícil de responder? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+432;Argumentação;reflexão crítica;Qual objeção seria mais difícil de responder? Que ressalva faria à sua própria resposta?
+433;Argumentação;direta;Como diferencia afirmações fundamentadas de opiniões?
+434;Argumentação;fundamentação;Como diferencia afirmações fundamentadas de opiniões? Que razões sustentam sua resposta?
+435;Argumentação;exemplificação;Como diferencia afirmações fundamentadas de opiniões? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+436;Argumentação;reflexão crítica;Como diferencia afirmações fundamentadas de opiniões? Que ressalva faria à sua própria resposta?
+437;Argumentação;direta;Como fortaleceria um argumento menos desenvolvido?
+438;Argumentação;fundamentação;Como fortaleceria um argumento menos desenvolvido? Que razões sustentam sua resposta?
+439;Argumentação;exemplificação;Como fortaleceria um argumento menos desenvolvido? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+440;Argumentação;reflexão crítica;Como fortaleceria um argumento menos desenvolvido? Que ressalva faria à sua própria resposta?
+441;Evidências;direta;Que elementos sustentam suas afirmações?
+442;Evidências;fundamentação;Que elementos sustentam suas afirmações? Que razões sustentam sua resposta?
+443;Evidências;exemplificação;Que elementos sustentam suas afirmações? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+444;Evidências;reflexão crítica;Que elementos sustentam suas afirmações? Que ressalva faria à sua própria resposta?
+445;Evidências;direta;Como distingue evidências fortes de evidências frágeis?
+446;Evidências;fundamentação;Como distingue evidências fortes de evidências frágeis? Que razões sustentam sua resposta?
+447;Evidências;exemplificação;Como distingue evidências fortes de evidências frágeis? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+448;Evidências;reflexão crítica;Como distingue evidências fortes de evidências frágeis? Que ressalva faria à sua própria resposta?
+449;Evidências;direta;Que informação adicional fortaleceria sua discussão?
+450;Evidências;fundamentação;Que informação adicional fortaleceria sua discussão? Que razões sustentam sua resposta?
+451;Evidências;exemplificação;Que informação adicional fortaleceria sua discussão? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+452;Evidências;reflexão crítica;Que informação adicional fortaleceria sua discussão? Que ressalva faria à sua própria resposta?
+453;Evidências;direta;Como lida com elementos que contrariam sua interpretação?
+454;Evidências;fundamentação;Como lida com elementos que contrariam sua interpretação? Que razões sustentam sua resposta?
+455;Evidências;exemplificação;Como lida com elementos que contrariam sua interpretação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+456;Evidências;reflexão crítica;Como lida com elementos que contrariam sua interpretação? Que ressalva faria à sua própria resposta?
+457;Evidências;direta;Que afirmação exige maior sustentação?
+458;Evidências;fundamentação;Que afirmação exige maior sustentação? Que razões sustentam sua resposta?
+459;Evidências;exemplificação;Que afirmação exige maior sustentação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+460;Evidências;reflexão crítica;Que afirmação exige maior sustentação? Que ressalva faria à sua própria resposta?
+461;Interpretação;direta;Como chegou à interpretação apresentada ou proposta?
+462;Interpretação;fundamentação;Como chegou à interpretação apresentada ou proposta? Que razões sustentam sua resposta?
+463;Interpretação;exemplificação;Como chegou à interpretação apresentada ou proposta? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+464;Interpretação;reflexão crítica;Como chegou à interpretação apresentada ou proposta? Que ressalva faria à sua própria resposta?
+465;Interpretação;direta;Que interpretação alternativa considera plausível?
+466;Interpretação;fundamentação;Que interpretação alternativa considera plausível? Que razões sustentam sua resposta?
+467;Interpretação;exemplificação;Que interpretação alternativa considera plausível? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+468;Interpretação;reflexão crítica;Que interpretação alternativa considera plausível? Que ressalva faria à sua própria resposta?
+469;Interpretação;direta;Como evita extrapolar o que os elementos disponíveis permitem afirmar?
+470;Interpretação;fundamentação;Como evita extrapolar o que os elementos disponíveis permitem afirmar? Que razões sustentam sua resposta?
+471;Interpretação;exemplificação;Como evita extrapolar o que os elementos disponíveis permitem afirmar? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+472;Interpretação;reflexão crítica;Como evita extrapolar o que os elementos disponíveis permitem afirmar? Que ressalva faria à sua própria resposta?
+473;Interpretação;direta;Que fatores influenciam sua interpretação?
+474;Interpretação;fundamentação;Que fatores influenciam sua interpretação? Que razões sustentam sua resposta?
+475;Interpretação;exemplificação;Que fatores influenciam sua interpretação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+476;Interpretação;reflexão crítica;Que fatores influenciam sua interpretação? Que ressalva faria à sua própria resposta?
+477;Interpretação;direta;Como diferencia descrição de interpretação?
+478;Interpretação;fundamentação;Como diferencia descrição de interpretação? Que razões sustentam sua resposta?
+479;Interpretação;exemplificação;Como diferencia descrição de interpretação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+480;Interpretação;reflexão crítica;Como diferencia descrição de interpretação? Que ressalva faria à sua própria resposta?
+481;Análise;direta;Como organiza a análise do tema?
+482;Análise;fundamentação;Como organiza a análise do tema? Que razões sustentam sua resposta?
+483;Análise;exemplificação;Como organiza a análise do tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+484;Análise;reflexão crítica;Como organiza a análise do tema? Que ressalva faria à sua própria resposta?
+485;Análise;direta;Que aspecto considera mais importante examinar?
+486;Análise;fundamentação;Que aspecto considera mais importante examinar? Que razões sustentam sua resposta?
+487;Análise;exemplificação;Que aspecto considera mais importante examinar? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+488;Análise;reflexão crítica;Que aspecto considera mais importante examinar? Que ressalva faria à sua própria resposta?
+489;Análise;direta;Como relaciona as partes da análise?
+490;Análise;fundamentação;Como relaciona as partes da análise? Que razões sustentam sua resposta?
+491;Análise;exemplificação;Como relaciona as partes da análise? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+492;Análise;reflexão crítica;Como relaciona as partes da análise? Que ressalva faria à sua própria resposta?
+493;Análise;direta;Que critério indica que a análise é suficiente?
+494;Análise;fundamentação;Que critério indica que a análise é suficiente? Que razões sustentam sua resposta?
+495;Análise;exemplificação;Que critério indica que a análise é suficiente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+496;Análise;reflexão crítica;Que critério indica que a análise é suficiente? Que ressalva faria à sua própria resposta?
+497;Análise;direta;Que outra forma de análise poderia ser útil?
+498;Análise;fundamentação;Que outra forma de análise poderia ser útil? Que razões sustentam sua resposta?
+499;Análise;exemplificação;Que outra forma de análise poderia ser útil? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+500;Análise;reflexão crítica;Que outra forma de análise poderia ser útil? Que ressalva faria à sua própria resposta?
+501;Qualidade;direta;O que considera um trabalho de qualidade neste contexto?
+502;Qualidade;fundamentação;O que considera um trabalho de qualidade neste contexto? Que razões sustentam sua resposta?
+503;Qualidade;exemplificação;O que considera um trabalho de qualidade neste contexto? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+504;Qualidade;reflexão crítica;O que considera um trabalho de qualidade neste contexto? Que ressalva faria à sua própria resposta?
+505;Qualidade;direta;Como demonstra o rigor de sua elaboração?
+506;Qualidade;fundamentação;Como demonstra o rigor de sua elaboração? Que razões sustentam sua resposta?
+507;Qualidade;exemplificação;Como demonstra o rigor de sua elaboração? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+508;Qualidade;reflexão crítica;Como demonstra o rigor de sua elaboração? Que ressalva faria à sua própria resposta?
+509;Qualidade;direta;Que aspecto precisa de maior controle de qualidade?
+510;Qualidade;fundamentação;Que aspecto precisa de maior controle de qualidade? Que razões sustentam sua resposta?
+511;Qualidade;exemplificação;Que aspecto precisa de maior controle de qualidade? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+512;Qualidade;reflexão crítica;Que aspecto precisa de maior controle de qualidade? Que ressalva faria à sua própria resposta?
+513;Qualidade;direta;Como avaliaria a consistência das suas decisões?
+514;Qualidade;fundamentação;Como avaliaria a consistência das suas decisões? Que razões sustentam sua resposta?
+515;Qualidade;exemplificação;Como avaliaria a consistência das suas decisões? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+516;Qualidade;reflexão crítica;Como avaliaria a consistência das suas decisões? Que ressalva faria à sua própria resposta?
+517;Qualidade;direta;Que melhoria aumentaria a qualidade do trabalho?
+518;Qualidade;fundamentação;Que melhoria aumentaria a qualidade do trabalho? Que razões sustentam sua resposta?
+519;Qualidade;exemplificação;Que melhoria aumentaria a qualidade do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+520;Qualidade;reflexão crítica;Que melhoria aumentaria a qualidade do trabalho? Que ressalva faria à sua própria resposta?
+521;Limitações;direta;Qual é a principal limitação do trabalho?
+522;Limitações;fundamentação;Qual é a principal limitação do trabalho? Que razões sustentam sua resposta?
+523;Limitações;exemplificação;Qual é a principal limitação do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+524;Limitações;reflexão crítica;Qual é a principal limitação do trabalho? Que ressalva faria à sua própria resposta?
+525;Limitações;direta;Como as limitações afetam o alcance das afirmações?
+526;Limitações;fundamentação;Como as limitações afetam o alcance das afirmações? Que razões sustentam sua resposta?
+527;Limitações;exemplificação;Como as limitações afetam o alcance das afirmações? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+528;Limitações;reflexão crítica;Como as limitações afetam o alcance das afirmações? Que ressalva faria à sua própria resposta?
+529;Limitações;direta;Que limitação poderia ser reduzida?
+530;Limitações;fundamentação;Que limitação poderia ser reduzida? Que razões sustentam sua resposta?
+531;Limitações;exemplificação;Que limitação poderia ser reduzida? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+532;Limitações;reflexão crítica;Que limitação poderia ser reduzida? Que ressalva faria à sua própria resposta?
+533;Limitações;direta;Que limitação não seria possível eliminar facilmente?
+534;Limitações;fundamentação;Que limitação não seria possível eliminar facilmente? Que razões sustentam sua resposta?
+535;Limitações;exemplificação;Que limitação não seria possível eliminar facilmente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+536;Limitações;reflexão crítica;Que limitação não seria possível eliminar facilmente? Que ressalva faria à sua própria resposta?
+537;Limitações;direta;Como comunicaria as limitações sem desvalorizar a contribuição?
+538;Limitações;fundamentação;Como comunicaria as limitações sem desvalorizar a contribuição? Que razões sustentam sua resposta?
+539;Limitações;exemplificação;Como comunicaria as limitações sem desvalorizar a contribuição? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+540;Limitações;reflexão crítica;Como comunicaria as limitações sem desvalorizar a contribuição? Que ressalva faria à sua própria resposta?
+541;Incertezas;direta;Qual é a maior incerteza associada ao trabalho?
+542;Incertezas;fundamentação;Qual é a maior incerteza associada ao trabalho? Que razões sustentam sua resposta?
+543;Incertezas;exemplificação;Qual é a maior incerteza associada ao trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+544;Incertezas;reflexão crítica;Qual é a maior incerteza associada ao trabalho? Que ressalva faria à sua própria resposta?
+545;Incertezas;direta;Como identifica aquilo que ainda não pode afirmar?
+546;Incertezas;fundamentação;Como identifica aquilo que ainda não pode afirmar? Que razões sustentam sua resposta?
+547;Incertezas;exemplificação;Como identifica aquilo que ainda não pode afirmar? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+548;Incertezas;reflexão crítica;Como identifica aquilo que ainda não pode afirmar? Que ressalva faria à sua própria resposta?
+549;Incertezas;direta;Que informação reduziria a incerteza mais importante?
+550;Incertezas;fundamentação;Que informação reduziria a incerteza mais importante? Que razões sustentam sua resposta?
+551;Incertezas;exemplificação;Que informação reduziria a incerteza mais importante? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+552;Incertezas;reflexão crítica;Que informação reduziria a incerteza mais importante? Que ressalva faria à sua própria resposta?
+553;Incertezas;direta;Como comunica dúvidas de forma academicamente adequada?
+554;Incertezas;fundamentação;Como comunica dúvidas de forma academicamente adequada? Que razões sustentam sua resposta?
+555;Incertezas;exemplificação;Como comunica dúvidas de forma academicamente adequada? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+556;Incertezas;reflexão crítica;Como comunica dúvidas de forma academicamente adequada? Que ressalva faria à sua própria resposta?
+557;Incertezas;direta;Como distingue incerteza de ausência de fundamentação?
+558;Incertezas;fundamentação;Como distingue incerteza de ausência de fundamentação? Que razões sustentam sua resposta?
+559;Incertezas;exemplificação;Como distingue incerteza de ausência de fundamentação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+560;Incertezas;reflexão crítica;Como distingue incerteza de ausência de fundamentação? Que ressalva faria à sua própria resposta?
+561;Vieses;direta;Que vieses poderiam influenciar suas escolhas?
+562;Vieses;fundamentação;Que vieses poderiam influenciar suas escolhas? Que razões sustentam sua resposta?
+563;Vieses;exemplificação;Que vieses poderiam influenciar suas escolhas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+564;Vieses;reflexão crítica;Que vieses poderiam influenciar suas escolhas? Que ressalva faria à sua própria resposta?
+565;Vieses;direta;Como reconhece a influência de suas próprias expectativas?
+566;Vieses;fundamentação;Como reconhece a influência de suas próprias expectativas? Que razões sustentam sua resposta?
+567;Vieses;exemplificação;Como reconhece a influência de suas próprias expectativas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+568;Vieses;reflexão crítica;Como reconhece a influência de suas próprias expectativas? Que ressalva faria à sua própria resposta?
+569;Vieses;direta;Que medida ajudaria a reduzir interpretações tendenciosas?
+570;Vieses;fundamentação;Que medida ajudaria a reduzir interpretações tendenciosas? Que razões sustentam sua resposta?
+571;Vieses;exemplificação;Que medida ajudaria a reduzir interpretações tendenciosas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+572;Vieses;reflexão crítica;Que medida ajudaria a reduzir interpretações tendenciosas? Que ressalva faria à sua própria resposta?
+573;Vieses;direta;Como evita selecionar apenas elementos favoráveis à sua posição?
+574;Vieses;fundamentação;Como evita selecionar apenas elementos favoráveis à sua posição? Que razões sustentam sua resposta?
+575;Vieses;exemplificação;Como evita selecionar apenas elementos favoráveis à sua posição? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+576;Vieses;reflexão crítica;Como evita selecionar apenas elementos favoráveis à sua posição? Que ressalva faria à sua própria resposta?
+577;Vieses;direta;Que perspectiva ausente poderia revelar um viés?
+578;Vieses;fundamentação;Que perspectiva ausente poderia revelar um viés? Que razões sustentam sua resposta?
+579;Vieses;exemplificação;Que perspectiva ausente poderia revelar um viés? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+580;Vieses;reflexão crítica;Que perspectiva ausente poderia revelar um viés? Que ressalva faria à sua própria resposta?
+581;Ética;direta;Que questões éticas são pertinentes ao trabalho?
+582;Ética;fundamentação;Que questões éticas são pertinentes ao trabalho? Que razões sustentam sua resposta?
+583;Ética;exemplificação;Que questões éticas são pertinentes ao trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+584;Ética;reflexão crítica;Que questões éticas são pertinentes ao trabalho? Que ressalva faria à sua própria resposta?
+585;Ética;direta;Como avalia as consequências das suas escolhas?
+586;Ética;fundamentação;Como avalia as consequências das suas escolhas? Que razões sustentam sua resposta?
+587;Ética;exemplificação;Como avalia as consequências das suas escolhas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+588;Ética;reflexão crítica;Como avalia as consequências das suas escolhas? Que ressalva faria à sua própria resposta?
+589;Ética;direta;Que responsabilidades acompanham sua contribuição?
+590;Ética;fundamentação;Que responsabilidades acompanham sua contribuição? Que razões sustentam sua resposta?
+591;Ética;exemplificação;Que responsabilidades acompanham sua contribuição? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+592;Ética;reflexão crítica;Que responsabilidades acompanham sua contribuição? Que ressalva faria à sua própria resposta?
+593;Ética;direta;Como garantir respeito às pessoas e contextos envolvidos quando pertinente?
+594;Ética;fundamentação;Como garantir respeito às pessoas e contextos envolvidos quando pertinente? Que razões sustentam sua resposta?
+595;Ética;exemplificação;Como garantir respeito às pessoas e contextos envolvidos quando pertinente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+596;Ética;reflexão crítica;Como garantir respeito às pessoas e contextos envolvidos quando pertinente? Que ressalva faria à sua própria resposta?
+597;Ética;direta;Como lidaria com um conflito ético relacionado ao trabalho?
+598;Ética;fundamentação;Como lidaria com um conflito ético relacionado ao trabalho? Que razões sustentam sua resposta?
+599;Ética;exemplificação;Como lidaria com um conflito ético relacionado ao trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+600;Ética;reflexão crítica;Como lidaria com um conflito ético relacionado ao trabalho? Que ressalva faria à sua própria resposta?
+601;Integridade;direta;Como assegura a atribuição adequada das ideias utilizadas?
+602;Integridade;fundamentação;Como assegura a atribuição adequada das ideias utilizadas? Que razões sustentam sua resposta?
+603;Integridade;exemplificação;Como assegura a atribuição adequada das ideias utilizadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+604;Integridade;reflexão crítica;Como assegura a atribuição adequada das ideias utilizadas? Que ressalva faria à sua própria resposta?
+605;Integridade;direta;Como diferencia sua contribuição das contribuições de terceiros?
+606;Integridade;fundamentação;Como diferencia sua contribuição das contribuições de terceiros? Que razões sustentam sua resposta?
+607;Integridade;exemplificação;Como diferencia sua contribuição das contribuições de terceiros? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+608;Integridade;reflexão crítica;Como diferencia sua contribuição das contribuições de terceiros? Que ressalva faria à sua própria resposta?
+609;Integridade;direta;Que cuidados adota para evitar distorções de fontes?
+610;Integridade;fundamentação;Que cuidados adota para evitar distorções de fontes? Que razões sustentam sua resposta?
+611;Integridade;exemplificação;Que cuidados adota para evitar distorções de fontes? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+612;Integridade;reflexão crítica;Que cuidados adota para evitar distorções de fontes? Que ressalva faria à sua própria resposta?
+613;Integridade;direta;Como documenta decisões importantes?
+614;Integridade;fundamentação;Como documenta decisões importantes? Que razões sustentam sua resposta?
+615;Integridade;exemplificação;Como documenta decisões importantes? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+616;Integridade;reflexão crítica;Como documenta decisões importantes? Que ressalva faria à sua própria resposta?
+617;Integridade;direta;Como agiria diante da identificação de um erro relevante?
+618;Integridade;fundamentação;Como agiria diante da identificação de um erro relevante? Que razões sustentam sua resposta?
+619;Integridade;exemplificação;Como agiria diante da identificação de um erro relevante? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+620;Integridade;reflexão crítica;Como agiria diante da identificação de um erro relevante? Que ressalva faria à sua própria resposta?
+621;Transparência;direta;Como permite que outras pessoas compreendam seu percurso?
+622;Transparência;fundamentação;Como permite que outras pessoas compreendam seu percurso? Que razões sustentam sua resposta?
+623;Transparência;exemplificação;Como permite que outras pessoas compreendam seu percurso? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+624;Transparência;reflexão crítica;Como permite que outras pessoas compreendam seu percurso? Que ressalva faria à sua própria resposta?
+625;Transparência;direta;Que informações precisam estar explícitas no trabalho?
+626;Transparência;fundamentação;Que informações precisam estar explícitas no trabalho? Que razões sustentam sua resposta?
+627;Transparência;exemplificação;Que informações precisam estar explícitas no trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+628;Transparência;reflexão crítica;Que informações precisam estar explícitas no trabalho? Que ressalva faria à sua própria resposta?
+629;Transparência;direta;Como justificaria escolhas que não são imediatamente evidentes?
+630;Transparência;fundamentação;Como justificaria escolhas que não são imediatamente evidentes? Que razões sustentam sua resposta?
+631;Transparência;exemplificação;Como justificaria escolhas que não são imediatamente evidentes? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+632;Transparência;reflexão crítica;Como justificaria escolhas que não são imediatamente evidentes? Que ressalva faria à sua própria resposta?
+633;Transparência;direta;Que aspecto exige documentação mais clara?
+634;Transparência;fundamentação;Que aspecto exige documentação mais clara? Que razões sustentam sua resposta?
+635;Transparência;exemplificação;Que aspecto exige documentação mais clara? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+636;Transparência;reflexão crítica;Que aspecto exige documentação mais clara? Que ressalva faria à sua própria resposta?
+637;Transparência;direta;Como torna verificáveis suas afirmações quando possível?
+638;Transparência;fundamentação;Como torna verificáveis suas afirmações quando possível? Que razões sustentam sua resposta?
+639;Transparência;exemplificação;Como torna verificáveis suas afirmações quando possível? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+640;Transparência;reflexão crítica;Como torna verificáveis suas afirmações quando possível? Que ressalva faria à sua própria resposta?
+641;Viabilidade;direta;O que torna o trabalho viável?
+642;Viabilidade;fundamentação;O que torna o trabalho viável? Que razões sustentam sua resposta?
+643;Viabilidade;exemplificação;O que torna o trabalho viável? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+644;Viabilidade;reflexão crítica;O que torna o trabalho viável? Que ressalva faria à sua própria resposta?
+645;Viabilidade;direta;Que obstáculo poderia comprometer sua execução?
+646;Viabilidade;fundamentação;Que obstáculo poderia comprometer sua execução? Que razões sustentam sua resposta?
+647;Viabilidade;exemplificação;Que obstáculo poderia comprometer sua execução? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+648;Viabilidade;reflexão crítica;Que obstáculo poderia comprometer sua execução? Que ressalva faria à sua própria resposta?
+649;Viabilidade;direta;Como adequou o escopo aos recursos disponíveis?
+650;Viabilidade;fundamentação;Como adequou o escopo aos recursos disponíveis? Que razões sustentam sua resposta?
+651;Viabilidade;exemplificação;Como adequou o escopo aos recursos disponíveis? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+652;Viabilidade;reflexão crítica;Como adequou o escopo aos recursos disponíveis? Que ressalva faria à sua própria resposta?
+653;Viabilidade;direta;Que prioridade estabeleceria diante de restrições?
+654;Viabilidade;fundamentação;Que prioridade estabeleceria diante de restrições? Que razões sustentam sua resposta?
+655;Viabilidade;exemplificação;Que prioridade estabeleceria diante de restrições? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+656;Viabilidade;reflexão crítica;Que prioridade estabeleceria diante de restrições? Que ressalva faria à sua própria resposta?
+657;Viabilidade;direta;Que condição é essencial para a continuidade do trabalho?
+658;Viabilidade;fundamentação;Que condição é essencial para a continuidade do trabalho? Que razões sustentam sua resposta?
+659;Viabilidade;exemplificação;Que condição é essencial para a continuidade do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+660;Viabilidade;reflexão crítica;Que condição é essencial para a continuidade do trabalho? Que ressalva faria à sua própria resposta?
+661;Alcance;direta;Até onde suas afirmações podem ser estendidas?
+662;Alcance;fundamentação;Até onde suas afirmações podem ser estendidas? Que razões sustentam sua resposta?
+663;Alcance;exemplificação;Até onde suas afirmações podem ser estendidas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+664;Alcance;reflexão crítica;Até onde suas afirmações podem ser estendidas? Que ressalva faria à sua própria resposta?
+665;Alcance;direta;Em quais circunstâncias sua abordagem pode não ser adequada?
+666;Alcance;fundamentação;Em quais circunstâncias sua abordagem pode não ser adequada? Que razões sustentam sua resposta?
+667;Alcance;exemplificação;Em quais circunstâncias sua abordagem pode não ser adequada? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+668;Alcance;reflexão crítica;Em quais circunstâncias sua abordagem pode não ser adequada? Que ressalva faria à sua própria resposta?
+669;Alcance;direta;Como caracteriza o alcance da contribuição?
+670;Alcance;fundamentação;Como caracteriza o alcance da contribuição? Que razões sustentam sua resposta?
+671;Alcance;exemplificação;Como caracteriza o alcance da contribuição? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+672;Alcance;reflexão crítica;Como caracteriza o alcance da contribuição? Que ressalva faria à sua própria resposta?
+673;Alcance;direta;Que cuidado é necessário ao transportar suas ideias para outro contexto?
+674;Alcance;fundamentação;Que cuidado é necessário ao transportar suas ideias para outro contexto? Que razões sustentam sua resposta?
+675;Alcance;exemplificação;Que cuidado é necessário ao transportar suas ideias para outro contexto? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+676;Alcance;reflexão crítica;Que cuidado é necessário ao transportar suas ideias para outro contexto? Que ressalva faria à sua própria resposta?
+677;Alcance;direta;Como diferencia relevância ampla de aplicabilidade universal?
+678;Alcance;fundamentação;Como diferencia relevância ampla de aplicabilidade universal? Que razões sustentam sua resposta?
+679;Alcance;exemplificação;Como diferencia relevância ampla de aplicabilidade universal? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+680;Alcance;reflexão crítica;Como diferencia relevância ampla de aplicabilidade universal? Que ressalva faria à sua própria resposta?
+681;Contribuição;direta;Qual é a contribuição mais importante do trabalho?
+682;Contribuição;fundamentação;Qual é a contribuição mais importante do trabalho? Que razões sustentam sua resposta?
+683;Contribuição;exemplificação;Qual é a contribuição mais importante do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+684;Contribuição;reflexão crítica;Qual é a contribuição mais importante do trabalho? Que ressalva faria à sua própria resposta?
+685;Contribuição;direta;Como explicaria o valor da contribuição a um colega de outra área?
+686;Contribuição;fundamentação;Como explicaria o valor da contribuição a um colega de outra área? Que razões sustentam sua resposta?
+687;Contribuição;exemplificação;Como explicaria o valor da contribuição a um colega de outra área? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+688;Contribuição;reflexão crítica;Como explicaria o valor da contribuição a um colega de outra área? Que ressalva faria à sua própria resposta?
+689;Contribuição;direta;Que aspecto da contribuição merece maior reconhecimento?
+690;Contribuição;fundamentação;Que aspecto da contribuição merece maior reconhecimento? Que razões sustentam sua resposta?
+691;Contribuição;exemplificação;Que aspecto da contribuição merece maior reconhecimento? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+692;Contribuição;reflexão crítica;Que aspecto da contribuição merece maior reconhecimento? Que ressalva faria à sua própria resposta?
+693;Contribuição;direta;Como sua contribuição complementa o conhecimento existente?
+694;Contribuição;fundamentação;Como sua contribuição complementa o conhecimento existente? Que razões sustentam sua resposta?
+695;Contribuição;exemplificação;Como sua contribuição complementa o conhecimento existente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+696;Contribuição;reflexão crítica;Como sua contribuição complementa o conhecimento existente? Que ressalva faria à sua própria resposta?
+697;Contribuição;direta;Que diferença faria a ausência deste trabalho na discussão?
+698;Contribuição;fundamentação;Que diferença faria a ausência deste trabalho na discussão? Que razões sustentam sua resposta?
+699;Contribuição;exemplificação;Que diferença faria a ausência deste trabalho na discussão? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+700;Contribuição;reflexão crítica;Que diferença faria a ausência deste trabalho na discussão? Que ressalva faria à sua própria resposta?
+701;Implicações;direta;Que implicações decorrem da sua abordagem?
+702;Implicações;fundamentação;Que implicações decorrem da sua abordagem? Que razões sustentam sua resposta?
+703;Implicações;exemplificação;Que implicações decorrem da sua abordagem? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+704;Implicações;reflexão crítica;Que implicações decorrem da sua abordagem? Que ressalva faria à sua própria resposta?
+705;Implicações;direta;Qual consequência do trabalho considera mais relevante?
+706;Implicações;fundamentação;Qual consequência do trabalho considera mais relevante? Que razões sustentam sua resposta?
+707;Implicações;exemplificação;Qual consequência do trabalho considera mais relevante? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+708;Implicações;reflexão crítica;Qual consequência do trabalho considera mais relevante? Que ressalva faria à sua própria resposta?
+709;Implicações;direta;Que implicação merece ser examinada com cautela?
+710;Implicações;fundamentação;Que implicação merece ser examinada com cautela? Que razões sustentam sua resposta?
+711;Implicações;exemplificação;Que implicação merece ser examinada com cautela? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+712;Implicações;reflexão crítica;Que implicação merece ser examinada com cautela? Que ressalva faria à sua própria resposta?
+713;Implicações;direta;Como suas ideias podem influenciar discussões futuras?
+714;Implicações;fundamentação;Como suas ideias podem influenciar discussões futuras? Que razões sustentam sua resposta?
+715;Implicações;exemplificação;Como suas ideias podem influenciar discussões futuras? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+716;Implicações;reflexão crítica;Como suas ideias podem influenciar discussões futuras? Que ressalva faria à sua própria resposta?
+717;Implicações;direta;Que consequência não pretendida poderia surgir?
+718;Implicações;fundamentação;Que consequência não pretendida poderia surgir? Que razões sustentam sua resposta?
+719;Implicações;exemplificação;Que consequência não pretendida poderia surgir? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+720;Implicações;reflexão crítica;Que consequência não pretendida poderia surgir? Que ressalva faria à sua própria resposta?
+721;Aplicabilidade;direta;Em que situações o conhecimento produzido poderia ser útil?
+722;Aplicabilidade;fundamentação;Em que situações o conhecimento produzido poderia ser útil? Que razões sustentam sua resposta?
+723;Aplicabilidade;exemplificação;Em que situações o conhecimento produzido poderia ser útil? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+724;Aplicabilidade;reflexão crítica;Em que situações o conhecimento produzido poderia ser útil? Que ressalva faria à sua própria resposta?
+725;Aplicabilidade;direta;Que condições seriam necessárias para aproveitar sua contribuição?
+726;Aplicabilidade;fundamentação;Que condições seriam necessárias para aproveitar sua contribuição? Que razões sustentam sua resposta?
+727;Aplicabilidade;exemplificação;Que condições seriam necessárias para aproveitar sua contribuição? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+728;Aplicabilidade;reflexão crítica;Que condições seriam necessárias para aproveitar sua contribuição? Que ressalva faria à sua própria resposta?
+729;Aplicabilidade;direta;Como avalia a possibilidade de uso das ideias apresentadas?
+730;Aplicabilidade;fundamentação;Como avalia a possibilidade de uso das ideias apresentadas? Que razões sustentam sua resposta?
+731;Aplicabilidade;exemplificação;Como avalia a possibilidade de uso das ideias apresentadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+732;Aplicabilidade;reflexão crítica;Como avalia a possibilidade de uso das ideias apresentadas? Que ressalva faria à sua própria resposta?
+733;Aplicabilidade;direta;Que barreiras poderiam limitar seu aproveitamento?
+734;Aplicabilidade;fundamentação;Que barreiras poderiam limitar seu aproveitamento? Que razões sustentam sua resposta?
+735;Aplicabilidade;exemplificação;Que barreiras poderiam limitar seu aproveitamento? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+736;Aplicabilidade;reflexão crítica;Que barreiras poderiam limitar seu aproveitamento? Que ressalva faria à sua própria resposta?
+737;Aplicabilidade;direta;Como distingue valor conceitual de aplicação prática?
+738;Aplicabilidade;fundamentação;Como distingue valor conceitual de aplicação prática? Que razões sustentam sua resposta?
+739;Aplicabilidade;exemplificação;Como distingue valor conceitual de aplicação prática? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+740;Aplicabilidade;reflexão crítica;Como distingue valor conceitual de aplicação prática? Que ressalva faria à sua própria resposta?
+741;Comunicação;direta;Como explicaria o trabalho a alguém sem formação na área?
+742;Comunicação;fundamentação;Como explicaria o trabalho a alguém sem formação na área? Que razões sustentam sua resposta?
+743;Comunicação;exemplificação;Como explicaria o trabalho a alguém sem formação na área? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+744;Comunicação;reflexão crítica;Como explicaria o trabalho a alguém sem formação na área? Que ressalva faria à sua própria resposta?
+745;Comunicação;direta;Qual mensagem deseja que a banca retenha?
+746;Comunicação;fundamentação;Qual mensagem deseja que a banca retenha? Que razões sustentam sua resposta?
+747;Comunicação;exemplificação;Qual mensagem deseja que a banca retenha? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+748;Comunicação;reflexão crítica;Qual mensagem deseja que a banca retenha? Que ressalva faria à sua própria resposta?
+749;Comunicação;direta;Que termo exigiria explicação para um público não especializado?
+750;Comunicação;fundamentação;Que termo exigiria explicação para um público não especializado? Que razões sustentam sua resposta?
+751;Comunicação;exemplificação;Que termo exigiria explicação para um público não especializado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+752;Comunicação;reflexão crítica;Que termo exigiria explicação para um público não especializado? Que ressalva faria à sua própria resposta?
+753;Comunicação;direta;Como simplificaria a apresentação sem perder precisão?
+754;Comunicação;fundamentação;Como simplificaria a apresentação sem perder precisão? Que razões sustentam sua resposta?
+755;Comunicação;exemplificação;Como simplificaria a apresentação sem perder precisão? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+756;Comunicação;reflexão crítica;Como simplificaria a apresentação sem perder precisão? Que ressalva faria à sua própria resposta?
+757;Comunicação;direta;Que aspecto da comunicação poderia ser aprimorado?
+758;Comunicação;fundamentação;Que aspecto da comunicação poderia ser aprimorado? Que razões sustentam sua resposta?
+759;Comunicação;exemplificação;Que aspecto da comunicação poderia ser aprimorado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+760;Comunicação;reflexão crítica;Que aspecto da comunicação poderia ser aprimorado? Que ressalva faria à sua própria resposta?
+761;Estrutura textual;direta;Como justificaria a organização do texto?
+762;Estrutura textual;fundamentação;Como justificaria a organização do texto? Que razões sustentam sua resposta?
+763;Estrutura textual;exemplificação;Como justificaria a organização do texto? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+764;Estrutura textual;reflexão crítica;Como justificaria a organização do texto? Que ressalva faria à sua própria resposta?
+765;Estrutura textual;direta;Que parte do texto é indispensável para entender a proposta?
+766;Estrutura textual;fundamentação;Que parte do texto é indispensável para entender a proposta? Que razões sustentam sua resposta?
+767;Estrutura textual;exemplificação;Que parte do texto é indispensável para entender a proposta? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+768;Estrutura textual;reflexão crítica;Que parte do texto é indispensável para entender a proposta? Que ressalva faria à sua própria resposta?
+769;Estrutura textual;direta;Como garante continuidade entre as seções?
+770;Estrutura textual;fundamentação;Como garante continuidade entre as seções? Que razões sustentam sua resposta?
+771;Estrutura textual;exemplificação;Como garante continuidade entre as seções? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+772;Estrutura textual;reflexão crítica;Como garante continuidade entre as seções? Que ressalva faria à sua própria resposta?
+773;Estrutura textual;direta;Que conteúdo poderia ser reorganizado?
+774;Estrutura textual;fundamentação;Que conteúdo poderia ser reorganizado? Que razões sustentam sua resposta?
+775;Estrutura textual;exemplificação;Que conteúdo poderia ser reorganizado? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+776;Estrutura textual;reflexão crítica;Que conteúdo poderia ser reorganizado? Que ressalva faria à sua própria resposta?
+777;Estrutura textual;direta;Como avaliaria a clareza da redação?
+778;Estrutura textual;fundamentação;Como avaliaria a clareza da redação? Que razões sustentam sua resposta?
+779;Estrutura textual;exemplificação;Como avaliaria a clareza da redação? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+780;Estrutura textual;reflexão crítica;Como avaliaria a clareza da redação? Que ressalva faria à sua própria resposta?
+781;Síntese;direta;Como resumiria o trabalho em uma frase?
+782;Síntese;fundamentação;Como resumiria o trabalho em uma frase? Que razões sustentam sua resposta?
+783;Síntese;exemplificação;Como resumiria o trabalho em uma frase? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+784;Síntese;reflexão crítica;Como resumiria o trabalho em uma frase? Que ressalva faria à sua própria resposta?
+785;Síntese;direta;Quais ideias são indispensáveis em uma síntese do trabalho?
+786;Síntese;fundamentação;Quais ideias são indispensáveis em uma síntese do trabalho? Que razões sustentam sua resposta?
+787;Síntese;exemplificação;Quais ideias são indispensáveis em uma síntese do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+788;Síntese;reflexão crítica;Quais ideias são indispensáveis em uma síntese do trabalho? Que ressalva faria à sua própria resposta?
+789;Síntese;direta;Como distinguiria o essencial do acessório?
+790;Síntese;fundamentação;Como distinguiria o essencial do acessório? Que razões sustentam sua resposta?
+791;Síntese;exemplificação;Como distinguiria o essencial do acessório? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+792;Síntese;reflexão crítica;Como distinguiria o essencial do acessório? Que ressalva faria à sua própria resposta?
+793;Síntese;direta;Que ponto não deveria ser omitido em um resumo?
+794;Síntese;fundamentação;Que ponto não deveria ser omitido em um resumo? Que razões sustentam sua resposta?
+795;Síntese;exemplificação;Que ponto não deveria ser omitido em um resumo? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+796;Síntese;reflexão crítica;Que ponto não deveria ser omitido em um resumo? Que ressalva faria à sua própria resposta?
+797;Síntese;direta;Como sintetizaria a contribuição sem exagerá-la?
+798;Síntese;fundamentação;Como sintetizaria a contribuição sem exagerá-la? Que razões sustentam sua resposta?
+799;Síntese;exemplificação;Como sintetizaria a contribuição sem exagerá-la? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+800;Síntese;reflexão crítica;Como sintetizaria a contribuição sem exagerá-la? Que ressalva faria à sua própria resposta?
+801;Reflexão crítica;direta;Qual é o ponto mais vulnerável do trabalho?
+802;Reflexão crítica;fundamentação;Qual é o ponto mais vulnerável do trabalho? Que razões sustentam sua resposta?
+803;Reflexão crítica;exemplificação;Qual é o ponto mais vulnerável do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+804;Reflexão crítica;reflexão crítica;Qual é o ponto mais vulnerável do trabalho? Que ressalva faria à sua própria resposta?
+805;Reflexão crítica;direta;Que crítica considera especialmente pertinente?
+806;Reflexão crítica;fundamentação;Que crítica considera especialmente pertinente? Que razões sustentam sua resposta?
+807;Reflexão crítica;exemplificação;Que crítica considera especialmente pertinente? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+808;Reflexão crítica;reflexão crítica;Que crítica considera especialmente pertinente? Que ressalva faria à sua própria resposta?
+809;Reflexão crítica;direta;Que aspecto defenderia com maior segurança?
+810;Reflexão crítica;fundamentação;Que aspecto defenderia com maior segurança? Que razões sustentam sua resposta?
+811;Reflexão crítica;exemplificação;Que aspecto defenderia com maior segurança? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+812;Reflexão crítica;reflexão crítica;Que aspecto defenderia com maior segurança? Que ressalva faria à sua própria resposta?
+813;Reflexão crítica;direta;O que mudaria se pudesse recomeçar?
+814;Reflexão crítica;fundamentação;O que mudaria se pudesse recomeçar? Que razões sustentam sua resposta?
+815;Reflexão crítica;exemplificação;O que mudaria se pudesse recomeçar? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+816;Reflexão crítica;reflexão crítica;O que mudaria se pudesse recomeçar? Que ressalva faria à sua própria resposta?
+817;Reflexão crítica;direta;Como responde a uma discordância fundamentada?
+818;Reflexão crítica;fundamentação;Como responde a uma discordância fundamentada? Que razões sustentam sua resposta?
+819;Reflexão crítica;exemplificação;Como responde a uma discordância fundamentada? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+820;Reflexão crítica;reflexão crítica;Como responde a uma discordância fundamentada? Que ressalva faria à sua própria resposta?
+821;Aprendizagem;direta;O que aprendeu durante a elaboração do trabalho?
+822;Aprendizagem;fundamentação;O que aprendeu durante a elaboração do trabalho? Que razões sustentam sua resposta?
+823;Aprendizagem;exemplificação;O que aprendeu durante a elaboração do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+824;Aprendizagem;reflexão crítica;O que aprendeu durante a elaboração do trabalho? Que ressalva faria à sua própria resposta?
+825;Aprendizagem;direta;Que habilidade precisou desenvolver?
+826;Aprendizagem;fundamentação;Que habilidade precisou desenvolver? Que razões sustentam sua resposta?
+827;Aprendizagem;exemplificação;Que habilidade precisou desenvolver? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+828;Aprendizagem;reflexão crítica;Que habilidade precisou desenvolver? Que ressalva faria à sua própria resposta?
+829;Aprendizagem;direta;Que ideia precisou reconsiderar?
+830;Aprendizagem;fundamentação;Que ideia precisou reconsiderar? Que razões sustentam sua resposta?
+831;Aprendizagem;exemplificação;Que ideia precisou reconsiderar? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+832;Aprendizagem;reflexão crítica;Que ideia precisou reconsiderar? Que ressalva faria à sua própria resposta?
+833;Aprendizagem;direta;Como o trabalho modificou sua compreensão do tema?
+834;Aprendizagem;fundamentação;Como o trabalho modificou sua compreensão do tema? Que razões sustentam sua resposta?
+835;Aprendizagem;exemplificação;Como o trabalho modificou sua compreensão do tema? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+836;Aprendizagem;reflexão crítica;Como o trabalho modificou sua compreensão do tema? Que ressalva faria à sua própria resposta?
+837;Aprendizagem;direta;Que aprendizado considera transferível para outros trabalhos?
+838;Aprendizagem;fundamentação;Que aprendizado considera transferível para outros trabalhos? Que razões sustentam sua resposta?
+839;Aprendizagem;exemplificação;Que aprendizado considera transferível para outros trabalhos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+840;Aprendizagem;reflexão crítica;Que aprendizado considera transferível para outros trabalhos? Que ressalva faria à sua própria resposta?
+841;Autonomia;direta;Como demonstra domínio sobre as escolhas realizadas?
+842;Autonomia;fundamentação;Como demonstra domínio sobre as escolhas realizadas? Que razões sustentam sua resposta?
+843;Autonomia;exemplificação;Como demonstra domínio sobre as escolhas realizadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+844;Autonomia;reflexão crítica;Como demonstra domínio sobre as escolhas realizadas? Que ressalva faria à sua própria resposta?
+845;Autonomia;direta;Que decisão exigiu maior autonomia?
+846;Autonomia;fundamentação;Que decisão exigiu maior autonomia? Que razões sustentam sua resposta?
+847;Autonomia;exemplificação;Que decisão exigiu maior autonomia? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+848;Autonomia;reflexão crítica;Que decisão exigiu maior autonomia? Que ressalva faria à sua própria resposta?
+849;Autonomia;direta;Como diferencia orientação recebida de elaboração própria?
+850;Autonomia;fundamentação;Como diferencia orientação recebida de elaboração própria? Que razões sustentam sua resposta?
+851;Autonomia;exemplificação;Como diferencia orientação recebida de elaboração própria? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+852;Autonomia;reflexão crítica;Como diferencia orientação recebida de elaboração própria? Que ressalva faria à sua própria resposta?
+853;Autonomia;direta;Que aspecto consegue defender independentemente de apoio externo?
+854;Autonomia;fundamentação;Que aspecto consegue defender independentemente de apoio externo? Que razões sustentam sua resposta?
+855;Autonomia;exemplificação;Que aspecto consegue defender independentemente de apoio externo? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+856;Autonomia;reflexão crítica;Que aspecto consegue defender independentemente de apoio externo? Que ressalva faria à sua própria resposta?
+857;Autonomia;direta;Como buscou superar dificuldades de compreensão?
+858;Autonomia;fundamentação;Como buscou superar dificuldades de compreensão? Que razões sustentam sua resposta?
+859;Autonomia;exemplificação;Como buscou superar dificuldades de compreensão? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+860;Autonomia;reflexão crítica;Como buscou superar dificuldades de compreensão? Que ressalva faria à sua própria resposta?
+861;Interdisciplinaridade;direta;Que diálogo com outras áreas poderia enriquecer o trabalho?
+862;Interdisciplinaridade;fundamentação;Que diálogo com outras áreas poderia enriquecer o trabalho? Que razões sustentam sua resposta?
+863;Interdisciplinaridade;exemplificação;Que diálogo com outras áreas poderia enriquecer o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+864;Interdisciplinaridade;reflexão crítica;Que diálogo com outras áreas poderia enriquecer o trabalho? Que ressalva faria à sua própria resposta?
+865;Interdisciplinaridade;direta;Como explicaria sua abordagem a especialistas de outra área?
+866;Interdisciplinaridade;fundamentação;Como explicaria sua abordagem a especialistas de outra área? Que razões sustentam sua resposta?
+867;Interdisciplinaridade;exemplificação;Como explicaria sua abordagem a especialistas de outra área? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+868;Interdisciplinaridade;reflexão crítica;Como explicaria sua abordagem a especialistas de outra área? Que ressalva faria à sua própria resposta?
+869;Interdisciplinaridade;direta;Que conceito de outra área poderia ajudar na discussão?
+870;Interdisciplinaridade;fundamentação;Que conceito de outra área poderia ajudar na discussão? Que razões sustentam sua resposta?
+871;Interdisciplinaridade;exemplificação;Que conceito de outra área poderia ajudar na discussão? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+872;Interdisciplinaridade;reflexão crítica;Que conceito de outra área poderia ajudar na discussão? Que ressalva faria à sua própria resposta?
+873;Interdisciplinaridade;direta;Que cuidado adotaria ao incorporar uma perspectiva externa?
+874;Interdisciplinaridade;fundamentação;Que cuidado adotaria ao incorporar uma perspectiva externa? Que razões sustentam sua resposta?
+875;Interdisciplinaridade;exemplificação;Que cuidado adotaria ao incorporar uma perspectiva externa? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+876;Interdisciplinaridade;reflexão crítica;Que cuidado adotaria ao incorporar uma perspectiva externa? Que ressalva faria à sua própria resposta?
+877;Interdisciplinaridade;direta;Como identifica possibilidades de colaboração intelectual?
+878;Interdisciplinaridade;fundamentação;Como identifica possibilidades de colaboração intelectual? Que razões sustentam sua resposta?
+879;Interdisciplinaridade;exemplificação;Como identifica possibilidades de colaboração intelectual? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+880;Interdisciplinaridade;reflexão crítica;Como identifica possibilidades de colaboração intelectual? Que ressalva faria à sua própria resposta?
+881;Alternativas;direta;Que outro caminho poderia levar ao mesmo objetivo?
+882;Alternativas;fundamentação;Que outro caminho poderia levar ao mesmo objetivo? Que razões sustentam sua resposta?
+883;Alternativas;exemplificação;Que outro caminho poderia levar ao mesmo objetivo? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+884;Alternativas;reflexão crítica;Que outro caminho poderia levar ao mesmo objetivo? Que ressalva faria à sua própria resposta?
+885;Alternativas;direta;Como compararia duas abordagens plausíveis?
+886;Alternativas;fundamentação;Como compararia duas abordagens plausíveis? Que razões sustentam sua resposta?
+887;Alternativas;exemplificação;Como compararia duas abordagens plausíveis? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+888;Alternativas;reflexão crítica;Como compararia duas abordagens plausíveis? Que ressalva faria à sua própria resposta?
+889;Alternativas;direta;Que alternativa descartou e por quê?
+890;Alternativas;fundamentação;Que alternativa descartou e por quê? Que razões sustentam sua resposta?
+891;Alternativas;exemplificação;Que alternativa descartou e por quê? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+892;Alternativas;reflexão crítica;Que alternativa descartou e por quê? Que ressalva faria à sua própria resposta?
+893;Alternativas;direta;Que escolha seria diferente sob outras condições?
+894;Alternativas;fundamentação;Que escolha seria diferente sob outras condições? Que razões sustentam sua resposta?
+895;Alternativas;exemplificação;Que escolha seria diferente sob outras condições? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+896;Alternativas;reflexão crítica;Que escolha seria diferente sob outras condições? Que ressalva faria à sua própria resposta?
+897;Alternativas;direta;Como decidiria entre soluções igualmente defensáveis?
+898;Alternativas;fundamentação;Como decidiria entre soluções igualmente defensáveis? Que razões sustentam sua resposta?
+899;Alternativas;exemplificação;Como decidiria entre soluções igualmente defensáveis? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+900;Alternativas;reflexão crítica;Como decidiria entre soluções igualmente defensáveis? Que ressalva faria à sua própria resposta?
+901;Questões futuras;direta;Que pergunta permanece em aberto?
+902;Questões futuras;fundamentação;Que pergunta permanece em aberto? Que razões sustentam sua resposta?
+903;Questões futuras;exemplificação;Que pergunta permanece em aberto? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+904;Questões futuras;reflexão crítica;Que pergunta permanece em aberto? Que ressalva faria à sua própria resposta?
+905;Questões futuras;direta;Que aspecto merece aprofundamento futuro?
+906;Questões futuras;fundamentação;Que aspecto merece aprofundamento futuro? Que razões sustentam sua resposta?
+907;Questões futuras;exemplificação;Que aspecto merece aprofundamento futuro? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+908;Questões futuras;reflexão crítica;Que aspecto merece aprofundamento futuro? Que ressalva faria à sua própria resposta?
+909;Questões futuras;direta;Como daria continuidade ao trabalho?
+910;Questões futuras;fundamentação;Como daria continuidade ao trabalho? Que razões sustentam sua resposta?
+911;Questões futuras;exemplificação;Como daria continuidade ao trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+912;Questões futuras;reflexão crítica;Como daria continuidade ao trabalho? Que ressalva faria à sua própria resposta?
+913;Questões futuras;direta;Que questão nova surgiu da elaboração do trabalho?
+914;Questões futuras;fundamentação;Que questão nova surgiu da elaboração do trabalho? Que razões sustentam sua resposta?
+915;Questões futuras;exemplificação;Que questão nova surgiu da elaboração do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+916;Questões futuras;reflexão crítica;Que questão nova surgiu da elaboração do trabalho? Que ressalva faria à sua própria resposta?
+917;Questões futuras;direta;Qual seria a prioridade de uma próxima etapa?
+918;Questões futuras;fundamentação;Qual seria a prioridade de uma próxima etapa? Que razões sustentam sua resposta?
+919;Questões futuras;exemplificação;Qual seria a prioridade de uma próxima etapa? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+920;Questões futuras;reflexão crítica;Qual seria a prioridade de uma próxima etapa? Que ressalva faria à sua própria resposta?
+921;Conclusões;direta;Que conclusão pode ou espera sustentar?
+922;Conclusões;fundamentação;Que conclusão pode ou espera sustentar? Que razões sustentam sua resposta?
+923;Conclusões;exemplificação;Que conclusão pode ou espera sustentar? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+924;Conclusões;reflexão crítica;Que conclusão pode ou espera sustentar? Que ressalva faria à sua própria resposta?
+925;Conclusões;direta;Como relaciona as conclusões pretendidas ou apresentadas aos objetivos?
+926;Conclusões;fundamentação;Como relaciona as conclusões pretendidas ou apresentadas aos objetivos? Que razões sustentam sua resposta?
+927;Conclusões;exemplificação;Como relaciona as conclusões pretendidas ou apresentadas aos objetivos? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+928;Conclusões;reflexão crítica;Como relaciona as conclusões pretendidas ou apresentadas aos objetivos? Que ressalva faria à sua própria resposta?
+929;Conclusões;direta;Que conclusão exigiria maior cautela?
+930;Conclusões;fundamentação;Que conclusão exigiria maior cautela? Que razões sustentam sua resposta?
+931;Conclusões;exemplificação;Que conclusão exigiria maior cautela? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+932;Conclusões;reflexão crítica;Que conclusão exigiria maior cautela? Que ressalva faria à sua própria resposta?
+933;Conclusões;direta;O que não seria legítimo concluir a partir do trabalho?
+934;Conclusões;fundamentação;O que não seria legítimo concluir a partir do trabalho? Que razões sustentam sua resposta?
+935;Conclusões;exemplificação;O que não seria legítimo concluir a partir do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+936;Conclusões;reflexão crítica;O que não seria legítimo concluir a partir do trabalho? Que ressalva faria à sua própria resposta?
+937;Conclusões;direta;Como evita introduzir nas conclusões afirmações não fundamentadas?
+938;Conclusões;fundamentação;Como evita introduzir nas conclusões afirmações não fundamentadas? Que razões sustentam sua resposta?
+939;Conclusões;exemplificação;Como evita introduzir nas conclusões afirmações não fundamentadas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+940;Conclusões;reflexão crítica;Como evita introduzir nas conclusões afirmações não fundamentadas? Que ressalva faria à sua própria resposta?
+941;Defesa oral;direta;Como responderia a uma contestação da relevância do trabalho?
+942;Defesa oral;fundamentação;Como responderia a uma contestação da relevância do trabalho? Que razões sustentam sua resposta?
+943;Defesa oral;exemplificação;Como responderia a uma contestação da relevância do trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+944;Defesa oral;reflexão crítica;Como responderia a uma contestação da relevância do trabalho? Que ressalva faria à sua própria resposta?
+945;Defesa oral;direta;Que ponto explicaria primeiro diante de uma dúvida da banca?
+946;Defesa oral;fundamentação;Que ponto explicaria primeiro diante de uma dúvida da banca? Que razões sustentam sua resposta?
+947;Defesa oral;exemplificação;Que ponto explicaria primeiro diante de uma dúvida da banca? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+948;Defesa oral;reflexão crítica;Que ponto explicaria primeiro diante de uma dúvida da banca? Que ressalva faria à sua própria resposta?
+949;Defesa oral;direta;Como defenderia uma escolha que a banca considera inadequada?
+950;Defesa oral;fundamentação;Como defenderia uma escolha que a banca considera inadequada? Que razões sustentam sua resposta?
+951;Defesa oral;exemplificação;Como defenderia uma escolha que a banca considera inadequada? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+952;Defesa oral;reflexão crítica;Como defenderia uma escolha que a banca considera inadequada? Que ressalva faria à sua própria resposta?
+953;Defesa oral;direta;Que pergunta gostaria de receber sobre seu trabalho?
+954;Defesa oral;fundamentação;Que pergunta gostaria de receber sobre seu trabalho? Que razões sustentam sua resposta?
+955;Defesa oral;exemplificação;Que pergunta gostaria de receber sobre seu trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+956;Defesa oral;reflexão crítica;Que pergunta gostaria de receber sobre seu trabalho? Que ressalva faria à sua própria resposta?
+957;Defesa oral;direta;Como reconheceria uma questão para a qual ainda não tem resposta?
+958;Defesa oral;fundamentação;Como reconheceria uma questão para a qual ainda não tem resposta? Que razões sustentam sua resposta?
+959;Defesa oral;exemplificação;Como reconheceria uma questão para a qual ainda não tem resposta? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+960;Defesa oral;reflexão crítica;Como reconheceria uma questão para a qual ainda não tem resposta? Que ressalva faria à sua própria resposta?
+961;Revisão;direta;Que alteração teria maior impacto positivo no trabalho?
+962;Revisão;fundamentação;Que alteração teria maior impacto positivo no trabalho? Que razões sustentam sua resposta?
+963;Revisão;exemplificação;Que alteração teria maior impacto positivo no trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+964;Revisão;reflexão crítica;Que alteração teria maior impacto positivo no trabalho? Que ressalva faria à sua própria resposta?
+965;Revisão;direta;Como priorizaria sugestões de revisão conflitantes?
+966;Revisão;fundamentação;Como priorizaria sugestões de revisão conflitantes? Que razões sustentam sua resposta?
+967;Revisão;exemplificação;Como priorizaria sugestões de revisão conflitantes? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+968;Revisão;reflexão crítica;Como priorizaria sugestões de revisão conflitantes? Que ressalva faria à sua própria resposta?
+969;Revisão;direta;Que parte do trabalho manteria mesmo após críticas?
+970;Revisão;fundamentação;Que parte do trabalho manteria mesmo após críticas? Que razões sustentam sua resposta?
+971;Revisão;exemplificação;Que parte do trabalho manteria mesmo após críticas? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+972;Revisão;reflexão crítica;Que parte do trabalho manteria mesmo após críticas? Que ressalva faria à sua própria resposta?
+973;Revisão;direta;Como avaliaria a pertinência de uma sugestão de mudança?
+974;Revisão;fundamentação;Como avaliaria a pertinência de uma sugestão de mudança? Que razões sustentam sua resposta?
+975;Revisão;exemplificação;Como avaliaria a pertinência de uma sugestão de mudança? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+976;Revisão;reflexão crítica;Como avaliaria a pertinência de uma sugestão de mudança? Que ressalva faria à sua própria resposta?
+977;Revisão;direta;Que aspecto revisaria antes de divulgar o trabalho?
+978;Revisão;fundamentação;Que aspecto revisaria antes de divulgar o trabalho? Que razões sustentam sua resposta?
+979;Revisão;exemplificação;Que aspecto revisaria antes de divulgar o trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+980;Revisão;reflexão crítica;Que aspecto revisaria antes de divulgar o trabalho? Que ressalva faria à sua própria resposta?
+981;Visão global;direta;Como conecta o tema, o propósito e a abordagem em uma explicação única?
+982;Visão global;fundamentação;Como conecta o tema, o propósito e a abordagem em uma explicação única? Que razões sustentam sua resposta?
+983;Visão global;exemplificação;Como conecta o tema, o propósito e a abordagem em uma explicação única? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+984;Visão global;reflexão crítica;Como conecta o tema, o propósito e a abordagem em uma explicação única? Que ressalva faria à sua própria resposta?
+985;Visão global;direta;Qual é a ideia que dá unidade ao trabalho?
+986;Visão global;fundamentação;Qual é a ideia que dá unidade ao trabalho? Que razões sustentam sua resposta?
+987;Visão global;exemplificação;Qual é a ideia que dá unidade ao trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+988;Visão global;reflexão crítica;Qual é a ideia que dá unidade ao trabalho? Que ressalva faria à sua própria resposta?
+989;Visão global;direta;O que torna o trabalho academicamente defensável?
+990;Visão global;fundamentação;O que torna o trabalho academicamente defensável? Que razões sustentam sua resposta?
+991;Visão global;exemplificação;O que torna o trabalho academicamente defensável? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+992;Visão global;reflexão crítica;O que torna o trabalho academicamente defensável? Que ressalva faria à sua própria resposta?
+993;Visão global;direta;Que aspecto mais representa sua identidade intelectual neste trabalho?
+994;Visão global;fundamentação;Que aspecto mais representa sua identidade intelectual neste trabalho? Que razões sustentam sua resposta?
+995;Visão global;exemplificação;Que aspecto mais representa sua identidade intelectual neste trabalho? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+996;Visão global;reflexão crítica;Que aspecto mais representa sua identidade intelectual neste trabalho? Que ressalva faria à sua própria resposta?
+997;Visão global;direta;Como avaliaria o trabalho em seu conjunto?
+998;Visão global;fundamentação;Como avaliaria o trabalho em seu conjunto? Que razões sustentam sua resposta?
+999;Visão global;exemplificação;Como avaliaria o trabalho em seu conjunto? Poderia ilustrar sua resposta com um exemplo pertinente ao trabalho?
+1000;Visão global;reflexão crítica;Como avaliaria o trabalho em seu conjunto? Que ressalva faria à sua própria resposta?
