@@ -1258,3 +1258,304 @@ y1997	md	3	Mostre as desigualdades de visibilidade, como por região ou idioma.
 y1998	emd	2	Justifique as políticas de preservação digital.
 y1999	emd	2	Diga se o vocabulário controlado cobre bem o tema.
 y2000	temd	2	O acesso aberto é ler sem pagar. Algumas revistas abertas cobram de quem publica.
+# Estatística aplicada
+z2101	temd	2	A ANOVA testa se ao menos uma média difere das outras. Para saber quais grupos diferem, você precisa de comparações posteriores ou contrastes.
+z2102	temd	2	Vários testes t aumentam a chance de achar diferença por acaso. A ANOVA testa todos os grupos de uma vez, com uma única taxa de erro.
+z2103	emd	2	Variâncias diferentes, sobretudo com grupos de tamanhos desiguais, distorcem o valor de p. Cite alternativas como a ANOVA de Welch ou um modelo que estime variâncias separadas.
+z2104	emd	2	Com grupos desiguais, a ANOVA fica mais sensível a variâncias diferentes e o poder cai nos grupos pequenos. Mostre os tamanhos e as variâncias de cada grupo.
+z2105	emd	3	A interação indica que o efeito de um fator depende do nível do outro. Os efeitos podem se anular na média e por isso os principais não aparecem. Mostre o gráfico de interação.
+z2106	emd	3	Quando há interação, a média marginal mistura efeitos que mudam de direção ou tamanho. Interprete os efeitos simples, ou seja, um fator dentro de cada nível do outro.
+z2107	temd	2	F é a razão entre a variação entre grupos e a variação dentro dos grupos. Quanto maior, mais as médias diferem em relação ao ruído.
+z2108	temd	2	F alto pode vir de amostras grandes ou pouca variação, mesmo com diferença pequena. Mostre o tamanho do efeito, como eta quadrado ou a diferença em unidades originais.
+z2109	emd	2	Defina antes as comparações que respondem aos objetivos. Testar tudo aumenta o risco de achar diferenças sem sentido científico.
+z2110	temd	2	Tukey compara todos os pares de tratamentos. Dunnett compara cada tratamento só com o controle. Escolha pela pergunta.
+z2111	temd	2	O teste de Dunnett é feito para comparar cada tratamento com um único controle, com menos testes e mais poder.
+z2112	emd	3	Contrastes planejados são definidos antes de ver os dados e respondem a hipóteses. Comparações feitas depois de olhar os dados são exploratórias e pedem correção.
+z2113	temd	2	A correção torna cada comparação mais exigente para controlar o erro do conjunto. Algumas diferenças deixam de ser significativas, e você deve dizer isso.
+z2114	temd	3	Não. Letras iguais indicam que não houve evidência de diferença, e não que as médias são iguais. Ausência de evidência não é evidência de igualdade.
+z2115	temd	2	Mostre as diferenças entre médias com intervalos de confiança e um tamanho de efeito. O valor de p sozinho não diz o tamanho da diferença.
+z2116	emd	3	Intervalos amplos indicam pouca precisão. O resultado é inconclusivo: não houve evidência de diferença, mas também não se pode afirmar que ela não existe.
+z2117	te	1	A ANOVA de uma via tem um fator. A fatorial tem dois ou mais fatores cruzados e permite testar interação. Diga qual é o seu desenho.
+z2118	temd	2	As medidas da mesma unidade são correlacionadas. Tratá-las como independentes subestima o erro. Use medidas repetidas ou modelo misto.
+z2119	emd	3	Esfericidade é a igualdade das variâncias das diferenças entre ocasiões. Se falhar, use as correções de Greenhouse-Geisser ou Huynh-Feldt, ou um modelo misto.
+z2120	emd	2	Inclua o bloco como fator no modelo. Ele retira do erro a variação conhecida entre unidades e aumenta a precisão.
+z2121	emd	3	A ANCOVA ajusta as médias pela covariável e reduz a variação não explicada. Isso aumenta a precisão e corrige diferenças iniciais entre grupos.
+z2122	md	3	Teste a interação entre covariável e grupo. Se as inclinações forem diferentes, a ANCOVA clássica não se aplica e você precisa modelar a interação.
+z2123	md	3	Sem observações em algumas combinações, certas interações não podem ser estimadas. Diga quais efeitos ficam sem estimativa e como reorganizou o modelo.
+z2124	md	3	O tipo I depende da ordem dos termos. O II testa cada efeito principal ajustado pelos outros, sem interação. O III testa na presença de todos os termos. Em dados desbalanceados os resultados mudam.
+z2125	emd	3	Veja se a assimetria vem de outliers, da natureza da variável, como contagens ou proporções, ou de grupos misturados. Às vezes o modelo adequado é um GLM, e não uma transformação.
+z2126	md	3	Após transformar, você compara médias na nova escala. A média do logaritmo, por exemplo, corresponde à média geométrica. Diga o que isso significa para a sua pergunta.
+z2127	md	3	Procure padrões nos resíduos por data, local, operador ou lote. Padrões indicam uma fonte de variação que falta no modelo.
+z2128	emd	3	A diferença pode ter vindo da variação entre blocos e não dos tratamentos. Explique o que isso revela sobre o desenho.
+z2129	emd	2	Refaça a análise sem a observação e compare. Use distância de Cook. Se a conclusão muda por um ponto, diga isso.
+z2130	md	3	A ANOVA é uma regressão com variáveis indicadoras para os grupos. Os testes F coincidem. Mostre os coeficientes como diferenças em relação à referência.
+z2131	temd	2	A regressão descreve a associação e permite previsão sem conhecer o mecanismo. Deixe claro que você não afirma causa.
+z2132	te	1	O coeficiente angular é quanto a resposta muda, na unidade dela, a cada unidade a mais da variável explicativa. Diga o seu valor com as unidades.
+z2133	temd	2	O intercepto é o valor previsto quando a explicativa é zero. Se zero não faz sentido, ele é só um parâmetro de ajuste. Centralizar a variável ajuda.
+z2134	temd	2	R² alto não garante que a forma do modelo esteja certa nem que os pressupostos sejam atendidos. Mostre os resíduos e o sentido do modelo.
+z2135	temd	2	O coeficiente indica uma tendência real, mas o modelo explica pouco da variação. Há outros fatores importantes, e previsões individuais serão imprecisas.
+z2136	md	3	A mudança de sinal indica confundimento ou supressão por outra variável correlacionada. Mostre as correlações entre as explicativas.
+z2137	emd	2	O coeficiente é o efeito de uma variável quando as outras do modelo não mudam. Isso nem sempre é realista se as variáveis andam juntas.
+z2138	emd	2	Compare os modelos por AIC, teste de razão de verossimilhança ou validação, e não só pelo R², que sempre aumenta.
+z2139	temd	2	O R² ajustado penaliza o número de variáveis. Os dois descrevem a variação explicada, mas não dizem se o modelo está correto.
+z2140	emd	2	Resíduo alto é um ponto longe da reta. Alavancagem alta é um ponto com valores extremos nas explicativas, que pode puxar a reta.
+z2141	emd	3	Diga com franqueza que a conclusão depende desse ponto, mostre as duas análises e discuta se o ponto é válido.
+z2142	temd	2	O funil indica variância que aumenta com o valor ajustado. Considere transformação, um modelo com outra distribuição ou erros robustos.
+z2143	emd	2	A curvatura indica relação não linear ou falta de uma variável. Teste termos quadráticos, splines ou outras variáveis.
+z2144	md	3	Erros robustos corrigem a inferência para variância desigual. Eles não corrigem viés por modelo mal especificado nem dependência entre observações.
+z2145	emd	2	A multicolinearidade aumenta os erros-padrão e torna os coeficientes instáveis. O modelo pode prever bem, mas fica difícil separar o efeito de cada variável.
+z2146	emd	3	Decida pela pergunta: se as duas medem a mesma coisa, use uma ou combine em um índice. Mostre o fator de inflação da variância.
+z2147	emd	3	A interação mostra que a inclinação da variável contínua muda entre categorias. Interprete uma inclinação para cada categoria.
+z2148	emd	3	Com interação, o efeito principal passa a ser o efeito quando a outra variável vale zero ou está na referência.
+z2149	md	3	Centralizar faz o zero corresponder à média. O efeito principal passa a ser o efeito na média da outra variável, o que é mais interpretável.
+z2150	emd	2	O intervalo da média é mais estreito e mostra a incerteza da média prevista. O de predição inclui a variação de uma nova observação individual.
+z2151	temd	2	Você assume que a relação continua igual fora da faixa observada, o que não foi testado. Evite extrapolar ou avise sobre o risco.
+z2152	md	3	O erro na explicativa tende a atenuar o coeficiente em direção a zero. Considere modelos de erro nas variáveis se o erro for grande.
+z2153	emd	3	As médias escondem a variação dentro dos grupos e podem inverter a relação. É a falácia ecológica. Use os dados individuais quando possível.
+z2154	md	3	Considere se a resposta pode causar a explicativa. Use dados temporais, variáveis defasadas ou o desenho para dar a direção.
+z2155	md	3	Controlar um mediador remove parte do efeito que você quer medir. Controlar um colisor cria associação falsa. Use um diagrama causal.
+z2156	temd	2	Cada coeficiente é a diferença média entre aquele nível e a categoria de referência. Diga qual é a referência.
+z2157	emd	3	Com resposta em logaritmo, o coeficiente indica mudança percentual aproximada. Para voltar à escala original, a média exige correção, e não só aplicar a exponencial.
+z2158	md	3	Reajuste o modelo em subamostras, por bootstrap ou validação cruzada, e mostre se os coeficientes se mantêm.
+z2159	md	3	Forçar o intercepto a zero distorce a inclinação e o R² se a relação real não passa pela origem. Justifique por teoria ou mostre o teste.
+z2160	md	3	Para previsão importam o erro em dados novos e a validação. Para inferência causal importam o desenho, o confundimento e a interpretação dos coeficientes.
+z2161	te	1	Média e mediana diferentes indicam assimetria ou valores extremos. Nesse caso a mediana com o intervalo interquartil descreve melhor o centro.
+z2162	temd	2	O desvio-padrão descreve a dispersão das observações. O erro-padrão descreve a incerteza da média estimada e diminui com a amostra.
+z2163	te	1	A média esconde a dispersão. Grupos com a mesma média podem ter comportamentos muito diferentes. Mostre medidas de dispersão e a distribuição.
+z2164	temd	2	O coeficiente de variação é inadequado quando a média é perto de zero ou a escala não tem zero absoluto, como temperatura em Celsius.
+z2165	te	1	Em dados assimétricos, prefira o intervalo interquartil. A amplitude é sensível a extremos, e o desvio-padrão supõe simetria.
+z2166	te	2	Dois picos indicam provavelmente dois grupos misturados. A média pode cair entre eles, onde quase não há dados. Investigue os grupos.
+z2167	temd	2	Teste diferentes larguras de classe ou use gráfico de densidade. Classes mal escolhidas escondem picos ou criam falsos.
+z2168	te	1	O boxplot mostra mediana, quartis, dispersão e valores extremos. A barra mostra só a média e esconde a distribuição.
+z2169	te	1	Esses pontos podem ser valores reais e informativos. Investigue a origem antes de excluir, e só exclua erros comprovados.
+z2170	temd	2	Barras sobrepostas podem existir com diferença significativa, sobretudo quando representam desvio-padrão. Faça o teste adequado ou mostre o intervalo da diferença.
+z2171	temd	2	Desvio-padrão para descrever a variação, erro-padrão para a precisão da média e intervalo de confiança para inferência. Diga sempre qual usou.
+z2172	te	2	Mostre os pontos individuais, como em gráficos de pontos ou dispersão com resumo. Com amostras pequenas, cada ponto importa.
+z2173	emd	2	Com poucos dados, a estimativa de densidade do violino pode criar formas que não existem. Mostre os pontos junto.
+z2174	temd	2	Use frequências relativas ou densidades para comparar grupos de tamanhos diferentes, e informe o tamanho de cada um.
+z2175	temd	2	A escala logarítmica ajuda com dados de várias ordens de grandeza, mas avise o leitor, porque diferenças iguais no gráfico são razões.
+z2176	te	1	Eixos que não começam em zero ou muito estreitos exageram diferenças. Escolha limites que representem a magnitude real.
+z2177	te	2	Mostre os percentuais junto com os denominadores. Percentuais de bases diferentes enganam se o leitor não souber o tamanho de cada grupo.
+z2178	emd	3	É o paradoxo de Simpson: a tendência dos subgrupos se inverte no agregado por causa de uma variável de confusão. Analise por subgrupo.
+z2179	te	2	Use média ponderada quando as unidades têm importâncias ou tamanhos diferentes, como médias de grupos com números diferentes de indivíduos.
+z2180	md	3	Substituir por zero ou metade do limite distorce média e desvio. Considere métodos para dados censurados ou estatísticas robustas.
+z2181	te	1	Zero real é uma medida que deu zero. Ausente é não ter a medida. Confundir os dois distorce os resultados.
+z2182	te	1	Mínimo e máximo mostram só os extremos. Mostre também centro e dispersão, como mediana e quartis.
+z2183	temd	2	Um gráfico de dispersão com reta ou curva ajustada mostra associação, dispersão e pontos influentes ao mesmo tempo.
+z2184	emd	2	Calcule a proporção total pela soma dos sucessos sobre a soma das tentativas, ou pondere pelos denominadores. A média simples das proporções distorce.
+z2185	te	1	Informe o n de cada variável na tabela. Dados ausentes mudam o n e precisam ficar visíveis.
+z2186	te	2	O teste t compara médias de dois grupos com resposta contínua. Diga se os grupos são independentes ou pareados.
+z2187	te	1	As mesmas unidades geram medidas correlacionadas. O teste pareado analisa as diferenças dentro de cada unidade e é mais preciso.
+z2188	temd	2	O teste pareado analisa as diferenças entre os pares. Por isso é a distribuição das diferenças que precisa ser aproximadamente normal.
+z2189	temd	2	O teste clássico supõe variâncias iguais. O de Welch não supõe e ajusta os graus de liberdade.
+z2190	temd	2	Com variâncias e tamanhos desiguais, o teste clássico erra o valor de p. O de Welch se mantém correto e perde pouco quando as variâncias são iguais.
+z2191	emd	3	Com amostras pequenas e assimetria forte, o teste t pode errar. Use bootstrap, transformação ou teste não paramétrico, e compare.
+z2192	temd	2	Compare a diferença com o que importa na prática na sua área e mostre o intervalo de confiança da diferença.
+z2193	te	2	Se o intervalo inclui zero, a diferença pode ser nula. Mas valores relevantes podem estar no intervalo, então o resultado é inconclusivo.
+z2194	md	3	Para afirmar equivalência, defina uma margem de relevância e use um teste de equivalência, como o TOST.
+z2195	temd	2	O unilateral testa uma direção, e o bilateral as duas. A escolha deve vir da hipótese, antes de ver os dados.
+z2196	emd	3	Num teste unilateral, efeito na direção oposta não pode ser declarado significativo. Relate como inesperado e discuta.
+z2197	temd	2	Com menos graus de liberdade, a distribuição t tem caudas mais grossas e exige diferença maior para significância.
+z2198	te	2	t é a diferença estimada dividida pelo seu erro-padrão. Mostra quantos erros-padrão a diferença está de zero.
+z2199	temd	2	Faça a análise com e sem a observação e use métodos robustos. Só exclua se houver erro comprovado.
+z2200	emd	2	O teste t equivale a uma regressão com uma variável indicadora de grupo. O coeficiente é a diferença de médias, e o p é o mesmo.
+z2201	temd	3	Medidas do mesmo indivíduo não são independentes. Use a média por indivíduo ou um modelo misto.
+z2202	emd	3	Quanto maior a correlação entre as medidas pareadas, menor a variância das diferenças e maior a precisão.
+z2203	emd	3	Usar só pares completos perde dados e pode viesar se a falta não for aleatória. Considere modelos mistos que usam todas as observações.
+z2204	te	2	O teste t de uma amostra compara a média com um valor fixo. Justifique esse valor por norma, literatura ou valor teórico.
+z2205	temd	2	Com amostra muito grande, diferenças minúsculas ficam significativas. Diga se a diferença importa na prática.
+z2206	emd	3	Decida pelo tamanho da amostra, pela intensidade da assimetria e pela pergunta. Compare os resultados dos métodos.
+z2207	temd	2	Mostre a diferença nas unidades originais, que é fácil de entender, e um tamanho de efeito padronizado, como o d de Cohen, para comparar com outros estudos.
+z2208	emd	2	Vários desfechos aumentam a chance de falso positivo. Corrija para múltiplos testes ou defina um desfecho principal.
+z2209	md	3	Escolher o teste com base em outro teste muda a taxa de erro. Prefira usar Welch diretamente.
+z2210	md	3	O teste de diferença pergunta se há diferença. O teste de não inferioridade ou equivalência pergunta se o efeito fica dentro de uma margem.
+z2211	temd	2	Pearson mede relação linear entre variáveis contínuas. Spearman mede relação monotônica e é menos sensível a outliers.
+z2212	temd	2	Pearson só capta relação linear. Uma curva em U pode dar Pearson perto de zero. Faça o gráfico.
+z2213	temd	2	Spearman alto indica que uma variável sobe ou desce junto com a outra, mesmo sem ser em linha reta.
+z2214	te	1	Correlação mostra associação. Ela pode vir de causa comum, de direção inversa ou de acaso.
+z2215	temd	2	Com amostras grandes, correlações fracas ficam significativas. O intervalo de confiança fica mais estreito.
+z2216	emd	2	Diferenças entre os dois indicam outliers, relação não linear ou muitos empates. Olhe o gráfico.
+z2217	temd	2	Refaça sem o ponto extremo e compare. Mostre o gráfico de dispersão.
+z2218	emd	3	É o paradoxo de Simpson. Uma diferença entre grupos cria a tendência global. Analise dentro dos grupos.
+z2219	md	3	A correlação parcial remove o efeito de uma terceira variável. Mas não elimina confundimento por variáveis não medidas.
+z2220	emd	3	Amplitude restrita reduz a correlação observada. A relação pode ser mais forte na população completa.
+z2221	emd	3	Duas variáveis que crescem com o tempo parecem correlacionadas. Remova a tendência ou analise as diferenças entre períodos.
+z2222	md	3	Observações próximas no espaço são parecidas, o que reduz o tamanho efetivo da amostra e torna o p otimista.
+z2223	md	3	Se uma variável contém a outra, como uma razão e o seu denominador, a correlação aparece por construção matemática.
+z2224	emd	2	Muitos empates afetam Spearman. Use a versão corrigida para empates ou o tau de Kendall.
+z2225	emd	2	O tau de Kendall é mais adequado com amostras pequenas ou muitos empates, e tem interpretação de concordância entre pares.
+z2226	md	3	Erros de medição atenuam a correlação. A relação verdadeira pode ser mais forte que a observada.
+z2227	md	3	Use a transformação z de Fisher para comparar correlações de grupos independentes.
+z2228	md	3	Correlações que compartilham uma variável não são independentes. Use testes específicos para correlações dependentes.
+z2229	temd	2	Intervalo amplo indica pouca precisão. A correlação verdadeira pode ser bem mais fraca. Relate o intervalo.
+z2230	emd	3	Com muitas correlações, algumas serão significativas por acaso. Corrija para múltiplos testes e não destaque só as maiores.
+z2231	md	3	Com exclusão par a par, cada correlação usa casos diferentes, e a matriz pode ficar inconsistente para análises multivariadas.
+z2232	md	3	A correlação dentro dos indivíduos pode diferir da correlação entre as médias deles. Use métodos de correlação para medidas repetidas.
+z2233	md	3	Se a dispersão muda ao longo da variável, um único coeficiente resume mal. Mostre o gráfico ou modele a variância.
+z2234	temd	2	A regressão diz quanto uma variável muda com a outra e permite prever. A correlação só mede a força da associação.
+z2235	emd	3	Use o gráfico de Bland-Altman. Dois métodos podem ser muito correlacionados e mesmo assim ter diferenças sistemáticas.
+z2236	temd	2	O que importa é a distribuição dos resíduos e o tamanho da amostra, e não a normalidade dos dados brutos. Testes t e ANOVA são robustos com amostras moderadas.
+z2237	temd	2	O Mann-Whitney testa se valores de um grupo tendem a ser maiores que do outro. Só vira teste de localização se as distribuições tiverem a mesma forma.
+z2238	emd	3	O Mann-Whitney só testa medianas quando as distribuições têm a mesma forma. Sem isso, ele testa a tendência de um grupo superar o outro.
+z2239	md	3	O teste pode dar significativo por diferença de forma ou dispersão, e não de mediana. Interprete com cuidado.
+z2240	te	2	O Wilcoxon pareado usa as diferenças dentro dos pares e não exige normalidade.
+z2241	emd	3	A interpretação usual como teste de mediana supõe que as diferenças tenham distribuição simétrica.
+z2242	temd	2	O teste dos sinais só usa a direção das diferenças e não supõe simetria. É útil quando a simetria não se sustenta.
+z2243	temd	2	O Kruskal-Wallis indica que ao menos um grupo difere. Faça comparações posteriores, como o teste de Dunn, para saber quais.
+z2244	emd	2	Use o teste de Dunn com correção de Holm ou Bonferroni, e planeje as comparações de interesse.
+z2245	temd	2	O Friedman considera que as medidas vêm dos mesmos blocos ou indivíduos. O Kruskal-Wallis supõe grupos independentes.
+z2246	emd	3	Muitos empates reduzem a informação dos postos. Use correção para empates ou métodos exatos.
+z2247	emd	3	Com amostras pequenas, o p exato é mais confiável. As aproximações assintóticas supõem amostras maiores.
+z2248	emd	3	Use medidas como r de postos, delta de Cliff ou probabilidade de superioridade.
+z2249	md	3	O Mann-Whitney não compara médias. Se a pergunta é sobre médias, outra abordagem, como bootstrap ou modelo adequado, responde melhor.
+z2250	md	3	A permutação é válida quando, sob a hipótese nula, os rótulos são trocáveis, ou seja, as observações são independentes e as distribuições iguais.
+z2251	md	3	Permute dentro dos pares ou blocos, trocando os sinais das diferenças ou os rótulos dentro de cada bloco.
+z2252	emd	3	Testes não paramétricos também supõem independência e, às vezes, formas iguais. Eles não resolvem dependência nem desenhos complexos.
+z2253	md	3	Modelar a distribuição, como com um GLM Gamma, estima efeitos na escala real. Os postos só testam ordem.
+z2254	md	3	Verifique outliers, assimetria e o que cada teste avalia. Relate os dois resultados e explique a diferença.
+z2255	temd	2	Use boxplots com pontos individuais ou gráficos de violino, que mostram centro, forma e dispersão.
+z2256	emd	2	Contagens são inteiros não negativos, e a variância cresce com a média. Um GLM com Poisson ou binomial negativa respeita isso. A regressão normal pode prever valores negativos.
+z2257	emd	3	A distribuição descreve a variação da resposta, como Poisson ou binomial. A ligação conecta a média ao preditor linear, como log ou logito.
+z2258	emd	3	Com ligação log, a exponencial do coeficiente é um fator multiplicativo. Um valor de 1,2 indica 20% a mais na resposta por unidade da explicativa.
+z2259	emd	3	A razão de chances compara chances, e não probabilidades. Quando o evento é comum, ela exagera o risco relativo.
+z2260	md	3	O efeito é constante no logito, mas a mudança na probabilidade depende do ponto da curva. Mostre probabilidades previstas em valores de interesse.
+z2261	emd	3	Compare a variância residual com a média ou use a razão entre desvio residual e graus de liberdade. Trate com binomial negativa ou quase-Poisson.
+z2262	md	3	O quase-Poisson multiplica a variância por um fator constante e não tem verossimilhança, então não permite AIC. A binomial negativa tem variância quadrática na média e permite AIC.
+z2263	emd	3	Use o logaritmo do tempo ou da área como offset. O modelo passa a estimar taxas por unidade de esforço.
+z2264	md	3	O offset fixa o coeficiente em 1, supondo proporcionalidade ao esforço. Como covariável, o coeficiente é estimado livremente.
+z2265	md	3	Compare um modelo binomial negativo com um inflacionado de zeros. Veja se os zeros previstos batem com os observados.
+z2266	md	3	O hurdle separa zero e não zero, e todos os zeros vêm de um processo. O inflacionado de zeros admite zeros estruturais e também zeros da própria contagem.
+z2267	emd	3	Use a resposta como sucessos e fracassos, informando o número de tentativas, para que cada proporção tenha o peso correto.
+z2268	md	3	Proporções contínuas, como cobertura percentual, não têm número de tentativas. A distribuição beta modela valores entre 0 e 1.
+z2269	md	3	A beta não aceita 0 nem 1. Use uma transformação de compressão ou modelos beta inflacionados de zeros e uns.
+z2270	md	3	Compare a relação média e variância de cada um, os resíduos e o AIC. A Gamma modela a média diretamente. A lognormal modela a média do logaritmo.
+z2271	md	3	Use resíduos de deviance, de Pearson ou simulados, como os do DHARMa. Eles avaliam o ajuste adequado à distribuição escolhida.
+z2272	md	3	Os coeficientes e erros-padrão ficam enormes. Use regressão logística penalizada, como a de Firth, ou um enfoque bayesiano.
+z2273	md	3	Discriminação é separar quem tem o evento de quem não tem, medida pela AUC. Calibração é acertar as probabilidades, vista em curvas de calibração.
+z2274	md	3	A interação na escala do logito ou do log não corresponde à interação na escala da probabilidade ou da contagem. Diga em qual escala você interpreta.
+z2275	emd	2	Volte à escala da resposta, como probabilidade ou contagem, com intervalos calculados na escala da ligação e depois transformados.
+z2276	emd	2	Observações do mesmo grupo são parecidas. O efeito aleatório modela essa dependência e evita erros-padrão subestimados.
+z2277	emd	3	O fator fixo tem níveis de interesse em si. O aleatório tem níveis que representam uma população maior, sobre a qual você quer generalizar.
+z2278	md	3	O intercepto aleatório permite que cada grupo tenha seu nível médio. A inclinação aleatória permite que o efeito de uma variável mude entre grupos.
+z2279	md	3	Se a resposta ao tratamento varia entre indivíduos, só o intercepto aleatório subestima a incerteza do efeito. Inclua inclinação aleatória.
+z2280	md	3	A variância do intercepto mostra quanto os grupos diferem entre si no nível médio. Compare com a variância residual.
+z2281	md	3	A correlação intraclasse é a proporção da variação total que se deve às diferenças entre grupos.
+z2282	md	3	Use efeitos aleatórios aninhados, por exemplo local dentro de região.
+z2283	md	3	Aninhado é quando um nível só existe dentro de outro. Cruzado é quando os níveis se combinam, como indivíduos avaliados por vários avaliadores.
+z2284	md	3	Com poucos níveis, menos de cinco ou seis, a variância é mal estimada. Considere tratar o fator como fixo.
+z2285	md	3	Ajuste singular indica variância perto de zero ou estrutura complexa demais. Simplifique os efeitos aleatórios.
+z2286	md	3	O efeito aleatório trata a correlação geral do indivíduo, mas medidas próximas no tempo podem ser ainda mais parecidas. Modele a autocorrelação temporal.
+z2287	md	3	Use o linear misto se a resposta for contínua e aproximadamente normal. Use o generalizado misto para contagens, proporções ou respostas binárias.
+z2288	md	3	Use distribuição binomial com ligação logito e efeito aleatório de indivíduo.
+z2289	md	3	A previsão condicional usa o efeito do grupo conhecido. Para grupos novos, use a previsão populacional, sem o efeito do grupo.
+z2290	md	3	Em modelos não lineares, a probabilidade média da população difere da probabilidade de um grupo típico. Integrar sobre os efeitos aleatórios dá a média populacional.
+z2291	md	3	O R² marginal mede o que os efeitos fixos explicam. O condicional inclui também os aleatórios.
+z2292	md	3	O REML estima melhor as variâncias, mas sua verossimilhança depende dos efeitos fixos. Para comparar efeitos fixos, ajuste por ML.
+z2293	md	3	Verifique avisos de convergência, resíduos, efeitos aleatórios e a estabilidade com diferentes otimizadores.
+z2294	md	3	O agrupamento pode estar ligado às variáveis explicativas, o que é confundimento entre e dentro de grupos. Separe os efeitos entre e dentro.
+z2295	md	3	Separe os grupos inteiros entre treino e teste, validação cruzada por grupo, para simular grupos novos.
+z2296	emd	2	A PCA resume variáveis correlacionadas em poucos eixos. Diga que pergunta exigia essa síntese.
+z2297	emd	3	A PCA cria eixos que capturam a maior variação possível, combinando as variáveis originais, sem correlação entre os eixos.
+z2298	emd	3	Sem padronizar, variáveis com grande variância dominam os eixos. Padronizar dá o mesmo peso a todas.
+z2299	md	3	Use a covariância quando as variáveis estão na mesma unidade e a diferença de variância importa.
+z2300	emd	3	Use critérios como o gráfico de declive, a análise paralela ou o modelo de bastão quebrado.
+z2301	emd	2	Se os dois eixos explicam pouco, o gráfico mostra só parte da estrutura. Analise mais componentes.
+z2302	emd	2	Os escores são as posições das observações nos eixos. As cargas mostram quanto cada variável contribui para os eixos.
+z2303	md	3	No biplot, ângulos e comprimentos dependem da escala escolhida. Explique a escala usada.
+z2304	emd	3	O sinal dos eixos é arbitrário. Inverter não muda a interpretação, desde que você mantenha a coerência.
+z2305	emd	3	Cargas de sinais opostos indicam variáveis que variam em sentidos contrários ao longo do eixo.
+z2306	emd	3	A PCA só descreve. Para testar diferença entre grupos, use PERMANOVA ou outro teste formal.
+z2307	emd	3	Valores extremos podem puxar os eixos. Faça a análise com e sem eles ou use PCA robusta.
+z2308	md	3	Variáveis redundantes pesam mais na ordenação. Considere remover duplicatas ou agrupar.
+z2309	md	3	Exclua casos, impute ou use métodos de PCA que lidam com ausentes. Teste se a estrutura muda.
+z2310	md	3	Dados composicionais pedem transformações de razões logarítmicas. Dados categóricos pedem análise de correspondência.
+z2311	emd	2	A NMDS aceita qualquer dissimilaridade e não supõe relações lineares, o que é útil para dados de abundância.
+z2312	emd	3	Justifique pelo tipo de dado: Bray-Curtis para abundâncias, Jaccard para presença e ausência, Gower para variáveis mistas.
+z2313	md	3	A NMDS preserva a ordem das distâncias, ou seja, quais pontos estão mais próximos, e não os valores exatos.
+z2314	emd	3	O stress mede o desajuste entre distâncias originais e do gráfico. Valores menores são melhores, mas os limites são só orientativos.
+z2315	md	3	Compare a queda no stress com o ganho de interpretação. Se três dimensões reduzem muito o stress, considere usá-las.
+z2316	emd	3	Os eixos da NMDS não têm variância explicada. A solução é baseada na ordem das distâncias, e não em decomposição de variância.
+z2317	md	3	Rode várias vezes com inícios diferentes e veja se as soluções convergem, por exemplo com análise de Procrustes.
+z2318	emd	2	Pontos próximos são mais parecidos na composição. A distância no gráfico é aproximada e depende do stress.
+z2319	md	3	O diagrama de Shepard compara as distâncias originais com as do gráfico. Pontos perto da curva indicam boa representação.
+z2320	emd	2	Use PERMANOVA ou ANOSIM para testar a separação. A NMDS sozinha não testa.
+z2321	md	3	Transformações como raiz quadrada reduzem o peso das espécies dominantes e mudam a ordenação.
+z2322	emd	3	Jaccard usa presença e ausência e é útil quando a abundância não é confiável ou quando interessa a composição.
+z2323	md	3	Unidades sem nenhuma ocorrência geram distâncias indefinidas. Remova essas unidades ou use dissimilaridades ajustadas.
+z2324	emd	3	O ajuste de vetores mostra associação com a ordenação, e não causa.
+z2325	md	3	Repita com outras dissimilaridades e sem observações influentes. Compare as soluções.
+z2326	md	3	A ordenação não restrita mostra a estrutura geral dos dados. A restrita mostra só a variação explicada pelas variáveis escolhidas.
+z2327	md	3	A RDA supõe resposta linear aos gradientes. A CCA supõe resposta unimodal, mais comum em gradientes longos.
+z2328	md	3	A transformação de Hellinger reduz o peso das espécies muito abundantes e torna a RDA adequada para dados de abundância.
+z2329	md	3	A db-RDA permite usar dissimilaridades como Bray-Curtis dentro de uma análise canônica.
+z2330	md	3	Mostre a variação total, quanto as variáveis explicam e o que sobra sem explicação.
+z2331	md	3	Diga se os percentuais se referem à variação total ou só à explicada, porque os valores mudam muito.
+z2332	md	3	O R² ajustado corrige pelo número de variáveis. Ele pode ser negativo quando as variáveis explicam menos que o esperado ao acaso.
+z2333	md	3	Use testes de permutação para o modelo global, para os eixos e para cada variável, com correção quando necessário.
+z2334	md	3	Restrinja as permutações aos blocos ou às repetições, para respeitar a estrutura dos dados.
+z2335	md	3	Variáveis colineares tornam as setas instáveis. Verifique o fator de inflação da variância e selecione variáveis.
+z2336	md	3	A RDA parcial remove o efeito de uma covariável, como espaço ou tempo, antes de testar as variáveis de interesse.
+z2337	md	3	A fração compartilhada não pode ser atribuída a uma variável só. Não indica causa.
+z2338	md	3	A variável pode estar correlacionada com outras do modelo, e o efeito dela foi absorvido. Isso não prova ausência de relação.
+z2339	md	3	Use seleção progressiva com critério de parada pelo R² ajustado global, e evite muitas variáveis para poucas unidades.
+z2340	md	3	A significância mostra que a relação existe. O baixo R² mostra que outros fatores explicam a maior parte. Diga as duas coisas.
+z2341	temd	2	Os pressupostos se aplicam aos resíduos do modelo e à forma como os dados foram coletados, e não às variáveis brutas.
+z2342	emd	3	Com amostras grandes, pequenos desvios ficam significativos. Veja o gráfico quantil-quantil e o efeito prático do desvio.
+z2343	temd	2	Com amostras pequenas o teste tem pouco poder. Não rejeitar não prova normalidade.
+z2344	te	2	O gráfico quantil-quantil mostra onde e como os dados se afastam da normal, o que o teste sozinho não mostra.
+z2345	md	3	A heterocedasticidade é variância desigual. Uma relação média e resposta mal especificada mostra padrão sistemático nos resíduos. Veja o gráfico de resíduos.
+z2346	temd	2	A independência vem do desenho. Nenhum teste prova independência se as unidades estão agrupadas.
+z2347	emd	3	A correlação temporal faz os erros-padrão ficarem pequenos demais e o p otimista.
+z2348	md	3	Use o índice I de Moran ou variogramas nos resíduos.
+z2349	md	3	Considere estimadores robustos, distribuições t ou bootstrap, justificando pela natureza dos dados.
+z2350	emd	3	Falta de ajuste aparece como padrão nos resíduos, como curva ou tendência. Variação aleatória aparece como nuvem sem forma.
+z2351	md	3	Escolher o método com base em um teste preliminar muda as taxas de erro. Decida pelo conhecimento dos dados.
+z2352	md	3	Considere Poisson, Gamma, binomial negativa ou modelos que estimam a variância em função da média.
+z2353	md	3	Analise os resíduos em relação à variável na escala da ligação, com gráficos de resíduos parciais ou splines.
+z2354	md	3	A transformação pode igualar as variâncias, mas não resolve observações dependentes.
+z2355	emd	2	Relate a violação, as tentativas de correção e como ela limita a força das conclusões.
+z2356	md	3	A PERMANOVA testa o conjunto das variáveis ao mesmo tempo, o que evita muitos testes separados.
+z2357	md	3	O pseudo-F compara a variação entre e dentro dos grupos nas distâncias. O p é obtido embaralhando os rótulos.
+z2358	md	3	A PERMANOVA pode dar significativo por diferença de centro, de dispersão ou de ambos.
+z2359	md	3	O PERMDISP testa se a dispersão difere entre grupos. Use junto com a PERMANOVA.
+z2360	md	3	Se os dois derem significativos, a diferença pode ser de dispersão e não de centro. Interprete com cuidado.
+z2361	md	3	Com grupos desiguais e dispersões diferentes, a PERMANOVA fica menos confiável.
+z2362	md	3	Restrinja as permutações dentro dos locais ou indivíduos.
+z2363	md	3	O R² mostra a fração da variação atribuída ao fator.
+z2364	md	3	Faça PERMANOVAs par a par com correção para múltiplos testes.
+z2365	md	3	Justifique a dissimilaridade pela natureza dos dados, antes de ver os resultados, e relate se outras dão resultados diferentes.
+z2366	md	3	Compare o modelo linear e o GAM pelo AIC ou pelo teste de razão de verossimilhança, e mostre a curva com intervalo.
+z2367	md	3	A penalização evita curvas muito onduladas, equilibrando ajuste e suavidade.
+z2368	md	3	Os graus de liberdade efetivos mostram a complexidade da curva. Perto de 1 indica relação quase linear.
+z2369	md	3	Com poucos dados nos extremos, a curva é incerta. Mostre os dados e o intervalo de confiança.
+z2370	md	3	A concurvidade é a versão não linear da colinearidade. Torna as curvas instáveis. Verifique com as funções do pacote.
+z2371	emd	3	A exponencial cresce sem limite. A logística tem um teto. Escolha pelo mecanismo e pela capacidade de suporte.
+z2372	md	3	Teste valores iniciais diferentes e veja se os parâmetros convergem para os mesmos valores.
+z2373	md	3	Estime o ponto de mudança com intervalo de confiança, por bootstrap ou verossimilhança.
+z2374	md	3	Fora da faixa dos dados, a curva não tem informação e pode assumir qualquer forma.
+z2375	md	3	Use um suavizador cíclico, cujas extremidades se encontram. Defina o início e o fim do ciclo.
+z2376	md	3	A seleção por hipóteses compara modelos que representam ideias científicas. A automática escolhe pelos dados e corre o risco de achar padrões por acaso.
+z2377	md	3	O AIC só compara modelos ajustados aos mesmos dados e com a mesma resposta.
+z2378	md	3	Diferenças de AIC menores que 2 indicam modelos com suporte parecido. Prefira o mais simples ou use média de modelos.
+z2379	md	3	Use o AICc quando a amostra é pequena em relação ao número de parâmetros.
+z2380	md	3	O AIC busca o melhor modelo para previsão. O BIC penaliza mais a complexidade e tende a modelos mais simples.
+z2381	md	3	O stepwise testa muitos modelos, e os valores de p ficam otimistas. Relate essa limitação.
+z2382	md	3	Faça a seleção de variáveis só nos dados de treino, dentro da validação cruzada.
+z2383	md	3	Observações próximas são parecidas. Separar ao acaso deixa dados parecidos no treino e no teste, o que superestima o desempenho.
+z2384	md	3	O erro quadrático penaliza mais os erros grandes. O absoluto é mais robusto. Escolha pelo custo dos erros na prática.
+z2385	md	3	Mostre que o modelo responde à pergunta, que os resíduos estão adequados e que a validação confirma o desempenho.
+z2386	temd	2	A unidade de replicação é a menor unidade que recebe o tratamento de forma independente. Ela define o tamanho real da amostra.
+z2387	temd	2	Subamostras da mesma unidade medem a variação dentro dela. São pseudorréplicas, e não réplicas independentes.
+z2388	emd	2	Use análise de poder com o efeito mínimo relevante, a variabilidade esperada e o nível de significância.
+z2389	temd	2	A randomização distribui fatores desconhecidos ao acaso entre os grupos. A replicação permite estimar a variação. Uma não substitui a outra.
+z2390	emd	2	O bloco agrupa unidades parecidas e retira essa variação do erro. Use quando há heterogeneidade conhecida.
+z2391	md	3	Use um diagrama causal. Controle confundidores e não controle mediadores nem colisores.
+z2392	md	3	O controle mostra a mudança que ocorreria sem a intervenção. A diferença entre as mudanças estima o efeito.
+z2393	md	3	Selecionar pelo desfecho cria associações falsas, o chamado viés de seleção.
+z2394	md	3	Observações do mesmo conglomerado são parecidas, o que aumenta os erros-padrão. Use análise que considere o desenho.
+z2395	temd	2	Amostras de conveniência não representam a população. Limite as conclusões ao grupo estudado.
+z2396	temd	2	O p é a probabilidade de observar dados tão extremos se a hipótese nula fosse verdadeira. Não é a probabilidade de a nula ser verdadeira.
+z2397	temd	2	Diga que existe diferença estatística, mas que ela é pequena demais para ter importância prática.
+z2398	emd	3	O intervalo de 95% vem de um procedimento que captura o parâmetro em 95% das repetições. Não é a probabilidade de o parâmetro estar nesse intervalo específico.
+z2399	md	3	Relate as análises alternativas e mostre como os resultados variam, sem esconder as que não deram significativo.
+z2400	emd	2	Disponibilize dados, código, versões dos programas e as decisões tomadas, por exemplo em um repositório público.

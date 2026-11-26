@@ -1,0 +1,301 @@
+﻿id;categoria;pergunta
+2101;ANOVA e testes post hoc;Se sua ANOVA apresentou um resultado significativo, por que isso não permite afirmar imediatamente que todos os grupos são diferentes entre si?
+2102;ANOVA e testes post hoc;Considerando os objetivos da pesquisa, por que você escolheu uma ANOVA em vez de realizar vários testes t entre os grupos?
+2103;ANOVA e testes post hoc;Caso as variâncias dos grupos sejam diferentes, como isso afetaria a validade da ANOVA e que alternativa você consideraria?
+2104;ANOVA e testes post hoc;Se os grupos apresentarem tamanhos amostrais muito diferentes, quais cuidados adicionais você teria na interpretação da ANOVA?
+2105;ANOVA e testes post hoc;Em uma ANOVA com dois fatores, como interpretaria uma interação significativa mesmo quando os efeitos principais não são significativos?
+2106;ANOVA e testes post hoc;Se a interação entre dois fatores for significativa, em que condições seria inadequado interpretar isoladamente suas médias marginais?
+2107;ANOVA e testes post hoc;Como você explicaria a razão F da ANOVA e sua relação com a variabilidade dentro e entre os grupos?
+2108;ANOVA e testes post hoc;Por que um valor de F elevado não significa necessariamente que a diferença entre grupos tenha grande importância prática?
+2109;ANOVA e testes post hoc;Como você determinaria quais comparações pós-ANOVA são relevantes para os objetivos, evitando testar diferenças sem interesse científico?
+2110;ANOVA e testes post hoc;Por que você escolheria Tukey em vez de Dunnett caso desejasse comparar todos os tratamentos entre si?
+2111;ANOVA e testes post hoc;Se o objetivo fosse comparar cada tratamento exclusivamente com um controle, que procedimento de comparação múltipla seria mais adequado?
+2112;ANOVA e testes post hoc;Em que situação você utilizaria contrastes planejados em vez de comparações exploratórias realizadas após observar os resultados?
+2113;ANOVA e testes post hoc;Como a correção para múltiplas comparações modifica a interpretação das diferenças entre grupos?
+2114;ANOVA e testes post hoc;Se dois grupos compartilham uma letra em um gráfico de Tukey, é correto afirmar que suas médias são iguais? Justifique.
+2115;ANOVA e testes post hoc;Como você apresentaria a magnitude das diferenças detectadas pela ANOVA além dos valores de p?
+2116;ANOVA e testes post hoc;O que uma ANOVA não significativa permite concluir quando os intervalos de confiança das diferenças são muito amplos?
+2117;ANOVA e testes post hoc;Como distinguiria uma ANOVA de uma via de uma ANOVA fatorial considerando a estrutura do seu delineamento?
+2118;ANOVA e testes post hoc;Se as mesmas unidades forem avaliadas em três ocasiões, por que uma ANOVA convencional de grupos independentes seria inadequada?
+2119;ANOVA e testes post hoc;Em uma ANOVA de medidas repetidas, o que representa a esfericidade e quais alternativas existem quando ela não é atendida?
+2120;ANOVA e testes post hoc;Como você incorporaria um fator de blocos ao modelo caso as unidades experimentais apresentassem heterogeneidade conhecida?
+2121;ANOVA e testes post hoc;Se houver uma covariável quantitativa importante, como justificaria utilizar ANCOVA em vez de simplesmente comparar médias?
+2122;ANOVA e testes post hoc;Na ANCOVA, como avaliaria se a relação entre a covariável e a resposta é semelhante nos diferentes grupos?
+2123;ANOVA e testes post hoc;Se a ANOVA fatorial tiver células vazias, que dificuldades surgem para estimar efeitos e interações?
+2124;ANOVA e testes post hoc;Como a escolha entre somas de quadrados dos tipos I, II e III pode alterar as conclusões de uma ANOVA desbalanceada?
+2125;ANOVA e testes post hoc;Se a análise dos resíduos revelar assimetria acentuada, que aspectos do delineamento e da distribuição avaliaria antes de substituir a ANOVA?
+2126;ANOVA e testes post hoc;Por que aplicar uma transformação aos dados pode alterar a pergunta científica respondida pela comparação entre médias?
+2127;ANOVA e testes post hoc;Como você diferenciaria a variabilidade residual de uma fonte de variação sistemática não incluída na ANOVA?
+2128;ANOVA e testes post hoc;Se uma diferença entre tratamentos desaparecer após incluir um bloco, como interpretaria essa mudança?
+2129;ANOVA e testes post hoc;Como você avaliaria se uma observação influente está determinando a significância global da ANOVA?
+2130;ANOVA e testes post hoc;Se a banca solicitasse que você reformulasse sua ANOVA como regressão linear com fatores categóricos, como demonstraria a equivalência entre as abordagens?
+2131;Regressão linear simples e múltipla;Como justificaria a utilização de uma regressão linear quando o mecanismo que relaciona suas variáveis ainda não é completamente conhecido?
+2132;Regressão linear simples e múltipla;Como interpretaria o coeficiente angular considerando as unidades de medida da variável resposta e da explicativa?
+2133;Regressão linear simples e múltipla;Se o intercepto corresponder a uma condição impossível no contexto da pesquisa, que interpretação seria adequada?
+2134;Regressão linear simples e múltipla;Por que um coeficiente de determinação elevado não garante que o modelo represente corretamente o fenômeno estudado?
+2135;Regressão linear simples e múltipla;Como interpretaria um coeficiente significativo em uma regressão com baixo R² e elevada variabilidade residual?
+2136;Regressão linear simples e múltipla;Se uma variável apresentar associação positiva isoladamente e negativa no modelo múltiplo, quais mecanismos investigaria?
+2137;Regressão linear simples e múltipla;Como você explicaria o significado de manter as demais variáveis constantes ao interpretar um coeficiente de regressão múltipla?
+2138;Regressão linear simples e múltipla;Como avaliaria se a inclusão de uma variável adicional melhora a explicação do fenômeno ou apenas aumenta a complexidade do modelo?
+2139;Regressão linear simples e múltipla;Em que situação o R² ajustado seria mais informativo que o R² convencional e quais limitações ambos apresentam?
+2140;Regressão linear simples e múltipla;Como distinguiria uma observação com resíduo elevado de uma observação com alta alavancagem?
+2141;Regressão linear simples e múltipla;Se a remoção de um único ponto alterar a direção da relação estimada, como comunicaria a fragilidade da conclusão?
+2142;Regressão linear simples e múltipla;Como interpretaria um padrão em forma de funil no gráfico de resíduos versus valores ajustados?
+2143;Regressão linear simples e múltipla;Se os resíduos apresentarem curvatura sistemática, que hipóteses sobre a especificação do modelo você investigaria?
+2144;Regressão linear simples e múltipla;Em que circunstâncias erros-padrão robustos seriam úteis e quais problemas eles não corrigem?
+2145;Regressão linear simples e múltipla;Como a multicolinearidade afeta a precisão dos coeficientes e a interpretação individual das variáveis explicativas?
+2146;Regressão linear simples e múltipla;Se duas variáveis explicativas forem fortemente correlacionadas, que critérios utilizaria para decidir se mantém ambas no modelo?
+2147;Regressão linear simples e múltipla;Como interpretaria uma interação entre uma variável categórica e uma variável contínua em uma regressão?
+2148;Regressão linear simples e múltipla;Por que a inclusão de uma interação pode modificar a interpretação dos efeitos principais do modelo?
+2149;Regressão linear simples e múltipla;Como a centralização de uma variável explicativa pode facilitar a interpretação de modelos com interações?
+2150;Regressão linear simples e múltipla;Qual a diferença entre um intervalo de confiança para a resposta média e um intervalo de predição para uma nova observação?
+2151;Regressão linear simples e múltipla;Se você extrapolar a regressão para além dos valores observados, quais pressupostos adicionais estarão sendo assumidos?
+2152;Regressão linear simples e múltipla;Como um erro de medição na variável explicativa pode afetar a estimativa do coeficiente angular?
+2153;Regressão linear simples e múltipla;Por que ajustar uma regressão aos valores médios de cada grupo pode produzir conclusões diferentes das obtidas com dados individuais?
+2154;Regressão linear simples e múltipla;Como investigaria se uma associação observada decorre de causalidade reversa?
+2155;Regressão linear simples e múltipla;Quando a inclusão de uma variável de controle pode introduzir viés em vez de eliminá-lo?
+2156;Regressão linear simples e múltipla;Como interpretaria o coeficiente de uma variável categórica com três níveis em um modelo que utiliza uma categoria de referência?
+2157;Regressão linear simples e múltipla;Se a resposta for transformada em logaritmo, como interpretaria os coeficientes e obteria previsões na escala original?
+2158;Regressão linear simples e múltipla;Como avaliaria a estabilidade dos coeficientes de regressão diante de diferentes subconjuntos dos dados?
+2159;Regressão linear simples e múltipla;Que consequências teria impor um intercepto igual a zero sem justificativa teórica ou experimental?
+2160;Regressão linear simples e múltipla;Se a regressão for utilizada para previsão e não para inferência causal, como isso modificaria seus critérios de avaliação do modelo?
+2161;Estatística descritiva e gráficos;Se a média e a mediana dos seus dados forem muito diferentes, o que isso sugere e como escolheria a medida que apresentaria?
+2162;Estatística descritiva e gráficos;Como você explicaria a diferença entre variabilidade das observações e incerteza na estimativa da média?
+2163;Estatística descritiva e gráficos;Se dois grupos tiverem a mesma média, mas desvios-padrão muito diferentes, que aspectos importantes do fenômeno seriam ocultados pela média?
+2164;Estatística descritiva e gráficos;Em que situação o coeficiente de variação seria inadequado para comparar a variabilidade de duas variáveis?
+2165;Estatística descritiva e gráficos;Como escolheria entre amplitude, intervalo interquartil e desvio-padrão para descrever dados assimétricos?
+2166;Estatística descritiva e gráficos;Se seus dados apresentarem uma distribuição bimodal, por que uma única medida de tendência central poderia ser enganosa?
+2167;Estatística descritiva e gráficos;Como avaliaria se os limites de classes de um histograma estão ocultando características relevantes da distribuição?
+2168;Estatística descritiva e gráficos;Qual informação um boxplot fornece que não pode ser obtida diretamente de um gráfico de barras com médias?
+2169;Estatística descritiva e gráficos;Por que pontos situados além dos limites convencionais de um boxplot não devem ser automaticamente considerados erros?
+2170;Estatística descritiva e gráficos;Se as barras de erro de dois grupos se sobrepõem, por que isso não basta para concluir que não existe diferença estatística?
+2171;Estatística descritiva e gráficos;Como você decidiria se as barras de erro deveriam representar desvio-padrão, erro-padrão ou intervalo de confiança?
+2172;Estatística descritiva e gráficos;Como apresentaria graficamente dados individuais de uma amostra pequena sem ocultar a distribuição das observações?
+2173;Estatística descritiva e gráficos;Quando um gráfico de violino pode sugerir características artificiais em razão do tamanho reduzido da amostra?
+2174;Estatística descritiva e gráficos;Se dois grupos tiverem tamanhos amostrais diferentes, como compararia suas distribuições graficamente sem confundir frequência absoluta e relativa?
+2175;Estatística descritiva e gráficos;Como você avaliaria se a escala logarítmica melhora a comunicação dos resultados sem induzir interpretações equivocadas?
+2176;Estatística descritiva e gráficos;Por que a escolha dos limites dos eixos pode modificar a percepção visual de uma diferença entre grupos?
+2177;Estatística descritiva e gráficos;Como apresentaria percentuais de categorias quando os denominadores diferem entre os grupos analisados?
+2178;Estatística descritiva e gráficos;Se uma média global contradiz o padrão observado nos subgrupos, que fenômeno estatístico investigaria?
+2179;Estatística descritiva e gráficos;Em que condições uma média ponderada seria mais adequada do que uma média aritmética simples?
+2180;Estatística descritiva e gráficos;Se houver valores abaixo do limite de detecção, quais limitações surgem ao calcular médias e desvios-padrão convencionais?
+2181;Estatística descritiva e gráficos;Como distinguiria um zero real de um valor ausente durante a descrição dos dados?
+2182;Estatística descritiva e gráficos;Por que apresentar somente valores mínimos e máximos pode ser insuficiente para caracterizar a distribuição?
+2183;Estatística descritiva e gráficos;Como você escolheria uma representação visual para demonstrar simultaneamente associação, dispersão e possíveis observações influentes?
+2184;Estatística descritiva e gráficos;Se os dados forem proporções, como evitaria distorções ao calcular médias de proporções com denominadores diferentes?
+2185;Estatística descritiva e gráficos;Como garantiria que as tabelas descritivas informassem claramente o número de observações válidas de cada variável?
+2186;Teste t de Student e Welch;Como justificaria a escolha de um teste t para comparar dois grupos considerando o delineamento e a natureza da resposta?
+2187;Teste t de Student e Welch;Se os grupos forem constituídos pelas mesmas unidades antes e depois de uma intervenção, por que não utilizar um teste t independente?
+2188;Teste t de Student e Welch;No teste t pareado, por que a distribuição das diferenças é mais importante que a normalidade de cada conjunto de observações isoladamente?
+2189;Teste t de Student e Welch;Qual é a diferença entre o teste t clássico com variância combinada e o teste t de Welch?
+2190;Teste t de Student e Welch;Se os tamanhos amostrais e as variâncias forem desiguais, por que o teste de Welch pode ser preferível?
+2191;Teste t de Student e Welch;Como você avaliaria a robustez de um teste t diante de assimetria acentuada em amostras pequenas?
+2192;Teste t de Student e Welch;Se a diferença média for estatisticamente significativa, como demonstraria se ela é relevante na prática?
+2193;Teste t de Student e Welch;Como interpretaria um intervalo de confiança para a diferença média que inclui o zero?
+2194;Teste t de Student e Welch;Se o resultado do teste t não for significativo, que evidências adicionais seriam necessárias para sustentar equivalência entre grupos?
+2195;Teste t de Student e Welch;Qual a diferença entre um teste unilateral e bilateral e por que essa escolha deve preceder a inspeção dos resultados?
+2196;Teste t de Student e Welch;Se o efeito observado ocorrer na direção oposta à hipótese unilateral, como você interpretaria esse resultado?
+2197;Teste t de Student e Welch;Como o número de graus de liberdade influencia a distribuição utilizada pelo teste t?
+2198;Teste t de Student e Welch;O que a estatística t representa em termos de diferença estimada e erro-padrão dessa diferença?
+2199;Teste t de Student e Welch;Se houver uma observação extrema em uma das amostras, como avaliaria sua influência sem excluí-la arbitrariamente?
+2200;Teste t de Student e Welch;Como compararia os resultados de um teste t com os de uma regressão linear que utiliza um indicador de grupo?
+2201;Teste t de Student e Welch;Se existirem diversas medições por indivíduo, por que tratá-las como réplicas independentes pode produzir um teste t enganoso?
+2202;Teste t de Student e Welch;Como a correlação entre medições pareadas pode influenciar a precisão da estimativa da diferença média?
+2203;Teste t de Student e Welch;Se alguns pares estiverem incompletos, que limitações surgem ao realizar a análise somente com pares completos?
+2204;Teste t de Student e Welch;Em que situação um teste t de uma amostra seria adequado e como justificaria o valor de referência utilizado?
+2205;Teste t de Student e Welch;Como você interpretaria um teste t significativo obtido com uma amostra muito grande e diferença média muito pequena?
+2206;Teste t de Student e Welch;Se a amostra apresentar distribuição assimétrica, que critérios utilizaria para escolher entre teste t, transformação e métodos de reamostragem?
+2207;Teste t de Student e Welch;Como apresentaria a diferença entre grupos em unidades originais e por meio de uma medida padronizada de tamanho de efeito?
+2208;Teste t de Student e Welch;Se você aplicar vários testes t sobre diferentes desfechos, como avaliaria o problema de multiplicidade?
+2209;Teste t de Student e Welch;Por que selecionar o tipo de teste t apenas com base em um teste preliminar de igualdade de variâncias pode ser problemático?
+2210;Teste t de Student e Welch;Como explicaria a diferença entre testar uma diferença média e testar se um efeito é menor que uma margem de relevância previamente definida?
+2211;Correlação de Pearson e Spearman;Considerando a forma da relação observada, como justificaria a escolha entre os coeficientes de Pearson e Spearman?
+2212;Correlação de Pearson e Spearman;Se Pearson for próximo de zero, por que isso não exclui a existência de uma relação não linear forte?
+2213;Correlação de Pearson e Spearman;Como interpretaria um coeficiente de Spearman elevado quando a relação entre as variáveis é monotônica, mas não linear?
+2214;Correlação de Pearson e Spearman;Por que uma correlação estatisticamente significativa não constitui evidência suficiente de causalidade?
+2215;Correlação de Pearson e Spearman;Como o tamanho amostral influencia a significância e a precisão de um coeficiente de correlação?
+2216;Correlação de Pearson e Spearman;Se Pearson e Spearman produzirem resultados muito diferentes, quais características dos dados investigaria?
+2217;Correlação de Pearson e Spearman;Como avaliaria se a correlação observada é determinada principalmente por um único valor extremo?
+2218;Correlação de Pearson e Spearman;Se a correlação global for positiva e as correlações dentro dos grupos forem negativas, como explicaria esse padrão?
+2219;Correlação de Pearson e Spearman;Em que situação uma correlação parcial poderia ser útil e por que ela não elimina necessariamente todo o confundimento?
+2220;Correlação de Pearson e Spearman;Como a restrição da amplitude de uma variável pode afetar a magnitude da correlação observada?
+2221;Correlação de Pearson e Spearman;Se ambas as variáveis apresentarem tendências crescentes ao longo do tempo, como investigaria uma possível correlação espúria?
+2222;Correlação de Pearson e Spearman;Como a dependência espacial entre observações pode comprometer o teste de significância de uma correlação?
+2223;Correlação de Pearson e Spearman;Por que calcular uma correlação entre uma variável e outra que contém matematicamente a primeira pode ser enganoso?
+2224;Correlação de Pearson e Spearman;Como analisaria a correlação entre duas variáveis que apresentam muitos empates nos postos?
+2225;Correlação de Pearson e Spearman;Em que circunstâncias o coeficiente tau de Kendall seria uma alternativa pertinente ao coeficiente de Spearman?
+2226;Correlação de Pearson e Spearman;Se as variáveis tiverem erros de medição importantes, como isso pode alterar a correlação estimada?
+2227;Correlação de Pearson e Spearman;Como você compararia formalmente duas correlações obtidas em grupos independentes?
+2228;Correlação de Pearson e Spearman;Por que a comparação de correlações que compartilham uma variável exige considerar sua dependência?
+2229;Correlação de Pearson e Spearman;Como interpretaria uma correlação forte com intervalo de confiança amplo?
+2230;Correlação de Pearson e Spearman;Se a matriz de correlações incluir dezenas de variáveis, como evitaria destacar associações fortuitas?
+2231;Correlação de Pearson e Spearman;Por que uma matriz calculada com exclusão de ausentes par a par pode apresentar problemas para análises posteriores?
+2232;Correlação de Pearson e Spearman;Como distinguiria correlação entre medidas repetidas dentro de indivíduos de correlação entre médias individuais?
+2233;Correlação de Pearson e Spearman;Se a variabilidade da relação mudar ao longo da amplitude de uma variável, por que um único coeficiente pode ser insuficiente?
+2234;Correlação de Pearson e Spearman;Em que circunstâncias a regressão seria mais informativa que a correlação para responder à pergunta científica?
+2235;Correlação de Pearson e Spearman;Como demonstraria graficamente que uma correlação elevada não implica concordância entre dois métodos de medição?
+2236;Comparações não paramétricas;Se os dados não forem normais, por que isso não torna automaticamente obrigatório utilizar um teste não paramétrico?
+2237;Comparações não paramétricas;Como explicaria o que o teste de Mann-Whitney avalia e sob quais condições ele pode ser interpretado como diferença de localização?
+2238;Comparações não paramétricas;Por que o Mann-Whitney não deve ser descrito indiscriminadamente como um teste de igualdade de medianas?
+2239;Comparações não paramétricas;Se dois grupos tiverem medianas iguais e dispersões muito diferentes, como interpretaria uma eventual significância no Mann-Whitney?
+2240;Comparações não paramétricas;Como justificaria a utilização do teste de Wilcoxon de postos sinalizados para dados pareados?
+2241;Comparações não paramétricas;Que pressuposto sobre a distribuição das diferenças é relevante para a interpretação usual do Wilcoxon pareado?
+2242;Comparações não paramétricas;Em que situação o teste dos sinais seria uma alternativa ao Wilcoxon pareado?
+2243;Comparações não paramétricas;Como interpretaria um resultado significativo do Kruskal-Wallis sem assumir que todos os grupos diferem entre si?
+2244;Comparações não paramétricas;Após um Kruskal-Wallis significativo, como escolheria comparações posteriores e controlaria a multiplicidade?
+2245;Comparações não paramétricas;Por que o teste de Friedman seria mais apropriado que Kruskal-Wallis para medidas repetidas em blocos completos?
+2246;Comparações não paramétricas;Como a presença de muitos valores empatados pode afetar testes baseados em postos?
+2247;Comparações não paramétricas;Em amostras muito pequenas, quais diferenças existem entre calcular valores de p exatos e utilizar aproximações assintóticas?
+2248;Comparações não paramétricas;Como escolheria uma medida de tamanho de efeito compatível com comparações não paramétricas?
+2249;Comparações não paramétricas;Se a pesquisa pretende comparar médias especificamente, por que substituir um teste t por Mann-Whitney pode mudar a pergunta científica?
+2250;Comparações não paramétricas;Em que condições a permutação dos rótulos dos grupos é válida para testar uma diferença?
+2251;Comparações não paramétricas;Como modificaria um teste de permutação se as observações estivessem organizadas em pares ou blocos?
+2252;Comparações não paramétricas;Por que métodos não paramétricos também possuem pressupostos e não são automaticamente robustos a qualquer estrutura de dados?
+2253;Comparações não paramétricas;Como compararia uma abordagem baseada em postos com um modelo que representa diretamente a distribuição assimétrica da resposta?
+2254;Comparações não paramétricas;Se os resultados paramétricos e não paramétricos discordarem, como investigaria a origem da divergência sem escolher apenas o resultado significativo?
+2255;Comparações não paramétricas;Como apresentaria graficamente uma comparação não paramétrica para permitir que o leitor avalie diferenças de localização, forma e dispersão?
+2256;GLM — Modelos lineares generalizados;Se sua variável resposta for uma contagem, por que um GLM pode ser mais adequado do que uma regressão normal convencional?
+2257;GLM — Modelos lineares generalizados;Como a distribuição da resposta e a função de ligação desempenham papéis distintos em um GLM?
+2258;GLM — Modelos lineares generalizados;Se o modelo utilizar ligação log, como converteria um coeficiente em uma interpretação multiplicativa na escala da resposta?
+2259;GLM — Modelos lineares generalizados;Em uma regressão logística, por que uma razão de chances não deve ser interpretada diretamente como risco relativo?
+2260;GLM — Modelos lineares generalizados;Como interpretaria uma mudança na probabilidade prevista quando o coeficiente logístico é constante na escala do logito?
+2261;GLM — Modelos lineares generalizados;Se a variância condicional das contagens exceder a prevista por Poisson, como diagnosticaria e trataria a superdispersão?
+2262;GLM — Modelos lineares generalizados;Como diferenciaria um modelo quase-Poisson de um modelo binomial negativo em termos de variância e comparação por verossimilhança?
+2263;GLM — Modelos lineares generalizados;Se as unidades tiverem diferentes tempos ou áreas de exposição, como utilizaria um offset em um modelo de contagem?
+2264;GLM — Modelos lineares generalizados;Por que incluir a exposição como offset é diferente de estimar livremente seu coeficiente como covariável?
+2265;GLM — Modelos lineares generalizados;Como avaliaria se o excesso de zeros decorre de heterogeneidade não modelada ou de um processo adicional gerador de zeros?
+2266;GLM — Modelos lineares generalizados;Qual a diferença conceitual entre um modelo hurdle e um modelo inflacionado de zeros?
+2267;GLM — Modelos lineares generalizados;Se a resposta for uma proporção obtida de sucessos e tentativas, como especificaria corretamente um GLM binomial?
+2268;GLM — Modelos lineares generalizados;Se a resposta for uma proporção contínua sem denominador de tentativas, por que consideraria regressão beta em vez de binomial?
+2269;GLM — Modelos lineares generalizados;Como trataria valores exatamente iguais a zero ou um em uma resposta candidata à regressão beta?
+2270;GLM — Modelos lineares generalizados;Se os dados forem contínuos, positivos e assimétricos, como compararia modelos Gamma e lognormal?
+2271;GLM — Modelos lineares generalizados;Como avaliaria a adequação de um GLM utilizando resíduos apropriados à distribuição, em vez de exigir normalidade dos resíduos brutos?
+2272;GLM — Modelos lineares generalizados;Se a regressão logística apresentar separação completa, quais sintomas surgiriam e que alternativas consideraria?
+2273;GLM — Modelos lineares generalizados;Como compararia modelos logísticos quanto à discriminação e à calibração das probabilidades previstas?
+2274;GLM — Modelos lineares generalizados;Por que a interpretação de interações em GLMs exige atenção à diferença entre a escala da ligação e a escala da resposta?
+2275;GLM — Modelos lineares generalizados;Como comunicaria previsões e intervalos de incerteza de um GLM na escala que é cientificamente relevante para o leitor?
+2276;GLMM e modelos mistos;Se várias observações foram obtidas de cada indivíduo, local ou instituição, como justificaria incorporar efeitos aleatórios ao modelo?
+2277;GLMM e modelos mistos;Como diferenciaria um fator fixo de um fator aleatório considerando o objetivo inferencial e a estrutura de amostragem?
+2278;GLMM e modelos mistos;Qual a diferença entre interceptos aleatórios e inclinações aleatórias e quando cada estrutura seria relevante?
+2279;GLMM e modelos mistos;Se a resposta a um tratamento variar entre indivíduos, por que somente um intercepto aleatório pode ser insuficiente?
+2280;GLMM e modelos mistos;Como interpretaria a variância de um intercepto aleatório no contexto do fenômeno estudado?
+2281;GLMM e modelos mistos;Como explicaria a correlação intraclasse em um modelo linear de intercepto aleatório?
+2282;GLMM e modelos mistos;Se a pesquisa tiver unidades agrupadas dentro de locais e locais dentro de regiões, como especificaria a estrutura hierárquica?
+2283;GLMM e modelos mistos;Como distinguiria efeitos aleatórios aninhados de efeitos aleatórios cruzados?
+2284;GLMM e modelos mistos;Se houver poucos níveis de um fator de agrupamento, quais dificuldades surgem na estimação da variância aleatória?
+2285;GLMM e modelos mistos;Como investigaria um ajuste singular ou uma variância aleatória estimada próxima de zero?
+2286;GLMM e modelos mistos;Por que um efeito aleatório de indivíduo não garante que toda autocorrelação temporal tenha sido resolvida?
+2287;GLMM e modelos mistos;Como escolheria entre um modelo linear misto e um modelo linear generalizado misto?
+2288;GLMM e modelos mistos;Se a resposta for binária e repetida no mesmo indivíduo, como especificaria a distribuição e a estrutura de dependência de um GLMM?
+2289;GLMM e modelos mistos;Como diferenciaria previsões condicionais a grupos conhecidos de previsões para novos grupos?
+2290;GLMM e modelos mistos;Por que integrar sobre os efeitos aleatórios pode alterar previsões de probabilidade em um GLMM logístico?
+2291;GLMM e modelos mistos;Qual a diferença entre R² marginal e R² condicional e o que cada um comunica sobre o ajuste?
+2292;GLMM e modelos mistos;Em modelos lineares mistos, por que comparações de estruturas de efeitos fixos por verossimilhança devem considerar ML em vez de REML?
+2293;GLMM e modelos mistos;Como avaliaria a convergência e a adequação de um GLMM antes de interpretar seus coeficientes?
+2294;GLMM e modelos mistos;Se os efeitos fixos mudarem substancialmente após incluir um agrupamento, quais explicações investigaria?
+2295;GLMM e modelos mistos;Como estruturaria uma validação cruzada se o objetivo fosse prever respostas em grupos nunca observados?
+2296;PCA — Componentes principais;Qual pergunta científica justificou utilizar PCA em vez de analisar separadamente as variáveis originais?
+2297;PCA — Componentes principais;Como a PCA constrói componentes a partir da estrutura de covariância ou correlação dos dados?
+2298;PCA — Componentes principais;Se as variáveis forem medidas em unidades muito diferentes, por que a escolha de padronizá-las pode alterar os componentes?
+2299;PCA — Componentes principais;Em que situação utilizar a matriz de covariância seria mais defensável que a matriz de correlação?
+2300;PCA — Componentes principais;Como justificaria a quantidade de componentes retidos sem recorrer exclusivamente a um percentual arbitrário de variância explicada?
+2301;PCA — Componentes principais;Se os dois primeiros componentes explicarem uma parcela modesta da variabilidade, quais limitações teria uma interpretação bidimensional?
+2302;PCA — Componentes principais;Como distinguiria os escores das observações dos pesos ou cargas associados às variáveis?
+2303;PCA — Componentes principais;Em um biplot, quais cuidados teria ao interpretar ângulos e comprimentos das setas considerando a escala adotada?
+2304;PCA — Componentes principais;Por que o sinal dos eixos de uma PCA pode ser invertido sem modificar o significado matemático da solução?
+2305;PCA — Componentes principais;Como interpretaria duas variáveis com cargas elevadas e de sinais opostos no mesmo componente?
+2306;PCA — Componentes principais;Se os grupos parecerem separados na PCA, por que isso não constitui por si só um teste estatístico de diferença entre grupos?
+2307;PCA — Componentes principais;Como valores extremos podem influenciar a orientação dos componentes principais?
+2308;PCA — Componentes principais;Se várias variáveis representarem quase a mesma característica, como sua inclusão redundante poderia afetar a ordenação?
+2309;PCA — Componentes principais;Como trataria dados ausentes antes da PCA e avaliaria o impacto dessa decisão na estrutura encontrada?
+2310;PCA — Componentes principais;Em que circunstâncias uma PCA convencional seria inadequada para dados composicionais ou predominantemente categóricos?
+2311;NMDS — Escalonamento multidimensional;Por que você escolheu NMDS em vez de PCA para representar a estrutura de similaridade entre suas observações?
+2312;NMDS — Escalonamento multidimensional;Como justificaria a medida de dissimilaridade utilizada considerando a natureza dos dados e a pergunta científica?
+2313;NMDS — Escalonamento multidimensional;O que significa preservar a ordenação das dissimilaridades em vez de preservar exatamente suas magnitudes?
+2314;NMDS — Escalonamento multidimensional;Como interpretaria o stress de uma NMDS e por que seus limites aceitáveis não são universais?
+2315;NMDS — Escalonamento multidimensional;Se o stress diminuir ao passar de duas para três dimensões, como decidiria qual solução apresentar?
+2316;NMDS — Escalonamento multidimensional;Por que os eixos de uma NMDS não devem receber percentuais de variância explicada como os eixos de uma PCA?
+2317;NMDS — Escalonamento multidimensional;Como você avaliaria se diferentes configurações iniciais convergem para soluções semelhantes?
+2318;NMDS — Escalonamento multidimensional;Se duas observações estiverem próximas no gráfico, que interpretação é possível e quais distorções devem ser consideradas?
+2319;NMDS — Escalonamento multidimensional;Como um diagrama de Shepard ajuda a avaliar a representação das dissimilaridades pela ordenação?
+2320;NMDS — Escalonamento multidimensional;Se as observações formarem grupos visualmente distintos, como testaria formalmente essa separação?
+2321;NMDS — Escalonamento multidimensional;Como transformações e padronizações dos dados podem alterar uma ordenação baseada em Bray-Curtis?
+2322;NMDS — Escalonamento multidimensional;Quando a distância de Jaccard seria mais informativa que Bray-Curtis para dados de ocorrência?
+2323;NMDS — Escalonamento multidimensional;Como trataria unidades amostrais completamente vazias quando a medida de dissimilaridade não está definida para determinados pares?
+2324;NMDS — Escalonamento multidimensional;Ao ajustar vetores ambientais sobre uma NMDS, por que uma associação significativa não demonstra causalidade?
+2325;NMDS — Escalonamento multidimensional;Como avaliaria se a configuração obtida é robusta à escolha da dissimilaridade e à remoção de observações influentes?
+2326;RDA e CCA — Ordenações canônicas;Como explicaria a diferença entre uma ordenação exploratória não restrita e uma ordenação condicionada por variáveis explicativas?
+2327;RDA e CCA — Ordenações canônicas;Qual hipótese sobre a relação entre respostas e preditores sustenta a escolha da RDA em comparação com a CCA?
+2328;RDA e CCA — Ordenações canônicas;Como justificaria uma transformação de Hellinger antes de realizar RDA com dados de abundância?
+2329;RDA e CCA — Ordenações canônicas;Se o objetivo envolver uma medida não euclidiana de dissimilaridade, por que uma db-RDA poderia ser mais adequada?
+2330;RDA e CCA — Ordenações canônicas;Como diferenciaria a variação total, a variação explicada pelas restrições e a variação residual em uma RDA?
+2331;RDA e CCA — Ordenações canônicas;Por que os percentuais dos eixos podem depender de serem expressos em relação à variação total ou somente à variação restrita?
+2332;RDA e CCA — Ordenações canônicas;Como interpretaria o R² ajustado de uma RDA e por que ele pode ser negativo?
+2333;RDA e CCA — Ordenações canônicas;Como avaliaria a significância global do modelo e a contribuição dos eixos ou termos explicativos?
+2334;RDA e CCA — Ordenações canônicas;Se houver blocos ou observações repetidas, como restringiria as permutações em testes de uma ordenação canônica?
+2335;RDA e CCA — Ordenações canônicas;Como a multicolinearidade entre variáveis ambientais pode comprometer a interpretação das setas e dos efeitos individuais?
+2336;RDA e CCA — Ordenações canônicas;Em que situação uma RDA parcial seria adequada para controlar uma estrutura espacial, temporal ou outra covariável?
+2337;RDA e CCA — Ordenações canônicas;Como interpretaria frações compartilhadas de variação em um particionamento sem atribuir causalidade indevida?
+2338;RDA e CCA — Ordenações canônicas;Se uma variável não for significativa isoladamente após incluir outras, por que isso não demonstra ausência de relação com a resposta multivariada?
+2339;RDA e CCA — Ordenações canônicas;Como escolheria variáveis explicativas evitando sobreajuste em uma ordenação com poucas unidades amostrais?
+2340;RDA e CCA — Ordenações canônicas;Como interpretaria uma RDA significativa que explica apenas uma pequena parcela da variabilidade total?
+2341;Pressupostos estatísticos;Por que os pressupostos devem ser avaliados em relação ao modelo e à estrutura do delineamento, e não apenas por testes de normalidade das variáveis originais?
+2342;Pressupostos estatísticos;Se Shapiro-Wilk indicar significância em uma amostra grande, como decidiria se o desvio de normalidade é relevante para a inferência?
+2343;Pressupostos estatísticos;Se Shapiro-Wilk não for significativo em uma amostra pequena, por que isso não comprova a normalidade?
+2344;Pressupostos estatísticos;Como um gráfico quantil-quantil complementa os testes formais de normalidade?
+2345;Pressupostos estatísticos;Como diferenciaria heterocedasticidade de uma relação média-resposta mal especificada?
+2346;Pressupostos estatísticos;Por que a independência das observações deve ser justificada principalmente pelo delineamento e pelo processo de coleta?
+2347;Pressupostos estatísticos;Se os resíduos estiverem correlacionados no tempo, quais consequências espera para os erros-padrão convencionais?
+2348;Pressupostos estatísticos;Como identificaria dependência espacial residual após ajustar um modelo com covariáveis ambientais ou geográficas?
+2349;Pressupostos estatísticos;Se a distribuição residual apresentar caudas pesadas, quais estratégias robustas consideraria e com que justificativa?
+2350;Pressupostos estatísticos;Como distinguiria falta de ajuste sistemática de variação aleatória em um gráfico de resíduos?
+2351;Pressupostos estatísticos;Por que testar pressupostos e escolher automaticamente outro método com base em um único valor de p pode ser inadequado?
+2352;Pressupostos estatísticos;Se a variância aumentar proporcionalmente à média, que distribuições ou estruturas de variância investigaria?
+2353;Pressupostos estatísticos;Como avaliaria a linearidade de uma variável contínua na escala apropriada de um modelo com função de ligação?
+2354;Pressupostos estatísticos;Em que condições uma transformação estabiliza variâncias, mas não resolve problemas de dependência amostral?
+2355;Pressupostos estatísticos;Como documentaria uma violação de pressuposto que não pôde ser completamente corrigida e suas consequências para as conclusões?
+2356;PERMANOVA e PERMDISP;Qual pergunta multivariada justificou utilizar PERMANOVA em vez de comparar cada variável resposta separadamente?
+2357;PERMANOVA e PERMDISP;O que representa a estatística pseudo-F e como sua significância é obtida por permutações?
+2358;PERMANOVA e PERMDISP;Por que um resultado significativo pode refletir diferenças de localização, dispersão ou ambas, dependendo do delineamento?
+2359;PERMANOVA e PERMDISP;Como utilizaria PERMDISP para investigar a heterogeneidade de dispersão multivariada entre os grupos?
+2360;PERMANOVA e PERMDISP;Se PERMANOVA e PERMDISP forem significativas, como apresentaria uma interpretação cautelosa dos resultados?
+2361;PERMANOVA e PERMDISP;Por que tamanhos amostrais desiguais exigem atenção especial quando as dispersões multivariadas diferem?
+2362;PERMANOVA e PERMDISP;Como definiria o esquema de permutações quando as amostras pertencem aos mesmos locais ou indivíduos?
+2363;PERMANOVA e PERMDISP;Como interpretaria o R² de uma PERMANOVA em relação à parcela de variação atribuída a um fator?
+2364;PERMANOVA e PERMDISP;Como conduziria comparações par a par após uma PERMANOVA com vários grupos, considerando a multiplicidade?
+2365;PERMANOVA e PERMDISP;Se a conclusão variar ao trocar Bray-Curtis por outra dissimilaridade, como justificaria a escolha final sem selecionar apenas a análise significativa?
+2366;GAM e modelos não lineares;Como você demonstraria que uma função suavizada é mais adequada que uma relação linear para explicar a resposta?
+2367;GAM e modelos não lineares;Qual o papel da penalização de suavidade em um GAM e como ela contribui para evitar sobreajuste?
+2368;GAM e modelos não lineares;Como interpretaria os graus de liberdade efetivos de um termo suavizado?
+2369;GAM e modelos não lineares;Se um termo suavizado tiver poucos dados em uma extremidade do domínio, como avaliaria a confiabilidade da curva nessa região?
+2370;GAM e modelos não lineares;Como diagnosticaria concurvidade entre termos de um GAM e quais consequências ela teria para a interpretação?
+2371;GAM e modelos não lineares;Como compararia uma curva logística de crescimento com uma curva exponencial considerando mecanismos e limites biológicos ou físicos?
+2372;GAM e modelos não lineares;Se um modelo não linear depender fortemente dos valores iniciais dos parâmetros, como verificaria a estabilidade da solução?
+2373;GAM e modelos não lineares;Como estimaria e comunicaria a incerteza de um ponto de mudança em uma regressão segmentada?
+2374;GAM e modelos não lineares;Por que a extrapolação de uma função suavizada pode ser especialmente problemática fora da faixa amostrada?
+2375;GAM e modelos não lineares;Como incorporaria sazonalidade por meio de uma função suavizada cíclica e quais limites temporais precisariam ser definidos?
+2376;Seleção e validação de modelos;Como diferenciaria seleção de modelos orientada por hipóteses de seleção automatizada orientada pelos dados?
+2377;Seleção e validação de modelos;Por que modelos comparados por AIC precisam ser ajustados a dados e verossimilhanças comparáveis?
+2378;Seleção e validação de modelos;Como interpretaria uma diferença pequena de AIC entre dois modelos com complexidades distintas?
+2379;Seleção e validação de modelos;Em que condições o AICc seria preferível ao AIC convencional?
+2380;Seleção e validação de modelos;Como explicaria a diferença entre os objetivos de seleção por AIC e BIC?
+2381;Seleção e validação de modelos;Por que selecionar variáveis por métodos stepwise e depois interpretar valores de p convencionais pode gerar inferência excessivamente otimista?
+2382;Seleção e validação de modelos;Como evitaria vazamento de informações entre os conjuntos de treinamento e validação durante a seleção de variáveis?
+2383;Seleção e validação de modelos;Se os dados apresentarem estrutura espacial ou temporal, por que uma divisão aleatória para validação cruzada pode superestimar o desempenho?
+2384;Seleção e validação de modelos;Como escolheria entre métricas de erro absoluto, erro quadrático e outras medidas de desempenho preditivo?
+2385;Seleção e validação de modelos;Como demonstraria que um modelo é simultaneamente adequado aos objetivos científicos e suficientemente robusto para o uso pretendido?
+2386;Delineamento e amostragem;Qual é a verdadeira unidade de replicação do seu estudo e como ela determina o tamanho amostral efetivo?
+2387;Delineamento e amostragem;Se você coletar diversas subamostras de uma mesma unidade experimental, por que elas não equivalem necessariamente a réplicas independentes?
+2388;Delineamento e amostragem;Como justificaria o tamanho amostral considerando a magnitude do efeito relevante, a variabilidade e a precisão desejada?
+2389;Delineamento e amostragem;Qual o papel da randomização na redução do confundimento e por que ela não substitui a replicação?
+2390;Delineamento e amostragem;Como o bloqueamento pode aumentar a precisão das comparações e quais características justificariam sua adoção?
+2391;Delineamento e amostragem;Se o estudo for observacional, como você selecionaria covariáveis para controlar confundimento sem ajustar mediadores ou colisores indevidamente?
+2392;Delineamento e amostragem;Como um delineamento antes-depois com controle pode ajudar a distinguir efeitos de uma intervenção de mudanças temporais gerais?
+2393;Delineamento e amostragem;Se a seleção das unidades depender do desfecho estudado, quais vieses podem surgir na interpretação das associações?
+2394;Delineamento e amostragem;Como a amostragem por conglomerados influencia os erros-padrão e a representatividade das estimativas?
+2395;Delineamento e amostragem;Se o estudo utilizar amostras de conveniência, quais limites estabeleceria para a generalização dos resultados à população de interesse?
+2396;Interpretação e inferência estatística;Se um resultado apresentar p = 0,03, como explicaria seu significado sem afirmar que a hipótese nula tem 3% de probabilidade de ser verdadeira?
+2397;Interpretação e inferência estatística;Se um efeito for estatisticamente significativo, mas menor que a diferença considerada relevante na área, como formularia a conclusão científica?
+2398;Interpretação e inferência estatística;Como interpretaria corretamente um intervalo de confiança frequentista de 95% sem atribuir probabilidade posterior ao parâmetro fixo?
+2399;Interpretação e inferência estatística;Se os resultados mudarem após diferentes decisões analíticas defensáveis, como comunicaria essa incerteza sem omitir resultados inconvenientes?
+2400;Interpretação e inferência estatística;Quais dados, códigos, versões de programas e decisões analíticas disponibilizaria para permitir que outro pesquisador reproduzisse integralmente suas análises?
