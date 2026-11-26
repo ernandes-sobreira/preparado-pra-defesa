@@ -484,7 +484,9 @@ function checar(tipo, txt){
 
 /* ============ CONFIGURACAO DA IA E DA VENDA ============ */
 const WORKER_URL = "https://preparado-pra-defesa.ernandes-sobreira.workers.dev/";
-const RODADA = 15, GRATIS_N = 2, DOC_MAX = 450000, PAG = 3000;
+const RODADA = 15, GRATIS_N = 2, DOC_MAX = 450000, DOC_E = 45000, PAG = 3000;
+function limite(){ return cur().plano==="completo" ? DOC_MAX : DOC_E; }
+function paginas(){ return cur().plano==="completo" ? 150 : 15; }
 const PRECO_E = "R$ 9,99", PRECO_C = "R$ 29,99", WHATS = "5565999323724";
 const COR = {perg:"#0d9488",local:"#059669",tempo:"#2563eb",leit:"#7c3aed",met:"#db2777",est:"#ea580c",fim:"#ca8a04"};
 const ETAPAS = [["plano","Plano"],["preparo","Preparar"],["responder","Responder"],["correcao","Correção"]];
@@ -603,11 +605,11 @@ function telaPlano(){
   +'<p class="lead">Você responde como responderia na banca. No fim, a IA corrige cada resposta e mostra o que ainda falta dizer.</p>'
   +'<div class="planos">'
   +'<div class="plano pe"><h3>Essencial</h3><div class="preco">'+PRECO_E+'</div><ul>'
-  +'<li>15 perguntas clássicas que as bancas costumam fazer</li><li>Envie o trabalho, até 150 páginas, ou preencha uma ficha curta</li>'
+  +'<li>15 perguntas clássicas que as bancas costumam fazer</li><li>Envie até 15 páginas com resumo, objetivos, metodologia e resultados</li>'
   +'<li>Correção da IA em cada resposta</li><li><b>Grátis:</b> correção de 2 respostas para experimentar</li></ul>'
   +'<button class="big b1" data-plano="essencial">Começar o Essencial</button></div>'
   +'<div class="plano pc"><span class="selo">Mais completo</span><h3>Completo</h3><div class="preco">'+PRECO_C+'</div><ul>'
-  +'<li>Envie o trabalho inteiro, até 150 páginas</li><li>A IA lê e monta 15 perguntas sobre o <b>seu</b> trabalho</li>'
+  +'<li>Envie o trabalho <b>inteiro</b>, até 150 páginas</li><li>A IA lê e monta 15 perguntas sobre o <b>seu</b> trabalho</li>'
   +'<li>Correção de cada resposta com base no texto</li><li>Os 3 maiores riscos e a pergunta que mais pode te derrubar</li></ul>'
   +'<button class="big b3" data-plano="completo">Começar o Completo</button></div>'
   +'</div><p class="fine">No Essencial você só paga se quiser a correção de todas as respostas.</p>';
@@ -622,11 +624,13 @@ function telaPreparoE(){
   const a = cur(), f = a.ficha || {}, temDoc = a.doc && a.doc.texto;
   const campo = (k, rot, ph)=>'<label class="f">'+rot+'</label><textarea class="fi" data-ficha="'+k+'" rows="2" style="min-height:64px" placeholder="'+esc(ph)+'">'+esc(f[k]||"")+'</textarea>';
   return '<div class="card tops2"><h2>Prepare o seu treino</h2>'
-  +'<p class="sub">Envie o seu trabalho para a IA corrigir as respostas comparando com o texto. Se preferir não enviar, preencha a ficha curta.</p>'
+  +'<p class="sub">A IA corrige as suas respostas comparando com o que está no seu texto.</p>'
   + faseHtml()
   +'<label class="f">Título do trabalho</label><input class="t" id="inTitulo" value="'+esc(a.titulo==="Meu trabalho"?"":a.titulo)+'" placeholder="Título ou tema">'
-  +'<label class="f">Seu trabalho <small>(até 150 páginas)</small></label>'+docHtml() + msgHtml()
-  +'<details style="margin-top:14px"'+(temDoc?'':' open')+'><summary style="cursor:pointer;font-weight:600">'+(temDoc?'Ficha curta (não precisa, você já enviou o trabalho)':'Sem arquivo? Preencha a ficha curta')+'</summary>'
+  +'<label class="f">Seu texto <small>(até 15 páginas)</small></label>'
+  +'<div class="compra" style="background:var(--c2s);border-color:#bfdbfe">Monte um arquivo de até 15 páginas com as partes principais do trabalho:<br>✓ Resumo &nbsp; ✓ Objetivos &nbsp; ✓ Metodologia &nbsp; ✓ Principais resultados, se já tiver</div>'
+  + docHtml() + msgHtml()
+  +'<details style="margin-top:14px"'+(temDoc?'':' open')+'><summary style="cursor:pointer;font-weight:600">'+(temDoc?'Ficha curta (não precisa, você já enviou o texto)':'Sem arquivo? Preencha a ficha curta')+'</summary>'
   + campo("pergunta","Pergunta ou objetivo","Ex.: Em que medida...")
   + campo("local","Local e período","Ex.: Rio Paraguai, 2015 a 2024")
   + campo("metodo","Método","Ex.: coletas mensais, entrevistas, questionário...")
@@ -638,12 +642,15 @@ function telaPreparoE(){
 }
 function docHtml(){
   const a = cur();
-  if(a.doc && a.doc.texto) return '<div class="okdoc">✓ <b>'+esc(a.doc.nome)+'</b> · cerca de '+Math.max(1,Math.round(a.doc.texto.length/PAG))+' páginas'+(a.doc.semRef?', sem as referências':'')
-    +(a.doc.cortado?'. Passou de 150 páginas, e só as primeiras 150 serão lidas.':'')+' <button class="mini" id="btnDocDel" style="margin-left:6px">Trocar</button></div>';
+  if(a.doc && a.doc.texto){
+    const pg = Math.max(1,Math.round(a.doc.texto.length/PAG)), passou = a.doc.texto.length > limite() || a.doc.cortado;
+    return '<div class="okdoc">✓ <b>'+esc(a.doc.nome)+'</b> · cerca de '+pg+' páginas'+(a.doc.semRef?', sem as referências':'')+' <button class="mini" id="btnDocDel" style="margin-left:6px">Trocar</button></div>'
+      +(passou?'<div class="alert on">O texto passou de '+paginas()+' páginas. A IA vai ler só as primeiras '+paginas()+'. Se puder, reduza o arquivo'+(a.plano==="completo"?'':' deixando só resumo, objetivos, metodologia e resultados')+'.</div>':'');
+  }
   return (a.doc ? '<div class="msg">O trabalho '+esc(a.doc.nome)+' foi enviado em outro aparelho. Envie de novo aqui.</div>' : '')
-    +'<div class="drop" id="drop"><b>📄 Toque para enviar o seu trabalho</b><span>Word ou PDF, até 150 páginas</span></div>'
+    +'<div class="drop" id="drop"><b>📄 Toque para enviar o '+(a.plano==="completo"?'seu trabalho':'arquivo')+'</b><span>Word ou PDF, até '+paginas()+' páginas</span></div>'
     +'<div style="text-align:center;margin-top:6px"><button class="link" id="btnCola">ou cole o texto</button></div>'
-    +'<div id="colaBox" style="display:none"><textarea id="colaTxt" placeholder="Cole aqui o texto do trabalho"></textarea><button class="mini" id="btnColaOk" style="margin-top:6px">Usar este texto</button></div>';
+    +'<div id="colaBox" style="display:none"><textarea id="colaTxt" placeholder="Cole aqui o texto"></textarea><button class="mini" id="btnColaOk" style="margin-top:6px">Usar este texto</button></div>';
 }
 function compraHtml(plano){
   const preco = plano==="completo" ? PRECO_C : PRECO_E, nome = plano==="completo" ? "Completo" : "Essencial";
@@ -707,7 +714,7 @@ function telaCorrecao(){
       +(tem ? '' : '<label class="f">Código do plano Completo</label><div class="code"><input class="t" id="inCodigo" placeholder="PC-XXXX-XXXX-XXXX" value="'+esc(a.codigo||"")+'" autocomplete="off">'
       +'<button class="big b4" id="btnCorrigir">Corrigir todas</button></div>') + msgHtml();
   }else{
-    h += '<p class="sub">Você respondeu '+n+' de '+qs.length+' perguntas.'+(a.doc&&a.doc.texto?' A IA vai comparar com o seu trabalho.':'')+'</p><div class="opts">'
+    h += '<p class="sub">Você respondeu '+n+' de '+qs.length+' perguntas.'+(a.doc&&a.doc.texto?' A IA vai comparar com o seu texto.':'')+'</p><div class="opts">'
       +'<div class="opt"><h3>Grátis</h3><p class="sub">A IA corrige as 2 primeiras respostas.</p><button class="big b1" id="btnGratis">Corrigir 2 grátis</button></div>'
       +'<div class="opt"><h3>Todas · '+PRECO_E+'</h3><p class="sub">A IA corrige todas as respostas desta rodada.</p>'
       +'<div class="code"><input class="t" id="inCodigo" placeholder="PB-XXXX-XXXX-XXXX" autocomplete="off"><button class="big b4" id="btnCorrigir">Corrigir</button></div>'
@@ -758,7 +765,7 @@ $("fileDoc").onchange = async e=>{
   aviso = {txt:"Lendo o arquivo...", err:false}; render();
   try{
     const t = (await lerArquivo(f)).replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim();
-    if(t.length < 2000){ aviso = {txt:"Não encontrei texto suficiente no arquivo. PDF escaneado como imagem não pode ser lido. Envie o Word ou um PDF com texto.", err:true}; render(); return; }
+    if(t.length < (cur().plano==="completo"?2000:500)){ aviso = {txt:"Não encontrei texto suficiente no arquivo. PDF escaneado como imagem não pode ser lido. Envie o Word ou um PDF com texto.", err:true}; render(); return; }
     cur().doc = prepDoc(f.name, t); aviso = {txt:"",err:false}; persist(); render();
   }catch(err){ console.error(err); aviso = {txt:"Não foi possível ler o arquivo. "+(err.message||""), err:true}; render(); }
 };
@@ -778,7 +785,7 @@ async function gerar(){
   a.codigo = c; ocupado = true; persist(); render();
   const argId = a.id;
   try{
-    const j = await chamaIA({acao:"gerar", codigo:c, fase:a.fase, titulo:a.titulo, doc:a.doc.texto});
+    const j = await chamaIA({acao:"gerar", codigo:c, fase:a.fase, titulo:a.titulo, doc:a.doc.texto.slice(0, DOC_MAX)});
     const alvo = S.arg[argId]; if(!alvo) return;
     const lote = Date.now().toString(36);
     alvo.geradas = j.perguntas.map((p,i)=>({id:"g"+lote+"_"+i, b:p.b, n:p.n, q:p.q, d:p.d}));
@@ -804,7 +811,7 @@ async function corrigir(gratis){
   const argId = a.id;
   try{
     const corpo = {acao:"corrigir", fase:a.fase, titulo:a.titulo,
-      doc: (a.doc && a.doc.texto) ? (gratis ? a.doc.texto.slice(0,4000) : a.doc.texto) : fichaTexto(),
+      doc: (a.doc && a.doc.texto) ? a.doc.texto.slice(0, gratis ? 4000 : limite()) : fichaTexto(),
       tipo: (a.doc && a.doc.texto) ? "trabalho" : "ficha",
       respostas: envio.map(q=>({id:q.id, q:q.q, r:(a.r[q.id]||"").trim().slice(0,3000)}))};
     if(c) corpo.codigo = c;
@@ -871,7 +878,7 @@ document.addEventListener("click", e=>{
   else if(t.id==="btnCola"){ const b = $("colaBox"); b.style.display = b.style.display==="none" ? "" : "none"; }
   else if(t.id==="btnColaOk"){
     const v = $("colaTxt").value.replace(/[ \t]+/g," ").trim();
-    if(v.length < 2000){ aviso = {txt:"Cole o texto completo do trabalho, não só o resumo.", err:true}; render(); return; }
+    if(v.length < (a.plano==="completo"?2000:500)){ aviso = {txt: a.plano==="completo" ? "Cole o texto completo do trabalho, não só o resumo." : "Cole pelo menos o resumo.", err:true}; render(); return; }
     a.doc = prepDoc("Texto colado", v); aviso = {txt:"",err:false}; persist(); render();
   }
   else if(t.id==="btnDocDel"){ delete a.doc; persist(); render(); }
