@@ -44,6 +44,7 @@ const GERA = `Você é um examinador experiente de bancas de qualificação e de
 Composição:
 - 5 perguntas clássicas de banca, adaptadas a este trabalho. Escolha, entre estes temas, os que se aplicam: pergunta científica que não cabe em sim ou não; hipótese e o resultado que a derrubaria; por que este local; por que este período; o que ainda não foi feito sobre o tema; por que este método e não outro; tamanho e independência da amostra; maior limitação; até onde os resultados podem ser generalizados; contribuição original em uma frase; se a conclusão responde à pergunta; retorno para o local e para as pessoas envolvidas; qual variável explica melhor os resultados e que outro estudo encontrou o mesmo; se as hipóteses surgiram antes ou depois de ver os dados; por que a região interessa a quem não mora lá; que outro modelo poderia analisar os dados; conclusões ditas de forma direta, sem frases genéricas; a mensagem para o público leigo e para o público-alvo; o que a pessoa viu na coleta e não entrou no trabalho; se usou inteligência artificial e em que parte.
 - 10 perguntas específicas, que só fazem sentido para este trabalho. Cada uma deve citar algo concreto do texto: um número, uma tabela ou figura, um local, um período, uma escolha de método, uma afirmação da discussão ou uma distância entre o objetivo e o resultado.
+Se houver <perguntas_da_area>, use até 3 delas entre as específicas, reescritas para citar este trabalho, e só quando fizerem sentido para ele.
 Procure de propósito os pontos frágeis: afirmações sem dado, objetivos que não aparecem nos resultados, contradições entre seções, generalizações maiores que a amostra, escolhas de método sem justificativa e conceitos centrais sem definição.
 Se o texto é um projeto, pergunte sobre justificativa, viabilidade e método. Se é a versão final, pergunte também sobre resultados, discussão e conclusão.
 Para cada pergunta devolva:
@@ -104,7 +105,8 @@ export default {
           if(n >= GERA_MAX) return json({erro:"Este código já gerou perguntas o máximo de vezes."}, 429, origin);
           await env.LIMITE.put(k, String(n+1));
         }
-        const usuario = "MOMENTO: "+FASE(fase)+"\nTÍTULO: "+txt(b.titulo,200)+"\n\n<trabalho>\n"+doc+"\n</trabalho>";
+        const ref = Array.isArray(b.ref) ? b.ref.filter(x=>typeof x==="string").slice(0,25).map(x=>"- "+x.slice(0,200)).join("\n") : "";
+        const usuario = "MOMENTO: "+FASE(fase)+"\nTÍTULO: "+txt(b.titulo,200)+(ref ? "\n\n<perguntas_da_area>\n"+ref+"\n</perguntas_da_area>" : "")+"\n\n<trabalho>\n"+doc+"\n</trabalho>";
         const {out, uso, modelo} = await claude(env, GERA, usuario);
         const ok = ["perg","local","tempo","leit","met","est","fim"];
         const ps = (Array.isArray(out.perguntas) ? out.perguntas : []).filter(p=>p && typeof p.q === "string" && p.q.trim()).slice(0, 15)
