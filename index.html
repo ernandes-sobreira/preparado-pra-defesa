@@ -644,7 +644,7 @@ function rodadaBanco(){
   embaralha(livres).forEach(q=>{ if(sel.length < 7 && !sel.includes(q)) sel.push(q); });
   sel.length = Math.min(sel.length, 7);
   const ok = q=>!feita(q) && q.niv.includes(nv);
-  const est = poolEst().filter(ok), nEst = Math.min(4, est.length);
+  const est = poolEst().filter(ok), nEst = Math.min(5, est.length);
   const esp = poolEsp().filter(ok), nEsp = Math.min(nEst ? 2 : 4, esp.length);
   const gen = Object.values(GEN_MAP).filter(q=>ok(q) && !(q.so==="q" && a.fase==="defesa") && !(nv==="d" && q.n===1));
   sel.push(...sorteia(gen, RODADA - sel.length - nEsp - nEst), ...sorteia(esp, nEsp), ...sorteia(est, nEst));
