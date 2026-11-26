@@ -87,14 +87,12 @@ button:disabled{opacity:.4;cursor:default}
 </div></header>
 
 <div class="wrap">
-  <div id="treino"></div>
-  <div id="correcao" style="display:none">
-  <div class="card noprint" id="cardIA">
-    <h2>Revisão com IA</h2>
-    <p class="sub">Envie o projeto em Word ou PDF, ou cole o resumo. A IA compara o texto com as suas respostas e mostra o que você ainda poderia dizer.</p>
+  <div class="card noprint" id="cardDoc">
+    <h2 style="font-size:17px">Seu trabalho</h2>
+    <p class="sub">Envie o projeto, a dissertação ou o TCC completo (Word ou PDF), ou cole o resumo. A IA usa esse texto na correção.</p>
     <div class="row" style="margin-top:10px">
       <input type="file" id="fileDoc" accept=".docx,.pdf" style="display:none">
-      <button id="btnDocUp">Enviar projeto (Word ou PDF)</button>
+      <button id="btnDocUp">Enviar trabalho (Word ou PDF)</button>
       <button id="btnCola">Colar resumo</button>
       <button class="mini" id="btnDocDel" style="display:none">Remover texto</button>
     </div>
@@ -103,6 +101,12 @@ button:disabled{opacity:.4;cursor:default}
       <div class="row" style="margin-top:6px"><button class="pri" id="btnColaOk">Usar este texto</button></div>
     </div>
     <div class="meta" id="docInfo"></div>
+  </div>
+  <div id="treino"></div>
+  <div id="correcao" style="display:none">
+  <div class="card noprint" id="cardIA">
+    <h2>Revisão com IA</h2>
+    <p class="sub">A IA compara o seu trabalho com as suas respostas e mostra o que você ainda poderia dizer. O trabalho é enviado no alto da página.</p>
     <div class="planos">
       <div class="plano">
         <b>Grátis</b>
