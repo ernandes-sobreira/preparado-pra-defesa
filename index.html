@@ -642,15 +642,29 @@ function rodadaBanco(){
   if(p1 && !feita(p1)){ sel.push(p1); cota[1]--; }
   embaralha(livres).forEach(q=>{ if(!sel.includes(q) && cota[q.n] > 0){ sel.push(q); cota[q.n]--; } });
   embaralha(livres).forEach(q=>{ if(sel.length < 7 && !sel.includes(q)) sel.push(q); });
-  sel.length = Math.min(sel.length, 7);
+  const fo = focos().some(f=>f[0]===a.foco) ? a.foco : "";
+  sel.length = Math.min(sel.length, fo ? 4 : 7);
   const ok = q=>!feita(q) && q.niv.includes(nv);
-  const est = poolEst().filter(ok), nEst = Math.min(4, est.length);
-  const esp = poolEsp().filter(ok), nEsp = Math.min(nEst ? 2 : 4, esp.length);
+  const est = poolEst().filter(ok), esp = poolEsp().filter(ok);
+  /* com foco, 8 das 15 vem do tipo escolhido */
+  const nEst = Math.min(fo==="est" ? 8 : fo ? 1 : 4, est.length);
+  const nEsp = Math.min(fo==="area" ? 8 : fo ? 1 : (nEst ? 2 : 4), esp.length);
   const gen = Object.values(GEN_MAP).filter(q=>ok(q) && !(q.so==="q" && a.fase==="defesa") && !(nv==="d" && q.n===1));
   sel.push(...sorteia(gen, RODADA - sel.length - nEsp - nEst), ...sorteia(esp, nEsp), ...sorteia(est, nEst));
   sel.sort((x,y)=>(x.id==="p1"?-1:y.id==="p1"?1:x.n-y.n));
   a.rodada = {ids:sel.map(q=>q.id), pos:0, n:((a.rodada && a.rodada.n)||0)+1};
   limpaIA();
+}
+const FOCO_NOME = {est:"Estatística", area:"Perguntas da área", gerais:"Perguntas gerais"};
+function focos(){ const a = cur(), l = []; if(a.temEst) l.push(["est",FOCO_NOME.est]); if(a.area && ESP[a.area]) l.push(["area",FOCO_NOME.area]); l.push(["gerais",FOCO_NOME.gerais]); return l; }
+function tipoQ(q){ if(!q) return ""; if(q.id[0]==="z" || q.b==="est") return "est"; if(q.id[0]==="y") return "area"; if(q.id[0]==="x") return "gerais"; return ""; }
+function focoHtml(){
+  const a = cur(); if(a.plano!=="essencial" || !a.rodada) return "";
+  const sug = a.pior ? tipoQ(qid(a.pior.id)) : "", fs = focos(), at = a.foco || "";
+  return '<div class="estbox" style="background:#eff6ff;border-color:#bfdbfe;margin-top:16px"><b>Próxima rodada</b><div class="sub" style="margin:4px 0 8px">Escolha um foco para treinar mais um tipo de pergunta. Com foco, 8 das 15 perguntas vêm dele.</div>'
+    +(sug && fs.some(f=>f[0]===sug) ? '<div class="sub" style="margin-bottom:8px">💡 Sugestão: <b>'+FOCO_NOME[sug]+'</b>, onde a correção viu o maior risco.</div>' : '')
+    +'<div class="seg" style="flex-wrap:wrap"><button data-foco=""'+(at===""?' class="on"':'')+'>Mistura padrão</button>'
+    + fs.map(f=>'<button data-foco="'+f[0]+'"'+(at===f[0]?' class="on"':'')+'>'+f[1]+(f[0]===sug?' 💡':'')+'</button>').join("")+'</div></div>';
 }
 function limpaIA(){ const a = cur(); a.ia = {}; delete a.iaGeral; delete a.riscos; delete a.pior; }
 function rodQs(){ const r = cur().rodada; return r ? r.ids.map(qid).filter(Boolean) : []; }
@@ -736,6 +750,7 @@ function telaPreparoE(){
   + campo("resultado",'Principal resultado <small>(se já tiver)</small>',"Ex.: encontrei que...")+'</details>'
   + estHtml()
   +'<div class="row" style="margin-top:20px"><button class="link" data-ir="plano">Trocar de plano</button><span style="flex:1"></span>'
+  + focoHtml()
   +(a.rodada ? '<button class="mini" id="btnSortear">Sortear outras 15</button><button class="big b3" data-ir="responder">Continuar as perguntas</button>'
              : '<button class="big b3" id="btnIniciar">Começar as 15 perguntas</button>')+'</div></div>';
 }
@@ -837,7 +852,7 @@ function telaCorrecao(){
       +'<div class="tip" id="tip_'+q.id+'"></div><textarea data-q="'+q.id+'" placeholder="Sem resposta">'+esc(v)+'</textarea>'
       +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div><div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'+fbHtml(q.id)+'</div>';
   });
-  h += '<div class="row noprint" style="margin-top:14px"><button data-voltar="1">← Voltar às perguntas</button>'
+  h += focoHtml() + '<div class="row noprint" style="margin-top:14px"><button data-voltar="1">← Voltar às perguntas</button>'
     +(a.plano==="essencial"?'<button class="b3 big" id="btnNovaRod" style="padding:10px 16px;font-size:15px">Nova rodada</button>':'')+'</div>'
     +'<div class="row noprint" style="margin-top:10px"><button class="mini" id="btnDoc">Baixar em Word</button><button class="mini" id="btnTxt">Baixar em texto</button><button class="mini" id="btnPrint">Imprimir ou PDF</button></div></div>';
   return h;
@@ -1129,6 +1144,7 @@ document.addEventListener("click", e=>{
   if(d.tip){ const el = $("tip_"+d.tip), on = !el.classList.contains("on"); el.innerHTML = on ? tipHtml(qid(d.tip)) : ""; el.classList.toggle("on", on); }
   else if(d.plano){ a.plano = d.plano; ir("preparo"); }
   else if(d.ir){ ir(d.ir); }
+  else if("foco" in d){ a.foco = d.foco; persist(); render(); }
   else if(d.fase){ a.fase = d.fase; persist(); render(); }
   else if(d.nivel){ a.nivel = d.nivel; aviso = {txt:"",err:false}; persist(); render(); }
   else if(d.voltar){ a.rodada.pos = a.rodada.ids.length-1; ir("responder"); }
