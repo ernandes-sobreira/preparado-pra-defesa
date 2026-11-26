@@ -1,0 +1,251 @@
+# id	niveis	dificuldade	dica
+x1	temd	1	Comece pelo que despertou o interesse, em uma frase, e passe logo para o argumento científico: o problema que existe e a lacuna que o trabalho preenche. A história pessoal abre, mas não sustenta a resposta.
+x5	temd	1	Mostre quem é afetado pelo problema e o que se perde se ninguém estudar o assunto. Um dado concreto, como um número, uma lei ou um caso, convence mais que adjetivos.
+x9	temd	1	Diga qual pergunta ficou sem resposta para você ao ler sobre o tema ou ao observar a realidade. A inquietação boa é uma dúvida que a literatura ainda não resolveu.
+x13	temd	1	Conte o percurso em dois ou três passos, por exemplo da curiosidade inicial até a pergunta atual. Mostre que o recorte ficou mais preciso com o tempo, e não mais vago.
+x17	temd	2	Organize em três razões: a relevância do problema, a lacuna no conhecimento e o uso prático do resultado. Cada razão em uma frase.
+x21	temd	2	Diga o que entra e o que fica de fora: lugar, período, população, variáveis ou fontes. Depois explique o critério que levou a esse limite.
+x25	temd	2	Cite uma ou duas coisas que você deixou de fora de propósito e o motivo de cada uma. Deixar algo fora é uma escolha defensável quando tem justificativa.
+x29	temd	2	Explique por que esse recorte responde melhor à sua pergunta do que um recorte maior ou menor. Se houve limitação prática, assuma, mas mostre também o motivo científico.
+x33	temd	2	Diga até onde as conclusões valem: para que lugar, período, grupo ou tipo de caso. Mostrar o limite do alcance passa segurança, e não fraqueza.
+x37	te	1	Mostre a pergunta central e diga que tudo o que não ajuda a respondê-la ficou de fora. Um tema fica amplo demais quando a pergunta tenta responder várias coisas ao mesmo tempo.
+x41	temd	1	Diga o problema em uma frase, sem rodeios, de preferência apontando o que não se sabe ainda. Se precisar de mais de uma frase, o problema ainda não está claro para você.
+x45	temd	2	Conte de onde veio a formulação: da leitura, de um dado, de uma observação ou de uma demanda prática. Mostre como uma ideia geral virou uma pergunta que pode ser respondida.
+x49	emd	3	Escolha a parte mais difícil, como medir algo complexo, conseguir dados ou separar causas, e diga o que você fez para lidar com ela. A banca valoriza quem reconhece a dificuldade e tem estratégia.
+x53	emd	2	Mostre que a formulação permite uma resposta com os dados e o método que você tem. Uma boa formulação é clara, delimitada e pode ser verificada.
+x57	md	3	Apresente uma formulação alternativa e diga por que preferiu a sua. Isso mostra que você pensou no problema por mais de um ângulo.
+x61	temd	1	Diga o objetivo geral em uma frase, começando com um verbo como analisar, avaliar ou comparar. Ele deve responder diretamente ao problema.
+x65	temd	2	Mostre que o objetivo geral é a resposta prometida ao problema. Se o problema é o que não se sabe, o objetivo é descobrir exatamente isso.
+x69	temd	2	Diga com franqueza o quanto foi alcançado e aponte a evidência. Se foi alcançado em parte, explique qual parte ficou aberta e por quê.
+x73	emd	2	Justifique o verbo e o alcance do objetivo. Avaliar é diferente de descrever, e a banca percebe quando o verbo promete mais do que o método entrega.
+x77	temd	2	Diga qual resultado, produto ou evidência mostra que o objetivo foi cumprido. Um objetivo bom já deixa claro como verificar se foi atingido.
+x81	temd	1	Mostre que cada objetivo específico responde a uma parte do objetivo geral, como peças de um quebra-cabeça. Se um deles não se conecta, a banca vai perguntar por que está ali.
+x85	temd	2	Escolha um e diga por que ele é o centro do trabalho. Normalmente é aquele sem o qual o objetivo geral não seria respondido.
+x89	emd	3	Reconheça um objetivo que poderia ser mais preciso e diga como você o reescreveria. Mostrar senso crítico sobre o próprio texto conta pontos.
+x93	temd	2	Explique a sequência: um objetivo prepara o outro, ou cada um olha o problema por um lado. Mostre que juntos cobrem o objetivo geral sem sobrar nem faltar.
+x97	emd	2	Diga o critério, por exemplo etapas do método, dimensões do problema ou perguntas da literatura. Objetivos definidos por um critério claro ficam mais fáceis de defender.
+x101	temd	1	Escolha a justificativa mais forte e fale dela primeiro, com um dado ou fato que a sustente. Uma justificativa forte vale mais que várias fracas.
+x105	temd	1	Cite grupos concretos, como gestores, professores, comunidades, empresas ou outros pesquisadores, e diga o que cada um ganha com o resultado.
+x109	temd	2	Descreva a necessidade de forma concreta: uma decisão que precisa de dados, uma lacuna na literatura ou um problema prático sem solução.
+x113	emd	3	Responda ao cético com fatos, e não com entusiasmo. Mostre o tamanho do problema, quem é afetado e o que muda com o seu resultado.
+x117	emd	2	Mostre o que acontece agora que torna o trabalho necessário: uma mudança, uma lei nova, um dado recente ou um problema que cresceu.
+x121	temd	2	Compare com dois ou três trabalhos parecidos e diga a diferença: o lugar, o período, o método, os dados ou a pergunta. Seja específico.
+x125	emd	2	Diga o que existe no trabalho que não existia antes dele: um dado novo, uma análise, uma interpretação ou um produto. Use uma frase.
+x129	md	3	Aponte a parte mais nova e diga por que ela é nova, citando o que já foi feito. Novidade não precisa ser revolucionária, precisa ser real.
+x133	md	3	Explique que originalidade é responder algo que ainda não tinha resposta, e não dizer o mesmo com outras palavras. Mostre onde o seu trabalho acrescenta algo.
+x137	temd	2	Separe o que você usou de outros autores do que você produziu: os dados, a análise, a interpretação ou a síntese. A banca quer ver a sua autoria.
+x141	temd	1	Diga o contexto mínimo que alguém de fora precisa saber: o lugar, o período, a situação social ou o estado do problema. Seja breve e objetivo.
+x145	emd	2	Mostre como o contexto pesou nas escolhas, por exemplo no método, nas fontes ou nas variáveis. Um contexto diferente pediria uma abordagem diferente.
+x149	md	3	Pense em uma mudança plausível, como outro período ou outro lugar, e diga como ela poderia alterar a sua conclusão. Isso mostra que você conhece os limites da interpretação.
+x153	temd	1	Cite os fatos ou estudos anteriores que explicam como o tema chegou ao ponto atual. Dois ou três antecedentes bem escolhidos bastam.
+x157	emd	2	Ligue o seu trabalho a uma discussão maior, nacional ou internacional, e diga que peça ele acrescenta a essa discussão.
+x161	temd	1	Escolha o conceito central, dê a definição do autor que você usa e diga como ele aparece no seu trabalho.
+x165	temd	2	Diga de onde vêm as definições, de quais autores ou normas, e como você aplicou cada uma. Termos importantes não podem ficar sem definição.
+x169	emd	2	Aponte um termo que pode ter mais de um sentido e diga qual sentido você usa. Antecipar essa confusão evita uma pergunta difícil.
+x173	emd	3	Escolha dois conceitos parecidos e diga em que eles diferem, com um exemplo do seu trabalho. Confundir conceitos próximos é um dos pontos que a banca mais cobra.
+x177	md	3	Mostre que você conhece outras definições e diga por que a sua serve melhor à sua pergunta. Escolher entre definições é uma decisão teórica.
+x181	emd	2	Diga a base teórica do trabalho em uma frase, citando a linha ou os autores principais, e mostre como ela sustenta a sua pergunta.
+x185	emd	2	Dê um exemplo concreto de uma decisão do trabalho que veio da teoria, como a escolha de uma variável, de uma categoria ou de um método.
+x189	md	3	Diga qual ideia você assume como verdadeira para que a discussão faça sentido. Reconhecer esse pressuposto mostra maturidade.
+x193	emd	2	Aponte a parte da fundamentação mais importante para entender os resultados e diga por quê.
+x197	md	3	Explique como verificou que a teoria escolhida serve para o seu objeto, por exemplo pela comparação com estudos parecidos ou pela adequação ao contexto.
+x201	temd	2	Explique o critério: bases consultadas, palavras usadas, período e por que algumas fontes ficaram de fora. Seleção sem critério é um ponto fraco comum.
+x205	temd	1	Escolha uma referência e diga o que ela mudou na sua forma de ver o tema. Conhecer bem uma obra central vale mais que citar muitas.
+x209	temd	2	Diga como checou as fontes: se são revisadas por pares, quem publicou, se os dados são verificáveis. Fontes sem origem clara enfraquecem o trabalho.
+x213	emd	2	Reconheça uma linha de pesquisa ou um tipo de fonte que poderia enriquecer o trabalho. Mostrar que você sabe o que falta passa segurança.
+x217	emd	3	Mostre que as referências apoiam o seu argumento e não substituem a sua voz. Dê um exemplo de como você comparou ou contestou um autor.
+x221	emd	2	Diga o que já se sabe, o que ainda não se sabe e onde o seu trabalho entra. Três frases resolvem essa pergunta.
+x225	temd	2	Aponte uma pergunta que a literatura ainda não respondeu e diga se o seu trabalho ajuda a respondê-la, ainda que em parte.
+x229	emd	2	Diga em que os autores concordam e como o seu trabalho conversa com esse consenso, confirmando ou questionando.
+x233	md	3	Aponte uma divergência entre autores e diga de que lado o seu resultado fica e por quê. Tomar posição fundamentada é esperado na pós.
+x237	emd	2	Conte como a leitura mostrou o que faltava, por exemplo um lugar sem estudo, um período não analisado ou um método pouco usado.
+x241	md	3	Cite uma perspectiva diferente, teórica ou metodológica, e diga o que ela mostraria que a sua não mostra.
+x245	emd	2	Justifique a escolha pela pergunta: a perspectiva adotada é a que melhor permite responder ao que você quer saber.
+x249	md	3	Imagine o trabalho com outra lente teórica e diga o que mudaria nas perguntas ou nas conclusões. Isso mostra domínio do campo.
+x253	emd	2	Dê uma vantagem e uma desvantagem reais da perspectiva escolhida. Admitir a desvantagem com tranquilidade fortalece a defesa.
+x257	md	3	Explique se você escolheu uma das perspectivas ou se combinou partes delas, e como evitou contradições ao fazer isso.
+x261	md	2	Liste dois ou três pressupostos, ou seja, o que você assume como verdadeiro sem testar. Por exemplo, que os dados representam bem a realidade estudada.
+x265	md	3	Escolha o pressuposto de que o argumento mais depende e diga por que ele é razoável.
+x269	md	3	Diga o que cairia e o que continuaria de pé se esse pressuposto fosse falso. Isso mostra que você conhece a solidez do próprio trabalho.
+x273	md	2	Diga em que parte do texto os pressupostos aparecem. Se não aparecem, reconheça que poderiam estar mais claros.
+x277	md	3	Aponte um pressuposto que mereceria ser testado num próximo trabalho e diga como você faria esse teste.
+x281	temd	1	Diga o tipo de pesquisa, por exemplo quantitativa, qualitativa, experimental ou documental, e o porquê em uma frase.
+x285	temd	2	Ligue a abordagem à pergunta: diga o que a pergunta exige e como a abordagem entrega isso.
+x289	emd	2	Cite uma alternativa real que você considerou e diga por que a descartou. Isso mostra que a escolha foi pensada.
+x293	temd	2	Diga a principal vantagem em relação às alternativas, como precisão, profundidade, custo ou acesso aos dados.
+x297	emd	2	Reconheça a principal limitação da abordagem e diga como ela afeta o que você pode concluir.
+x301	te	1	Descreva as etapas em ordem, de forma breve, e mostre que cada uma prepara a seguinte.
+x305	te	2	Escolha a etapa mais delicada e diga o cuidado que você tomou ou vai tomar nela.
+x309	te	2	Explique por que a ordem das atividades é essa, por exemplo porque uma depende do resultado da outra.
+x313	tem	2	Aponte algo que você planejaria diferente e diga o que isso melhoraria. Aprender com o processo é bem visto.
+x317	tem	2	Mostre que cada etapa do planejamento está ligada a um objetivo específico.
+x321	temd	2	Escolha uma decisão que mudou o rumo do trabalho e explique por que ela foi tomada.
+x325	temd	2	Diga os critérios que pesaram nas escolhas, como adequação à pergunta, disponibilidade de dados, tempo ou ética.
+x329	emd	3	Escolha uma decisão difícil, apresente as alternativas e diga por que a sua opção foi a mais defensável.
+x333	emd	2	Reconheça uma decisão que poderia ter sido outra e diga o que mudaria no resultado. Isso mostra maturidade.
+x337	md	3	Dê um exemplo de duas escolhas em conflito, como profundidade e abrangência, e explique o equilíbrio que você encontrou.
+x341	temd	1	Descreva o caminho em passos, do início até o resultado, como uma receita que outra pessoa poderia seguir.
+x345	temd	2	Justifique cada procedimento pela pergunta que ele ajuda a responder. Procedimento sem função clara chama a atenção da banca.
+x349	temd	2	Mostre a ligação direta: cada objetivo tem um procedimento que gera a informação de que ele precisa.
+x353	temd	2	Diga os cuidados que garantem a qualidade dos dados, como padronização, calibração, registro e controle de erros.
+x357	emd	2	Avalie com franqueza se os procedimentos funcionaram e o que você ajustaria numa próxima vez.
+x361	temd	1	Cite os recursos sem os quais o trabalho não aconteceria: dados, equipamentos, acesso a pessoas, documentos ou programas.
+x365	temd	2	Diga como verificou que os materiais ou as fontes eram adequados para a pergunta, quanto à qualidade, à abrangência e à confiabilidade.
+x369	temd	2	Explique os critérios de inclusão e de exclusão das fontes ou dos materiais, e por que eles fazem sentido.
+x373	temd	2	Reconheça o que faltou em recursos e como isso limitou o trabalho, sem transformar a limitação em desculpa.
+x377	emd	2	Diga como alguém pode refazer o caminho: registro de dados, fontes citadas, versões e arquivos guardados.
+x381	emd	2	Diga quais critérios você usaria para julgar se o seu trabalho é bom, como clareza, rigor, coerência e utilidade.
+x385	temd	2	Explique de onde vieram os critérios de seleção, como literatura, norma técnica ou objetivo, e como você os aplicou.
+x389	emd	2	Mostre que os critérios decorrem da pergunta e não da conveniência. Cite a base de cada um.
+x393	md	3	Pense em mudar um critério e diga se o resultado mudaria. Se mudaria pouco, isso mostra que o resultado é robusto.
+x397	emd	3	Diga como garantiu que o critério foi aplicado igual em todos os casos, por exemplo com protocolo escrito ou revisão por outra pessoa.
+x401	emd	2	Mostre o fio que liga problema, objetivos, método, resultados e conclusão. Se um elo parece solto, explique a ligação.
+x405	emd	2	Aponte a ligação entre partes que pode não estar clara no texto e explique em voz alta como uma leva à outra.
+x409	emd	3	Diga como você revisou o texto para evitar afirmações que se contradizem. Se encontrou alguma, explique como resolveu.
+x413	emd	2	Mostre como cada argumento principal contribui para o objetivo central. Argumento que não contribui pode ser cortado.
+x417	emd	2	Aponte o que daria mais unidade ao trabalho, como um fio condutor mais explícito ou a retomada do objetivo nas conclusões.
+x421	temd	2	Diga o argumento central em uma frase. É a tese que o trabalho inteiro tenta sustentar.
+x425	emd	2	Dê duas ou três razões que sustentam o argumento, cada uma com uma evidência do trabalho.
+x429	md	3	Escolha a objeção mais forte ao seu argumento e responda com evidência. Antecipar a crítica é a melhor defesa.
+x433	emd	2	Explique que afirmação fundamentada tem dado ou fonte por trás, e opinião não tem. Mostre um exemplo do seu texto.
+x437	emd	3	Aponte o argumento mais frágil e diga que evidência ou análise o fortaleceria.
+x441	temd	2	Diga quais dados, fontes ou observações sustentam cada afirmação principal. Afirmação sem sustentação é alvo fácil.
+x445	md	3	Explique o que torna uma evidência forte, como tamanho da amostra, qualidade da medida e consistência, e classifique as suas.
+x449	emd	2	Diga que informação faltou e como ela mudaria ou reforçaria a discussão.
+x453	md	3	Mostre que você não ignorou o que contraria a sua interpretação. Diga como explica esse dado ou por que ele não derruba a conclusão.
+x457	emd	2	Aponte a afirmação mais ousada do trabalho e diga que evidência ainda falta para ela.
+x461	emd	2	Conte o raciocínio que levou dos dados à interpretação, passo a passo.
+x465	md	3	Apresente uma interpretação alternativa plausível e diga por que a sua é mais convincente.
+x469	emd	3	Mostre que as conclusões ficam dentro do que os dados permitem. Diga o que você não pode afirmar com o que tem.
+x473	md	3	Reconheça os fatores que pesam na sua leitura, como a teoria escolhida, a sua experiência e o contexto, e como você controlou isso.
+x477	temd	2	Explique que descrever é dizer o que foi encontrado, e interpretar é dizer o que isso significa. Dê um exemplo de cada no seu trabalho.
+x481	temd	2	Diga a ordem e a lógica da análise, por exemplo do geral para o específico ou por objetivo.
+x485	temd	2	Escolha o aspecto central da análise e diga por que ele responde à pergunta.
+x489	emd	2	Mostre como os resultados de uma parte da análise se ligam aos da outra para formar a conclusão.
+x493	md	3	Diga o critério que indicou que a análise bastava, como saturação, estabilidade dos resultados ou cobertura dos objetivos.
+x497	emd	3	Cite outra forma de análise que poderia complementar a sua e o que ela acrescentaria.
+x501	emd	2	Diga dois ou três critérios de qualidade da sua área, como rigor do método, clareza e coerência, e mostre como o trabalho atende a cada um.
+x505	emd	2	Mostre o rigor com fatos: protocolo seguido, cuidados com os dados, revisões feitas e testes de robustez.
+x509	emd	2	Aponte a etapa mais sujeita a erro e diga como você controlou ou controlaria essa etapa.
+x513	md	3	Mostre que você usou os mesmos critérios do começo ao fim. Se mudou algum no meio, explique o motivo.
+x517	temd	2	Diga uma melhoria concreta e possível, e o que ela mudaria no resultado. Evite listar muitas.
+x521	temd	1	Diga a principal limitação com franqueza e explique o efeito dela sobre o resultado. Toda pesquisa tem limites, e reconhecê-los conta a seu favor.
+x525	emd	2	Mostre até onde as afirmações continuam válidas apesar da limitação, e o que deixa de poder ser afirmado.
+x529	temd	2	Escolha uma limitação que tem solução e diga como ela poderia ser reduzida numa próxima etapa.
+x533	emd	3	Aponte a limitação que vem da própria natureza do objeto ou dos dados disponíveis e explique como você convive com ela.
+x537	emd	2	Fale da limitação e, em seguida, do que o trabalho entrega mesmo com ela. Limitação bem explicada valoriza a contribuição.
+x541	emd	2	Diga qual resultado ou etapa tem mais incerteza e de onde ela vem, como medida, amostra ou interpretação.
+x545	md	3	Explique como separou o que os dados mostram do que eles apenas sugerem. Diga uma coisa que você ainda não pode afirmar.
+x549	emd	2	Diga que dado ou análise reduziria a maior dúvida do trabalho, e por que ele não foi possível agora.
+x553	md	2	Mostre que você usa termos adequados como sugere, indica ou é compatível com, e não afirma mais do que os dados permitem.
+x557	md	3	Explique que incerteza é uma dúvida medida e declarada, enquanto falta de fundamentação é afirmar sem base. Dê um exemplo do seu trabalho.
+x561	emd	2	Reconheça um ou dois vieses possíveis, como de seleção, de medida ou de confirmação, e diga como lidou com eles.
+x565	md	3	Diga o que você esperava encontrar e como evitou que essa expectativa direcionasse a análise ou a leitura dos dados.
+x569	emd	2	Cite uma medida concreta, como análise cega, segundo avaliador, critério definido antes ou teste de sensibilidade.
+x573	md	3	Mostre que você incluiu dados e autores que contrariam a sua posição e o que fez com eles.
+x577	md	3	Pense em um grupo, autor ou dado que ficou de fora e diga como a ausência pode ter influenciado o resultado.
+x581	temd	1	Diga as questões éticas do seu trabalho, como consentimento, sigilo, licenças ou uso de dados, e como foram resolvidas.
+x585	emd	2	Mostre que você pensou no efeito das escolhas sobre as pessoas, o ambiente ou as instituições envolvidas.
+x589	emd	2	Diga que cuidados o uso do seu resultado exige, para que ele não seja mal interpretado ou mal aplicado.
+x593	temd	2	Explique como garantiu o respeito aos participantes e ao contexto, como sigilo, consentimento e devolução dos resultados.
+x597	emd	3	Descreva o que faria diante de um conflito ético, como consultar o comitê, o orientador e as normas, antes de seguir.
+x601	temd	1	Diga que todas as ideias de outros autores estão citadas e que você confere as citações com a fonte original.
+x605	temd	2	Separe com clareza o que veio da literatura do que é análise ou conclusão sua.
+x609	emd	2	Diga que você consultou a fonte original sempre que possível e evitou citar de segunda mão.
+x613	emd	2	Explique como registrou as decisões, por exemplo em caderno de campo, versões do arquivo ou notas de análise.
+x617	temd	2	Diga que corrigiria e comunicaria o erro com transparência, mesmo que isso mudasse a conclusão.
+x621	emd	2	Mostre que o texto descreve o caminho com detalhes suficientes para outra pessoa seguir e entender cada etapa.
+x625	emd	2	Cite o que não pode faltar no texto: critérios, fontes, procedimentos, limitações e decisões de análise.
+x629	emd	2	Escolha uma decisão que pode parecer estranha e explique o raciocínio por trás dela.
+x633	emd	2	Reconheça uma parte do método ou da análise que poderia estar mais bem documentada.
+x637	md	2	Diga como alguém pode conferir o que você afirma, por exemplo pelos dados disponíveis, pelas fontes citadas ou pelo código.
+x641	te	1	Cite o que torna o trabalho possível: acesso aos dados ou ao campo, tempo, orientação e recursos.
+x645	te	2	Aponte o maior risco à execução e o plano para contorná-lo.
+x649	tem	2	Mostre que o tamanho do trabalho foi ajustado ao tempo e aos recursos, sem perder a pergunta central.
+x653	tem	2	Diga o que é essencial e o que você cortaria primeiro se faltasse tempo ou recurso.
+x657	tem	2	Diga a condição de que o trabalho mais depende, como um dado, uma autorização ou uma parceria.
+x661	emd	2	Diga para que casos, lugares ou grupos o resultado vale, e onde ele deixa de valer.
+x665	md	3	Descreva uma situação em que a sua abordagem não funcionaria bem e por quê.
+x669	emd	2	Diga se a contribuição é local, regional ou geral, e se é teórica, metodológica ou prática.
+x673	md	3	Explique o que precisaria ser verificado antes de aplicar as suas ideias em outro lugar ou grupo.
+x677	md	3	Mostre que um resultado pode interessar a muitos sem valer para todos os casos. Dê um exemplo dessa diferença.
+x681	temd	1	Diga a contribuição principal em uma frase. É o que fica de novo depois do trabalho.
+x685	temd	2	Explique a contribuição em linguagem simples, com um exemplo que alguém de fora entenderia.
+x689	emd	2	Aponte a parte da contribuição que você acha mais valiosa e diga por quê.
+x693	emd	2	Mostre o que já se sabia e o que o seu trabalho acrescenta a esse conhecimento.
+x697	md	3	Diga o que continuaria desconhecido ou sem solução se o trabalho não existisse.
+x701	emd	2	Diga o que muda, na prática ou na pesquisa, por causa do caminho que você escolheu.
+x705	temd	2	Escolha a consequência mais importante do resultado e diga para quem ela importa.
+x709	md	3	Aponte uma implicação que pode ser exagerada se mal lida e diga como você a apresentaria com cuidado.
+x713	emd	2	Diga que perguntas ou debates o trabalho pode abrir ou reforçar.
+x717	md	3	Pense em um uso indevido ou efeito indesejado do resultado e como evitá-lo.
+x721	temd	1	Cite situações concretas em que o resultado ajudaria alguém a decidir ou agir.
+x725	emd	2	Diga o que seria preciso para aplicar o resultado, como recursos, formação, dados ou vontade institucional.
+x729	emd	2	Avalie com realismo se o resultado pode ser usado agora e por quem.
+x733	emd	2	Aponte uma barreira real, como custo, acesso ou resistência, e uma forma de superá-la.
+x737	md	3	Explique que o valor conceitual ajuda a entender, e a aplicação ajuda a agir. Diga onde o seu trabalho contribui mais.
+x741	temd	1	Explique o trabalho em três frases simples, sem siglas, com um exemplo do dia a dia.
+x745	temd	1	Escolha uma mensagem principal, em uma frase, e repita essa ideia no fim da apresentação.
+x749	temd	1	Escolha o termo técnico mais importante e prepare uma explicação curta e simples para ele.
+x753	temd	2	Diga o que você cortaria e o que manteria. Simplificar é escolher, sem trocar o sentido.
+x757	temd	2	Reconheça um ponto da apresentação ou do texto que pode ficar mais claro e diga como faria.
+x761	temd	2	Explique a lógica da ordem dos capítulos e como ela leva o leitor até a conclusão.
+x765	temd	2	Aponte a parte que o leitor não pode pular e diga por quê.
+x769	emd	2	Mostre que cada seção retoma a anterior e prepara a próxima, por exemplo com frases de ligação.
+x773	temd	2	Indique um trecho que ficaria melhor em outro lugar e diga o motivo.
+x777	temd	2	Avalie com franqueza a clareza do texto e diga o que você revisou para melhorar.
+x781	temd	1	Resuma em uma frase com o que foi feito, como e o principal resultado. Treine até caber em uma respiração.
+x785	temd	1	Diga as três ideias que não podem faltar: o problema, o principal resultado e a contribuição.
+x789	emd	2	Mostre que você sabe o que é central para a conclusão e o que é detalhe de apoio.
+x793	temd	1	Aponte o ponto que, se omitido, mudaria a compreensão do trabalho.
+x797	emd	2	Diga a contribuição sem adjetivos exagerados e com a delimitação certa de alcance.
+x801	emd	3	Aponte o ponto mais frágil com honestidade e diga como você o defende ou o tornaria mais forte.
+x805	emd	3	Escolha uma crítica que você aceita e diga o que faria com ela.
+x809	temd	2	Diga a parte do trabalho de que você tem mais certeza e por quê.
+x813	temd	2	Cite uma ou duas mudanças concretas e o que elas permitiriam. Mostre aprendizado, e não arrependimento.
+x817	emd	3	Mostre que você ouve, reconhece o que há de válido na crítica e responde com evidência, sem ficar na defensiva.
+x821	temd	1	Diga um aprendizado sobre o tema e um sobre fazer pesquisa.
+x825	temd	1	Cite uma habilidade concreta, como uma técnica, um programa, a escrita ou a análise, e como ela foi útil.
+x829	temd	2	Conte uma ideia que você tinha no começo e que mudou com os dados ou com a leitura.
+x833	temd	2	Diga como você enxergava o tema antes e como enxerga agora.
+x837	temd	2	Aponte um aprendizado que você levaria para qualquer trabalho futuro.
+x841	emd	2	Mostre que você sabe explicar o porquê de cada escolha sem depender do orientador.
+x845	emd	2	Conte uma decisão que você tomou por conta própria e como chegou a ela.
+x849	emd	2	Reconheça a contribuição do orientador e diga o que foi elaboração sua.
+x853	temd	2	Aponte a parte que você domina a ponto de defender sozinho diante de qualquer pergunta.
+x857	temd	1	Conte como você estudou o que não sabia, como leituras, cursos, colegas ou testes.
+x861	emd	2	Diga uma área que poderia enriquecer o trabalho e o que ela traria.
+x865	emd	2	Explique a abordagem sem o jargão da sua área, focando no que você queria saber e como descobriu.
+x869	md	3	Cite um conceito de outra área que ajudaria a interpretar os resultados e diga como.
+x873	md	3	Diga o cuidado de usar o conceito no sentido original e de não forçar a sua aplicação.
+x877	md	2	Diga com quem ou com que grupo uma colaboração faria sentido e o que cada lado ganharia.
+x881	emd	2	Cite outro caminho possível e compare com o seu em vantagens e limitações.
+x885	md	3	Mostre os critérios de comparação, como adequação à pergunta, custo, precisão e viabilidade, e aplique-os.
+x889	temd	2	Diga uma alternativa que você descartou e o motivo, com franqueza.
+x893	md	3	Diga em que condição você faria outra escolha, como mais tempo, mais dados ou outro contexto.
+x897	md	3	Mostre um critério de desempate, como a pergunta, a simplicidade ou a viabilidade, e explique.
+x901	temd	1	Aponte uma pergunta que o trabalho deixou em aberto e por que ela é importante.
+x905	temd	2	Diga o que mereceria ser aprofundado e como você faria isso.
+x909	temd	2	Descreva o próximo passo concreto se você continuasse a pesquisa.
+x913	emd	2	Conte uma pergunta nova que surgiu durante o trabalho e o que a provocou.
+x917	emd	2	Diga a prioridade e o motivo dela, ligado aos resultados que você obteve.
+x921	temd	2	Diga a conclusão principal em uma frase e a evidência que a sustenta.
+x925	temd	2	Mostre que cada conclusão responde a um objetivo. Se um objetivo ficou sem conclusão, explique o motivo.
+x929	emd	3	Aponte a conclusão mais ousada e diga por que ela pede cautela.
+x933	md	3	Diga o que alguém poderia concluir de forma errada a partir do seu trabalho, e por que isso não é legítimo.
+x937	emd	2	Mostre que cada conclusão tem base em um resultado do trabalho e que você não acrescentou nada sem evidência.
+x941	emd	3	Responda com o problema, com quem é afetado e com o que o trabalho entrega, de forma calma e com dados.
+x945	temd	2	Diga o que você explicaria primeiro: normalmente a pergunta e o resultado principal.
+x949	md	3	Mostre o motivo da escolha, reconheça a crítica e diga o que mudaria se a banca tiver razão. Firmeza e abertura juntas.
+x953	temd	1	Escolha um ponto forte que você gostaria de mostrar e prepare uma resposta curta e segura.
+x957	temd	2	Diga com tranquilidade que ainda não tem a resposta, explique o que já sabe e como buscaria o restante.
+x961	emd	2	Aponte uma alteração e o ganho que ela traria ao trabalho.
+x965	md	3	Diga como decidiria, pela pergunta central e pela evidência, e que conversaria com o orientador.
+x969	temd	2	Diga a parte que você manteria e por que ela é sólida.
+x973	emd	2	Explique que avaliaria se a sugestão melhora a resposta à pergunta e se é viável.
+x977	temd	2	Cite o que revisaria antes de publicar, como texto, figuras, dados e referências.
+x981	emd	2	Una tema, propósito e abordagem em duas frases que formem uma história só.
+x985	emd	2	Diga a ideia central que liga todas as partes do trabalho.
+x989	md	3	Mostre o que torna o trabalho defensável: pergunta clara, método adequado, evidência e conclusões coerentes.
+x993	md	3	Diga o que o trabalho mostra sobre o seu jeito de pesquisar e pensar.
+x997	temd	2	Faça uma avaliação equilibrada, com um ponto forte, um ponto a melhorar e a contribuição.
