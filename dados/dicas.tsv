@@ -249,3 +249,1012 @@ x985	emd	2	Diga a ideia central que liga todas as partes do trabalho.
 x989	md	3	Mostre o que torna o trabalho defensável: pergunta clara, método adequado, evidência e conclusões coerentes.
 x993	md	3	Diga o que o trabalho mostra sobre o seu jeito de pesquisar e pensar.
 x997	temd	2	Faça uma avaliação equilibrada, com um ponto forte, um ponto a melhorar e a contribuição.
+# Ciências Exatas e da Terra
+y1001	emd	3	Mostre um caso em que, retirada uma hipótese, a conclusão falha. Um contraexemplo que viola só aquela hipótese prova que ela é necessária.
+y1002	temd	2	Procure o caso mais simples que satisfaz as condições da generalização e ainda assim contraria a conclusão. Um único contraexemplo derruba uma afirmação geral.
+y1003	te	1	Necessária é a condição sem a qual o resultado não ocorre. Suficiente é a que garante o resultado. Dê um exemplo do seu trabalho para cada uma.
+y1004	te	2	Confira a base, que vale para o primeiro caso, e o passo, em que supor o caso n leva ao caso n mais 1. A falha mais comum está no passo.
+y1005	emd	2	Verifique se a conclusão foi usada, direta ou indiretamente, como premissa. Se o raciocínio supõe o que quer provar, ele é circular.
+y1006	emd	3	Cite o argumento usado, como um teorema de ponto fixo, o valor intermediário ou uma construção explícita, e diga por que as hipóteses dele valem no seu caso.
+y1007	te	2	Diga para qual valor a sequência se aproxima e como você mostra isso, pela definição com épsilon ou por um critério conhecido, como o de Cauchy ou o da monotonicidade limitada.
+y1008	tem	3	Na convergência pontual cada ponto pode exigir um índice diferente. Na uniforme, um mesmo índice serve para todos os pontos. Diga qual delas o seu resultado precisa e por quê.
+y1009	emd	3	Mostre que pequenos erros de arredondamento ou de dados não crescem sem controle durante as iterações. Cite o critério de estabilidade do método e o teste que você fez.
+y1010	temd	2	Explique que o erro de truncamento vem de interromper um processo infinito, como uma série ou um passo de discretização, e mostre como ele diminui quando o passo diminui.
+y1011	emd	3	Procure grandezas que não mudam quando a transformação é aplicada. Elas ajudam a classificar casos e a provar que algo é impossível.
+y1012	md	3	Diga quais axiomas a estrutura satisfaz e que propriedades decorrem deles. Mostre como isso foi usado no seu resultado.
+y1013	emd	3	Diga qual teorema garante a troca entre limite e outra operação, como integral ou derivada, por exemplo convergência dominada ou uniforme, e por que as condições valem.
+y1014	emd	3	Diga o grau de regularidade necessário, como continuidade ou diferenciabilidade, e como você o verificou.
+y1015	md	3	Uma prova construtiva exibe o objeto, e a não construtiva só garante que ele existe. Diga qual você usou e se a construção explícita traria algo a mais.
+y1016	emd	2	Diga como o número de operações cresce com o tamanho do problema e compare com alternativas conhecidas.
+y1017	md	3	Mostre quais hipóteses você relaxou e por que o argumento continua valendo. Se alguma hipótese cair, aponte o ponto exato em que a prova falharia.
+y1018	temd	2	Significância diz se o efeito provavelmente não é zero. Relevância diz se o tamanho do efeito importa na prática. Mostre o tamanho do efeito com o seu intervalo.
+y1019	temd	2	Diga se as unidades foram amostradas de forma que uma não influencia a outra, considerando proximidade no espaço, no tempo ou no mesmo indivíduo, e como tratou a dependência.
+y1020	temd	3	Pseudorreplicação ocorre quando medidas da mesma unidade são tratadas como réplicas independentes. Diga qual é a sua unidade experimental real.
+y1021	te	2	O intervalo de 95% indica a faixa de valores compatíveis com os dados pelo procedimento usado. Evite dizer que há 95% de chance de o valor verdadeiro estar ali.
+y1022	temd	2	Heterocedasticidade é a variância dos resíduos mudar com os valores ajustados. Mostre o gráfico de resíduos e diga como corrigiu, por transformação ou modelo adequado.
+y1023	temd	2	Diga como o tamanho foi definido: cálculo de poder, referência da literatura ou limite prático. Se foi limite prático, discuta o efeito mínimo que a amostra consegue detectar.
+y1024	emd	2	Poder é a chance de detectar um efeito que existe. Com poder baixo, um resultado não significativo não prova ausência de efeito.
+y1025	emd	2	Diga quantos testes fez e como controlou o risco de falsos positivos, por exemplo com Bonferroni, Holm ou taxa de falsas descobertas.
+y1026	emd	2	Mostre como verificou, por correlação entre preditores ou fator de inflação da variância, e o que fez, como retirar ou combinar variáveis.
+y1027	md	3	Dados ausentes não aleatórios dependem do próprio valor que falta e podem viesar o resultado. Diga como investigou o padrão e que análise de sensibilidade fez.
+y1028	emd	2	Mostre os diagnósticos usados, como alavancagem e distância de Cook, e se o resultado muda sem esses pontos.
+y1029	md	3	Explique o critério, por exemplo AIC ou BIC, que equilibra ajuste e complexidade. Diga o que fez quando modelos ficaram próximos.
+y1030	emd	3	Diga como testou o modelo em dados que ele não viu, por validação cruzada ou separação treino e teste, e que métrica usou.
+y1031	md	3	Efeito aleatório é usado quando os grupos representam uma população maior e você quer generalizar. Efeito fixo, quando o interesse está nos grupos em si. Justifique pela pergunta.
+y1032	md	3	Mostre que testou outras distribuições a priori plausíveis e se as conclusões se mantiveram.
+y1033	emd	3	O intervalo de credibilidade diz que, dados o modelo e a priori, o parâmetro está ali com a probabilidade indicada. Mostre essa leitura no seu caso.
+y1034	md	3	Superdispersão é variância maior que a esperada pelo modelo. Excesso de zeros é haver mais zeros do que a distribuição prevê. Diga qual teste ou gráfico usou e qual modelo adotou.
+y1035	emd	3	Explique o bootstrap ou outra reamostragem: repetir a estimativa em muitas amostras sorteadas dos seus dados para medir a variação.
+y1036	temd	2	Diga se o sistema é fechado ou aberto e que grandezas se conservam nele, como energia, massa ou momento, justificando pelas condições do problema.
+y1037	emd	2	Mostre que as variáveis mudam pouco no tempo na escala de interesse, ou que o tempo de transição é curto diante do período estudado.
+y1038	emd	3	Diga quais variáveis independentes descrevem o sistema e por que outras podem ser ignoradas na escala do problema.
+y1039	temd	2	Mostre que as perturbações são pequenas o bastante para os termos não lineares serem desprezíveis, e em que faixa isso deixa de valer.
+y1040	te	2	A incerteza instrumental vem do aparelho e do procedimento. A variabilidade física é diferença real do fenômeno. Diga como você separou as duas.
+y1041	emd	3	Diga que simetria o sistema tem e que consequência ela traz, como conservação de uma grandeza ou simplificação das equações.
+y1042	te	1	Confira se as unidades dos dois lados da equação são as mesmas. Uma inconsistência dimensional indica erro na equação.
+y1043	emd	3	Indique a grandeza ou o número adimensional que marca a passagem para o regime não linear e a faixa do seu trabalho.
+y1044	te	2	Diga para onde a energia vai, como calor por atrito ou viscosidade, e como isso aparece nas suas medidas ou equações.
+y1045	tem	2	A entropia de um sistema isolado não diminui. Processos irreversíveis a aumentam. Dê um exemplo do seu sistema.
+y1046	te	2	Equilíbrio térmico é temperatura igual sem fluxo de calor. Equilíbrio dinâmico é quando processos opostos ocorrem com taxas iguais. Diga qual se aplica.
+y1047	te	1	Justifique pelo que simplifica as equações ou pelo que é natural no problema, e diga se o referencial é inercial.
+y1048	emd	2	Diga se as leis ou parâmetros mudam com o tamanho do sistema e como você verificou ou contornou isso.
+y1049	emd	3	Mostre o que acontece após uma pequena perturbação: o sistema volta ao equilíbrio ou se afasta? Cite o critério usado.
+y1050	te	1	Use valores típicos e potências de dez para chegar a uma estimativa rápida, e compare com o valor medido.
+y1051	tem	3	Mostre a escala do problema, pela comparação com a constante de Planck ou o comprimento de onda envolvido, e diga por que a descrição clássica basta ou não.
+y1052	temd	2	Explique como as incertezas das grandezas medidas se combinam na grandeza calculada, por derivadas parciais ou simulação.
+y1053	temd	2	Compare a previsão com os dados levando em conta as incertezas de ambos. Diga se a diferença é significativa.
+y1054	temd	2	Justifique pela seletividade, pela sensibilidade, pela matriz da amostra e pela disponibilidade, e diga como validou a identificação.
+y1055	emd	2	Diga a proporção do produto desejado em relação aos secundários e as condições que favorecem essa escolha.
+y1056	tem	3	Controle cinético favorece o produto que se forma mais rápido. Controle termodinâmico favorece o mais estável. Diga qual governou a sua reação e por quê.
+y1057	temd	2	Mostre como o pH muda a forma química predominante da espécie, por ganho ou perda de prótons, e o efeito disso no comportamento.
+y1058	emd	2	Diga que componentes da matriz podem afetar o sinal e como você os identificou, por adição de padrão ou comparação de matrizes.
+y1059	te	1	Cite a especificação do fabricante e qualquer teste de verificação feito, como ponto de fusão, espectro ou titulação.
+y1060	te	1	Explique a relação entre sinal e concentração, a faixa linear e o coeficiente de determinação, e diga como verificou os resíduos.
+y1061	te	2	O limite de detecção é a menor quantidade que se distingue do branco. O de quantificação, a menor que se mede com precisão aceitável. Dê os seus valores.
+y1062	temd	2	Diga a porcentagem recuperada de uma quantidade conhecida adicionada e o que ela indica sobre perdas ou interferências.
+y1063	te	1	O branco mostra o sinal que vem dos reagentes e do procedimento, sem o analito, e serve para corrigir as medidas.
+y1064	emd	3	Diga em que condições o comportamento se afasta do ideal, como alta concentração ou interações fortes, e como corrigiu, por atividade ou coeficientes.
+y1065	temd	2	Diga as condições de armazenamento, o tempo até a análise e se testou a perda ou a transformação do analito nesse período.
+y1066	md	3	Diga como distinguiu os mecanismos, por cinética, intermediários ou marcação isotópica, e qual evidência foi decisiva.
+y1067	temd	2	Ligue grupos funcionais, polaridade ou tamanho da molécula às propriedades observadas, com um exemplo do seu trabalho.
+y1068	te	1	Justifique pela solubilidade, pela reatividade, pelo ponto de ebulição, pela segurança e pelo custo.
+y1069	te	1	Precisão é a concordância entre repetições. Exatidão é a proximidade do valor verdadeiro. Uma medida pode ser precisa e inexata.
+y1070	temd	2	Diga quais espectros confirmam a estrutura, como infravermelho, RMN ou massas, e que sinais foram decisivos.
+y1071	te	1	Cite os riscos dos reagentes, os equipamentos de proteção e o destino dos resíduos, conforme as normas.
+y1072	te	1	O intemperismo físico fragmenta a rocha sem mudar a composição. O químico altera os minerais. Diga qual predomina no seu caso e a evidência.
+y1073	temd	2	Use o princípio da superposição e as relações de corte para ordenar as camadas no tempo.
+y1074	temd	2	Diga como escolheu os pontos de amostragem e se eles cobrem a variabilidade da área.
+y1075	emd	2	Justifique pelo material disponível, pela faixa de idade esperada e pela precisão necessária.
+y1076	md	3	Explique qual sistema isotópico ou mineral registra cada evento e como você separou os dois sinais.
+y1077	temd	2	Descreva as estruturas, como falhas e dobras, e o regime de esforço que elas indicam.
+y1078	temd	2	Relacione porosidade, fraturamento e tipo de rocha à facilidade de fluxo da água.
+y1079	temd	2	Mostre como granulometria, estruturas sedimentares e fósseis indicam o ambiente e a energia de deposição.
+y1080	emd	2	Cite erros de preparo, de identificação e de calibração, e como os controlou.
+y1081	te	2	Ligue declividade, tipo de solo e cobertura à intensidade da erosão observada.
+y1082	emd	2	Diga a menor estrutura detectável com o espaçamento e o método usados.
+y1083	emd	3	Mostre se a anomalia se repete em medidas e métodos diferentes, e descarte fontes de ruído e erros de aquisição.
+y1084	temd	2	Cite o método, como DRASTIC ou GOD, os fatores considerados e as limitações.
+y1085	emd	3	Justifique pelos dados disponíveis, pela escala e pela pergunta, e diga como calibrou e validou o modelo.
+y1086	te	2	Use granulometria, arredondamento e estruturas sedimentares para indicar distância e tipo de transporte.
+y1087	emd	3	Mostre que processos lentos e rápidos aparecem em escalas diferentes e qual delas o seu dado alcança.
+y1088	te	1	Perigo é o fenômeno que pode causar dano. Risco combina o perigo com a exposição e a vulnerabilidade de quem está ali.
+y1089	md	3	Diga que elementos ou razões indicam a fonte do material e como compara com assinaturas de referência.
+y1090	temd	2	Garanta que nada dos dados de teste foi usado no treino ou no ajuste, incluindo normalização e seleção de variáveis.
+y1091	temd	2	Diga a proporção das classes e que métricas e técnicas usou, como F1, balanceamento ou pesos.
+y1092	te	2	Compare o desempenho no treino e na validação. Uma diferença grande indica sobreajuste.
+y1093	emd	2	Justifique pelo tipo de dado, pela quantidade disponível e pela comparação com arquiteturas mais simples.
+y1094	te	2	Diga como o tempo e a memória crescem com o tamanho da entrada, por exemplo em notação O.
+y1095	emd	2	Mostre o desempenho nos piores casos ou nos grupos raros, além da média.
+y1096	md	3	Compare as distribuições ao longo do tempo ou entre fontes e diga como o modelo reage a essas mudanças.
+y1097	md	3	Teste com ruído ou alterações pequenas na entrada e mostre se a saída se mantém.
+y1098	emd	3	Cite o método usado, como SHAP ou importância por permutação, e os cuidados ao interpretar.
+y1099	temd	2	Fixe sementes, versões e configurações, e guarde o código e os dados de cada experimento.
+y1100	temd	2	Compare com um modelo simples ou com uma regra trivial. O ganho real é a diferença sobre essa referência.
+y1101	md	3	Compare métricas entre grupos e diga que critério de equidade usou e por quê.
+y1102	md	3	Interpretável é o modelo cuja lógica se entende diretamente. Explicável é o que precisa de um método externo para ser explicado.
+y1103	temd	2	Cite anonimização, minimização de dados, controle de acesso e conformidade com a LGPD.
+y1104	emd	2	Diga como os rótulos foram feitos, a concordância entre anotadores e como tratou os erros.
+y1105	emd	2	Diga o método de busca, como grade, aleatória ou bayesiana, e que dados usou para a escolha.
+y1106	md	3	Cite monitoramento de entradas e saídas, alertas e reavaliação periódica com dados novos.
+y1107	md	3	Teste em dados de outra fonte ou contexto e discuta o que limita a generalização.
+# Ciências Biológicas
+y1108	te	1	Riqueza é o número de espécies. Diversidade combina riqueza e equitabilidade, ou seja, como os indivíduos se distribuem entre as espécies. Dê o índice que você usou.
+y1109	emd	3	Detectabilidade é a chance de registrar a espécie quando ela está presente. Diga se você a estimou, por exemplo com modelos de ocupação, ou como ela pode afetar os seus resultados.
+y1110	md	3	Diga como separou o efeito das variáveis ambientais do efeito da posição no espaço, por exemplo com partição de variância ou modelos com estrutura espacial.
+y1111	temd	2	Diga qual é a sua unidade amostral independente. Várias medidas no mesmo ponto, lago ou parcela não são réplicas independentes.
+y1112	emd	2	Mostre que o tamanho da unidade e a extensão da área combinam com a escala do processo que você estuda.
+y1113	md	3	Cite o mecanismo, como partição de nicho, efeitos estabilizadores ou equalizadores, e a evidência do seu trabalho.
+y1114	emd	3	Diversidade beta é a diferença de composição entre locais. Diga se você separou substituição de espécies e perda de espécies.
+y1115	md	3	Mostre se a composição acompanha mais o ambiente ou a distância e a conectividade entre locais, e que análise permitiu essa separação.
+y1116	te	2	Mostre como as variáveis mudam com a distância da borda e até onde o efeito chega no seu sistema.
+y1117	emd	2	Ligue o fluxo de indivíduos entre manchas à chance de a população se manter ou se recuperar.
+y1118	emd	2	Diga a frequência e a intensidade das perturbações e o que acontece com a recuperação entre elas.
+y1119	md	3	Mostre como uma espécie afeta outra por meio de uma terceira, como em cascatas tróficas, e a evidência que você tem.
+y1120	te	1	Mostre a diferença entre estações nos seus dados e se as conclusões valem para o ano todo.
+y1121	emd	3	Mostre se a taxa de crescimento cai quando a densidade aumenta e que modelo ou evidência sustenta isso.
+y1122	md	3	Diga se a diferença de funcionamento vem de quais espécies estão presentes ou de quantas e em que proporção.
+y1123	emd	2	Diga por que as áreas de referência representam a condição esperada e se são comparáveis às áreas estudadas.
+y1124	md	3	Mostre que a mudança supera a variação natural conhecida e persiste no tempo.
+y1125	tem	2	A deriva é mudança ao acaso, mais forte em populações pequenas. A seleção depende do valor adaptativo. Diga que evidência separa as duas no seu caso.
+y1126	emd	3	Explique que alelos de locos diferentes aparecem juntos mais que o esperado ao acaso, e o que isso indica, como proximidade física ou seleção.
+y1127	emd	2	Diga a análise usada, como FST, AMOVA ou agrupamento genético, e quantos grupos encontrou.
+y1128	te	1	Homologia é semelhança herdada de um ancestral comum. Analogia é semelhança por função parecida, sem ancestral comum. Dê um exemplo.
+y1129	md	3	Mostre que a população local tem melhor desempenho no próprio ambiente, por exemplo em experimentos recíprocos, ou sinais genéticos de seleção.
+y1130	emd	2	Diga como estimou o fluxo, por dados genéticos ou marcação, e o que ele indica sobre a conectividade.
+y1131	te	2	Plasticidade é o mesmo genótipo produzir fenótipos diferentes em ambientes diferentes. Variação hereditária passa para a prole. Diga como separou as duas.
+y1132	emd	2	Justifique pela taxa de variação do marcador, pela pergunta e pelo custo.
+y1133	md	3	Cite vieses como atração de ramos longos e amostragem incompleta, e como testou a robustez da árvore.
+y1134	md	3	Ortólogos se separaram por especiação. Parálogos, por duplicação do gene. Diga como os identificou.
+y1135	md	3	Cite o teste usado, como a razão dN/dS, e o que o resultado indica.
+y1136	emd	2	Diga como mediu a endogamia e se há sinais de depressão endogâmica.
+y1137	emd	3	Explique como separou componente genético e ambiental, por exemplo com herdabilidade em ambiente comum.
+y1138	md	3	Mostre na filogenia que as linhagens com a característica não são próximas, o que indica origem independente.
+y1139	temd	2	Cite as métricas de qualidade, como escore de Phred e cobertura, e os filtros usados.
+y1140	md	3	Explique causas como separação incompleta de linhagens e hibridização, e como as tratou.
+y1141	md	3	Mostre se genótipos diferentes respondem de modo diferente aos ambientes, num desenho que cruza os dois fatores.
+y1142	md	3	Diga o que os dados permitem afirmar sobre ancestralidade e o que depende de suposições do modelo.
+y1143	emd	2	Cite os controles, como knockout, bloqueio do peptídeo ou outro anticorpo, que mostram que ele reconhece só o alvo.
+y1144	te	1	O controle positivo mostra que o ensaio funciona. O negativo mostra que não há sinal falso. Diga quais usou.
+y1145	tem	2	A quantidade de RNA não garante a mesma quantidade de proteína, por regulação pós-transcricional. Diga o que você mediu.
+y1146	temd	2	Diga o índice de integridade, como o RIN, e o limite aceito.
+y1147	te	2	Transcrição produz RNA a partir do DNA. Tradução produz proteína a partir do RNA. Diga em que etapa o seu efeito ocorre.
+y1148	temd	2	Diga a eficiência obtida pela curva padrão e se ficou na faixa aceita, perto de 90 a 110%.
+y1149	te	1	Cite controles sem amostra, separação de áreas e de etapas, e boas práticas de pipetagem.
+y1150	tem	2	Morte programada é ordenada, como a apoptose. Necrose é descontrolada e inflamatória. Diga os marcadores usados.
+y1151	emd	3	Mostre que via foi alterada e a evidência, como fosforilação ou expressão de alvos.
+y1152	te	2	Diga o método, como azul de tripano ou MTT, e o valor de corte usado.
+y1153	emd	2	Cite o método, como imunofluorescência ou fracionamento, e os marcadores de cada compartimento.
+y1154	emd	3	Diga como verificou efeitos fora do alvo, por sequenciamento ou controles.
+y1155	md	3	Mutação altera a sequência do DNA. Alteração epigenética muda a expressão sem mudar a sequência. Diga como distinguiu as duas.
+y1156	temd	2	Mostre a curva dose resposta e se o efeito aumenta de forma consistente com a dose.
+y1157	md	3	Diga se as células estavam sincronizadas e como a fase do ciclo pode alterar as medidas.
+y1158	md	3	Cite o ensaio que mostra contato físico direto, como pull-down com proteínas purificadas, e não apenas coocorrência.
+y1159	emd	2	Diga se testou em mais de uma linhagem e se o efeito se repetiu.
+y1160	emd	3	Mostre a cadeia de evidências da alteração molecular até o fenótipo, idealmente com resgate do efeito.
+y1161	te	2	Colonização é presença sem dano. Infecção envolve invasão e resposta do hospedeiro. Diga o critério usado.
+y1162	emd	3	Cite métodos como coloração vivo e morto, PCR com marcadores de viabilidade ou atividade metabólica.
+y1163	te	1	Justifique pelo microrganismo alvo, pela seletividade e pelo objetivo do cultivo.
+y1164	te	1	Diga os controles negativos usados e como interpretaria um crescimento neles.
+y1165	te	2	É a menor concentração que impede o crescimento visível. Compare com os pontos de corte de referência.
+y1166	emd	3	Resistência é crescer em concentrações maiores. Tolerância é sobreviver à exposição sem crescer. Diga como testou.
+y1167	emd	2	Diga se considerou a formação de biofilme e como ela muda a resistência e a persistência.
+y1168	md	3	Diga o marcador e os iniciadores usados e como os vieses podem distorcer a composição observada.
+y1169	te	1	A imunidade inata é rápida e inespecífica. A adaptativa é específica e tem memória. Diga qual o seu trabalho avalia.
+y1170	emd	2	Especificidade é reconhecer só o alvo. Afinidade é a força dessa ligação. Diga como cada uma foi avaliada.
+y1171	emd	2	Diga como testou se o ensaio reage com antígenos parecidos e o efeito disso nos resultados.
+y1172	md	3	Mostre os marcadores que indicam controle da infecção e os que indicam dano ao tecido.
+y1173	temd	2	Diga temperatura, tempo e atmosfera, e se a variação deles afeta o resultado.
+y1174	md	3	Explique que proporções podem mudar sem a quantidade absoluta mudar. Diga se teve medida absoluta.
+y1175	temd	2	Diga temperatura, tempo e ciclos de congelamento a que as amostras foram submetidas.
+y1176	te	2	A resposta celular é mediada por linfócitos T. A humoral, por anticorpos. Diga qual foi medida.
+y1177	emd	3	Diga o que falta no modelo em relação ao organismo, como microambiente e sistema imune, e como isso limita as conclusões.
+y1178	md	3	Cite o mecanismo investigado e a evidência experimental de que ele reduz a resposta do hospedeiro.
+y1179	md	3	Mostre se a queda da fotossíntese acompanha o fechamento dos estômatos ou a capacidade bioquímica, por curvas A/Ci.
+y1180	temd	2	Mostre como a condutância cai com o déficit hídrico e a partir de que ponto.
+y1181	te	2	Explique o que o potencial hídrico indica sobre o estado de água da planta e como foi medido.
+y1182	te	1	Justifique pela fase em que o processo que você estuda acontece e pela padronização entre plantas.
+y1183	tem	2	Aclimatação é ajuste do indivíduo durante a vida. Adaptação é mudança hereditária ao longo de gerações.
+y1184	te	1	Mostre a resposta das variáveis à luz e se houve saturação.
+y1185	emd	2	Explique quem produz e quem consome os carboidratos e como isso muda com a fase da planta.
+y1186	temd	2	Diga como mediu a biomassa de cada órgão e o que a partição indica sobre a estratégia da planta.
+y1187	te	2	Mostre os sintomas, a análise foliar e o teor no solo que indicam falta ou excesso do nutriente.
+y1188	te	1	Germinação é emissão da radícula. Estabelecimento é a plântula sobreviver e crescer de forma independente.
+y1189	emd	2	Mostre a variação das folhas entre ambientes no mesmo genótipo ou espécie.
+y1190	te	1	O crescimento primário aumenta o comprimento. O secundário aumenta a espessura.
+y1191	te	1	Cite chave usada, material testemunho em herbário e confirmação por especialista.
+y1192	emd	2	Cite marcadores como enzimas antioxidantes e peroxidação de lipídios.
+y1193	te	2	Explique como a temperatura altera o déficit de pressão de vapor e a transpiração.
+y1194	temd	2	Descreva o sistema reprodutivo, a polinização e a dispersão, e como foram observados.
+y1195	md	3	Mostre um desenho que separa raízes e parte aérea, com divisórias ou tratamentos.
+y1196	emd	2	Ligue profundidade e densidade de raízes à captação de água e nutrientes.
+y1197	temd	2	Cite vieses como horário, observador e visibilidade, e como os reduziu.
+y1198	te	2	Explique como definiu as categorias de comportamento, de forma clara e sem sobreposição.
+y1199	emd	3	Mostre se a característica aumenta o sucesso reprodutivo ou a sobrevivência.
+y1200	temd	2	Diga como mediu a hierarquia e se ela afetou acesso a recursos ou reprodução.
+y1201	emd	2	Compare a estratégia com previsões de modelos de forrageamento ótimo.
+y1202	md	3	Mostre que investir em reprodução reduz a sobrevivência ou o crescimento, com dados.
+y1203	te	1	Diga se houve habituação e como o observador poderia ter alterado o comportamento.
+y1204	emd	2	Ocorrência é estar no local. Atividade é o que o animal faz ali. Diga o que os seus dados medem.
+y1205	te	1	Justifique pelo método, como marcas, anilhas ou padrões naturais, e pelo bem-estar do animal.
+y1206	temd	2	Mostre se separou os dados por sexo e idade e se as diferenças foram relevantes.
+y1207	te	1	Mostre se o horário da observação pode ter influenciado o resultado.
+y1208	emd	3	Compare o uso com a disponibilidade de cada habitat. Usar mais não significa preferir.
+y1209	temd	2	Diga se os animais deixaram de responder ao estímulo com a repetição e como isso foi controlado.
+y1210	temd	2	Descreva quem cuida, quanto investe e como isso varia com o contexto.
+y1211	te	1	Cite as normas seguidas, a aprovação da comissão de ética e os indicadores de bem-estar.
+y1212	emd	3	Diga o que difere entre cativeiro e natureza e como isso limita a generalização.
+y1213	md	3	Mostre se o mesmo indivíduo muda de comportamento conforme o contexto ou se as diferenças entre indivíduos são consistentes.
+y1214	emd	3	Mostre como a fragmentação mudou distâncias, rotas ou frequência de deslocamento.
+# Engenharias
+y1215	temd	2	Justifique pelos vãos, pelas cargas, pelos materiais disponíveis, pelo custo e pelo método construtivo.
+y1216	te	1	O estado limite último trata de ruptura e colapso. O de serviço trata de uso, como deformações, fissuras e vibrações.
+y1217	temd	2	Mostre como o tipo de solo e o recalque esperado definiram a fundação.
+y1218	temd	2	Cite a classe de agressividade, o cobrimento, o tipo de cimento e os ensaios de durabilidade.
+y1219	te	2	Explique que os coeficientes cobrem incertezas de carga e material, e de que norma eles vêm.
+y1220	temd	2	Relacione o padrão das fissuras à causa provável, como flexão, retração ou recalque.
+y1221	te	2	Mostre como a cura afeta hidratação, resistência e porosidade do concreto.
+y1222	te	1	Recalque total é o afundamento de um ponto. O diferencial é a diferença entre pontos, que causa danos.
+y1223	temd	2	Diga o que cada ensaio mede, como SPT ou CPT, e como os valores entraram no projeto.
+y1224	temd	2	Justifique por prazo, custo, mão de obra e condições do local.
+y1225	emd	2	Diga como verificou interferências entre projetos, por exemplo com compatibilização em BIM.
+y1226	emd	3	Cite a verificação de flambagem, os efeitos de segunda ordem e a estabilidade global.
+y1227	temd	2	Diga as variáveis analisadas, como transmitância e inércia térmica, e a norma de referência.
+y1228	te	2	Descreva como localizou a origem da água e os ensaios usados.
+y1229	te	1	Diga a vazão de projeto, o período de retorno e como a água é conduzida.
+y1230	te	1	Cite a norma de acessibilidade e as soluções adotadas.
+y1231	md	3	Diga as fases do ciclo de vida consideradas e os indicadores de impacto.
+y1232	temd	2	Cite o critério usado, como polos, margens ou Routh-Hurwitz, e o resultado.
+y1233	te	2	Mostre como ganho e fase variam com a frequência e o que isso indica sobre o circuito.
+y1234	te	1	Justifique pela faixa, pela precisão, pelo tempo de resposta e pelo custo.
+y1235	te	1	A potência ativa realiza trabalho. A reativa circula entre fonte e carga sem realizar trabalho útil.
+y1236	temd	2	Diga a distorção harmônica medida e os efeitos, como aquecimento e interferência.
+y1237	emd	2	Cite as fontes e as medidas de blindagem, aterramento ou filtragem.
+y1238	temd	2	Diga as perdas, como no cobre, no ferro e por chaveamento, e a eficiência.
+y1239	emd	3	Explique quanto o ganho e a fase podem variar antes de o sistema ficar instável.
+y1240	te	2	Diga o número de bits, a faixa e o menor passo medido, comparado com o necessário.
+y1241	te	2	Falha transitória some sozinha. Falha permanente exige intervenção.
+y1242	temd	2	Explique a seletividade, a coordenação e a norma usada.
+y1243	temd	2	Diga as temperaturas medidas ou estimadas e o efeito na vida útil.
+y1244	emd	3	Mostre a corrente a partir da qual o núcleo satura e o efeito no desempenho.
+y1245	temd	2	Diga as perdas e a eficiência em diferentes cargas.
+y1246	emd	2	Mostre como a carga altera tensão, corrente e transferência de potência.
+y1247	te	2	Explique o critério de Nyquist e a frequência máxima do sinal.
+y1248	emd	3	Cite tempo médio entre falhas, redundância e testes de estresse.
+y1249	md	3	Mostre como o atraso reduz as margens e o que fez para compensar.
+y1250	te	1	Tensão é força por área. Deformação é a mudança relativa de dimensão.
+y1251	temd	2	Cite o critério usado, como von Mises ou Tresca, e por que se aplica ao material.
+y1252	temd	2	Diga o número de ciclos, a curva S-N e o fator de segurança.
+y1253	temd	2	Mostre onde a tensão se concentra, como em furos e cantos, e como reduziu.
+y1254	te	1	A deformação elástica volta ao normal. A plástica é permanente.
+y1255	te	2	Diga o coeficiente de atrito e a perda de energia estimada.
+y1256	temd	2	Justifique pela viscosidade, pela temperatura e pela carga.
+y1257	temd	2	Explique o ponto ótimo e as faixas de operação da máquina.
+y1258	te	1	O regime laminar tem escoamento em camadas. O turbulento é caótico. O número de Reynolds indica o regime.
+y1259	emd	2	Diga as frequências naturais e se ficam longe das frequências de excitação.
+y1260	emd	3	Mostre que refinar a malha não muda os resultados de forma relevante.
+y1261	te	2	Justifique pela função da peça, pela montagem e pelo custo de fabricação.
+y1262	temd	2	Cite o mecanismo, como abrasão, adesão ou fadiga superficial, e a evidência.
+y1263	emd	3	Diga como as variações de temperatura geram tensões e fadiga térmica.
+y1264	te	2	Compare a eficiência real com o limite teórico de Carnot e explique as perdas.
+y1265	temd	2	Cite inspeção, ensaios e as condições de carga e corrosão.
+y1266	temd	2	A preditiva age pela condição medida do equipamento. A preventiva, por intervalos fixos.
+y1267	md	3	Explique a combinação de tensão e meio corrosivo e como foi avaliada.
+y1268	te	2	Mostre que o que entra é igual ao que sai mais o que acumula, e a diferença no fechamento.
+y1269	emd	3	Mostre se a taxa depende da agitação ou da temperatura para identificar a etapa limitante.
+y1270	temd	2	Mostre como a conversão muda com o tempo de residência.
+y1271	temd	2	Justifique pelo tipo de reação, pela cinética e pela operação contínua ou em batelada.
+y1272	te	2	Explique as fases presentes em cada composição e temperatura no seu sistema.
+y1273	emd	3	Mostre como a pressão altera o equilíbrio e o modelo termodinâmico usado.
+y1274	md	3	Diga os critérios de semelhança e o que muda da bancada para a escala maior.
+y1275	temd	2	Diga a técnica, como TGA, e a temperatura de degradação.
+y1276	emd	2	Cite o tipo de corrosão e a evidência, como morfologia e produtos formados.
+y1277	emd	3	Ligue tamanho de grão, fases e defeitos às propriedades medidas.
+y1278	temd	2	Diga como mediu a porosidade e o efeito na resistência e na permeabilidade.
+y1279	emd	2	Diga o modelo ajustado, como Langmuir ou Freundlich, e o que ele indica.
+y1280	temd	2	Diga o consumo por unidade produzida e onde estão as maiores perdas.
+y1281	emd	2	Cite como identificou os subprodutos e as condições que os favorecem.
+y1282	emd	2	Diga quantos ciclos de uso o material suporta e a perda de capacidade.
+y1283	md	3	Mostre a etapa limitante e o número adimensional ou o ensaio que a indica.
+y1284	md	3	Cite como o projeto reduz riscos pela própria concepção, como substituir materiais perigosos.
+y1285	emd	2	Compare as rotas por custo, impacto ambiental e qualidade do material recuperado.
+y1286	te	2	Mostre a etapa com maior tempo ou fila e o efeito no sistema todo.
+y1287	te	1	A capacidade instalada é o máximo teórico. A efetiva desconta paradas e perdas previstas.
+y1288	temd	2	Diga a variação medida e o efeito nas filas e prazos.
+y1289	temd	2	Justifique pelo custo de manter estoque, pelo custo da falta e pela demanda.
+y1290	emd	2	Explique Cp e Cpk e se o processo atende às especificações.
+y1291	temd	2	Cite custos de prevenção, de avaliação e de falhas internas e externas.
+y1292	te	1	Produtividade é o que se produz por recurso usado. Eficiência é o real comparado com o padrão.
+y1293	emd	2	Explique a regra de sequenciamento e o efeito nos prazos.
+y1294	emd	3	Use teoria de filas para explicar as esperas pela chegada e pelo atendimento.
+y1295	te	2	Cite os desperdícios encontrados no mapa do fluxo de valor.
+y1296	temd	2	Diga os indicadores de prazo, qualidade e histórico usados.
+y1297	emd	2	Diga o método, como AHP, e como os pesos foram definidos.
+y1298	md	3	Mostre como a solução muda quando parâmetros variam.
+y1299	md	3	Diga como modelou a incerteza, por cenários ou modelos estocásticos.
+y1300	te	1	A corretiva conserta depois da falha. A preventiva atua antes, em intervalos planejados.
+y1301	te	2	Diga os indicadores escolhidos e o que cada um mostra.
+y1302	temd	2	Cite a avaliação ergonômica usada e as mudanças propostas.
+y1303	emd	2	Compare custos de transporte, estoque e armazenagem de cada alternativa.
+y1304	temd	2	Justifique pela qualidade do efluente, pelas metas de lançamento, pelo custo e pela área.
+y1305	emd	3	Mostre se o poluente foi degradado ou apenas mudou de lugar, como da água para o lodo ou para o ar.
+y1306	te	2	Diga o indicador usado, como coliformes, e a redução obtida.
+y1307	te	2	A DBO mede a matéria orgânica que os microrganismos degradam. A DQO, o que é oxidado quimicamente. A relação entre elas indica a biodegradabilidade.
+y1308	temd	2	Diga a quantidade gerada, as características e o destino do lodo.
+y1309	temd	2	Diga a vazão, a carga, o tempo de detenção e a norma usada.
+y1310	emd	2	Mostre como o sistema responde a picos de carga.
+y1311	emd	2	Cite as ameaças, como seca e contaminação, e os pontos frágeis do sistema.
+y1312	temd	2	As emissões diretas vêm de fontes próprias. As indiretas, de energia comprada ou da cadeia de valor.
+y1313	md	3	Explique as etapas incluídas e excluídas e o efeito dessa escolha.
+y1314	emd	3	Diga o modelo de dispersão e os dados meteorológicos usados.
+y1315	emd	2	Explique o mecanismo, como biorremediação ou lavagem, e a eficiência.
+y1316	temd	2	Diga os ensaios ou modelos usados para estimar a lixiviação.
+y1317	te	1	Cite a classificação do resíduo e a norma de disposição.
+y1318	temd	2	Diga a vazão de pico e se o sistema dá conta.
+y1319	te	1	Mitigação reduz o impacto. Compensação repara em outro lugar o que não pôde ser evitado.
+y1320	md	3	Explique como somou impactos de vários empreendimentos na mesma área.
+y1321	emd	2	Compare desempenho e custo por unidade tratada.
+# Ciências da Saúde
+y1322	te	1	Sensibilidade é a capacidade de detectar quem tem a condição. Especificidade, a de reconhecer quem não tem. Diga os valores do seu teste ou do teste citado.
+y1323	md	3	Explique que a indicação do tratamento pode estar ligada à gravidade, e diga como ajustou isso, por exemplo com escore de propensão.
+y1324	temd	2	Justifique cada critério pela pergunta e pela segurança, e diga como eles afetam a generalização.
+y1325	emd	2	O desfecho substituto, como um exame de laboratório, pode não refletir o desfecho clínico, como morte ou qualidade de vida. Diga qual você usou.
+y1326	temd	2	Compare a diferença encontrada com a diferença mínima que importa para o paciente.
+y1327	te	2	O risco absoluto é a diferença de ocorrência. O relativo é a razão. Mostre os dois e o número necessário para tratar.
+y1328	temd	2	Diga como as comorbidades foram registradas e ajustadas na análise.
+y1329	md	3	Explique o viés que surge quando só parte dos pacientes faz o exame de referência, e como foi evitado.
+y1330	emd	2	Compare a sua amostra com os pacientes da prática real.
+y1331	te	1	Eficácia é o efeito em condições ideais. Efetividade é o efeito na prática real.
+y1332	temd	2	Diga os eventos adversos monitorados e a frequência observada.
+y1333	te	2	Mostre a estimativa com o intervalo e se ele cruza o valor de nenhum efeito.
+y1334	temd	2	Diga os critérios clínicos e os exames usados para distinguir as hipóteses.
+y1335	md	3	Explique que prever o desfecho não prova que o fator o causa, e que desenho permitiria afirmar causa.
+y1336	temd	2	Diga a proporção de perdas, as razões e como tratou na análise.
+y1337	md	3	Mostre se o efeito muda entre subgrupos e se isso foi planejado antes.
+y1338	emd	2	Diga como o resultado ajuda o paciente a decidir junto com o profissional.
+y1339	te	1	O diagnóstico de enfermagem trata da resposta da pessoa ao problema de saúde. O médico trata da doença.
+y1340	te	2	Explique o critério usado, como risco de vida ou necessidades humanas básicas.
+y1341	temd	2	Cite o instrumento de avaliação de risco e as medidas preventivas.
+y1342	temd	2	Diga os indicadores usados e o que eles mostram sobre o cuidado.
+y1343	te	2	Cite o protocolo, como Manchester, e os critérios de cada nível.
+y1344	temd	2	Diga as barreiras encontradas e como foram identificadas.
+y1345	temd	2	Mostre como falhas de comunicação afetam a segurança na passagem de cuidado.
+y1346	te	2	O cuidado centrado na pessoa considera valores e necessidades dela. O centrado na tarefa foca o procedimento.
+y1347	temd	2	Diga os indicadores de continuidade e os pontos de ruptura encontrados.
+y1348	temd	2	Justifique pela validade, pela confiabilidade e pela adequação à população.
+y1349	emd	2	Diga como verificou a completude e a concordância dos registros.
+y1350	emd	2	Cite os fatores estudados e o instrumento usado.
+y1351	te	1	Diga as medidas, como higiene das mãos e precauções, e os indicadores de infecção.
+y1352	temd	2	Compare antes e depois, ou com um grupo controle, e cite os indicadores.
+y1353	te	2	Explique a base, como a Política Nacional de Humanização, e as ações propostas.
+y1354	temd	2	Diga como adaptou linguagem, exemplos e práticas ao público.
+y1355	temd	2	Mostre como o paciente participou das decisões.
+y1356	emd	2	O indicador de processo mede o que foi feito. O de resultado mede o efeito no paciente.
+y1357	emd	3	Diga como a forma de selecionar participantes pode ter distorcido o resultado.
+y1358	temd	2	Explique a razão entre taxas de dois grupos e o que ela indica.
+y1359	te	2	Explique que a padronização permite comparar populações com estruturas etárias diferentes.
+y1360	md	3	Diga quais fatores não medidos podem restar e como avaliou a sensibilidade a eles.
+y1361	md	3	Confundimento distorce a associação. Modificação de efeito é a associação mudar entre grupos.
+y1362	emd	3	Explique que associações entre grupos não valem automaticamente para indivíduos.
+y1363	emd	2	A desigualdade absoluta é a diferença entre taxas. A relativa é a razão. Mostre as duas.
+y1364	temd	2	Diga os critérios clínicos, laboratoriais e de tempo e lugar usados para definir caso.
+y1365	emd	2	Compare a amostra com a população em características importantes.
+y1366	emd	2	A cobertura mede quantos foram alcançados. O impacto mede o efeito no desfecho.
+y1367	temd	2	Cite os determinantes, como renda, escolaridade e moradia, e como os mediu.
+y1368	emd	3	Diga o desenho de avaliação e o grupo de comparação.
+y1369	emd	3	Mostre tendência e sazonalidade e o método, como modelos de séries temporais.
+y1370	temd	2	Justifique pela forma de transmissão e pela evidência das medidas.
+y1371	emd	2	Diga a completude, a consistência e as limitações dos registros.
+y1372	te	2	Necessidade é o que a pessoa precisa. Demanda é o que ela procura no serviço.
+y1373	temd	2	Cite barreiras geográficas, financeiras e organizacionais encontradas.
+y1374	emd	3	Mostre a distribuição dos recursos em relação às necessidades.
+y1375	te	1	A farmacocinética é o que o organismo faz com o fármaco. A farmacodinâmica, o que o fármaco faz no organismo.
+y1376	te	2	Mostre a dose que gera metade do efeito máximo e a forma da curva.
+y1377	temd	2	Diga a fração do fármaco que chega à circulação e como foi medida.
+y1378	temd	2	Cite o mecanismo da interação e a relevância clínica.
+y1379	temd	2	Diga as condições do teste e o prazo de validade definido.
+y1380	tem	2	Potência é a dose necessária para o efeito. Eficácia é o efeito máximo possível.
+y1381	te	2	É a faixa entre a dose eficaz e a tóxica. Diga se ela é estreita no seu caso.
+y1382	emd	2	Explique a perda do fármaco no fígado antes de chegar à circulação.
+y1383	emd	2	Cite os critérios, como bioequivalência, e os parâmetros comparados.
+y1384	md	3	Cite o mecanismo, como efluxo ou mutação no alvo, e a evidência.
+y1385	emd	2	Diga a fonte das notificações e as limitações.
+y1386	temd	2	Diga quantos medicamentos e os riscos de interação e de eventos adversos.
+y1387	te	1	A toxicidade aguda aparece logo após exposição alta. A crônica, após exposição repetida.
+y1388	te	2	Cite os controles de veículo e os positivos usados.
+y1389	md	3	Diga os fatores que explicam a variação, como genética, idade e função renal.
+y1390	emd	3	Explique o mecanismo de liberação e o perfil obtido.
+y1391	temd	2	Diga como mediu a adesão e as barreiras encontradas.
+y1392	md	3	Mostre a relação entre concentração no sangue e efeito.
+y1393	temd	2	Cite o esquecimento e a subnotificação, e como os reduziu.
+y1394	emd	2	Explique que um único dia não representa o consumo habitual e como estimou o habitual.
+y1395	te	1	Cite as curvas de referência e os pontos de corte usados.
+y1396	te	2	Diga o método, como bioimpedância, e as limitações.
+y1397	emd	2	Explique fatores que alteram a absorção do nutriente.
+y1398	md	3	Mostre como ajustou pela energia total consumida.
+y1399	te	2	Cite a equação ou o método e a população para a qual foi validado.
+y1400	temd	2	Diga a classificação usada, como a NOVA, e os efeitos observados.
+y1401	temd	2	Cite os marcadores e os valores de referência.
+y1402	temd	2	Diga como mediu a adesão e o efeito nos desfechos.
+y1403	emd	3	Mostre que o efeito do padrão alimentar pode diferir do efeito de nutrientes isolados.
+y1404	temd	2	Cite a escala, como a EBIA, e os fatores associados.
+y1405	te	2	Diga os critérios por faixa etária e a referência.
+y1406	temd	2	Mostre como o consumo variou entre estações.
+y1407	temd	2	Compare antes e depois, com controle se possível.
+y1408	md	3	Diga as interações estudadas e os mecanismos propostos.
+y1409	temd	2	Diga como considerou hábitos e cultura alimentar.
+y1410	te	2	O peso pode mudar sem mudar a composição. Diga o que você mediu.
+y1411	tem	2	A atividade indica lesão em progressão. A experiência acumulada, o histórico, como no CPO-D.
+y1412	temd	2	Diga a calibração dos examinadores e o índice de concordância.
+y1413	te	2	Cite os parâmetros, como profundidade de sondagem e sangramento, e a classificação usada.
+y1414	te	2	A profundidade de sondagem mede a bolsa. A perda de inserção mede a destruição dos tecidos de suporte.
+y1415	te	1	Cite as medidas de biossegurança adotadas.
+y1416	temd	2	Cite os fatores, como material, técnica e hábitos do paciente.
+y1417	emd	2	Biocompatibilidade é a resposta do tecido ao material. Desempenho mecânico é a resistência em uso.
+y1418	te	2	Justifique pela indicação, pelas propriedades e pelo custo.
+y1419	temd	2	Explique o papel do biofilme nas doenças estudadas.
+y1420	emd	2	Diga a validade e a confiabilidade dos índices usados.
+y1421	emd	3	Explique a teoria hidrodinâmica e a evidência.
+y1422	temd	2	Diga como mediu a adesão e as barreiras.
+y1423	te	1	Explique o isolamento usado e o efeito na adesão do material.
+y1424	temd	2	Cite hábitos como bruxismo e o efeito observado.
+y1425	te	1	O resultado estético é a aparência. O funcional é a mastigação, a fala e o conforto.
+y1426	temd	2	Diga o tempo de acompanhamento e a taxa de sucesso.
+y1427	te	2	Cite os critérios clínicos e a evidência que indicam o procedimento.
+y1428	emd	2	Diga o instrumento usado e o que os pacientes relataram.
+y1429	te	1	Deficiência é alteração do corpo. Limitação de atividade é a dificuldade de realizar tarefas, segundo a CIF.
+y1430	temd	2	Diga a confiabilidade entre avaliadores e entre repetições.
+y1431	te	2	Justifique pela validade, pela confiabilidade e pelo uso na população.
+y1432	emd	2	É a menor mudança que o paciente percebe como importante. Compare a sua mudança com ela.
+y1433	emd	3	Mostre o efeito de diferentes doses e frequências.
+y1434	temd	2	Mostre a relação entre dor e desempenho nos seus dados.
+y1435	emd	3	Recuperação é voltar ao padrão anterior. Compensação é fazer a tarefa de outro modo.
+y1436	temd	2	Diga a validade do teste para a sua população.
+y1437	te	2	Explique o critério de progressão, como dor ou desempenho.
+y1438	te	1	Diga como mediu a amplitude de movimento e a mudança observada.
+y1439	emd	2	Explique a melhora que vem só de repetir o teste e como a controlou.
+y1440	temd	2	Cite as barreiras ambientais e como foram avaliadas.
+y1441	emd	3	Mostre se a melhora no teste aparece no dia a dia.
+y1442	te	2	Explique as adaptações e o objetivo de cada uma.
+y1443	temd	2	Diga como mediu a adesão e as estratégias usadas.
+y1444	te	2	Diga o instrumento, como a MIF, e o que os escores indicam.
+y1445	temd	2	Diga o dispositivo e o efeito na funcionalidade.
+y1446	temd	2	Cite os sinais monitorados para evitar sobrecarga.
+y1447	te	2	A carga externa é o trabalho feito. A interna é a resposta do organismo a ele.
+y1448	te	2	Diga a validade do teste para a população e o objetivo.
+y1449	temd	2	Explique a organização em ciclos e o objetivo de cada fase.
+y1450	temd	2	Mostre como a fadiga alterou o desempenho e como foi medida.
+y1451	te	1	Força máxima é o maior esforço possível. Potência é força vezes velocidade.
+y1452	emd	2	Diga a confiabilidade do instrumento, como acelerômetro ou questionário.
+y1453	te	2	Cite as adaptações e o tempo necessário para elas aparecerem.
+y1454	emd	2	Mostre como a maturação influenciou o desempenho em jovens.
+y1455	te	2	Cite o critério, como frequência cardíaca ou percepção de esforço.
+y1456	temd	2	Mostre como o tempo de recuperação alterou o desempenho.
+y1457	temd	2	Explique a semelhança do exercício com a habilidade alvo.
+y1458	emd	2	A aprendizagem é mudança duradoura. O desempenho imediato pode ser temporário. Diga se fez teste de retenção.
+y1459	te	2	Diga a resposta da frequência cardíaca e da pressão ao exercício.
+y1460	te	2	Cite os sinais de risco e como dosou a progressão.
+y1461	temd	2	Diga os critérios e como garantiu a concordância entre avaliadores.
+y1462	temd	2	Mostre como o contexto social afetou a participação.
+y1463	tem	2	Comportamento sedentário é ficar sentado. Inatividade é não atingir a atividade física recomendada.
+y1464	md	3	Mostre que a mudança supera o erro de medida e a variação natural de cada pessoa.
+# Ciências Agrárias
+y1465	te	1	Justifique pela adaptação à região, pelo ciclo, pela resistência a doenças e pelo objetivo do produtor.
+y1466	emd	3	Mostre se as cultivares mudam de posição entre ambientes, em ensaios em vários locais ou anos.
+y1467	te	1	Explique o que pH, matéria orgânica e teores de nutrientes indicam sobre a necessidade de correção.
+y1468	te	2	Use sintomas, análise foliar e umidade do solo para separar as duas causas.
+y1469	te	2	Justifique pela análise de solo, pela exigência da cultura e pelas tabelas de recomendação.
+y1470	temd	2	Diga o período crítico de competição e as perdas observadas.
+y1471	temd	2	Mostre o efeito no solo, nas pragas e na produtividade ao longo dos ciclos.
+y1472	te	2	Explique o nível de controle, o monitoramento e a combinação de métodos.
+y1473	emd	2	Mostre como chuva e temperatura explicaram a variação da produtividade.
+y1474	temd	2	Diga como mediu a compactação e o efeito nas raízes e na produtividade.
+y1475	temd	2	Justifique pela variação da área, pelo número de repetições e pelo controle local.
+y1476	temd	2	Cite as condições de vento e as técnicas para reduzir a deriva.
+y1477	emd	2	Diga o modelo ajustado e a dose de máxima eficiência econômica.
+y1478	te	2	Cite germinação, vigor e os testes usados.
+y1479	te	2	Justifique pela demanda da cultura, pelo clima e pela umidade do solo.
+y1480	temd	2	Mostre o efeito na umidade, na temperatura e na erosão do solo.
+y1481	emd	2	Compare produtividade e custo de cada manejo.
+y1482	temd	2	Diga os sinais e os exames que distinguem as doenças em cada espécie.
+y1483	te	2	A infecção subclínica não mostra sinais. Diga como a identificou.
+y1484	te	1	Compare com os valores de referência da espécie e explique as alterações.
+y1485	temd	2	Diga a cobertura e a resposta imune obtidas.
+y1486	temd	2	Explique a via de transmissão e a evidência.
+y1487	te	1	Cite as normas de bem-estar e o método de contenção usado.
+y1488	emd	3	Diga o que o modelo representa bem e o que limita a extrapolação.
+y1489	te	2	Cite os indicadores, como mortalidade, produção e escores clínicos.
+y1490	te	1	Cite as medidas e a avaliação de risco.
+y1491	temd	2	Diga a investigação feita, como necropsia e exames.
+y1492	temd	2	Justifique pela epidemiologia da doença e pelo risco.
+y1493	emd	2	Mostre a relação entre nutrição e resposta imune.
+y1494	temd	2	Descreva as lesões e o que elas indicam.
+y1495	temd	2	Mostre como o manejo alterou a ocorrência da doença.
+y1496	md	3	Explique que um teste pode ter bom desempenho no rebanho sem ser preciso para cada animal.
+y1497	emd	2	Cite o uso de antimicrobianos e o perfil de resistência.
+y1498	emd	2	Diga a base de evidência e os resultados do protocolo.
+y1499	emd	2	Explique a abordagem Saúde Única e os elos encontrados.
+y1500	te	1	É a quantidade de alimento consumido para cada quilo de ganho. Diga o valor e o que ele indica.
+y1501	te	2	Cite as tabelas de exigência e a fase produtiva.
+y1502	temd	2	Diga o método, como coleta total ou indicador, e os valores obtidos.
+y1503	emd	2	Mostre se o ganho foi de músculo, gordura ou água.
+y1504	temd	2	Cite os indicadores, como comportamento e escore corporal.
+y1505	temd	2	Justifique pelos objetivos e pela herdabilidade das características.
+y1506	md	3	Explique a acurácia e o que o valor genético prevê sobre a progênie.
+y1507	temd	2	Mostre o efeito da densidade no desempenho e no bem-estar.
+y1508	temd	2	Diga os componentes testados e o efeito no desempenho.
+y1509	emd	2	Mostre se analisou o animal ou o lote como unidade.
+y1510	te	2	Justifique pela deficiência a corrigir e pelo retorno esperado.
+y1511	te	2	Cite taxa de prenhez, intervalo entre partos e outros indicadores.
+y1512	temd	2	Diga a lotação, a oferta de forragem e o desempenho por área.
+y1513	md	3	Mostre as emissões por unidade produzida e como mudam com a produtividade.
+y1514	temd	2	Mostre o efeito do manejo na carne, no leite ou nos ovos.
+y1515	te	2	Explique como formou grupos homogêneos e casualizados.
+y1516	temd	2	Diga o custo de alimentação por quilo produzido.
+y1517	emd	3	Compare os dois sistemas por indicadores de bem-estar e de eficiência.
+y1518	te	2	Justifique pelo tipo de floresta, pela precisão desejada e pelo custo.
+y1519	temd	2	Diga como alocou as parcelas e se cobrem a variação da área.
+y1520	temd	2	Diga a equação, a origem e se é adequada à sua floresta.
+y1521	te	1	O volume comercial é a madeira aproveitável. A biomassa total inclui galhos, folhas e raízes.
+y1522	temd	2	Mostre a distribuição dos diâmetros e o que ela indica sobre a floresta.
+y1523	temd	2	Cite banco de sementes, rebrota e dispersão.
+y1524	te	2	Justifique pela adaptação, pela função ecológica e pela disponibilidade de mudas.
+y1525	te	2	Cite incremento em diâmetro, altura e volume.
+y1526	temd	2	Mostre o efeito no crescimento das árvores restantes.
+y1527	emd	2	Diga o método, como equações alométricas e fatores de conversão, e as incertezas.
+y1528	temd	2	Mostre como o fogo alterou a regeneração.
+y1529	emd	3	Compare a taxa de exploração com a taxa de crescimento da floresta.
+y1530	te	2	A qualidade é a propriedade da madeira. A produtividade é o volume produzido.
+y1531	temd	2	Cite tamanho, forma e isolamento dos fragmentos e o efeito observado.
+y1532	temd	2	Cite os indicadores, como composição, estrutura e grupos ecológicos.
+y1533	temd	2	Cite as pragas e doenças e o monitoramento feito.
+y1534	emd	2	Mostre como a restauração liga fragmentos.
+y1535	emd	2	Compare custo e resultado de cada técnica.
+y1536	te	2	A atividade de água indica a água disponível para microrganismos e reações. Diga o valor e o efeito.
+y1537	te	2	A deterioração microbiológica envolve crescimento de microrganismos. A química, reações como a oxidação.
+y1538	temd	2	Justifique pelo binômio tempo e temperatura para segurança e qualidade.
+y1539	temd	2	Explique dureza, coesividade e outros parâmetros medidos.
+y1540	emd	2	Diga o método, como índice de peróxidos, e o resultado.
+y1541	temd	2	Compare a vida útil em diferentes embalagens.
+y1542	te	2	Explique o tipo de teste, o número de provadores e a escala.
+y1543	emd	2	Cite como controlou vieses, com codificação e ordem aleatória.
+y1544	te	2	Mostre as mudanças de cor e a causa provável.
+y1545	te	2	Explique como o pH afeta o crescimento de microrganismos.
+y1546	temd	2	Explique a análise de perigos e a escolha dos pontos críticos.
+y1547	temd	2	Diga a retenção medida após o processamento.
+y1548	emd	2	Explique a separação de fases e a estabilidade da emulsão.
+y1549	te	2	Justifique pelo tipo de alimento e pelos microrganismos alvo.
+y1550	md	3	Diga o modelo cinético e a constante de degradação.
+y1551	temd	2	Justifique pela evidência do benefício e pela estabilidade no produto.
+y1552	md	3	Mostre se o produto mantém a qualidade quando a produção aumenta.
+y1553	emd	2	Compare qualidade e consumo de energia das tecnologias.
+# Ciências Sociais Aplicadas
+y1554	te	2	Justifique pela hierarquia normativa e pela pertinência ao problema, citando leis, decisões e doutrina usadas.
+y1555	emd	3	Mostre os princípios em tensão e o método de solução, como a ponderação, aplicado ao caso.
+y1556	temd	2	O precedente vinculante obriga os demais órgãos. O persuasivo apenas orienta. Cite exemplos do seu corpus.
+y1557	emd	2	Separe a razão de decidir, que fundamenta a decisão, dos comentários acessórios do julgado.
+y1558	emd	3	Mostre os limites legais e os princípios que restringem a escolha do administrador.
+y1559	md	3	Aplique adequação, necessidade e proporcionalidade em sentido estrito ao caso concreto.
+y1560	te	2	Validade é a norma existir conforme o ordenamento. Eficácia é produzir efeitos na realidade.
+y1561	emd	2	Compare o que a norma prevê com o que acontece, com dados ou casos.
+y1562	temd	2	Justifique o período por mudanças legais, decisões marcantes ou disponibilidade dos julgados.
+y1563	emd	3	Mostre a mudança, as decisões que a marcaram e os motivos apresentados pelos tribunais.
+y1564	md	3	Explique que quem defende a exceção precisa de argumentos mais fortes que os da regra geral.
+y1565	emd	2	Mostre como a ausência de regra afeta as decisões e como os julgadores preenchem a lacuna.
+y1566	temd	2	Cite os elementos exigidos, como conduta, dano e nexo causal, e como aparecem no caso.
+y1567	md	3	Justifique a escolha dos países pela semelhança dos problemas e pelas diferenças institucionais relevantes.
+y1568	md	3	A análise dogmática interpreta as normas. A empírica observa como o direito funciona na prática. Diga qual você fez.
+y1569	md	3	Mostre os efeitos da interpretação sobre instituições, como volume de processos ou incentivos.
+y1570	emd	3	Mostre os dispositivos constitucionais que limitam a proposta e a jurisprudência pertinente.
+y1571	emd	2	A estratégia deliberada é planejada. A emergente surge das ações ao longo do tempo. Diga qual predominou no caso.
+y1572	temd	2	Diga se os indicadores medem o que importa para o objetivo e se podem ser manipulados.
+y1573	te	2	Justifique pelos critérios usados, como comportamento, perfil ou necessidade, e pela utilidade prática.
+y1574	emd	3	Explique o conflito de interesses entre proprietários e gestores e os mecanismos de controle.
+y1575	md	3	Mostre se a vantagem se sustenta no tempo e por que é difícil de copiar.
+y1576	te	2	Diga como mediu satisfação e retenção e a relação entre elas.
+y1577	temd	2	Justifique pela estratégia, pelo tamanho e pelo ambiente da organização.
+y1578	temd	2	Cite barreiras como recursos, cultura e comunicação, e a evidência.
+y1579	emd	2	Diga o estilo de liderança estudado e como mediu o efeito nas equipes.
+y1580	te	1	A inovação incremental melhora algo existente. A radical cria algo novo que muda o mercado.
+y1581	temd	2	Analise receitas, custos, recursos e riscos do modelo ao longo do tempo.
+y1582	temd	2	Justifique pelo retorno esperado, pela prioridade estratégica e pelo risco.
+y1583	te	2	Explique o instrumento e o que os resultados indicam sobre o clima.
+y1584	emd	2	Mapeie os stakeholders pelo poder e pelo interesse, e mostre a influência deles.
+y1585	emd	3	Cite os mecanismos, como conselho, auditoria e transparência, e o efeito deles.
+y1586	temd	2	Explique que intenção declarada nem sempre vira compra, e como mediu cada uma.
+y1587	temd	2	Cite a matriz de risco e os critérios de probabilidade e impacto.
+y1588	md	3	Mostre como os incentivos mudam o comportamento dos gestores, com evidência.
+y1589	te	1	O efeito nominal está em valores correntes. O real desconta a inflação.
+y1590	te	2	A elasticidade mostra a variação percentual de uma variável diante da variação de outra. Diga o valor e o que indica.
+y1591	emd	3	Diga se o pressuposto de racionalidade é razoável no seu caso e o que muda se ele falhar.
+y1592	md	3	Justifique pela pergunta e pelos mercados envolvidos, como equilíbrio parcial ou geral.
+y1593	md	3	Explique as fontes de endogeneidade e o método usado, como variável instrumental.
+y1594	temd	2	Eficiência é usar bem os recursos. Equidade é a distribuição justa. Pode haver conflito entre elas.
+y1595	te	1	O custo de oportunidade é o valor da melhor alternativa abandonada.
+y1596	md	3	Explique a estratégia de identificação e as hipóteses que ela exige.
+y1597	md	3	Mostre que o instrumento é relevante e só afeta o resultado pela variável explicativa.
+y1598	temd	2	Mostre como o efeito muda com o tempo e por que isso acontece.
+y1599	emd	2	Mostre os efeitos para grupos diferentes, como renda ou região.
+y1600	emd	3	Explique como as expectativas entraram no modelo e o efeito delas.
+y1601	md	3	Descreva os canais pelos quais o choque se espalha na economia.
+y1602	md	3	Explique o que teria acontecido sem a intervenção e como você estimou isso.
+y1603	emd	3	Diga quais variáveis podem faltar e o efeito delas sobre as estimativas.
+y1604	temd	2	Cite o índice, como HHI, e o que ele indica sobre a competição.
+y1605	te	1	Crescimento é aumento da produção. Desenvolvimento inclui melhora nas condições de vida.
+y1606	emd	3	Mostre como as projeções mudam com premissas diferentes.
+y1607	te	1	O regime de competência registra quando o fato ocorre. O de caixa, quando o dinheiro entra ou sai.
+y1608	te	2	O lucro pode existir sem dinheiro em caixa. Mostre as diferenças no seu caso.
+y1609	temd	2	Justifique pelo custo histórico ou pelo valor justo e pela norma aplicada.
+y1610	emd	2	Mostre como as provisões afetaram o resultado e o patrimônio.
+y1611	emd	2	Explique o critério de materialidade e como foi aplicado.
+y1612	te	2	O risco sistemático afeta o mercado todo. O específico afeta uma empresa e pode ser diversificado.
+y1613	emd	3	Justifique pelo custo de capital e pelo risco do projeto.
+y1614	te	2	O VPL traz os fluxos futuros ao valor presente. Positivo indica que o projeto cria valor.
+y1615	emd	3	Mostre como a proporção entre dívida e capital próprio afetou valor e risco.
+y1616	te	1	Liquidez é pagar dívidas de curto prazo. Solvência é pagar todas as dívidas no longo prazo.
+y1617	emd	2	Cite os critérios de qualidade, como relevância e representação fiel.
+y1618	te	2	Explique os indicadores, como ROE e ROA, e o que mostram.
+y1619	emd	2	Justifique o tamanho e a seleção da amostra pelo risco.
+y1620	temd	2	Mostre as falhas de controle e os riscos que elas geram.
+y1621	md	3	Mostre como políticas contábeis diferentes afetam a comparação entre empresas.
+y1622	emd	3	Mostre como o valor muda com as premissas.
+y1623	te	2	O custo fixo não varia com a produção. O variável acompanha o volume produzido.
+y1624	emd	3	Explique por que o valor contábil difere do valor econômico no seu caso.
+y1625	temd	2	Mostre como o partido arquitetônico responde às necessidades do programa.
+y1626	te	2	Diga como a orientação afeta insolação e conforto, com estudos solares.
+y1627	te	2	Mostre os fluxos e se há cruzamentos indesejados.
+y1628	te	2	Conforto térmico é a sensação das pessoas. Eficiência energética é o consumo para obtê-la.
+y1629	temd	2	Cite as estratégias e a evidência de desempenho.
+y1630	emd	2	Mostre como densidade, usos e desenho viário afetam a mobilidade.
+y1631	emd	3	Mostre os efeitos do adensamento sobre água, esgoto, transporte e serviços.
+y1632	temd	2	Explique como observou e registrou os usos do espaço público.
+y1633	temd	2	Justifique pelo desempenho, pelo custo e pela adequação ao local.
+y1634	temd	2	Mostre como o edifício conversa com o entorno em escala, acessos e paisagem.
+y1635	emd	3	Mostre o conflito e a solução proposta, com base nas cartas patrimoniais.
+y1636	md	3	Segregação implica exclusão e desigualdade. Diferenciação de usos é distribuição funcional do espaço.
+y1637	temd	2	Justifique pelos objetivos urbanos e pela legislação.
+y1638	temd	2	Mostre o efeito no escoamento da água e no clima urbano.
+y1639	temd	2	Diga o método, como questionário ou observação, e os fatores encontrados.
+y1640	temd	2	Mostre como o espaço pode se adaptar a usos diferentes.
+y1641	emd	2	Mostre como o desenho considera dimensões e percepções das pessoas.
+y1642	emd	2	Compare as alternativas por custo e desempenho ambiental.
+y1643	emd	2	O enquadramento define como o tema é apresentado. A agenda define quais temas recebem atenção.
+y1644	te	2	Cite os critérios de noticiabilidade e como foram aplicados.
+y1645	temd	2	Justifique período, veículos e critérios de inclusão.
+y1646	emd	3	Mostre como algoritmos e regras das plataformas afetam a circulação.
+y1647	te	1	O alcance é quantas pessoas viram. O engajamento é quantas interagiram.
+y1648	te	2	Cite os critérios de verificação das fontes.
+y1649	emd	3	Mostre como as escolhas de linguagem constroem a representação dos grupos.
+y1650	temd	2	Explique como as categorias foram definidas e testadas.
+y1651	md	3	Mostre os efeitos da concentração sobre a diversidade de vozes.
+y1652	temd	2	A informação incorreta é erro sem intenção. A desinformação é falsidade intencional.
+y1653	emd	2	Mostre o dilema e o critério ético adotado.
+y1654	md	3	Mostre como os discursos constroem o sentido dos acontecimentos.
+y1655	te	2	Cite as etapas de verificação usadas.
+y1656	emd	3	Mostre como as métricas digitais influenciam as decisões editoriais.
+y1657	te	1	A publicidade é paga e deve ser identificada. O conteúdo editorial segue critérios jornalísticos.
+y1658	temd	2	Diga quem foi ouvido na cobertura e quem ficou de fora.
+y1659	temd	2	Justifique as escolhas narrativas pelo público e pelo objetivo.
+y1660	md	3	Mostre como a tecnologia altera a comunicação pública.
+y1661	temd	2	A necessidade social é a demanda real das pessoas. A institucional é o que a instituição cobra ou oferece.
+y1662	emd	2	Mostre como a questão social aparece e é tratada pelas políticas públicas.
+y1663	te	2	Cite os critérios e as dimensões de vulnerabilidade usados.
+y1664	temd	2	Cite as barreiras encontradas e como foram identificadas.
+y1665	te	2	A assistência social é um direito. O assistencialismo é a ajuda sem garantia de direitos.
+y1666	emd	2	Mostre como as condições de trabalho afetam a atuação profissional.
+y1667	md	3	Mostre a tensão entre autonomia dos usuários e dependência dos serviços.
+y1668	temd	2	Explique como os usuários participaram e o efeito disso.
+y1669	temd	2	Cite o sigilo profissional e os limites do compartilhamento.
+y1670	emd	2	Mostre como os serviços da rede se articulam e onde falham.
+y1671	te	2	As ações emergenciais resolvem o imediato. As estruturantes mudam as causas.
+y1672	md	3	Explique as condições materiais e sociais de reprodução das famílias estudadas.
+y1673	te	2	Cite os instrumentos, como entrevista e visita domiciliar, e o motivo da escolha.
+y1674	temd	2	Mostre se os encaminhamentos resolveram as demandas.
+y1675	md	3	Mostre as relações de poder e como afetam o acesso aos serviços.
+y1676	emd	3	Mostre se os direitos são efetivados para além do cadastro formal.
+y1677	md	3	Mostre que problemas sociais não se explicam só por escolhas individuais.
+y1678	md	3	Mostre as contradições entre o projeto ético da profissão e as exigências das instituições.
+# Ciências Humanas
+y1679	te	1	A avaliação formativa acompanha o processo para ajustar o ensino. A somativa mede o resultado ao final.
+y1680	te	2	Mostre que cada atividade leva a um objetivo de aprendizagem declarado.
+y1681	temd	2	Diga o instrumento usado, como questionário ou entrevista, e o que ele revelou.
+y1682	te	2	A aprendizagem significativa liga o novo ao que o aluno já sabe. A memorização não cria essa ligação.
+y1683	emd	2	Diga se o instrumento mede o que pretende e como verificou isso.
+y1684	temd	2	Mostre os fatores pedagógicos e de contexto antes de atribuir a dificuldade ao aluno.
+y1685	te	2	Justifique pelas necessidades dos estudantes e pela legislação de inclusão.
+y1686	temd	2	Mostre como o contexto dos alunos afetou a aprendizagem.
+y1687	emd	2	O currículo prescrito está nos documentos. O praticado é o que acontece na sala de aula.
+y1688	emd	2	Mostre como os professores adaptam o currículo e com que margem de decisão.
+y1689	temd	2	Compare antes e depois, ou com um grupo de comparação, e cite os indicadores.
+y1690	te	2	Justifique pelo currículo, pelos objetivos e pela relevância para os estudantes.
+y1691	md	3	Mostre como a avaliação pode reproduzir ou reduzir desigualdades.
+y1692	emd	2	Participar não garante aprender. Diga como verificou a aprendizagem.
+y1693	emd	3	Mostre se os alunos aplicaram o conhecimento em situações novas.
+y1694	temd	2	Justifique pelas necessidades dos professores e pela evidência das estratégias.
+y1695	md	3	Diga o que os indicadores padronizados não captam sobre a qualidade da educação.
+y1696	emd	2	O construto é a característica teórica. O indicador é o que se observa para medi-la.
+y1697	md	3	Cite as evidências, como conteúdo, estrutura interna e relação com outras variáveis.
+y1698	md	3	A consistência interna mostra que os itens medem algo em comum. Isso não prova que medem o construto certo.
+y1699	temd	2	Justifique pela pergunta e pelo que a abordagem permite compreender.
+y1700	emd	3	Sintomas correlacionados não bastam para um diagnóstico, que exige critérios clínicos.
+y1701	emd	3	Mostre como a cultura pode alterar respostas e como adaptou o instrumento.
+y1702	emd	2	Mostre as diferenças encontradas e os fatores que as explicam.
+y1703	md	3	Cite o critério de mudança clínica significativa usado.
+y1704	temd	2	Mostre como a relação pode afetar as respostas e como lidou com isso.
+y1705	emd	3	Diga o modelo de regulação emocional e como mediu.
+y1706	md	3	O traço é estável ao longo do tempo. O estado varia com a situação.
+y1707	temd	2	Cite os cuidados para não rotular as pessoas e para respeitar o sigilo.
+y1708	emd	3	Mostre como as expectativas dos participantes ou do pesquisador podem ter afetado os resultados.
+y1709	md	3	Cite as etapas, como tradução, retrotradução, comitê de juízes e teste piloto.
+y1710	md	3	Mostre se o instrumento mede o mesmo construto nos diferentes grupos.
+y1711	emd	2	Mostre como o ambiente influencia o desenvolvimento.
+y1712	emd	2	Cite os fatores de proteção e o efeito deles.
+y1713	md	3	Mostre que você considerou fatores biológicos, sociais e subjetivos, sem reduzir a um só.
+y1714	md	3	Diga o critério de classe usado, como renda, ocupação ou escolaridade, e o porquê.
+y1715	emd	3	Mostre os mecanismos que fazem a desigualdade se repetir entre gerações.
+y1716	temd	2	Mostre como instituições moldam práticas e são moldadas por elas.
+y1717	emd	2	Explique os critérios de estratificação e a evidência.
+y1718	md	3	As categorias analíticas são do pesquisador. As nativas são as dos próprios participantes.
+y1719	emd	3	Mostre como a sua posição social pode ter influenciado o acesso e a interpretação.
+y1720	md	3	Mostre os mecanismos que tornam o poder aceito como legítimo.
+y1721	emd	2	Mostre como o capital cultural afeta o acesso a oportunidades.
+y1722	emd	2	Diga até onde o caso permite generalizar, por exemplo por generalização analítica.
+y1723	md	3	Mostre se a mudança é duradoura ou apenas conjuntural.
+y1724	emd	2	Mostre como as redes sociais dão acesso a recursos.
+y1725	temd	2	Mostre como normas não escritas regulam o comportamento no grupo.
+y1726	emd	3	Mostre como as identidades coletivas se constroem e se mantêm.
+y1727	temd	2	Justifique a comparação pela semelhança e pela diferença relevante entre os grupos.
+y1728	emd	3	Mostre os mecanismos que levam as pessoas a agir em conjunto.
+y1729	md	3	Mostre se o grupo está fora ou incluído de forma subordinada.
+y1730	md	3	Mostre como gênero, raça e classe se combinam nas experiências estudadas.
+y1731	emd	3	Compare o que as instituições dizem com o que fazem.
+y1732	emd	2	A perspectiva êmica é a dos participantes. A ética é a do pesquisador.
+y1733	te	2	Justifique pela posição dos interlocutores e pela relação com a pergunta.
+y1734	emd	3	Mostre como a sua presença pode ter alterado o campo.
+y1735	emd	2	Mostre as trocas observadas e o que elas revelam sobre as relações.
+y1736	temd	2	Justifique pelo tempo necessário para compreender as práticas.
+y1737	md	3	A descrição densa interpreta os significados. A simples descreve os eventos.
+y1738	md	3	Mostre os limites de traduzir categorias de uma cultura para outra.
+y1739	emd	2	Interprete os rituais a partir do contexto em que acontecem.
+y1740	md	3	Mostre como se constrói a ideia do outro e quem a constrói.
+y1741	te	2	Cite caderno de campo, gravações e outros registros, e o motivo.
+y1742	md	3	Mostre o que silêncios e recusas revelam sobre o campo.
+y1743	emd	3	Compare o que as pessoas dizem com o que fazem.
+y1744	md	3	Mostre as relações de poder entre pesquisador e interlocutores.
+y1745	emd	3	Mostre como bens e significados circulam entre as pessoas.
+y1746	temd	2	Diga como os resultados foram devolvidos aos interlocutores.
+y1747	temd	2	Cite os cuidados com conhecimentos tradicionais e o consentimento.
+y1748	md	3	Mostre as divergências internas do grupo sem tratá-lo como homogêneo.
+y1749	emd	3	Mostre como práticas e identidades mudaram ao longo do tempo.
+y1750	te	1	A fonte primária é do período estudado. A interpretação historiográfica é a leitura posterior dos historiadores.
+y1751	temd	2	Diga quem produziu o documento, quando e onde, e como verificou isso.
+y1752	temd	2	Justifique os marcos pelo processo histórico estudado.
+y1753	temd	2	Mostre que você não aplicou valores ou conceitos de hoje ao passado sem cuidado.
+y1754	emd	3	Mostre o que falta nos arquivos e o efeito disso na interpretação.
+y1755	emd	2	Compare os testemunhos e explique as diferenças.
+y1756	temd	2	Justifique a seleção dos documentos pela pergunta e pela disponibilidade.
+y1757	md	3	Mostre como o caso particular se liga ao processo mais amplo.
+y1758	emd	2	Explique por que, por quem e para quem a fonte foi produzida.
+y1759	emd	2	Mostre o que mudou e o que continuou no período.
+y1760	temd	2	A sucessão é uma coisa vir depois da outra. A causalidade exige explicar o vínculo entre elas.
+y1761	emd	2	Cite os limites da memória e como cruzou com outras fontes.
+y1762	md	3	Mostre os grupos em disputa pela memória e os interesses envolvidos.
+y1763	md	3	Mostre como categorias atuais podem distorcer a leitura do passado.
+y1764	emd	3	Mostre como as ideias circularam e se transformaram.
+y1765	md	3	Mostre que as consequências das ações podem diferir das intenções dos agentes.
+y1766	temd	2	Mostre o que as fontes materiais acrescentam às escritas.
+y1767	md	3	Compare as interpretações e diga por que a sua é mais convincente.
+y1768	te	2	Justifique a escala, como local, regional ou global, pela pergunta.
+y1769	te	2	O espaço geográfico é mais amplo. O território implica poder e apropriação.
+y1770	temd	2	Mostre como a resolução dos dados afeta os padrões encontrados.
+y1771	temd	2	Mostre como sociedade e natureza se influenciam no seu caso.
+y1772	te	2	Justifique pela área estudada e pelo que precisa ser preservado, como área, forma ou distância.
+y1773	temd	2	Diga a matriz de confusão e a exatidão global do mapa.
+y1774	md	3	Mostre como a escolha das unidades espaciais pode alterar os resultados.
+y1775	emd	3	Valores próximos no espaço se parecem, mas isso não prova que um causa o outro.
+y1776	emd	2	Mostre os padrões de segregação e os fatores que os explicam.
+y1777	temd	2	Justifique as categorias de paisagem usadas.
+y1778	temd	2	Diga os dados, como MapBiomas ou imagens de satélite, e as mudanças encontradas.
+y1779	temd	2	Cite limites como resolução, nuvens e erros de classificação.
+y1780	emd	3	Mostre como redes de fluxos definem centralidades.
+y1781	emd	2	A exposição é estar sujeito ao perigo. A vulnerabilidade é a capacidade de sofrer dano e se recuperar.
+y1782	emd	2	Justifique o recorte regional e se ele representa a realidade.
+y1783	emd	2	Mostre os atores em conflito e os interesses de cada um.
+y1784	emd	3	Mostre como os padrões espaciais mudam com o tempo.
+y1785	emd	2	Mostre como a mobilidade afeta o acesso a serviços e oportunidades.
+y1786	te	1	Um argumento válido tem conclusão que decorre das premissas. Isso não garante que as premissas sejam verdadeiras.
+y1787	md	3	Mostre o que a tese supõe que existe e se isso é defensável.
+y1788	md	3	Justifique a posição pelos argumentos e responda às objeções principais.
+y1789	temd	2	Verifique se as premissas não se contradizem e se a conclusão decorre delas.
+y1790	te	1	A dedução garante a conclusão se as premissas forem verdadeiras. A indução torna a conclusão provável.
+y1791	emd	3	Construa a objeção mais forte possível e mostre como a tese responde a ela.
+y1792	temd	2	Explique o conceito no contexto do autor e do período, antes de usá-lo hoje.
+y1793	te	1	A descrição diz como as coisas são. A prescrição diz como deveriam ser.
+y1794	emd	3	Mostre se o experimento mental depende de intuições compartilhadas e o que ele prova.
+y1795	md	3	Explique o critério que separa o conceito dos conceitos vizinhos.
+y1796	emd	2	Mostre os termos com mais de um sentido e como você fixou o sentido usado.
+y1797	md	3	O realismo afirma que algo existe independente de nós. O antirrealismo nega ou questiona isso.
+y1798	emd	3	Compare as teorias éticas e mostre por que levam a conclusões diferentes.
+y1799	emd	2	Mostre os passos lógicos entre premissas e conclusão.
+y1800	emd	3	Verifique se a conclusão já está suposta nas premissas.
+y1801	emd	3	Mostre onde a analogia funciona e onde ela deixa de valer.
+y1802	md	3	A explicação causal diz por que algo aconteceu. A justificação racional diz por que algo é correto.
+y1803	md	3	Mostre o que mais teríamos de aceitar se a tese fosse verdadeira.
+y1804	te	2	O poder é a capacidade de impor. A autoridade é o poder reconhecido como legítimo.
+y1805	md	3	Justifique a teoria pela pergunta e pelo que ela explica no seu caso.
+y1806	emd	3	Mostre como os representantes se ligam aos representados e com que limites.
+y1807	emd	2	A governabilidade é a capacidade de governar. A governança é o modo de coordenar atores.
+y1808	temd	2	Mostre como o sistema eleitoral afeta partidos e representação.
+y1809	emd	2	Mostre como os grupos de interesse influenciam decisões.
+y1810	md	3	Justifique os critérios de comparação e os casos escolhidos.
+y1811	emd	3	Mostre os mecanismos de responsabilização e a eficácia deles.
+y1812	md	3	A soberania formal é reconhecida juridicamente. A capacidade estatal é a habilidade real de agir.
+y1813	emd	2	Mostre se os acordos foram implementados e os fatores que explicam isso.
+y1814	md	3	Mostre como as instituições moldam as escolhas estratégicas dos atores.
+y1815	emd	3	Mostre como as diferenças de poder entre Estados afetam os resultados.
+y1816	emd	2	A cooperação é ação conjunta pontual. A integração cria instituições comuns.
+y1817	emd	2	Justifique os critérios de análise da política externa.
+y1818	md	3	Mostre a tensão entre ser legítimo e ser efetivo e como ela aparece no caso.
+y1819	emd	3	Mostre como as coalizões se formam e se mantêm.
+y1820	md	3	Mostre como a escolha dos casos pode distorcer as conclusões e como evitou isso.
+y1821	md	3	Mostre se mudaram só as regras formais ou também as práticas políticas.
+# Linguística, Letras e Artes
+y1822	te	1	A competência é o conhecimento da língua. O desempenho é o uso concreto, sujeito a limites de memória e atenção.
+y1823	temd	2	Justifique o tamanho, as fontes, o período e os critérios de inclusão do corpus.
+y1824	emd	2	Mostre se o corpus representa as variedades que você quer analisar.
+y1825	temd	2	A variação é a convivência de formas. A mudança é uma forma substituir outra no tempo.
+y1826	te	1	A fonética estuda os sons produzidos. A fonologia, o sistema de sons que distinguem significados.
+y1827	temd	2	Mostre as leituras possíveis da frase e a estrutura de cada uma.
+y1828	emd	2	A semântica trata do significado da expressão. A pragmática, do sentido no uso e no contexto.
+y1829	md	3	Mostre como uma forma lexical passou a ter função gramatical, com evidência histórica.
+y1830	emd	3	Separe o que a palavra significa do que se infere pelo contexto.
+y1831	emd	2	Diga a concordância entre anotadores e como resolveu as divergências.
+y1832	te	2	Justifique o sistema de transcrição pela pergunta e pelo nível de detalhe necessário.
+y1833	emd	3	Mostre os fatores estudados, como idade, exposição e língua materna.
+y1834	emd	2	Mostre como a frequência das palavras afeta o processamento ou a mudança.
+y1835	temd	2	O erro foge da norma sem padrão. A variante é uma forma sistemática usada por uma comunidade.
+y1836	emd	2	Justifique a linha de análise do discurso e o que ela permite ver.
+y1837	md	3	Diga os limites dos julgamentos de aceitabilidade e como controlou a variação entre falantes.
+y1838	emd	2	Mostre como o contexto influencia a escolha das formas linguísticas.
+y1839	te	1	O autor empírico é a pessoa real. O narrador é a voz que conta a história dentro do texto.
+y1840	te	2	Mostre como a forma do texto reforça o que ele diz.
+y1841	temd	2	Mostre como o ponto de vista da narração afeta a compreensão do leitor.
+y1842	te	2	O tempo da narrativa é a ordem do relato. O tempo narrado é a duração dos acontecimentos.
+y1843	temd	2	Mostre as relações com outros textos e o efeito de sentido delas.
+y1844	te	2	Interprete as figuras de linguagem no contexto da obra.
+y1845	temd	2	Justifique a abordagem crítica pelo que ela revela na obra.
+y1846	emd	2	O gênero é a forma literária. A modalidade discursiva é o modo de organização do texto.
+y1847	te	2	Mostre os recursos usados para construir os personagens.
+y1848	temd	2	Mostre como ritmo e sonoridade produzem sentido.
+y1849	emd	3	Mostre o papel do leitor na construção dos sentidos.
+y1850	temd	2	Justifique os critérios de comparação entre as obras.
+y1851	md	3	Mostre os fatores que levam uma obra a entrar ou não no cânone.
+y1852	emd	2	O contexto de produção é quando e como a obra foi feita. O de recepção, como foi lida.
+y1853	emd	3	Analise as escolhas do tradutor e o efeito delas.
+y1854	temd	2	Mostre o papel de títulos, prefácios e capas na leitura.
+y1855	md	3	Mostre como a literatura reforça ou questiona relações de poder.
+y1856	md	3	Apresente leituras alternativas sem fechar o sentido da obra.
+y1857	te	2	Justifique a linguagem visual pela proposta do trabalho.
+y1858	emd	3	Mostre como o material escolhido contribui para o conceito da obra.
+y1859	te	2	Analise como composição e contraste dirigem o olhar.
+y1860	emd	3	Diferencie o que o artista pretende do que o público vive diante da obra.
+y1861	emd	2	Mostre como o espaço expositivo altera o sentido da obra.
+y1862	temd	2	Mostre o papel do suporte na leitura da obra.
+y1863	emd	3	Discuta a apropriação de imagens e as questões de autoria.
+y1864	md	3	A inovação formal muda a forma. A conceitual muda a ideia da obra.
+y1865	te	2	Justifique a tipografia e a hierarquia pela leitura e pelo objetivo.
+y1866	te	2	Diga como testou a legibilidade e com quem.
+y1867	temd	2	Explique o tipo de protótipo e o que cada teste revelou.
+y1868	temd	2	Cite as diretrizes de acessibilidade seguidas e os testes feitos.
+y1869	te	1	A funcionalidade é a solução atender ao uso. A preferência estética é gosto.
+y1870	md	3	Discuta autoria individual e coletiva no processo criativo.
+y1871	temd	2	Diga como documentou o processo criativo.
+y1872	temd	2	Cite direitos de imagem, consentimento e uso justo.
+y1873	te	2	Justifique escala e espacialidade pela experiência pretendida.
+y1874	temd	2	Mostre que o resultado visual expressa o conceito proposto.
+y1875	te	1	A harmonia trata dos acordes. A melodia, da sucessão de notas.
+y1876	temd	2	Justifique o método de análise musical usado.
+y1877	te	2	O ritmo é a organização das durações. A métrica é o padrão de pulsos e acentos.
+y1878	temd	2	Mostre o papel do timbre na expressão.
+y1879	emd	2	Analise as escolhas interpretativas e o efeito delas.
+y1880	emd	2	A partitura é o registro escrito. A performance é a realização sonora, que vai além dele.
+y1881	te	2	Justifique o repertório pelo objetivo do trabalho.
+y1882	emd	3	Mostre o que a notação não registra em tradições orais.
+y1883	emd	3	Analise os processos e as regras da improvisação estudada.
+y1884	emd	2	A afinação é a precisão da altura. O temperamento é o sistema de divisão da oitava.
+y1885	temd	2	Explique os critérios de análise das gravações.
+y1886	emd	2	Mostre como a textura contribui para a forma da obra.
+y1887	te	2	Justifique a instrumentação pelo som pretendido.
+y1888	temd	2	Mostre como a acústica do espaço afetou a performance.
+y1889	md	3	Discuta o equilíbrio entre seguir o estilo e interpretar com liberdade.
+y1890	emd	3	Mostre as funções sociais das práticas musicais estudadas.
+y1891	temd	2	Diga como documentou o processo de composição.
+y1892	md	3	Justifique os critérios de comparação entre tradições musicais.
+y1893	te	2	A dramaturgia textual é o texto. A cênica é tudo o que acontece em cena.
+y1894	te	2	Justifique as escolhas de encenação pela proposta.
+y1895	temd	2	Analise a relação entre o corpo e o espaço cênico.
+y1896	te	2	Mostre o papel da luz na construção de sentidos.
+y1897	temd	2	Mostre como a montagem altera a narrativa.
+y1898	emd	2	Diferencie atuação de registro documental.
+y1899	te	2	Justifique os enquadramentos pelo efeito pretendido.
+y1900	te	2	Analise a função do som na cena.
+y1901	temd	2	Mostre a relação entre movimento e tempo.
+y1902	emd	2	Mostre como o espectador participa da obra.
+y1903	temd	2	Explique os procedimentos de criação coletiva usados.
+y1904	emd	3	Mostre como a edição pode mudar a representação dos fatos.
+y1905	temd	2	Mostre a relação entre coreografia e improvisação.
+y1906	emd	2	Analise as condições de produção da obra cênica.
+y1907	temd	2	Explique as estratégias de direção dos intérpretes.
+y1908	temd	2	Diga como documentou as práticas corporais.
+y1909	emd	3	Discuta os dilemas éticos de representar pessoas reais.
+y1910	md	3	Mostre como a tecnologia altera a linguagem da performance.
+# Multidisciplinar
+y1911	emd	3	Justifique os limites do sistema estudado, incluindo componentes sociais e ecológicos e as conexões entre eles.
+y1912	md	3	Mostre como evitou contar o mesmo benefício duas vezes, separando serviços intermediários e finais.
+y1913	emd	2	Mostre os conflitos entre indicadores e como os tratou na análise.
+y1914	md	3	Mostre os ciclos de retroalimentação entre sociedade e ambiente no seu caso.
+y1915	te	1	A mitigação reduz as causas, como as emissões. A adaptação reduz os impactos das mudanças climáticas.
+y1916	md	3	Mostre se o impacto apenas mudou de lugar, de setor ou de período.
+y1917	emd	2	Justifique os cenários pelas fontes, pelas premissas e pela faixa de incerteza.
+y1918	temd	2	Explique as dimensões de exposição, sensibilidade e capacidade de adaptação.
+y1919	md	3	Mostre que o benefício não ocorreria sem a ação, por comparação com um cenário de referência.
+y1920	emd	2	Mostre como a mudança de uso da terra alterou as emissões e o método usado.
+y1921	te	1	O estoque é a quantidade acumulada. O fluxo é a taxa de entrada ou saída no tempo.
+y1922	md	3	Diga as fontes de incerteza, como fatores de emissão e dados de atividade, e como foram propagadas.
+y1923	emd	3	Mostre como as regras de governança afetam o uso dos recursos comuns.
+y1924	emd	3	Mostre por quanto tempo os benefícios da restauração se mantêm.
+y1925	emd	2	Mostre quem está mais exposto aos riscos e por quê.
+y1926	emd	2	O indicador de pressão mede a causa. O de estado mede a condição do ambiente.
+y1927	md	3	Mostre os conflitos entre metas e como foram equilibrados.
+y1928	emd	3	Interprete os resultados integrados, mostrando as conexões entre os componentes.
+y1929	temd	2	Justifique o hospedeiro pela facilidade de cultivo, pela expressão e pela segurança.
+y1930	temd	2	Diga a eficiência obtida e como foi medida.
+y1931	md	3	Diga como buscou efeitos fora do alvo, por predição e sequenciamento.
+y1932	emd	2	Mostre o desenho experimental usado para otimizar as condições.
+y1933	emd	2	Mostre se a modificação se mantém ao longo das gerações.
+y1934	emd	2	Cite as métricas de qualidade do alinhamento.
+y1935	emd	2	Justifique os filtros pela qualidade e pela frequência das variantes.
+y1936	md	3	Mostre os vieses dos bancos, como taxonômicos ou geográficos, e o efeito deles.
+y1937	md	3	Mostre como verificou a confiabilidade das anotações.
+y1938	emd	3	A associação é uma correlação. A validação funcional prova o papel do gene.
+y1939	md	3	Mostre como identificou e corrigiu efeitos de lote.
+y1940	emd	2	Justifique o método de normalização usado.
+y1941	md	3	Interprete o enriquecimento com cuidado com vieses e correção para testes múltiplos.
+y1942	emd	2	Cite versões, contêineres e código disponível.
+y1943	emd	2	Cite as medidas de contenção e a avaliação de risco.
+y1944	temd	2	Cite sensibilidade, seletividade e limite de detecção.
+y1945	emd	2	A prova de conceito mostra que funciona. A viabilidade industrial exige escala e custo competitivo.
+y1946	md	3	Mostre o que o modelo deixa de fora e os limites da extrapolação.
+y1947	emd	2	A avaliação de implementação verifica a execução. A de impacto mede o efeito.
+y1948	emd	3	Mostre a cadeia de insumos, atividades, produtos e resultados esperados.
+y1949	emd	2	Mostre se os instrumentos são adequados aos objetivos.
+y1950	md	3	Mostre como a discricionariedade dos executores alterou os resultados.
+y1951	temd	2	A cobertura mostra quantos foram atendidos. A focalização mostra se foram os que deveriam.
+y1952	temd	2	A eficiência é a relação entre recursos e produtos. A efetividade é o efeito na realidade.
+y1953	md	3	Justifique o grupo de comparação e a semelhança com o grupo atendido.
+y1954	emd	3	Mostre os efeitos não planejados identificados.
+y1955	temd	2	Mostre como a participação social aconteceu e o efeito dela.
+y1956	md	3	Mostre como a capacidade do Estado explica os resultados.
+y1957	emd	2	A transparência formal publica dados. O controle social efetivo os usa para fiscalizar.
+y1958	emd	3	Mostre como os entes se coordenam e onde falham.
+y1959	temd	2	Justifique os critérios de prioridade orçamentária.
+y1960	temd	2	Cite as barreiras de acesso encontradas.
+y1961	emd	3	Mostre se o programa se mantém após mudanças de governo.
+y1962	md	3	Interprete o custo por unidade de resultado e compare as alternativas.
+y1963	te	2	O monitoramento acompanha de forma contínua. A avaliação julga o mérito em momentos definidos.
+y1964	md	3	Mostre quem ganha e quem fica de fora com os critérios de elegibilidade.
+y1965	te	2	Diga como identificou as ideias prévias dos estudantes.
+y1966	te	2	Diferencie entender o conceito de apenas executar o procedimento.
+y1967	temd	2	Mostre os ganhos e os riscos das analogias usadas.
+y1968	emd	3	Explique o obstáculo epistemológico identificado e como foi trabalhado.
+y1969	temd	2	Mostre o raciocínio por trás dos erros dos estudantes.
+y1970	emd	2	Diga a validade e a confiabilidade dos testes conceituais.
+y1971	te	2	Justifique a sequência de atividades investigativas.
+y1972	te	2	A demonstração mostra o fenômeno. A investigação leva o estudante a buscar a resposta.
+y1973	temd	2	Mostre o efeito das simulações na compreensão.
+y1974	temd	2	Explique os critérios de alfabetização científica usados.
+y1975	te	2	Mostre as diferenças entre a linguagem do dia a dia e a científica no seu tema.
+y1976	emd	3	Mostre se os estudantes usaram o raciocínio em contextos novos.
+y1977	temd	2	Mostre como os materiais manipuláveis ajudaram na abstração.
+y1978	emd	3	Diferencie saber o conteúdo de saber ensiná-lo.
+y1979	emd	3	Mostre como contextualizou sem perder rigor conceitual.
+y1980	temd	2	Explique como ensinou incerteza e erro de medida.
+y1981	te	2	Diga as dificuldades encontradas na leitura de gráficos e tabelas.
+y1982	temd	2	Diga as adaptações feitas para incluir todos os estudantes.
+y1983	temd	2	Justifique as bases pela cobertura do tema e pela qualidade dos registros.
+y1984	emd	2	Diga os idiomas incluídos e o efeito na cobertura.
+y1985	emd	2	A precisão é a proporção de recuperados relevantes. A revocação é a proporção de relevantes recuperados.
+y1986	md	3	Mostre como a indexação pode excluir trabalhos relevantes.
+y1987	emd	2	Interprete a rede de coautoria e o que ela mostra sobre colaboração.
+y1988	temd	2	Explique os critérios e a ferramenta de deduplicação usada.
+y1989	te	2	A produtividade é o número de publicações. O impacto é a repercussão, como as citações.
+y1990	emd	2	Explique como resolveu nomes iguais e variações de nomes de autores.
+y1991	md	3	Explique por que normalizar por área permite comparar campos diferentes.
+y1992	emd	3	Mostre que publicações mais antigas tiveram mais tempo para acumular citações.
+y1993	emd	2	Justifique os critérios de classificação temática dos documentos.
+y1994	md	3	A cocitação liga dois trabalhos citados juntos. O acoplamento liga dois trabalhos que citam as mesmas fontes.
+y1995	emd	3	Interprete os agrupamentos e o que cada um representa no campo.
+y1996	temd	2	Mostre a estratégia de busca completa, com termos, bases e datas.
+y1997	md	3	Mostre as desigualdades de visibilidade, como por região ou idioma.
+y1998	emd	2	Justifique as políticas de preservação digital.
+y1999	emd	2	Diga se o vocabulário controlado cobre bem o tema.
+y2000	temd	2	O acesso aberto é ler sem pagar. Algumas revistas abertas cobram de quem publica.
