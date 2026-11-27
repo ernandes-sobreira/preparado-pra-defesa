@@ -113,6 +113,7 @@ label.ck{display:flex;gap:8px;align-items:center;margin-top:12px}
 .fb b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
 .fbok{background:#ecfdf5}.fbok b{color:#047857}
 .fbfa{background:var(--c4s)}.fbfa b{color:#c2410c}
+.fbre{background:#f5f3ff;border:1px solid #ddd6fe}.fbre b{color:#6d28d9}
 .fbdi{background:var(--c2s)}.fbdi b{color:#1d4ed8}
 .fbco{background:var(--c3s)}.fbco b{color:#6d28d9}
 .old{font-size:13px;color:var(--muted);margin-top:6px}
@@ -813,6 +814,7 @@ function telaResponder(){
 function fbHtml(id){
   const a = cur(), x = (a.ia||{})[id]; if(!x) return "";
   let h = "";
+  if(x.resposta) h += '<div class="fb fbre"><b>Uma resposta possível</b>'+esc(x.resposta)+'<div class="sub" style="margin-top:6px;font-size:13px">Adapte com as suas palavras. O que está entre colchetes você completa com os dados do seu trabalho.</div></div>';
   if(x.forte) h += '<div class="fb fbok"><b>O que já está bom</b>'+esc(x.forte)+'</div>';
   if(x.falta) h += '<div class="fb fbfa"><b>O que a banca vai cobrar</b>'+esc(x.falta)+'</div>';
   if(x.diga) h += '<div class="fb fbdi"><b>Você poderia dizer também</b>'+esc(x.diga)+'</div>';
@@ -1084,7 +1086,7 @@ async function corrigir(gratis){
     const alvo = S.arg[argId]; if(!alvo) return;
     if(!Array.isArray(j.itens)) throw new Error("Resposta inválida do servidor.");
     alvo.ia = alvo.ia || {};
-    j.itens.forEach(x=>{ if(x && envio.some(q=>q.id===x.id)) alvo.ia[x.id] = {forte:String(x.forte||""), falta:String(x.falta||""), diga:String(x.diga||""), comece:String(x.comece||""), base:(alvo.r[x.id]||"").trim()}; });
+    j.itens.forEach(x=>{ if(x && envio.some(q=>q.id===x.id)) alvo.ia[x.id] = {forte:String(x.forte||""), falta:String(x.falta||""), diga:String(x.diga||""), comece:String(x.comece||""), resposta:String(x.resposta||""), base:(alvo.r[x.id]||"").trim()}; });
     alvo.iaGeral = String(j.geral||""); alvo.riscos = (j.riscos||[]).map(String);
     alvo.pior = j.pior && j.pior.porque ? {id:String(j.pior.id||""), porque:String(j.pior.porque)} : null;
     ocupado = false;
@@ -1106,7 +1108,7 @@ function montaTxt(){
   if(a.riscos && a.riscos.length) s += "\nOS 3 MAIORES RISCOS\n"+a.riscos.map((x,i)=>(i+1)+". "+x).join("\n")+"\n";
   rodQs().forEach((q,i)=>{ const x = (a.ia||{})[q.id];
     s += "\n"+(i+1)+". "+q.q+" ("+NIV[q.n]+")\n"+((a.r[q.id]||"").trim()||"(sem resposta)")+"\n";
-    if(x){ if(x.forte) s += "O que já está bom: "+x.forte+"\n"; if(x.falta) s += "O que a banca vai cobrar: "+x.falta+"\n"; if(x.diga) s += "Você poderia dizer também: "+x.diga+"\n"; if(x.comece) s += "Para começar: "+x.comece+"\n"; } });
+    if(x){ if(x.resposta) s += "Uma resposta possível: "+x.resposta+"\n"; if(x.forte) s += "O que já está bom: "+x.forte+"\n"; if(x.falta) s += "O que a banca vai cobrar: "+x.falta+"\n"; if(x.diga) s += "Você poderia dizer também: "+x.diga+"\n"; if(x.comece) s += "Para começar: "+x.comece+"\n"; } });
   return s;
 }
 function montaDoc(){
@@ -1117,7 +1119,7 @@ function montaDoc(){
   rodQs().forEach((q,i)=>{ const x = (a.ia||{})[q.id], r = (a.r[q.id]||"").trim();
     s += '<p class="q">'+(i+1)+'. '+esc(q.q)+' ('+NIV[q.n]+')</p><p>'+(r?esc(r).replace(/\n/g,"<br>"):'<i>(sem resposta)</i>')+'</p>';
     if(x){ if(x.forte) s += '<p class="ok"><b>O que já está bom:</b> '+esc(x.forte)+'</p>'; if(x.falta) s += '<p class="fa"><b>O que a banca vai cobrar:</b> '+esc(x.falta)+'</p>';
-      if(x.diga) s += '<p class="di"><b>Você poderia dizer também:</b> '+esc(x.diga)+'</p>'; if(x.comece) s += '<p class="co"><b>Para começar:</b> '+esc(x.comece)+'</p>'; } });
+      if(x.resposta) s += '<p class="di"><b>Uma resposta possível:</b> '+esc(x.resposta)+'</p>'; if(x.diga) s += '<p class="di"><b>Você poderia dizer também:</b> '+esc(x.diga)+'</p>'; if(x.comece) s += '<p class="co"><b>Para começar:</b> '+esc(x.comece)+'</p>'; } });
   return s+"</body></html>";
 }
 
