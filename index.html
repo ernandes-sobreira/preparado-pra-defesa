@@ -904,13 +904,29 @@ function nasRefs(w){
   if(doi && r.includes(doi)) return true;
   const t = norm(w.titulo).slice(0,60); return t.length > 20 && norm(refs).includes(t);
 }
+/* plano B: consulta direta do navegador do aluno, que tem a propria cota no OpenAlex */
+async function oa(path){ const r = await fetch("https://api.openalex.org/"+path); if(!r.ok) throw new Error("OpenAlex respondeu "+r.status); return r.json(); }
+async function oaDireto(busca){
+  const ano = new Date().getFullYear();
+  let q = busca.replace(/[^\p{L}\p{N} -]/gu, " ").replace(/\s+/g, " ").trim();
+  const top = q => oa("works?search="+encodeURIComponent(q)+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article&sort=cited_by_count:desc&per-page=10&select=id,doi,title,publication_year,cited_by_count,primary_location,authorships");
+  let w = await top(q);
+  while((w.results||[]).length < 5 && q.split(" ").length > 2){ q = q.split(" ").slice(0, -1).join(" "); w = await top(q); }
+  const s = encodeURIComponent(q);
+  const t = await oa("works?search="+s+"&filter=from_publication_date:"+(ano-15)+"-01-01,to_publication_date:"+(ano-1)+"-12-31,type:article&group_by=publication_year");
+  const j = await oa("works?search="+s+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article,primary_location.source.type:journal&group_by=primary_location.source.id");
+  return {busca:q, w, t, j};
+}
 async function montaRelatorio(busca){
   const a = cur(), q = (busca||"").trim();
   if(q.length < 3){ aviso = {txt:"Escreva algumas palavras-chave do tema, de preferência em inglês.", err:true}; render(); return; }
   a.busca = q; relBusy = true; aviso = {txt:"",err:false}; render();
   const ano = new Date().getFullYear(), s = encodeURIComponent(q), argId = a.id;
   try{
-    const {w, t, j, busca:usada} = await chamaIA({acao:"openalex", busca:q, codigo:a.codigo||""});
+    let res;
+    try{ res = await chamaIA({acao:"openalex", busca:q, codigo:a.codigo||""}); }
+    catch(e){ console.warn("OpenAlex pelo servidor falhou, tentando direto:", e.message); res = await oaDireto(q); }
+    const {w, t, j, busca:usada} = res;
     const alvo = S.arg[argId]; if(!alvo) return;
     alvo.rel = {busca:usada||q, data:new Date().toISOString().slice(0,10),
       artigos:(w.results||[]).map(x=>({titulo:x.title||"", ano:x.publication_year, cit:x.cited_by_count, doi:(x.doi||"").replace("https://doi.org/",""), id:x.id,

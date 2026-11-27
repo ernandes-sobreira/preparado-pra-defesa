@@ -74,7 +74,7 @@ async function oaGet(env, path){
     if(r.status !== 429 && r.status < 500) throw new Error("OpenAlex respondeu "+r.status);
     await new Promise(ok=>setTimeout(ok, 800*(i+1)));
   }
-  throw new Error("O OpenAlex está ocupado agora. Tente de novo em alguns minutos.");
+  throw new Error("OpenAlex recusou o servidor (429, "+(env.OPENALEX_API_KEY ? "com chave" : "sem chave configurada")+").");
 }
 async function openalex(env, busca){
   const ano = new Date().getFullYear();
