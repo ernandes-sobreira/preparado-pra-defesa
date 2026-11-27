@@ -1068,12 +1068,11 @@ async function corrigir(gratis){
     c = ($("inCodigo").value||"").trim().toUpperCase();
     const pref = a.plano==="completo" ? "PC-" : "PB-";
     if(!CODRE.test(c) || !c.startsWith(pref)){ aviso = {txt:"Digite o código no formato "+pref+"XXXX-XXXX-XXXX.", err:true}; render(); return; }
-    if(qs.filter(feita).length < 3){ aviso = {txt:"Responda pelo menos 3 perguntas para a correção.", err:true}; render(); return; }
     if(a.plano==="completo" && !(a.doc && a.doc.texto)){ aviso = {txt:"Envie o trabalho de novo neste aparelho, no passo Preparar.", err:true}; render(); return; }
     if(a.plano==="completo") a.codigo = c; else a.codigoE = c;
   }
-  const envio = gratis ? qs.filter(feita).slice(0,GRATIS_N) : qs;
-  if(gratis && envio.length < GRATIS_N){ aviso = {txt:"Escreva pelo menos 2 respostas para a correção grátis.", err:true}; render(); return; }
+  /* quem nao sabe responder tambem recebe a correcao, com uma resposta possivel */
+  const envio = gratis ? qs.slice(0,GRATIS_N) : qs;
   ocupado = true; aviso = {txt:"",err:false}; render();
   const argId = a.id;
   try{
