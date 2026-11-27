@@ -65,6 +65,30 @@ Devolva apenas um JSON válido, sem texto antes ou depois, neste formato:
 {"perguntas":[{"q":"...","b":"...","n":1,"d":"..."}],"busca":"..."}`;
 
 function cors(origin){ return {"Access-Control-Allow-Origin":origin, "Access-Control-Allow-Methods":"POST, OPTIONS", "Access-Control-Allow-Headers":"Content-Type", "Vary":"Origin"}; }
+/* OpenAlex exige chave desde fev/2026. A chave fica no segredo OPENALEX_API_KEY, nunca na pagina. */
+async function oaGet(env, path){
+  const u = "https://api.openalex.org/"+path+(env.OPENALEX_API_KEY ? "&api_key="+encodeURIComponent(env.OPENALEX_API_KEY) : "");
+  for(let i = 0; i < 3; i++){
+    const r = await fetch(u, {headers:{"User-Agent":"PreBanca (Japuira)"}});
+    if(r.ok) return r.json();
+    if(r.status !== 429 && r.status < 500) throw new Error("OpenAlex respondeu "+r.status);
+    await new Promise(ok=>setTimeout(ok, 800*(i+1)));
+  }
+  throw new Error("O OpenAlex está ocupado agora. Tente de novo em alguns minutos.");
+}
+async function openalex(env, busca){
+  const ano = new Date().getFullYear();
+  let q = busca.replace(/[^\p{L}\p{N} -]/gu, " ").replace(/\s+/g, " ").trim();
+  if(q.length < 3) throw new Error("Busca vazia.");
+  const top = q => oaGet(env, "works?search="+encodeURIComponent(q)+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article&sort=cited_by_count:desc&per-page=10&select=id,doi,title,publication_year,cited_by_count,primary_location,authorships");
+  let w = await top(q);
+  /* busca especifica demais: tira palavras do fim ate achar artigos */
+  while((w.results||[]).length < 5 && q.split(" ").length > 2){ q = q.split(" ").slice(0, -1).join(" "); w = await top(q); }
+  const s = encodeURIComponent(q);
+  const t = await oaGet(env, "works?search="+s+"&filter=from_publication_date:"+(ano-15)+"-01-01,to_publication_date:"+(ano-1)+"-12-31,type:article&group_by=publication_year");
+  const j = await oaGet(env, "works?search="+s+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article,primary_location.source.type:journal&group_by=primary_location.source.id");
+  return {busca:q, w, t, j};
+}
 function json(obj, status, origin){ return new Response(JSON.stringify(obj), {status, headers:Object.assign({"Content-Type":"application/json; charset=utf-8"}, cors(origin))}); }
 function txt(v, n){ return typeof v === "string" ? v.slice(0, n) : ""; }
 
@@ -92,9 +116,14 @@ export default {
     if(!env.ANTHROPIC_API_KEY) return json({erro:"Servidor sem chave configurada."}, 500, origin);
 
     let b; try{ b = await req.json(); }catch(e){ return json({erro:"Pedido inválido."}, 400, origin); }
-    const acao = b.acao === "gerar" ? "gerar" : "corrigir";
     const codigo = txt(b.codigo, 40).trim().toUpperCase();
     const hash = codigo ? await sha(codigo) : "";
+    if(b.acao === "openalex"){
+      if(!COD_C.has(hash)) return json({erro:"O relatório da banca é do plano Completo. Confira o código."}, 403, origin);
+      try{ return json(await openalex(env, txt(b.busca, 200)), 200, origin); }
+      catch(e){ return json({erro:e.message || "Não foi possível consultar o OpenAlex."}, 502, origin); }
+    }
+    const acao = b.acao === "gerar" ? "gerar" : "corrigir";
     const plano = !codigo ? "gratis" : COD_C.has(hash) ? "completo" : COD_E.has(hash) ? "essencial" : "";
     if(!plano) return json({erro:"Código inválido. Confira se digitou igual ao que recebeu."}, 403, origin);
     const usados = codigo && env.LIMITE ? (parseInt(await env.LIMITE.get("cod:"+hash) || "0", 10) || 0) : 0;

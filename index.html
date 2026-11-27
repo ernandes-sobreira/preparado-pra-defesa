@@ -44,7 +44,9 @@ button:disabled{opacity:.45;cursor:default}
 .sub{margin:0 0 8px;color:var(--muted);font-size:15px}
 .hero{font-size:28px;line-height:1.25;margin:10px 0 6px}
 .lead{font-size:17px;color:#374151;margin:0 0 6px}
-.tops1{border-top:6px solid var(--c1)}.tops2{border-top:6px solid var(--c2)}.tops3{border-top:6px solid var(--c3)}.tops4{border-top:6px solid var(--c4)}
+.tops1{border-top:6px solid var(--c1);background:rgba(13,148,136,.06)}.tops2{border-top:6px solid var(--c2);background:rgba(37,99,235,.06)}.tops3{border-top:6px solid var(--c3);background:rgba(124,58,237,.06)}.tops4{border-top:6px solid var(--c4);background:rgba(234,88,12,.06)}
+.tops1 .qc,.tops2 .qc,.tops3 .qc,.tops4 .qc,.tops5 .qc{background:#fff}
+.tops5{border-top:6px solid #db2777;background:rgba(219,39,119,.05)}
 /* planos */
 .planos{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:18px}
 .plano{border:2px solid var(--border);border-radius:20px;padding:22px;display:flex;flex-direction:column;position:relative}
@@ -846,7 +848,7 @@ function telaCorrecao(){
     if(a.pior && a.pior.porque){ const pq = qid(a.pior.id); h += '<div class="pior"><b>A pergunta que mais pode te derrubar</b><br>'+(pq?'<i>'+esc(pq.q)+'</i><br>':'')+esc(a.pior.porque)+'</div>'; }
     h += '</div>';
   }
-  h += '<div class="card"><h2 style="font-size:18px">Suas respostas</h2><p class="sub">Agora você vê o nível de cada pergunta. Pode ajustar as respostas aqui.</p>';
+  h += '<div class="card tops5"><h2 style="font-size:18px">Suas respostas</h2><p class="sub">Agora você vê o nível de cada pergunta. Pode ajustar as respostas aqui.</p>';
   qs.forEach((q,i)=>{
     const v = a.r[q.id]||"", al = q.chk ? checar(q.chk, v) : "";
     h += '<div class="qc"><span class="lv lv'+q.n+'">'+NIV[q.n]+'</span><div class="qh" style="margin-top:8px"><b>'+(i+1)+'. '+esc(q.q)+'</b>'
@@ -854,6 +856,7 @@ function telaCorrecao(){
       +'<div class="tip" id="tip_'+q.id+'"></div><textarea data-q="'+q.id+'" placeholder="Sem resposta">'+esc(v)+'</textarea>'
       +'<div class="alert'+(al?' on':'')+'" id="al_'+q.id+'">'+esc(al)+'</div><div class="meta" id="mt_'+q.id+'">'+meta(v)+'</div>'+fbHtml(q.id)+'</div>';
   });
+  if(!tem && !ocupado) h += '<div class="msg err noprint" style="margin-top:14px">Você ainda não pediu a correção. <button class="link" id="btnTopo">Ir para o botão Corrigir</button></div>';
   h += focoHtml() + '<div class="row noprint" style="margin-top:14px"><button data-voltar="1">← Voltar às perguntas</button>'
     +(a.plano==="essencial"?'<button class="b3 big" id="btnNovaRod" style="padding:10px 16px;font-size:15px">Nova rodada</button>':'')+'</div>'
     +'<div class="row noprint" style="margin-top:10px"><button class="mini" id="btnDoc">Baixar em Word</button><button class="mini" id="btnTxt">Baixar em texto</button><button class="mini" id="btnPrint">Imprimir ou PDF</button></div></div>';
@@ -901,20 +904,15 @@ function nasRefs(w){
   if(doi && r.includes(doi)) return true;
   const t = norm(w.titulo).slice(0,60); return t.length > 20 && norm(refs).includes(t);
 }
-async function oa(path){ const r = await fetch("https://api.openalex.org/"+path); if(!r.ok) throw new Error("OpenAlex respondeu "+r.status); return r.json(); }
 async function montaRelatorio(busca){
   const a = cur(), q = (busca||"").trim();
   if(q.length < 3){ aviso = {txt:"Escreva algumas palavras-chave do tema, de preferência em inglês.", err:true}; render(); return; }
   a.busca = q; relBusy = true; aviso = {txt:"",err:false}; render();
   const ano = new Date().getFullYear(), s = encodeURIComponent(q), argId = a.id;
   try{
-    const [w, t, j] = await Promise.all([
-      oa("works?search="+s+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article&sort=cited_by_count:desc&per-page=10&select=id,doi,title,publication_year,cited_by_count,primary_location,authorships"),
-      oa("works?search="+s+"&filter=from_publication_date:"+(ano-15)+"-01-01,to_publication_date:"+(ano-1)+"-12-31,type:article&group_by=publication_year"),
-      oa("works?search="+s+"&filter=from_publication_date:"+(ano-5)+"-01-01,type:article,primary_location.source.type:journal&group_by=primary_location.source.id")
-    ]);
+    const {w, t, j, busca:usada} = await chamaIA({acao:"openalex", busca:q, codigo:a.codigo||""});
     const alvo = S.arg[argId]; if(!alvo) return;
-    alvo.rel = {busca:q, data:new Date().toISOString().slice(0,10),
+    alvo.rel = {busca:usada||q, data:new Date().toISOString().slice(0,10),
       artigos:(w.results||[]).map(x=>({titulo:x.title||"", ano:x.publication_year, cit:x.cited_by_count, doi:(x.doi||"").replace("https://doi.org/",""), id:x.id,
         revista:(x.primary_location && x.primary_location.source) ? x.primary_location.source.display_name : "",
         autores:(x.authorships||[]).slice(0,3).map(y=>y.author && y.author.display_name).filter(Boolean)})),
@@ -938,7 +936,7 @@ function relHtml(){
   let h = '<div class="card tops1"><h2>📚 Relatório da banca</h2><p class="sub">Dados reais do OpenAlex, uma base aberta de artigos científicos. Cada artigo tem link para você conferir.</p>';
   const busca = '<div class="code"><input class="t" id="inBusca" style="text-transform:none;letter-spacing:0" value="'+esc((r&&r.busca)||a.busca||"")+'" placeholder="Palavras-chave do tema, em inglês"><button class="big b1" id="btnRel"'+(relBusy?' disabled':'')+'>'+(r?'Refazer':'Montar relatório')+'</button></div>';
   if(relBusy) return h + esperaHtml("Buscando artigos, tendência do tema e revistas...") + '</div>';
-  if(!r) return h + '<label class="f">Busca</label>' + busca + msgHtml() + formatoHtml() + '</div>';
+  if(!r) return h + '<p class="sub">As palavras de busca foram escolhidas pela IA a partir do seu trabalho. Você pode trocar, se quiser.</p><label class="f">Busca</label>' + busca + msgHtml() + formatoHtml() + '</div>';
   h += '<h3>Leituras que a banca pode cobrar</h3><p class="sub">Os artigos dos últimos cinco anos mais citados sobre o tema.'+(a.doc&&a.doc.refs?' O app confere se cada um está nas suas referências.':'')+'</p>';
   h += r.artigos.length ? r.artigos.map(x=>{
     const link = x.doi ? "https://doi.org/"+x.doi : x.id;
@@ -1029,7 +1027,7 @@ function formatoHtml(){
   }else h += '<li style="list-style:none;margin:6px 0">ℹ️ A checagem de fonte, espaçamento e margens só funciona com arquivo Word. Em PDF, o app confere só a estrutura.</li>';
   const ss = (f.secoes || []).filter(x=>x.nome!=="Objetivos"), achou = ss.filter(x=>x.pos>=0), falta = ss.filter(x=>x.pos<0 && (a.fase==="defesa" || !["Resultados","Discussão","Conclusão"].includes(x.nome)));
   const ordem = achou.every((x,i)=>!i || x.pos >= achou[i-1].pos);
-  h += ok(ordem, ordem ? 'Seções na ordem esperada: '+achou.map(x=>x.nome).join(", ")+'.' : 'Confira a ordem das seções. Encontrei nesta sequência: '+achou.slice().sort((x,y)=>x.pos-y.pos).map(x=>x.nome).join(", ")+'.');
+  if(achou.length > 1) h += ok(ordem, ordem ? 'Seções na ordem esperada: '+achou.map(x=>x.nome).join(", ")+'.' : 'Confira a ordem das seções. Encontrei nesta sequência: '+achou.slice().sort((x,y)=>x.pos-y.pos).map(x=>x.nome).join(", ")+'.');
   if(falta.length) h += ok(false, 'Não encontrei um título de seção para: '+falta.map(x=>x.nome).join(", ")+'. Pode ser só um nome diferente.');
   return h + '</ul>';
 }
@@ -1092,6 +1090,7 @@ async function corrigir(gratis){
     aviso = {txt: gratis ? "Correção grátis pronta nas 2 primeiras respostas. Para corrigir todas, use o código."
       : (j.restam > 0 ? "Correção pronta. O seu código ainda vale "+j.restam+" correção. Faça uma nova rodada e use o mesmo código." : "Correção pronta. Veja o resumo e o retorno em cada resposta."), err:false};
     persist(); render();
+    if(alvo.plano==="completo" && alvo.busca && !alvo.rel) montaRelatorio(alvo.busca);
   }catch(err){ console.error(err); ocupado = false; aviso = {txt:"A correção falhou. "+(err.message||"Verifique a internet e tente de novo."), err:true}; render(); }
 }
 
@@ -1166,6 +1165,7 @@ document.addEventListener("click", e=>{
   else if(t.id==="btnProx"){ if(a.rodada.pos < a.rodada.ids.length-1){ a.rodada.pos++; persist(); render(); topo(); } else ir("correcao"); }
   else if(t.id==="btnGratis"){ corrigir(true); }
   else if(t.id==="btnCorrigir"){ corrigir(false); }
+  else if(t.id==="btnTopo"){ window.scrollTo({top:0, behavior:"smooth"}); const i = $("inCodigo"); if(i) setTimeout(()=>i.focus(), 400); }
   else if(t.id==="btnNovaRod"){ if(confirm("Começar uma nova rodada de 15 perguntas? As respostas desta rodada continuam salvas.")){ rodadaBanco(); ir("responder"); } }
   else if(t.id==="btnPrint"){ window.print(); }
   else if(t.id==="btnTxt"){ baixar(montaTxt(), "text/plain;charset=utf-8", ".txt"); }
